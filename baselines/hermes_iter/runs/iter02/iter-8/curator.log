@@ -1,0 +1,5 @@
+rc=0
+curator: running review pass...
+curator: snapshot created (2026-05-20T19-13-08Z)
+curator: auto: no changes; llm: skipped (no candidates)
+auto: checked=0 stale=0 archived=0 reactivated=0

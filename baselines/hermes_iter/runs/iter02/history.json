@@ -1,0 +1,280 @@
+[
+  {
+    "iter": 0,
+    "phase": "test",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-0/test",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/test.jsonl",
+      "n_total": 28,
+      "n_pred": 28,
+      "n_correct": 21,
+      "n_extract_fail": 1,
+      "accuracy_all": 0.75,
+      "accuracy_predicted": 0.75
+    },
+    "elapsed": 1819.2325992584229
+  },
+  {
+    "iter": 1,
+    "phase": "train",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-1/train",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/train.jsonl",
+      "n_total": 80,
+      "n_pred": 80,
+      "n_correct": 51,
+      "n_extract_fail": 2,
+      "accuracy_all": 0.6375,
+      "accuracy_predicted": 0.6375
+    },
+    "elapsed": 8810.20621061325
+  },
+  {
+    "iter": 1,
+    "phase": "eval",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-1/eval",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/eval.jsonl",
+      "n_total": 25,
+      "n_pred": 25,
+      "n_correct": 18,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.72,
+      "accuracy_predicted": 0.72
+    },
+    "elapsed": 8810.206214427948,
+    "n_skills": 121
+  },
+  {
+    "iter": 2,
+    "phase": "train",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-2/train",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/train.jsonl",
+      "n_total": 80,
+      "n_pred": 80,
+      "n_correct": 63,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.7875,
+      "accuracy_predicted": 0.7875
+    },
+    "elapsed": 16041.906384706497
+  },
+  {
+    "iter": 2,
+    "phase": "eval",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-2/eval",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/eval.jsonl",
+      "n_total": 25,
+      "n_pred": 25,
+      "n_correct": 19,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.76,
+      "accuracy_predicted": 0.76
+    },
+    "elapsed": 16041.906388282776,
+    "n_skills": 122
+  },
+  {
+    "iter": 3,
+    "phase": "train",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-3/train",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/train.jsonl",
+      "n_total": 80,
+      "n_pred": 80,
+      "n_correct": 67,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.8375,
+      "accuracy_predicted": 0.8375
+    },
+    "elapsed": 24412.497729063034
+  },
+  {
+    "iter": 3,
+    "phase": "eval",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-3/eval",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/eval.jsonl",
+      "n_total": 25,
+      "n_pred": 25,
+      "n_correct": 19,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.76,
+      "accuracy_predicted": 0.76
+    },
+    "elapsed": 24412.49773168564,
+    "n_skills": 123
+  },
+  {
+    "iter": 4,
+    "phase": "train",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-4/train",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/train.jsonl",
+      "n_total": 80,
+      "n_pred": 80,
+      "n_correct": 71,
+      "n_extract_fail": 1,
+      "accuracy_all": 0.8875,
+      "accuracy_predicted": 0.8875
+    },
+    "elapsed": 33458.21179676056
+  },
+  {
+    "iter": 4,
+    "phase": "eval",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-4/eval",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/eval.jsonl",
+      "n_total": 25,
+      "n_pred": 25,
+      "n_correct": 19,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.76,
+      "accuracy_predicted": 0.76
+    },
+    "elapsed": 33458.21179938316,
+    "n_skills": 123
+  },
+  {
+    "iter": 5,
+    "phase": "train",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-5/train",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/train.jsonl",
+      "n_total": 80,
+      "n_pred": 80,
+      "n_correct": 69,
+      "n_extract_fail": 2,
+      "accuracy_all": 0.8625,
+      "accuracy_predicted": 0.8625
+    },
+    "elapsed": 41158.309935092926
+  },
+  {
+    "iter": 5,
+    "phase": "eval",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-5/eval",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/eval.jsonl",
+      "n_total": 25,
+      "n_pred": 25,
+      "n_correct": 20,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.8,
+      "accuracy_predicted": 0.8
+    },
+    "elapsed": 41158.30993795395,
+    "n_skills": 123
+  },
+  {
+    "iter": 6,
+    "phase": "train",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-6/train",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/train.jsonl",
+      "n_total": 80,
+      "n_pred": 80,
+      "n_correct": 73,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.9125,
+      "accuracy_predicted": 0.9125
+    },
+    "elapsed": 47613.68981766701
+  },
+  {
+    "iter": 6,
+    "phase": "eval",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-6/eval",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/eval.jsonl",
+      "n_total": 25,
+      "n_pred": 25,
+      "n_correct": 19,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.76,
+      "accuracy_predicted": 0.76
+    },
+    "elapsed": 47613.68982028961,
+    "n_skills": 123
+  },
+  {
+    "iter": 7,
+    "phase": "train",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-7/train",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/train.jsonl",
+      "n_total": 80,
+      "n_pred": 80,
+      "n_correct": 73,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.9125,
+      "accuracy_predicted": 0.9125
+    },
+    "elapsed": 55380.72899103165
+  },
+  {
+    "iter": 7,
+    "phase": "eval",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-7/eval",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/eval.jsonl",
+      "n_total": 25,
+      "n_pred": 25,
+      "n_correct": 17,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.68,
+      "accuracy_predicted": 0.68
+    },
+    "elapsed": 55380.72899389267,
+    "n_skills": 123
+  },
+  {
+    "iter": 8,
+    "phase": "train",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-8/train",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/train.jsonl",
+      "n_total": 80,
+      "n_pred": 80,
+      "n_correct": 71,
+      "n_extract_fail": 1,
+      "accuracy_all": 0.8875,
+      "accuracy_predicted": 0.8875
+    },
+    "elapsed": 62887.22448205948
+  },
+  {
+    "iter": 8,
+    "phase": "eval",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-8/eval",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/eval.jsonl",
+      "n_total": 25,
+      "n_pred": 25,
+      "n_correct": 20,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.8,
+      "accuracy_predicted": 0.8
+    },
+    "elapsed": 62887.22448515892,
+    "n_skills": 123
+  },
+  {
+    "iter": "final",
+    "phase": "test",
+    "summary": {
+      "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/final/test",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/test.jsonl",
+      "n_total": 28,
+      "n_pred": 28,
+      "n_correct": 24,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.8571428571428571,
+      "accuracy_predicted": 0.8571428571428571
+    },
+    "elapsed": 64614.06353831291
+  }
+]

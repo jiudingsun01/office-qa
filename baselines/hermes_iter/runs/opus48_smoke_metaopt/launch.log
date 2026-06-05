@@ -1,0 +1,22 @@
+[2026-06-03T00:15:31] controller starting. state_dir=baselines/hermes_iter/runs/opus48_smoke_metaopt  hours=2.0 max_iters=2
+[2026-06-03T00:15:31] profile_cmd=officeqa-iter-opus48  reflect=True  corpus=parsed-md+pdf  splits_dir=/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf
+[2026-06-03T00:15:31] profile skills at start: 87  memory entries: 0
+[2026-06-03T00:15:31] === iter-0: baseline test ===
+[2026-06-03T00:18:25]   baseline test: 3/28 = 0.107
+[2026-06-03T00:18:25] === iter-1: train [+reflect] ===
+[2026-06-03T00:23:09]   train: 5/80 = 0.062
+[2026-06-03T00:23:09] === iter-1: curator ===
+[2026-06-03T00:23:11] === iter-1: eval ===
+[2026-06-03T00:25:05]   eval: 5/25 = 0.200
+[2026-06-03T00:25:05]   skills now: 88 (delta 1)  memory: 3 (delta 3)
+[2026-06-03T00:25:05]   NEW BEST eval: 0.200
+[2026-06-03T00:25:05] === iter-2: train [+reflect] ===
+[2026-06-03T00:29:05]   train: 5/80 = 0.062
+[2026-06-03T00:29:05] === iter-2: curator ===
+[2026-06-03T00:29:08] === iter-2: eval ===
+[2026-06-03T00:31:14]   eval: 5/25 = 0.200
+[2026-06-03T00:31:15]   skills now: 88 (delta 1)  memory: 3 (delta 3)
+[2026-06-03T00:31:15]   no improvement (1/99)
+[2026-06-03T00:31:15] === final test ===
+[2026-06-03T00:34:02]   final test: 3/28 = 0.107
+[2026-06-03T00:34:02] DONE. wallclock=0.31h  iters=2  best_eval=0.200  final_test=0.107

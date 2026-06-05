@@ -1,0 +1,10 @@
+{
+  "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/iter-0/test",
+  "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/test.jsonl",
+  "n_total": 28,
+  "n_pred": 28,
+  "n_correct": 19,
+  "n_extract_fail": 0,
+  "accuracy_all": 0.6785714285714286,
+  "accuracy_predicted": 0.6785714285714286
+}

@@ -1,0 +1,90 @@
+=== rc=0 elapsed=5441.0s ===
+=== stdout ===
+run_dir: /home/azureuser/office-qa/baselines/hermes_iter/runs/iter01/iter-3/train
+split: /home/azureuser/office-qa/baselines/hermes_iter/splits/train.jsonl  rows: 80  concurrency: 4
+profile_cmd: officeqa-iter  extra_args: []
+[1/80] UID0094  ok  elapsed=49.3s  wallclock=49s
+[2/80] UID0097  ok  elapsed=63.8s  wallclock=64s
+[3/80] UID0193  ok  elapsed=146.5s  wallclock=147s
+[4/80] UID0035  ok  elapsed=121.6s  wallclock=185s
+[5/80] UID0003  ok  elapsed=149.9s  wallclock=296s
+[6/80] UID0211  ok  elapsed=302.4s  wallclock=352s
+[7/80] UID0044  ok  elapsed=383.2s  wallclock=383s
+[8/80] UID0204  ok  elapsed=218.0s  wallclock=403s
+[9/80] UID0015  ok  elapsed=68.8s  wallclock=452s
+[10/80] UID0056  ok  elapsed=205.4s  wallclock=502s
+[11/80] UID0228  ok  elapsed=105.7s  wallclock=558s
+[12/80] UID0136  ok  elapsed=233.0s  wallclock=585s
+[13/80] UID0071  ok  elapsed=122.6s  wallclock=624s
+[14/80] UID0012  ok  elapsed=44.5s  wallclock=629s
+[15/80] UID0055  ok  elapsed=48.0s  wallclock=677s
+[16/80] UID0174  ok  elapsed=135.4s  wallclock=693s
+[17/80] UID0028  ok  elapsed=300.1s  wallclock=703s
+[18/80] UID0101  ok  elapsed=65.4s  wallclock=758s
+[19/80] UID0120  ok  elapsed=116.6s  wallclock=794s
+[20/80] UID0100  ok  elapsed=195.5s  wallclock=989s
+[21/80] UID0179  ok  elapsed=374.7s  wallclock=999s
+[22/80] UID0201  ok  elapsed=82.3s  wallclock=1081s
+[23/80] UID0110  ok  elapsed=393.2s  wallclock=1097s
+[24/80] UID0216  ok  elapsed=348.9s  wallclock=1107s
+[25/80] UID0109  ok  elapsed=72.0s  wallclock=1169s
+[26/80] UID0113  ok  elapsed=164.5s  wallclock=1246s
+[27/80] UID0165  ok  elapsed=124.4s  wallclock=1370s
+[28/80] UID0057  ok  elapsed=412.5s  wallclock=1402s
+[29/80] UID0212  ok  elapsed=228.3s  wallclock=1630s
+[30/80] UID0065  ok  elapsed=57.8s  wallclock=1688s
+[31/80] UID0245  ok  elapsed=1039.2s  wallclock=2208s
+[32/80] UID0147  ok  elapsed=980.8s  wallclock=2351s
+[33/80] UID0214  ok  elapsed=142.0s  wallclock=2493s
+[34/80] UID0124  ok  elapsed=392.7s  wallclock=2601s
+[35/80] UID0030  rc=-1  elapsed=1500.2s  wallclock=2608s
+[36/80] UID0025  ok  elapsed=72.2s  wallclock=2673s
+[37/80] UID0182  ok  elapsed=183.2s  wallclock=2791s
+[38/80] UID0102  ok  elapsed=173.1s  wallclock=2846s
+[39/80] UID0188  ok  elapsed=481.4s  wallclock=2975s
+[40/80] UID0004  ok  elapsed=1302.6s  wallclock=2991s
+[41/80] UID0170  ok  elapsed=240.1s  wallclock=3215s
+[42/80] UID0117  ok  elapsed=447.4s  wallclock=3293s
+[43/80] UID0168  ok  elapsed=302.8s  wallclock=3294s
+[44/80] UID0213  ok  elapsed=514.8s  wallclock=3306s
+[45/80] UID0069  ok  elapsed=129.6s  wallclock=3435s
+[46/80] UID0196  ok  elapsed=166.9s  wallclock=3460s
+[47/80] UID0222  ok  elapsed=50.0s  wallclock=3485s
+[48/80] UID0059  ok  elapsed=284.1s  wallclock=3499s
+[49/80] UID0077  ok  elapsed=145.0s  wallclock=3605s
+[50/80] UID0114  ok  elapsed=353.2s  wallclock=3647s
+[51/80] UID0243  ok  elapsed=75.6s  wallclock=3681s
+[52/80] UID0207  ok  elapsed=193.4s  wallclock=3692s
+[53/80] UID0083  ok  elapsed=124.4s  wallclock=3771s
+[54/80] UID0036  ok  elapsed=136.1s  wallclock=3828s
+[55/80] UID0155  ok  elapsed=107.3s  wallclock=3878s
+[56/80] UID0037  ok  elapsed=32.1s  wallclock=3911s
+[57/80] UID0123  ok  elapsed=142.5s  wallclock=3971s
+[58/80] UID0073  ok  elapsed=48.8s  wallclock=4019s
+[59/80] UID0187  ok  elapsed=590.8s  wallclock=4076s
+[60/80] UID0203  ok  elapsed=343.4s  wallclock=4254s
+[61/80] UID0122  ok  elapsed=242.9s  wallclock=4262s
+[62/80] UID0172  ok  elapsed=252.8s  wallclock=4515s
+[63/80] UID0149  ok  elapsed=321.3s  wallclock=4575s
+[64/80] UID0154  ok  elapsed=94.5s  wallclock=4610s
+[65/80] UID0195  ok  elapsed=155.2s  wallclock=4730s
+[66/80] UID0218  ok  elapsed=40.4s  wallclock=4771s
+[67/80] UID0029  ok  elapsed=715.9s  wallclock=4792s
+[68/80] UID0140  ok  elapsed=286.4s  wallclock=4896s
+[69/80] UID0013  ok  elapsed=111.0s  wallclock=4903s
+[70/80] UID0039  ok  elapsed=125.1s  wallclock=5021s
+[71/80] UID0161  ok  elapsed=253.9s  wallclock=5025s
+[72/80] UID0068  ok  elapsed=124.3s  wallclock=5145s
+[73/80] UID0175  rc=-1  elapsed=1500.2s  wallclock=5181s
+[74/80] UID0017  ok  elapsed=38.3s  wallclock=5184s
+[75/80] UID0244  ok  elapsed=205.7s  wallclock=5230s
+[76/80] UID0093  ok  elapsed=385.6s  wallclock=5288s
+[77/80] UID0112  ok  elapsed=100.7s  wallclock=5389s
+[78/80] UID0130  ok  elapsed=205.5s  wallclock=5436s
+[79/80] UID0027  ok  elapsed=253.3s  wallclock=5437s
+[80/80] UID0230  ok  elapsed=259.9s  wallclock=5441s
+
+DONE. 80 rows in 5441s
+
+=== stderr ===
+

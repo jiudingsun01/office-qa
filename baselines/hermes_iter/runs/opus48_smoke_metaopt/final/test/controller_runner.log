@@ -1,0 +1,16 @@
+=== rc=0 elapsed=166.9s ===
+=== stdout ===
+run_dir: baselines/hermes_iter/runs/opus48_smoke_metaopt/final/test
+split: /home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/test.jsonl  rows: 5  concurrency: 3
+profile_cmd: officeqa-iter-opus48  extra_args: []
+reflect: False  reflect_timeout: 600
+[1/5] UID0180  ok  elapsed=53.6s  wallclock=54s
+[2/5] UID0177  ok  elapsed=104.1s  wallclock=104s
+[3/5] UID0042  ok  elapsed=53.5s  wallclock=107s
+[4/5] UID0169  ok  elapsed=118.9s  wallclock=119s
+[5/5] UID0135  ok  elapsed=62.7s  wallclock=167s
+
+DONE. 5 rows in 167s
+
+=== stderr ===
+

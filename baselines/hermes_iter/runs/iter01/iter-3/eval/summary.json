@@ -1,0 +1,10 @@
+{
+  "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter01/iter-3/eval",
+  "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/eval.jsonl",
+  "n_total": 25,
+  "n_pred": 25,
+  "n_correct": 19,
+  "n_extract_fail": 0,
+  "accuracy_all": 0.76,
+  "accuracy_predicted": 0.76
+}

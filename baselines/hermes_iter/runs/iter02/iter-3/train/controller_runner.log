@@ -1,0 +1,92 @@
+=== rc=0 elapsed=5113.2s ===
+=== stdout ===
+run_dir: /home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-3/train
+split: /home/azureuser/office-qa/baselines/hermes_iter/splits/train.jsonl  rows: 80  concurrency: 4
+profile_cmd: officeqa-iter-v2  extra_args: []
+reflect: True  reflect_timeout: 900
+[1/80] UID0097  ok  reflect(+0 skills)  elapsed=28.6s  wallclock=47s
+[2/80] UID0094  ok  reflect(+0 skills)  elapsed=33.1s  wallclock=54s
+[3/80] UID0035  ok  reflect(+0 skills)  elapsed=117.8s  wallclock=231s
+[4/80] UID0211  ok  reflect(+0 skills)  elapsed=343.7s  wallclock=411s
+[5/80] UID0003  ok  reflect(+0 skills)  elapsed=158.6s  wallclock=427s
+[6/80] UID0193  ok  reflect(+0 skills)  elapsed=420.5s  wallclock=440s
+[7/80] UID0204  ok  reflect(+0 skills)  elapsed=32.7s  wallclock=475s
+[8/80] UID0044  ok  reflect(+0 skills)  elapsed=520.4s  wallclock=545s
+[9/80] UID0015  ok  reflect(+0 skills)  elapsed=119.8s  wallclock=615s
+[10/80] UID0228  ok  reflect(+0 skills)  elapsed=92.5s  wallclock=729s
+[11/80] UID0028  ok  reflect(+0 skills)  elapsed=212.2s  wallclock=777s
+[12/80] UID0136  ok  reflect(+0 skills)  elapsed=374.4s  wallclock=833s
+[13/80] UID0056  ok  reflect(+0 skills)  elapsed=458.8s  wallclock=907s
+[14/80] UID0012  ok  reflect(+0 skills)  elapsed=44.1s  wallclock=908s
+[15/80] UID0055  ok  reflect(+0 skills)  elapsed=39.9s  wallclock=969s
+[16/80] UID0071  ok  reflect(+0 skills)  elapsed=264.3s  wallclock=1013s
+[17/80] UID0174  ok  reflect(+0 skills)  elapsed=226.9s  wallclock=1029s
+[18/80] UID0179  ok  reflect(+0 skills)  elapsed=153.2s  wallclock=1119s
+[19/80] UID0101  ok  reflect(+0 skills)  elapsed=110.6s  wallclock=1148s
+[20/80] UID0120  ok  reflect(+0 skills)  elapsed=172.8s  wallclock=1165s
+[21/80] UID0216  ok  reflect(+0 skills)  elapsed=160.8s  wallclock=1305s
+[22/80] UID0110  ok  reflect(+0 skills)  elapsed=295.0s  wallclock=1345s
+[23/80] UID0100  ok  reflect(+0 skills)  elapsed=150.9s  wallclock=1357s
+[24/80] UID0201  ok  reflect(+0 skills)  elapsed=79.4s  wallclock=1402s
+[25/80] UID0109  ok  reflect(+0 skills)  elapsed=82.1s  wallclock=1514s
+[26/80] UID0113  ok  reflect(+0 skills)  elapsed=228.8s  wallclock=1609s
+[27/80] UID0165  ok  reflect(+0 skills)  elapsed=48.5s  wallclock=1678s
+[28/80] UID0057  ok  reflect(+0 skills)  elapsed=482.0s  wallclock=1698s
+[29/80] UID0030  ok  reflect(+0 skills)  elapsed=339.3s  wallclock=1760s
+[30/80] UID0065  ok  reflect(+0 skills)  elapsed=50.7s  wallclock=1829s
+[31/80] UID0245  ok  reflect(+0 skills)  elapsed=245.5s  wallclock=1839s
+[32/80] UID0212  ok  reflect(+0 skills)  elapsed=176.7s  wallclock=1896s
+[33/80] UID0124  ok  reflect(+0 skills)  elapsed=75.1s  wallclock=1947s
+[34/80] UID0214  ok  reflect(+0 skills)  elapsed=54.9s  wallclock=2007s
+[35/80] UID0025  ok  reflect(+0 skills)  elapsed=104.7s  wallclock=2204s
+[36/80] UID0004  ok  reflect(+0 skills)  elapsed=395.2s  wallclock=2247s
+[37/80] UID0102  ok  reflect(+0 skills)  elapsed=47.4s  wallclock=2315s
+[38/80] UID0182  ok  reflect(+0 skills)  elapsed=192.8s  wallclock=2419s
+[39/80] UID0117  ok  reflect(+1 skills)  elapsed=141.7s  wallclock=2643s
+[40/80] UID0213  ok  reflect(+0 skills)  elapsed=300.2s  wallclock=2647s
+[41/80] UID0188  ok  reflect(+1 skills)  elapsed=630.0s  wallclock=2648s
+[42/80] UID0147  ok  reflect(+1 skills)  elapsed=921.6s  wallclock=2663s
+[43/80] UID0170  ok  reflect(+0 skills)  elapsed=125.6s  wallclock=2789s
+[44/80] UID0196  ok  reflect(+0 skills)  elapsed=151.6s  wallclock=2846s
+[45/80] UID0069  ok  reflect(+0 skills)  elapsed=81.4s  wallclock=2961s
+[46/80] UID0059  ok  reflect(+0 skills)  elapsed=339.2s  wallclock=3007s
+[47/80] UID0222  ok  reflect(+0 skills)  elapsed=138.8s  wallclock=3119s
+[48/80] UID0077  ok  reflect(+0 skills)  elapsed=106.5s  wallclock=3134s
+[49/80] UID0168  ok  reflect(+0 skills)  elapsed=436.5s  wallclock=3142s
+[50/80] UID0207  ok  reflect(+0 skills)  elapsed=46.4s  wallclock=3202s
+[51/80] UID0083  ok  reflect(+0 skills)  elapsed=34.7s  wallclock=3258s
+[52/80] UID0243  ok  reflect(+0 skills)  elapsed=111.6s  wallclock=3274s
+[53/80] UID0036  ok  reflect(+0 skills)  elapsed=72.5s  wallclock=3370s
+[54/80] UID0114  ok  reflect(+0 skills)  elapsed=570.8s  wallclock=3380s
+[55/80] UID0123  ok  reflect(+0 skills)  elapsed=35.4s  wallclock=3434s
+[56/80] UID0155  ok  reflect(+0 skills)  elapsed=71.4s  wallclock=3462s
+[57/80] UID0187  ok  reflect(+0 skills)  elapsed=298.2s  wallclock=3519s
+[58/80] UID0037  ok  reflect(+0 skills)  elapsed=110.6s  wallclock=3574s
+[59/80] UID0122  ok  reflect(+0 skills)  elapsed=90.8s  wallclock=3686s
+[60/80] UID0029  ok  reflect(+0 skills)  elapsed=170.6s  wallclock=3881s
+[61/80] UID0203  ok  reflect(+0 skills)  elapsed=461.2s  wallclock=3963s
+[62/80] UID0149  ok  reflect(+0 skills)  elapsed=141.6s  wallclock=4077s
+[63/80] UID0073  ok  reflect(+0 skills)  elapsed=610.4s  wallclock=4165s
+[64/80] UID0172  ok  reflect(+0 skills)  elapsed=129.4s  wallclock=4169s
+[65/80] UID0175  ok  reflect(+0 skills)  elapsed=888.1s  wallclock=4197s
+[66/80] UID0154  ok  reflect(+0 skills)  elapsed=109.8s  wallclock=4239s
+[67/80] UID0218  ok  reflect(+0 skills)  elapsed=32.5s  wallclock=4250s
+[68/80] UID0140  ok  reflect(+0 skills)  elapsed=232.6s  wallclock=4421s
+[69/80] UID0161  ok  reflect(+0 skills)  elapsed=208.4s  wallclock=4471s
+[70/80] UID0195  ok  reflect(+0 skills)  elapsed=298.9s  wallclock=4483s
+[71/80] UID0013  ok  reflect(+0 skills)  elapsed=214.0s  wallclock=4526s
+[72/80] UID0068  ok  reflect(+0 skills)  elapsed=54.0s  wallclock=4565s
+[73/80] UID0039  ok  reflect(+0 skills)  elapsed=159.6s  wallclock=4599s
+[74/80] UID0017  ok  reflect(+0 skills)  elapsed=29.2s  wallclock=4616s
+[75/80] UID0244  ok  reflect(+0 skills)  elapsed=237.3s  wallclock=4785s
+[76/80] UID0093  ok  reflect(+0 skills)  elapsed=408.6s  wallclock=4900s
+[77/80] UID0027  ok  reflect(+0 skills)  elapsed=268.6s  wallclock=4946s
+[78/80] UID0230  ok  reflect(+0 skills)  elapsed=264.8s  wallclock=4960s
+[79/80] UID0130  ok  reflect(+0 skills)  elapsed=151.3s  wallclock=4960s
+[80/80] UID0112  ok  reflect(+0 skills)  elapsed=110.4s  wallclock=5113s
+
+DONE. 80 rows in 5113s
+reflection: skills 122 -> 123 (delta 1)
+
+=== stderr ===
+

@@ -1,0 +1,10 @@
+{
+  "run_dir": "baselines/hermes_iter/runs/smoke_2",
+  "split": "baselines/hermes_iter/splits/train.jsonl",
+  "n_total": 80,
+  "n_pred": 2,
+  "n_correct": 1,
+  "n_extract_fail": 0,
+  "accuracy_all": 0.0125,
+  "accuracy_predicted": 0.5
+}

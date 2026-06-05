@@ -1,0 +1,65 @@
+[2026-05-20T02:09:14] controller starting. state_dir=/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02  hours=23.0 max_iters=20
+[2026-05-20T02:09:14] profile_cmd=officeqa-iter-v2  reflect=True
+[2026-05-20T02:09:14] profile skills at start: 87  memory entries: 0
+[2026-05-20T02:09:14] === iter-0: baseline test ===
+[2026-05-20T02:39:33]   baseline test: 21/28 = 0.750
+[2026-05-20T02:39:33] === iter-1: train [+reflect] ===
+[2026-05-20T04:18:26]   train: 51/80 = 0.637
+[2026-05-20T04:18:26] === iter-1: curator ===
+[2026-05-20T04:18:29] === iter-1: eval ===
+[2026-05-20T04:36:04]   eval: 18/25 = 0.720
+[2026-05-20T04:36:04]   skills now: 121 (delta 34)  memory: 21 (delta 21)
+[2026-05-20T04:36:04]   NEW BEST eval: 0.720
+[2026-05-20T04:36:04] === iter-2: train [+reflect] ===
+[2026-05-20T06:17:33]   train: 63/80 = 0.787
+[2026-05-20T06:17:33] === iter-2: curator ===
+[2026-05-20T06:17:36] === iter-2: eval ===
+[2026-05-20T06:36:36]   eval: 19/25 = 0.760
+[2026-05-20T06:36:36]   skills now: 122 (delta 35)  memory: 21 (delta 21)
+[2026-05-20T06:36:36]   NEW BEST eval: 0.760
+[2026-05-20T06:36:36] === iter-3: train [+reflect] ===
+[2026-05-20T08:01:49]   train: 67/80 = 0.838
+[2026-05-20T08:01:49] === iter-3: curator ===
+[2026-05-20T08:01:52] === iter-3: eval ===
+[2026-05-20T08:56:06]   eval: 19/25 = 0.760
+[2026-05-20T08:56:06]   skills now: 123 (delta 36)  memory: 21 (delta 21)
+[2026-05-20T08:56:06]   no improvement (1/3)
+[2026-05-20T08:56:06] === iter-4: train [+reflect] ===
+[2026-05-20T10:50:19]   train: 71/80 = 0.887
+[2026-05-20T10:50:19] === iter-4: curator ===
+[2026-05-20T10:50:22] === iter-4: eval ===
+[2026-05-20T11:26:52]   eval: 19/25 = 0.760
+[2026-05-20T11:26:52]   skills now: 123 (delta 36)  memory: 22 (delta 22)
+[2026-05-20T11:26:52]   no improvement (2/3)
+[2026-05-20T11:26:52] === iter-5: train [+reflect] ===
+[2026-05-20T13:14:02]   train: 69/80 = 0.863
+[2026-05-20T13:14:02] === iter-5: curator ===
+[2026-05-20T13:14:04] === iter-5: eval ===
+[2026-05-20T13:35:12]   eval: 20/25 = 0.800
+[2026-05-20T13:35:12]   skills now: 123 (delta 36)  memory: 22 (delta 22)
+[2026-05-20T13:35:12]   NEW BEST eval: 0.800
+[2026-05-20T13:35:12] === iter-6: train [+reflect] ===
+[2026-05-20T14:56:07]   train: 73/80 = 0.912
+[2026-05-20T14:56:07] === iter-6: curator ===
+[2026-05-20T14:56:10] === iter-6: eval ===
+[2026-05-20T15:22:47]   eval: 19/25 = 0.760
+[2026-05-20T15:22:48]   skills now: 123 (delta 36)  memory: 22 (delta 22)
+[2026-05-20T15:22:48]   no improvement (1/3)
+[2026-05-20T15:22:48] === iter-7: train [+reflect] ===
+[2026-05-20T16:54:28]   train: 73/80 = 0.912
+[2026-05-20T16:54:28] === iter-7: curator ===
+[2026-05-20T16:54:31] === iter-7: eval ===
+[2026-05-20T17:32:14]   eval: 17/25 = 0.680
+[2026-05-20T17:32:15]   skills now: 123 (delta 36)  memory: 22 (delta 22)
+[2026-05-20T17:32:15]   no improvement (2/3)
+[2026-05-20T17:32:15] === iter-8: train [+reflect] ===
+[2026-05-20T19:13:07]   train: 71/80 = 0.887
+[2026-05-20T19:13:07] === iter-8: curator ===
+[2026-05-20T19:13:09] === iter-8: eval ===
+[2026-05-20T19:37:21]   eval: 20/25 = 0.800
+[2026-05-20T19:37:21]   skills now: 123 (delta 36)  memory: 22 (delta 22)
+[2026-05-20T19:37:21]   no improvement (3/3)
+[2026-05-20T19:37:21] plateau reached; stopping after iter 8
+[2026-05-20T19:37:21] === final test ===
+[2026-05-20T20:06:08]   final test: 24/28 = 0.857
+[2026-05-20T20:06:08] DONE. wallclock=17.95h  iters=8  best_eval=0.800  final_test=0.857

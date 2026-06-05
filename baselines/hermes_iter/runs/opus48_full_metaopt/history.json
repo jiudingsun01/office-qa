@@ -1,0 +1,187 @@
+[
+  {
+    "iter": 0,
+    "phase": "test",
+    "summary": {
+      "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/iter-0/test",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/test.jsonl",
+      "n_total": 28,
+      "n_pred": 28,
+      "n_correct": 19,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.6785714285714286,
+      "accuracy_predicted": 0.6785714285714286
+    },
+    "elapsed": 1264.8679299354553
+  },
+  {
+    "iter": 1,
+    "phase": "train",
+    "summary": {
+      "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/iter-1/train",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/train.jsonl",
+      "n_total": 80,
+      "n_pred": 80,
+      "n_correct": 53,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.6625,
+      "accuracy_predicted": 0.6625
+    },
+    "elapsed": 9292.512640476227
+  },
+  {
+    "iter": 1,
+    "phase": "eval",
+    "summary": {
+      "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/iter-1/eval",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/eval.jsonl",
+      "n_total": 25,
+      "n_pred": 25,
+      "n_correct": 17,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.68,
+      "accuracy_predicted": 0.68
+    },
+    "elapsed": 9292.512644290924,
+    "n_skills": 88
+  },
+  {
+    "iter": 2,
+    "phase": "train",
+    "summary": {
+      "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/iter-2/train",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/train.jsonl",
+      "n_total": 80,
+      "n_pred": 80,
+      "n_correct": 57,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.7125,
+      "accuracy_predicted": 0.7125
+    },
+    "elapsed": 17000.547421693802
+  },
+  {
+    "iter": 2,
+    "phase": "eval",
+    "summary": {
+      "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/iter-2/eval",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/eval.jsonl",
+      "n_total": 25,
+      "n_pred": 25,
+      "n_correct": 18,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.72,
+      "accuracy_predicted": 0.72
+    },
+    "elapsed": 17000.547425031662,
+    "n_skills": 88
+  },
+  {
+    "iter": 3,
+    "phase": "train",
+    "summary": {
+      "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/iter-3/train",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/train.jsonl",
+      "n_total": 80,
+      "n_pred": 80,
+      "n_correct": 58,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.725,
+      "accuracy_predicted": 0.725
+    },
+    "elapsed": 24395.146399736404
+  },
+  {
+    "iter": 3,
+    "phase": "eval",
+    "summary": {
+      "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/iter-3/eval",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/eval.jsonl",
+      "n_total": 25,
+      "n_pred": 25,
+      "n_correct": 15,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.6,
+      "accuracy_predicted": 0.6
+    },
+    "elapsed": 24395.146403074265,
+    "n_skills": 88
+  },
+  {
+    "iter": 4,
+    "phase": "train",
+    "summary": {
+      "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/iter-4/train",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/train.jsonl",
+      "n_total": 80,
+      "n_pred": 80,
+      "n_correct": 59,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.7375,
+      "accuracy_predicted": 0.7375
+    },
+    "elapsed": 31763.32819223404
+  },
+  {
+    "iter": 4,
+    "phase": "eval",
+    "summary": {
+      "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/iter-4/eval",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/eval.jsonl",
+      "n_total": 25,
+      "n_pred": 25,
+      "n_correct": 18,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.72,
+      "accuracy_predicted": 0.72
+    },
+    "elapsed": 31763.328194379807,
+    "n_skills": 102
+  },
+  {
+    "iter": 5,
+    "phase": "train",
+    "summary": {
+      "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/iter-5/train",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/train.jsonl",
+      "n_total": 80,
+      "n_pred": 80,
+      "n_correct": 61,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.7625,
+      "accuracy_predicted": 0.7625
+    },
+    "elapsed": 38242.19103097916
+  },
+  {
+    "iter": 5,
+    "phase": "eval",
+    "summary": {
+      "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/iter-5/eval",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/eval.jsonl",
+      "n_total": 25,
+      "n_pred": 25,
+      "n_correct": 17,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.68,
+      "accuracy_predicted": 0.68
+    },
+    "elapsed": 38242.1910340786,
+    "n_skills": 135
+  },
+  {
+    "iter": "final",
+    "phase": "test",
+    "summary": {
+      "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/final/test",
+      "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/test.jsonl",
+      "n_total": 28,
+      "n_pred": 28,
+      "n_correct": 18,
+      "n_extract_fail": 0,
+      "accuracy_all": 0.6428571428571429,
+      "accuracy_predicted": 0.6428571428571429
+    },
+    "elapsed": 38944.77919816971
+  }
+]

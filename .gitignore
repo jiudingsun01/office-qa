@@ -1,0 +1,44 @@
+# ---- secrets ----
+.env
+*.env
+!.env.example
+
+# ---- python / venv / cache ----
+.venv/
+__pycache__/
+*.pyc
+.cache/
+.pytest_cache/
+
+# ---- large / gated dataset (download via HF; see data/README.md) ----
+# OfficeQA corpus: PDFs (~1.6G), parsed JSON/txt (~367M), augmented MD (~372M),
+# and the answer CSVs are gated (CC-BY-SA, answer-key clause). Do not commit.
+data/
+final_parsed_db_augmented.tar.gz
+
+# ---- scratch ----
+tmp/
+tmp_maxima/
+ols_1968.py
+reg_my2.py
+*.png
+
+# ---- oracle baseline runs (pre-existing, ~3.2G) ----
+baselines/runs/
+
+# ---- Hermes meta-opt run artifacts ----
+# Keep only the aggregate, answer-key-free results:
+#   summary.json, history.json, controller.log, launch.log,
+#   controller_runner.log, curator.log, splits_*/manifest.json
+# Exclude the heavy / answer-bearing pieces:
+baselines/hermes_iter/runs/**/preds/
+baselines/hermes_iter/runs/**/logs/
+baselines/hermes_iter/runs/**/reflections/
+baselines/hermes_iter/runs/**/snapshot/
+baselines/hermes_iter/runs/**/per_row.jsonl
+
+# Generated split prompts embed gold answers (gated) + absolute paths.
+# Regenerate deterministically with build_splits.py (seed 42). Manifests are kept.
+baselines/hermes_iter/splits/*.jsonl
+baselines/hermes_iter/splits_parsed_md/*.jsonl
+baselines/hermes_iter/splits_parsed_md_plus_pdf/*.jsonl

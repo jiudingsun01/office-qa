@@ -1,0 +1,36 @@
+=== rc=0 elapsed=495.0s ===
+=== stdout ===
+run_dir: baselines/hermes_iter/runs/opus48_full_metaopt/iter-4/eval
+split: /home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/eval.jsonl  rows: 25  concurrency: 4
+profile_cmd: officeqa-iter-opus48  extra_args: []
+reflect: False  reflect_timeout: 600
+[1/25] UID0085  ok  elapsed=35.0s  wallclock=35s
+[2/25] UID0009  ok  elapsed=43.7s  wallclock=44s
+[3/25] UID0058  ok  elapsed=52.5s  wallclock=52s
+[4/25] UID0086  ok  elapsed=32.2s  wallclock=67s
+[5/25] UID0019  ok  elapsed=63.4s  wallclock=107s
+[6/25] UID0096  ok  elapsed=59.6s  wallclock=112s
+[7/25] UID0215  ok  elapsed=133.9s  wallclock=134s
+[8/25] UID0220  ok  elapsed=73.7s  wallclock=141s
+[9/25] UID0233  ok  elapsed=35.6s  wallclock=143s
+[10/25] UID0227  ok  elapsed=35.9s  wallclock=170s
+[11/25] UID0194  ok  elapsed=40.4s  wallclock=183s
+[12/25] UID0031  ok  elapsed=68.9s  wallclock=210s
+[13/25] UID0183  ok  elapsed=110.3s  wallclock=222s
+[14/25] UID0223  ok  elapsed=95.9s  wallclock=279s
+[15/25] UID0032  ok  elapsed=72.8s  wallclock=295s
+[16/25] UID0205  ok  elapsed=111.2s  wallclock=321s
+[17/25] UID0084  ok  elapsed=154.4s  wallclock=324s
+[18/25] UID0190  ok  elapsed=55.7s  wallclock=335s
+[19/25] UID0224  ok  elapsed=31.2s  wallclock=355s
+[20/25] UID0238  ok  elapsed=67.3s  wallclock=388s
+[21/25] UID0240  ok  elapsed=61.7s  wallclock=396s
+[22/25] UID0001  ok  elapsed=116.4s  wallclock=412s
+[23/25] UID0226  ok  elapsed=50.6s  wallclock=447s
+[24/25] UID0246  ok  elapsed=92.0s  wallclock=447s
+[25/25] UID0103  ok  elapsed=106.7s  wallclock=495s
+
+DONE. 25 rows in 495s
+
+=== stderr ===
+

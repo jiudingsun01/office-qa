@@ -1,0 +1,10 @@
+{
+  "run_dir": "/home/azureuser/office-qa/baselines/hermes_iter/runs/iter02/iter-4/train",
+  "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits/train.jsonl",
+  "n_total": 80,
+  "n_pred": 80,
+  "n_correct": 71,
+  "n_extract_fail": 1,
+  "accuracy_all": 0.8875,
+  "accuracy_predicted": 0.8875
+}

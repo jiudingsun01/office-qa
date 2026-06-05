@@ -1,0 +1,44 @@
+[2026-06-03T01:31:07] controller starting. state_dir=baselines/hermes_iter/runs/opus48_full_metaopt  hours=23.0 max_iters=8
+[2026-06-03T01:31:07] profile_cmd=officeqa-iter-opus48  reflect=True  corpus=parsed-md+pdf  splits_dir=/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf
+[2026-06-03T01:31:07] profile skills at start: 87  memory entries: 0
+[2026-06-03T01:31:07] === iter-0: baseline test ===
+[2026-06-03T01:52:11]   baseline test: 19/28 = 0.679
+[2026-06-03T01:52:11] === iter-1: train [+reflect] ===
+[2026-06-03T03:57:12]   train: 53/80 = 0.662
+[2026-06-03T03:57:12] === iter-1: curator ===
+[2026-06-03T03:57:16] === iter-1: eval ===
+[2026-06-03T04:05:59]   eval: 17/25 = 0.680
+[2026-06-03T04:05:59]   skills now: 88 (delta 1)  memory: 5 (delta 5)
+[2026-06-03T04:05:59]   NEW BEST eval: 0.680
+[2026-06-03T04:05:59] === iter-2: train [+reflect] ===
+[2026-06-03T06:07:24]   train: 57/80 = 0.713
+[2026-06-03T06:07:24] === iter-2: curator ===
+[2026-06-03T06:07:27] === iter-2: eval ===
+[2026-06-03T06:14:27]   eval: 18/25 = 0.720
+[2026-06-03T06:14:27]   skills now: 88 (delta 1)  memory: 7 (delta 7)
+[2026-06-03T06:14:27]   NEW BEST eval: 0.720
+[2026-06-03T06:14:27] === iter-3: train [+reflect] ===
+[2026-06-03T08:09:25]   train: 58/80 = 0.725
+[2026-06-03T08:09:25] === iter-3: curator ===
+[2026-06-03T08:09:28] === iter-3: eval ===
+[2026-06-03T08:17:42]   eval: 15/25 = 0.600
+[2026-06-03T08:17:42]   skills now: 88 (delta 1)  memory: 7 (delta 7)
+[2026-06-03T08:17:42]   no improvement (1/3)
+[2026-06-03T08:17:42] === iter-4: train [+reflect] ===
+[2026-06-03T10:12:12]   train: 59/80 = 0.738
+[2026-06-03T10:12:12] === iter-4: curator ===
+[2026-06-03T10:12:15] === iter-4: eval ===
+[2026-06-03T10:20:30]   eval: 18/25 = 0.720
+[2026-06-03T10:20:30]   skills now: 102 (delta 15)  memory: 11 (delta 11)
+[2026-06-03T10:20:30]   no improvement (2/3)
+[2026-06-03T10:20:30] === iter-5: train [+reflect] ===
+[2026-06-03T12:01:55]   train: 61/80 = 0.762
+[2026-06-03T12:01:55] === iter-5: curator ===
+[2026-06-03T12:01:58] === iter-5: eval ===
+[2026-06-03T12:08:29]   eval: 17/25 = 0.680
+[2026-06-03T12:08:29]   skills now: 135 (delta 48)  memory: 14 (delta 14)
+[2026-06-03T12:08:29]   no improvement (3/3)
+[2026-06-03T12:08:29] plateau reached; stopping after iter 5
+[2026-06-03T12:08:29] === final test ===
+[2026-06-03T12:20:11]   final test: 18/28 = 0.643
+[2026-06-03T12:20:11] DONE. wallclock=10.82h  iters=5  best_eval=0.720  final_test=0.643

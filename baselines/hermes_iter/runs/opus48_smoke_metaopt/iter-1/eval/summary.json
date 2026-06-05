@@ -1,0 +1,10 @@
+{
+  "run_dir": "baselines/hermes_iter/runs/opus48_smoke_metaopt/iter-1/eval",
+  "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/eval.jsonl",
+  "n_total": 25,
+  "n_pred": 5,
+  "n_correct": 5,
+  "n_extract_fail": 0,
+  "accuracy_all": 0.2,
+  "accuracy_predicted": 1.0
+}

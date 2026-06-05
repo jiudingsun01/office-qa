@@ -1,0 +1,35 @@
+=== rc=0 elapsed=1714.4s ===
+=== stdout ===
+run_dir: /home/azureuser/office-qa/baselines/hermes_iter/runs/iter01/iter-5/eval
+split: /home/azureuser/office-qa/baselines/hermes_iter/splits/eval.jsonl  rows: 25  concurrency: 4
+profile_cmd: officeqa-iter  extra_args: []
+[1/25] UID0058  ok  elapsed=45.7s  wallclock=46s
+[2/25] UID0086  ok  elapsed=29.9s  wallclock=76s
+[3/25] UID0009  ok  elapsed=88.6s  wallclock=89s
+[4/25] UID0085  ok  elapsed=103.7s  wallclock=104s
+[5/25] UID0215  ok  elapsed=121.9s  wallclock=122s
+[6/25] UID0019  ok  elapsed=49.1s  wallclock=125s
+[7/25] UID0096  ok  elapsed=122.0s  wallclock=211s
+[8/25] UID0220  ok  elapsed=224.9s  wallclock=329s
+[9/25] UID0233  ok  elapsed=399.0s  wallclock=521s
+[10/25] UID0194  ok  elapsed=80.7s  wallclock=602s
+[11/25] UID0183  ok  elapsed=564.4s  wallclock=689s
+[12/25] UID0084  ok  elapsed=97.8s  wallclock=699s
+[13/25] UID0031  ok  elapsed=445.2s  wallclock=774s
+[14/25] UID0227  ok  elapsed=616.7s  wallclock=827s
+[15/25] UID0223  ok  elapsed=214.4s  wallclock=903s
+[16/25] UID0032  ok  elapsed=218.4s  wallclock=992s
+[17/25] UID0190  ok  elapsed=234.8s  wallclock=1062s
+[18/25] UID0205  ok  elapsed=366.3s  wallclock=1066s
+[19/25] UID0224  ok  elapsed=80.9s  wallclock=1143s
+[20/25] UID0238  ok  elapsed=193.4s  wallclock=1186s
+[21/25] UID0103  ok  elapsed=301.8s  wallclock=1487s
+[22/25] UID0240  ok  elapsed=456.8s  wallclock=1523s
+[23/25] UID0226  ok  elapsed=172.2s  wallclock=1659s
+[24/25] UID0001  ok  elapsed=806.6s  wallclock=1710s
+[25/25] UID0246  ok  elapsed=571.3s  wallclock=1714s
+
+DONE. 25 rows in 1714s
+
+=== stderr ===
+

@@ -1,0 +1,10 @@
+{
+  "run_dir": "baselines/hermes_iter/runs/opus48_full_metaopt/iter-5/train",
+  "split": "/home/azureuser/office-qa/baselines/hermes_iter/splits_parsed_md_plus_pdf/train.jsonl",
+  "n_total": 80,
+  "n_pred": 80,
+  "n_correct": 61,
+  "n_extract_fail": 0,
+  "accuracy_all": 0.7625,
+  "accuracy_predicted": 0.7625
+}
