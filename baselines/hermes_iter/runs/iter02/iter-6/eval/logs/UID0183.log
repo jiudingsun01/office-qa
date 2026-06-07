@@ -1,0 +1,16 @@
+=== rc=0 elapsed=392.0s ===
+=== stdout (195 chars) ===
+Extracted values:
+1964: 209,344
+1965: 215,070
+1966: 218,069
+
+Using annual average USD/INR:
+1964: 4.7619000037619
+1965: 4.7619000037619
+1966: 6.35912500535913
+
+<FINAL_ANSWER>0.3267</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

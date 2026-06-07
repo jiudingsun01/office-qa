@@ -1,0 +1,10 @@
+=== rc=0 elapsed=38.0s ===
+=== stdout (571 chars) ===
+Gini coefficient = 0.006. Receipts (753) exceed expenditures excluding investments (735) by 18, and the "Net increase, or decrease (−), in assets" column confirms +18 — a surplus.
+
+Note: I'm using the Total Receipts = 753 and Total Expenditures other than investments = 735 from the Sept 1975 row (first month of FY1976 in this November 1975 bulletin). The benefit-payments figure of 870 appears to be a parse/print anomaly given the Total of 735, but the question explicitly asks for the two totals, which are 753 and 735.
+
+<FINAL_ANSWER>[0.006, surplus]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

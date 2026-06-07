@@ -1,0 +1,8 @@
+=== rc=0 elapsed=144.9s ===
+=== stdout (213 chars) ===
+Using the public-debt subject-to-limit figures: 266,789; 274,287; 277,925. Treating the three years as the entire set gives a population standard deviation of 4,636.4 million.
+
+<FINAL_ANSWER>4636.4</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

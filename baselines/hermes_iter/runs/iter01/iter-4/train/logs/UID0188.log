@@ -1,0 +1,21 @@
+=== rc=0 elapsed=546.4s ===
+=== stdout (311 chars) ===
+Extracted totals:
+1938 Sep: 3,163.0
+1948 Sep: 3,584.4
+1958 Sep: 4,314.9
+
+Using $1.2929292929 per fine troy ounce and real inflation-adjusted silver prices for September:
+1938: 10.16
+1948: 10.06
+1958: 10.26
+
+Computed values:
+1938: 24,855.25
+1948: 27,889.43
+1958: 34,240.75
+
+<FINAL_ANSWER>27889.43</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

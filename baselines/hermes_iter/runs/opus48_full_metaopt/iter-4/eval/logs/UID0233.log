@@ -1,0 +1,10 @@
+=== rc=0 elapsed=35.6s ===
+=== stdout (122 chars) ===
+ratio of Jan 31, 1948 (164945) to Jan 31, 1958 (164727):
+
+ln(164945/164727) = 0.0013
+
+<FINAL_ANSWER>0.0013</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,12 @@
+=== rc=0 elapsed=60.9s ===
+=== stdout (310 chars) ===
+Using the 03/16/2016 weekly rows:
+
+Japanese yen net options: -74 billion yen, exchange rate 114 yen/USD → -649.1228 million USD.
+Pound sterling net options: 369 million pounds, exchange rate 1.41 USD/pound → 520.29 million USD.
+Absolute difference: 1169.4128 million USD.
+
+<FINAL_ANSWER>1169.41</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

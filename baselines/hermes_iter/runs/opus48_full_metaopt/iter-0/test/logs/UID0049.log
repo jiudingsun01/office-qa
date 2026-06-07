@@ -1,0 +1,16 @@
+=== rc=0 elapsed=79.5s ===
+=== stdout (571 chars) ===
+I computed the coefficient of variation of the year-to-year log growth rates.
+
+National Defense expenditures (Total, in millions, from Table 4 — Analysis of National Defense Expenditures, which for 1941 includes the U.S. Maritime Commission column covering emergency/urgent ship construction):
+
+1933: 680, 1934: 531, 1935: 689, 1936: 900, 1937: 929, 1938: 1029, 1939: 1206, 1940: 1657, 1941: 6301
+
+Year-to-year log growth rates (8 values), mean ≈ 0.2783, population standard deviation ≈ 0.4334.
+
+CV = SD / mean = 0.4334 / 0.2783 ≈ 1.56
+
+<FINAL_ANSWER>1.56</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

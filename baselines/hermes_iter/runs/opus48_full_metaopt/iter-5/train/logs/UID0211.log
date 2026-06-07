@@ -1,0 +1,17 @@
+=== rc=0 elapsed=31.5s ===
+=== stdout (330 chars) ===
+This is the U.S. Savings Bonds table (Table 2, All Series Combined). The question asks for calendar years 1949-1953, "Sales" column.
+
+Calendar years:
+- 1949: 5833.0
+- 1950: 6074.0
+- 1951: 3961.0
+- 1952: 4161.0
+- 1953: 4800.0
+
+Mean = (5833 + 6074 + 3961 + 4161 + 4800) / 5 = 24829 / 5 = 4965.8
+
+<FINAL_ANSWER>4965.8</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

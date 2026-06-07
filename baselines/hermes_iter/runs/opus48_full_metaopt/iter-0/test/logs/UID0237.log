@@ -1,0 +1,16 @@
+=== rc=0 elapsed=37.3s ===
+=== stdout (734 chars) ===
+Confirmed: Table OFS-1 is in millions of dollars. Total public debt securities held by private investors:
+- 2007 June: 4,156,876 million
+- 2006 June: 4,034,853 million
+
+Difference = 4,156,876 − 4,034,853 = 122,023 million = 122.023 billion.
+
+The phrase "mid-point normalized difference" — there's also Table OFS-2 which estimates ownership "in billions of dollars." The question references "ownership of federal securities" and "public debt securities held by private investors," which matches OFS-1 precisely. The "mid-point normalized difference" likely just describes a straightforward difference. Let me compute.
+
+The difference in billions = 122.023 → rounded to hundredths = 122.02 billion.
+
+<FINAL_ANSWER>122.02</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

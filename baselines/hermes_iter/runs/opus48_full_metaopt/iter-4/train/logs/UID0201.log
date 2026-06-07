@@ -1,0 +1,10 @@
+=== rc=0 elapsed=38.2s ===
+=== stdout (294 chars) ===
+Gini coefficient for [753, 735] = 0.006 (rounded to nearest thousandth).
+
+Receipts (753) exceed expenditures (735) by 18 million → the fund is operating in a surplus. (This is also corroborated by the "Net increase in assets" column showing +18.)
+
+<FINAL_ANSWER>[0.006, surplus]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,20 @@
+=== rc=0 elapsed=43.2s ===
+=== stdout (511 chars) ===
+The calculation:
+
+- FY1960 public debt outstanding = 286331 (millions)
+- FY1961 public debt outstanding = 288971 (millions)
+- FY1962 public debt outstanding = 298201 (millions, used only as the deflation base year)
+
+CPI-U annual averages (1982-84=100, NSA): 1960=29.6, 1961=29.9, 1962=30.2
+
+Adjusted to 1962 dollars:
+- FY1960: 286331 × 30.2/29.6 = 292135.00676
+- FY1961: 288971 × 30.2/29.9 = 291870.37458
+
+Absolute difference = |291870.375 − 292135.007| = 264.632 million.
+
+<FINAL_ANSWER>264.632</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

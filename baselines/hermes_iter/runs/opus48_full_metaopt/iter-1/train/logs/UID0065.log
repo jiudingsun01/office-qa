@@ -1,0 +1,16 @@
+=== rc=0 elapsed=95.2s ===
+=== stdout (389 chars) ===
+Confirmed. Nonfarm business productivity (real output per work-hour):
+- Third quarter of 1995 = 2.0 percent
+- First quarter of 1998 = 0.2 percent
+
+Absolute difference = |2.0 − 0.2| = 1.8 percent, rounded to nearest tenths = 1.8.
+
+The question asks for the absolute difference between the growth rate of these two quarters: 2.0 and 0.2.
+
+|2.0 - 0.2| = 1.8
+
+<FINAL_ANSWER>1.8</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,16 @@
+=== rc=0 elapsed=48.4s ===
+=== stdout (463 chars) ===
+The result is stable around 0.372. Using the values as reported in the bulletins (Belgian: 12060, 2245, 16408, 13327; Canadian: 10371, 10724, 11176, 10806):
+
+The Pearson correlation coefficient is **0.3723**.
+
+The values across the four quarters:
+- Dec 1975: Belgian 12,060 / Canadian 10,371
+- Mar 1976: Belgian 2,245 / Canadian 10,724
+- Jun 1976: Belgian 16,408 / Canadian 11,176
+- Sep 1976: Belgian 13,327 / Canadian 10,806
+
+<FINAL_ANSWER>0.3723</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

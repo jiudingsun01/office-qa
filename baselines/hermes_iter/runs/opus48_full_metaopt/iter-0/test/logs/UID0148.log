@@ -1,0 +1,12 @@
+=== rc=0 elapsed=172.7s ===
+=== stdout (590 chars) ===
+The count is 28 and the geometric mean of all 28 qualifying amount outstanding values is 2444.28.
+
+The question: "how many 13-week treasury bills that were issued ... exceeded the nominal amount outstanding of 2400 millions USD ... and issued during the February to April period of each year? Report this answer and also the geometric mean of these amount outstanding values across these calendar years 1972-1974 inclusive."
+
+So the first value is the count (28) and the second is the geometric mean of those amount outstanding values (2444.28).
+
+<FINAL_ANSWER>[28, 2444.28]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

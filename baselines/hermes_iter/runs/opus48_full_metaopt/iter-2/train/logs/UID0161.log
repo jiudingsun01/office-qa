@@ -1,0 +1,10 @@
+=== rc=0 elapsed=53.5s ===
+=== stdout (237 chars) ===
+Both correlations are ~0.996, abs difference rounds to 0.0003.
+
+The values are decimals (correlation coefficient), so per my memory MODE A rule, but this is a single value so delimiter doesn't apply.
+
+<FINAL_ANSWER>0.0003</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

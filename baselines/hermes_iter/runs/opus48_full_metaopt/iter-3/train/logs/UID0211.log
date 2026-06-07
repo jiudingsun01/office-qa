@@ -1,0 +1,10 @@
+=== rc=0 elapsed=54.2s ===
+=== stdout (347 chars) ===
+Calendar years 1949–1953, "Sales" column (total sales of all series combined): 5833 + 6074 + 3961 + 4161 + 4800 = 24829. Mean = 24829/5 = 4965.8.
+
+This is a whole-number mean (4965.8) — no decimals beyond the requested one, so MODE B delimiter rules don't apply (single value). One decimal place as requested.
+
+<FINAL_ANSWER>4965.8</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

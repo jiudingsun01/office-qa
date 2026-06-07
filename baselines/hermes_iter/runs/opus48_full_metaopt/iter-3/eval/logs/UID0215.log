@@ -1,0 +1,14 @@
+=== rc=0 elapsed=71.0s ===
+=== stdout (330 chars) ===
+The four Q4 averages:
+- Q4 1987: (9255+9269+9286)/3 = 9270.0
+- Q4 1988: (9014+9027+9036)/3 = 9025.67
+- Q4 1989: (10039+10021+10011)/3 = 10023.67
+- Q4 1990: (12107+12347+12515)/3 = 12323.0
+
+OLS slope of best-fit line through these four points = 1015.7 → rounded to 1016 million dollars per year.
+
+<FINAL_ANSWER>1016</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

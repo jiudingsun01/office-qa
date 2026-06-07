@@ -1,0 +1,11 @@
+=== rc=0 elapsed=249.6s ===
+=== stdout (148 chars) ===
+I counted the categories over 500 million for Treasury tax anticipation bills:
+
+1962: 2 categories
+1963: 1 category
+
+<FINAL_ANSWER>3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

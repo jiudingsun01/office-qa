@@ -1,0 +1,8 @@
+=== rc=0 elapsed=43.7s ===
+=== stdout (389 chars) ===
+Looking at Chart TF-G, the Receipts line (solid) and Outlays line (dashed) move close together. The Receipts line dips down toward 1990, where it nearly meets/crosses the Outlays line. At 1990 the dashed Outlays line is roughly at or slightly above the solid Receipts line (Receipts dips to ~15.1, Outlays ~15.3), which is where outlays exceed receipts.
+
+<FINAL_ANSWER>1990</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

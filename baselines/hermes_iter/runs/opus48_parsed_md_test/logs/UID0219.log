@@ -1,0 +1,18 @@
+=== rc=0 elapsed=48.8s ===
+=== stdout (329 chars) ===
+The foreign holdings of total estimated U.S. Treasury securities:
+- March 2003: 1275.2 billion
+- March 2012: 5147.6 billion
+- CAGR over 9 years ≈ 16.77%
+
+Nominal U.S. GDP (BEA, current dollars):
+- 2003: $11,510.7 billion
+- 2012: $16,197.0 billion
+- CAGR over 9 years ≈ 3.87%
+
+Ratio ≈ 4.34 → 4.3
+
+<FINAL_ANSWER>4.3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

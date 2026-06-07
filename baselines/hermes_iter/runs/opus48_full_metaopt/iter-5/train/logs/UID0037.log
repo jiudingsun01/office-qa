@@ -1,0 +1,21 @@
+=== rc=0 elapsed=46.0s ===
+=== stdout (503 chars) ===
+I can read the chart clearly. The bars by quarter:
+
+2004: I=163, II=219, III=112, IV=194
+2005: I=151, II=264, III=211, IV=220
+2006: I=252, II=124, III=202, IV=177
+2007: I=142, II=145
+
+The question asks for the average monthly change "from end of Q1 to end of Q2" for 2004, 2005, 2006. This is the Q2 bar (which represents the change from end of Q1 to end of Q2):
+
+- 2004 Q2 = 219
+- 2005 Q2 = 264
+- 2006 Q2 = 124
+
+Mean = (219 + 264 + 124) / 3 = 607 / 3 = 202.333...
+
+<FINAL_ANSWER>202.333</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

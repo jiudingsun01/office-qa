@@ -1,0 +1,13 @@
+=== rc=0 elapsed=184.4s ===
+=== stdout (267 chars) ===
+Extracted total silver stock values:
+1938 Sep: 3,263.0
+1948 Sep: 3,584.4
+1958 Sep: 4,314.9
+
+Using the statutory conversion rate ($1.29+ per fine troy ounce) and the corresponding real silver prices, the median computed value is:
+
+<FINAL_ANSWER>2051.51</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

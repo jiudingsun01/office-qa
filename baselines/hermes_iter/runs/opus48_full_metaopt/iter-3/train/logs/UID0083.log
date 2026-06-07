@@ -1,0 +1,16 @@
+=== rc=0 elapsed=149.7s ===
+=== stdout (725 chars) ===
+The population standard deviation of the 12 FY1981 monthly net budget outlays = 2760.44 million dollars.
+
+Verification:
+- Source: Table FFO-5 "Budget Outlays by Functions," Net budget outlays row (physical PDF p.24, matching the hint), latest 1981 bulletin (December 1981) which has all 12 FY1981 months in one place.
+- 12 monthly values (Oct 1980–Sep 1981): 55598, 48049, 56202, 59099, 53969, 54216, 57198, 54608, 55619, 58486, 53095, 53698
+- Confirmed visually from the PDF rendering.
+- Population std (ddof=0), ROUND_HALF_UP to hundredths = 2760.44
+
+The answer is a decimal value (contains a decimal point), so per delimiter rules this is a single number — no list formatting needed.
+
+<FINAL_ANSWER>2760.44</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

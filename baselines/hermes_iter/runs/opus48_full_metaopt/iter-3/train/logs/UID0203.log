@@ -1,0 +1,12 @@
+=== rc=0 elapsed=74.4s ===
+=== stdout (464 chars) ===
+The geometric mean is 0.989088, product = 305852.856 USD millions.
+
+The key question is the 1964 official annual average USD/GBP rate. The IMF/Federal Reserve official annual average for 1964 was 2.7902 USD per GBP (the rate was very close to the $2.80 par but the noon buying average came in slightly below). This is the most commonly cited official annual average figure for 1964.
+
+Using 2.7902: result = 109617 million GBP.
+
+<FINAL_ANSWER>109617</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

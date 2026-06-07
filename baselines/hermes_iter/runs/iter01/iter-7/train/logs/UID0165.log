@@ -1,0 +1,15 @@
+=== rc=0 elapsed=88.6s ===
+=== stdout (333 chars) ===
+Extracted mutual funds holdings (billions USD) for end-March 2000–2004:
+2000: 222.3
+2001: 225.3
+2002: 266.1
+2003: 296.6
+2004: 280.8
+
+Computed one-year returns, estimated the 1% lower-tail normal return, applied it to the March 2004 holding value, and converted using March 2004 USD/JPY = 108.5157.
+
+<FINAL_ANSWER>5437</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

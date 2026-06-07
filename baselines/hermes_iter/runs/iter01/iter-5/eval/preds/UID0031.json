@@ -1,0 +1,1 @@
+{"uid": "UID0031", "question": "According to Chart TF-G, around what year did the US Highway Trust Fund have outlays exceeding receipts between the fiscal years 1987-1991?", "gold_answer": "1990", "source_files": ["treasury_bulletin_1992_03.txt"], "rc": 0, "elapsed_sec": 445.19, "raw_response": "<FINAL_ANSWER>1990</FINAL_ANSWER>\n", "stderr_tail": ""}

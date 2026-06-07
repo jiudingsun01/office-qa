@@ -1,0 +1,13 @@
+=== rc=0 elapsed=380.4s ===
+=== stdout (218 chars) ===
+Using total operating balances:
+1953 = 4,187
+1954 = 6,207
+
+For a zero-coupon price observed one period apart under continuous compounding:
+D = ln(P1953) / (ln(P1953) - ln(P1954))
+
+<FINAL_ANSWER>-21.1833</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

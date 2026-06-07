@@ -1,0 +1,14 @@
+=== rc=0 elapsed=27.0s ===
+=== stdout (269 chars) ===
+This is the "all series combined" table. October 1961 row:
+- Total redemptions = 406.0
+- Accrued discount (redemptions) = 57.0
+
+pct = 57.0 / 406.0 × 100 = 14.039...% = 14.04%
+
+This matches the verified example in the skill exactly.
+
+<FINAL_ANSWER>14.04%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

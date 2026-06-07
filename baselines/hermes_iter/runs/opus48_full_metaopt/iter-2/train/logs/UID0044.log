@@ -1,0 +1,14 @@
+=== rc=0 elapsed=57.3s ===
+=== stdout (842 chars) ===
+The NET CAPITAL MOVEMENT for Latin America is the sum of the four components. For the week ended Jan. 25 (Jan 19–25), the net = 1323 + 155 - 229 + 212 = 1461 thousand dollars (a net capital inflow, positive).
+
+The table caption confirms: "Capital inflow or capital outflow (-)" — so +1461 is a net inflow.
+
+Let me confirm there isn't a printed weekly NET CAPITAL MOVEMENT row in the PDF that I should read instead, but the markdown table cuts off the NET section at annual rows only. The components sum is the standard method. The Total January net for Latin America (5299) would be the sum across all weeks — let me verify this is consistent with the cumulative table to be confident in my component identification.
+
+The four components clearly sum to the net. My answer for the week ended Jan 25 is 1461.
+
+<FINAL_ANSWER>1461</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=45.7s ===
+=== stdout (248 chars) ===
+Using the “Interest” total row in Table FFO-5:
+
+1981 fiscal year: 82.590 billion
+Comparable 1980 fiscal period: 64.564 billion
+
+Box-Cox difference with λ = 0.75:
+(82.590^0.75 - 64.564^0.75) / 0.75 = 6.159635...
+
+<FINAL_ANSWER>6.1596</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,50 @@
+=== rc=0 elapsed=108.4s ===
+=== stdout (1504 chars) ===
+Now I have both complete bill maturity listings. Let me compile.
+
+From Jan 1977 survey (1977_03) — bills maturing Feb 1977 to Jan 1978, "Total amount outstanding":
+- Feb. 1977: 27949 ✓ (>20000)
+- Mar. 1977: 31058 ✓
+- Apr. 1977: 28967 ✓
+- May 1977: 20773 ✓
+- June 1977: 19231 ✗
+- July 1977: 17085 ✗
+- Aug. 1977: 2953 ✗
+- Sept. 1977: 2917 ✗
+- Oct. 1977: 3095 ✗
+- Nov. 1977: 3402 ✗
+- Dec. 1977: 3505 ✗
+- Jan. 1978: 3071 ✗
+
+From Jan 1978 survey (1978_03) — bills maturing Feb 1978 to Jan 1979:
+- Feb. 1978: 26128 ✓
+- Mar. 1978: 31017 ✓
+- Apr. 1978: 29190 ✓
+- May 1978: 19036 ✗
+- June 1978: 19260 ✗
+- July 1978: 16757 ✗
+- Aug. 1978: 3005 ✗
+- Sept. 1978: 3036 ✗
+- Oct. 1978: 3162 ✗
+- Nov. 1978: 3587 ✗
+- Dec. 1978: 3838 ✗
+- Jan. 1979: 3205 ✗
+
+The question's range is Feb 1977 to Jan 1979 inclusive (24 months), and these two surveys cover exactly that span (Feb 1977–Jan 1978 from the first, Feb 1978–Jan 1979 from the second). No overlap, no gaps — exactly 24 months covered.
+
+Counting months exceeding $20,000 million:
+- 1977: Feb (27949), Mar (31058), Apr (28967), May (20773) = 4 months
+- 1978: Feb (26128), Mar (31017), Apr (29190) = 3 months
+
+June 1977 (19231) < 20000; May 1978 (19036) < 20000; June 1978 (19260) < 20000.
+
+Total = 4 + 3 = 7 months.
+
+Let me verify the borderline values are strictly greater than 20000: May 1977 = 20773 (>20000 ✓), June 1977 = 19231 (<20000 ✗), May 1978 = 19036, June 1978 = 19260 — all below. Confirmed.
+
+The count is 7 calendar months.
+
+<FINAL_ANSWER>7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

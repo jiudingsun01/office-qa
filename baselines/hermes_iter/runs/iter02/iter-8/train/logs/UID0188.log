@@ -1,0 +1,21 @@
+=== rc=0 elapsed=252.7s ===
+=== stdout (356 chars) ===
+I used the total silver monetary stock values for September:
+1938: 3,163.0
+1948: 3,584.4
+1958: 4,314.9
+
+Using the statutory rate of $1.292929... per fine troy ounce and the applicable silver prices:
+1938: 0.6464
+1948: 0.905
+1958: 0.905
+
+The computed values are approximately:
+1938: 1581.34
+1948: 2508.94
+1958: 3020.26
+
+<FINAL_ANSWER>2508.94</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

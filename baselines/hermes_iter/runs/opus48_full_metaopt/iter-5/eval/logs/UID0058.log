@@ -1,0 +1,14 @@
+=== rc=0 elapsed=92.6s ===
+=== stdout (590 chars) ===
+The total net Euro position for December 2000, not considering option positions, from Table FCP-VI-2 (Monthly Report of Major Market Participants, in millions of euros):
+
+- Net spot/forward/future contracts: 1,950,622 − 1,943,752 = 6,870
+- Net non-capital items: 657,186 − 619,882 = 37,304
+- Total net position (excluding calls/puts options): 6,870 + 37,304 = **44,174**
+
+The "net delta equivalent" (-10,431) would be the figure that includes option positions; since the question excludes options, the answer is the sum of the non-option net components.
+
+<FINAL_ANSWER>44174</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,12 @@
+=== rc=0 elapsed=65.2s ===
+=== stdout (378 chars) ===
+The yen table is in billions of yen, so -74 billion yen = -74,000 million yen ÷ 114.0 = -649.12 million USD. The pound table is in millions of pounds, so 369 × 1.41 = 520.29 million USD.
+
+Absolute difference: |-649.12 - 520.29| = 1169.41 million USD.
+
+All values have decimal points, so per MODE A: bare comma (single value here, no list).
+
+<FINAL_ANSWER>1169.41</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

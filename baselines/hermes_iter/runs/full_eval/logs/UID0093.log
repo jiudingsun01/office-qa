@@ -1,0 +1,8 @@
+=== rc=0 elapsed=207.8s ===
+=== stdout (259 chars) ===
+I read Table CM-I-3, “Total Liabilities by Country,” which reports positions in millions of dollars. The United Kingdom value for calendar year 1986 is 90,833 million dollars, i.e. 90.833 billion dollars, rounded to 90.83.
+
+<FINAL_ANSWER>90.83</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

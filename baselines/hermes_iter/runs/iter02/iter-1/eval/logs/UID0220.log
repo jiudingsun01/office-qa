@@ -1,0 +1,8 @@
+=== rc=0 elapsed=146.6s ===
+=== stdout (233 chars) ===
+From the Summary of Federal Receipts and Expenditures, total federal expenditures were 528 in February 1938 and 693 in January 1939. Using February 1938 as the base: |693 - 528| / 528 × 100 = 31.2.
+
+<FINAL_ANSWER>31.2</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,15 @@
+=== rc=0 elapsed=146.6s ===
+=== stdout (598 chars) ===
+All three years used the fixed Bretton Woods peg of $2.80 per £1 (the pound was devalued to $2.80 in September 1949 and held there through 1952), so the annual average GBP-per-USD rate = 1/2.80 ≈ 0.357143 for each year.
+
+Summary:
+- Feb 28, 1950: 154,764 (marketable) + 66,771 (nonmarketable) = 221,535 → £79,119.6M
+- Feb 28, 1951: 151,625 + 67,824 = 219,449 → £78,374.6M
+- Feb 29, 1952: 142,701 + 79,075 = 221,776 → £79,205.7M (corrected from a markdown parse error of 142,258; verified 142,701 in the PDF)
+
+Combined = £236,700M = 236.7 billion pounds sterling.
+
+<FINAL_ANSWER>236.7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

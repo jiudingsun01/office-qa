@@ -1,0 +1,12 @@
+=== rc=0 elapsed=146.5s ===
+=== stdout (538 chars) ===
+Verified from the source FFO-2 table (Corporation > Net column, FY 2021 = Oct 2020 through Sep 2021), cross-checked across the Sept and Dec 2021 bulletins.
+
+The monthly Corporate income tax net receipts (millions): 9152, -3192, 62920, 16463, 3780, 15255, 72769, 13808, 74189, 16942, 3033, 86713.
+
+Following the question's instructions: convert to billions, round intermediate values to tenths, compute Type-7 quartiles (Q1=7.9, Q3=65.4 after half-up rounding), H Spread = Q3 − Q1 = 65.4 − 7.9 = 57.50.
+
+<FINAL_ANSWER>57.50</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

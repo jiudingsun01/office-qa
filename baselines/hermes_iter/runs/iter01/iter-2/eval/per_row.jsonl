@@ -1,0 +1,25 @@
+{"uid": "UID0009", "gold": "32.703", "predicted": "32.703", "score": 1.0, "rc": 0}
+{"uid": "UID0058", "gold": "44174", "predicted": "44174", "score": 1.0, "rc": 0}
+{"uid": "UID0215", "gold": "1016", "predicted": "1016", "score": 1.0, "rc": 0}
+{"uid": "UID0085", "gold": "0.068", "predicted": "0.068", "score": 1.0, "rc": 0}
+{"uid": "UID0086", "gold": "4.815", "predicted": "4.815", "score": 1.0, "rc": 0}
+{"uid": "UID0019", "gold": "1169.41 million", "predicted": "1169.41", "score": 1.0, "rc": 0}
+{"uid": "UID0096", "gold": "0.388", "predicted": "37.708", "score": 0.0, "rc": 0}
+{"uid": "UID0220", "gold": "27", "predicted": "165.0", "score": 0.0, "rc": 0}
+{"uid": "UID0233", "gold": "0.0013", "predicted": "0.0013", "score": 1.0, "rc": 0}
+{"uid": "UID0183", "gold": "0.3267", "predicted": "0.3267", "score": 1.0, "rc": 0}
+{"uid": "UID0227", "gold": "261", "predicted": "261", "score": 1.0, "rc": 0}
+{"uid": "UID0031", "gold": "1990", "predicted": "1990", "score": 1.0, "rc": 0}
+{"uid": "UID0194", "gold": "7.60", "predicted": "7.60%", "score": 1.0, "rc": 0}
+{"uid": "UID0084", "gold": "1.667857", "predicted": "1.667857", "score": 1.0, "rc": 0}
+{"uid": "UID0223", "gold": "16.78", "predicted": "13.55", "score": 0.0, "rc": 0}
+{"uid": "UID0205", "gold": "0.98", "predicted": "0.98", "score": 1.0, "rc": 0}
+{"uid": "UID0032", "gold": "11.60", "predicted": "11.60", "score": 1.0, "rc": 0}
+{"uid": "UID0190", "gold": "-11", "predicted": "-11", "score": 1.0, "rc": 0}
+{"uid": "UID0001", "gold": "2,602", "predicted": "2771", "score": 0.0, "rc": 0}
+{"uid": "UID0238", "gold": "80686", "predicted": "80,686", "score": 1.0, "rc": 0}
+{"uid": "UID0224", "gold": "2.65", "predicted": "2.65", "score": 1.0, "rc": 0}
+{"uid": "UID0240", "gold": "0.9999", "predicted": "21.1833", "score": 0.0, "rc": 0}
+{"uid": "UID0246", "gold": "44605.38", "predicted": "44603.39", "score": 0.0, "rc": 0}
+{"uid": "UID0103", "gold": "[0.997, 0.977]", "predicted": "[0.997, 0.977]", "score": 1.0, "rc": 0}
+{"uid": "UID0226", "gold": "4636.4", "predicted": "4636.4", "score": 1.0, "rc": 0}

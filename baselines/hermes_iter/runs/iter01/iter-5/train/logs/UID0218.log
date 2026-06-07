@@ -1,0 +1,8 @@
+=== rc=0 elapsed=41.2s ===
+=== stdout (145 chars) ===
+Using October 1961 values: accrued discount redemptions 57, total redemptions 406. 57 / 406 * 100 = 14.04%.
+
+<FINAL_ANSWER>14.04%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

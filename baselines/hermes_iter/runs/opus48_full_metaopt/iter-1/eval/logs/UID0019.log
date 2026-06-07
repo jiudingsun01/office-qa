@@ -1,0 +1,16 @@
+=== rc=0 elapsed=56.1s ===
+=== stdout (407 chars) ===
+The values for mid-March 2016 (03/16/2016):
+
+Japanese Yen (FCP-II-1, billions of yen, 114 yen/USD):
+- Net options: -74 billion yen → -74,000 million yen ÷ 114 = -649.12 million USD
+
+British Pound (FCP-IV-1, millions of pounds, 1.41 USD/pound):
+- Net options: 369 million pounds × 1.41 = 520.29 million USD
+
+Absolute difference: |-649.12 - 520.29| = 1169.41 million USD
+
+<FINAL_ANSWER>1169.41</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

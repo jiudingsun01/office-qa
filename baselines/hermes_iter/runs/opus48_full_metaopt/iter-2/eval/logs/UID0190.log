@@ -1,0 +1,16 @@
+=== rc=0 elapsed=32.6s ===
+=== stdout (514 chars) ===
+I found the data in the "Summary of Receipts and Expenditures" table:
+- 1938-Oct. Total Receipts = 332 (line 211)
+- 1939 Oct. Total Receipts = 321 (line 223)
+
+Both values are in millions, on the same basis (daily Treasury statements, unrevised). The question asks for total federal receipts.
+
+Difference = October 1939 − October 1938 = 321 − 332 = -11
+
+Both values are whole numbers (millions), no decimal points. The answer is a single signed whole number with no commas/spaces.
+
+<FINAL_ANSWER>-11</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=101.8s ===
+=== stdout (398 chars) ===
+The 26-week Treasury bills issued Sept. 1, 1960 had an average rate of discount of 2.825%, and those issued a week later (Sept. 8) had 2.801%.
+
+Computation:
+- Weekly log return: ln(2.801) − ln(2.825) = −0.0085319
+- Realized variance (squared return): 7.2793e-05
+- Annualized variance (×52 weeks): 0.0037852
+- Annualized volatility: √0.0037852 = 0.061524 → 6.15%
+
+<FINAL_ANSWER>6.15%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

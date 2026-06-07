@@ -1,0 +1,20 @@
+=== rc=0 elapsed=133.0s ===
+=== stdout (309 chars) ===
+Extracted Federal Reserve notes:
+May 1979: 103,774
+June 1979: 104,779
+
+Using CPI-U NSA:
+May 1979 CPI: 71.5
+June 1979 CPI: 72.3
+
+May 1979 adjusted to June 1979 dollars:
+103,774 × 72.3 / 71.5 = 104,935.1077
+
+Month-over-month real change:
+104,779 - 104,935.1077 = -156.1077
+
+<FINAL_ANSWER>-156.11</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

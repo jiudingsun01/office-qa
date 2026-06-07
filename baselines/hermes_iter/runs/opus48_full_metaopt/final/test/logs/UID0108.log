@@ -1,0 +1,10 @@
+=== rc=0 elapsed=32.6s ===
+=== stdout (222 chars) ===
+12 months, mean ≈ 7915.583, MAD = 1400.306.
+
+The FY 2018 to date total (94987) ÷ 12 = 7915.58, consistent. The MAD of the monthly net excise tax receipts is 1400.306 million dollars.
+
+<FINAL_ANSWER>1400.306</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

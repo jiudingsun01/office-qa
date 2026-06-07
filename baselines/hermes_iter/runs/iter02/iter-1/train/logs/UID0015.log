@@ -1,0 +1,10 @@
+=== rc=0 elapsed=45.9s ===
+=== stdout (310 chars) ===
+Using Table FFO-5 “Budget Outlays by Function,” the Interest total is 82,590 million for fiscal 1981 and 64,564 million for the comparable fiscal 1980 period, i.e. 82.590 and 64.564 billion.
+
+Applying Box-Cox with lambda = 0.75 and subtracting 1980 from 1981 gives 6.1596.
+
+<FINAL_ANSWER>6.1596</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

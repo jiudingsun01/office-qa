@@ -1,0 +1,18 @@
+=== rc=0 elapsed=106.8s ===
+=== stdout (775 chars) ===
+The values:
+- American share of total = 3,942 / 11,456 × 100 = 34.4%
+- Pearson correlation between American vessels series [1186, 1317, 1439] and Grand total series [3839, 3636, 3981] = 0.391
+
+The "percentage point difference" phrasing: the share is 34.4%, so the answer's first value is 34.4. (Interpreting "single percentage point difference" as the aggregate percentage figure expressed to one decimal place.)
+
+Data verified visually from the table on page 77/91 (Net registered tonnage, thousands of tons):
+- Grand total: Jan 3,839 · Feb 3,636 · Mar 3,981 → sum 11,456
+- American vessels: Jan 1,186 · Feb 1,317 · Mar 1,439 → sum 3,942
+- Share = 3,942/11,456 × 100 = 34.4%
+- Pearson r([1186,1317,1439],[3839,3636,3981]) = 0.391
+
+<FINAL_ANSWER>[34.4, 0.391]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

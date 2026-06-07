@@ -1,0 +1,24 @@
+=== rc=0 elapsed=621.9s ===
+=== stdout (1066 chars) ===
+I've solved the question and saved the construction pattern as a skill reference.
+
+Solution summary:
+
+The Treasury Bulletins report fiscal years and individual months — there is no direct calendar-year budget row. So I assembled each calendar year by summing Jan–Dec monthly cells across consecutive October bulletins (reading the Table 1 / Table 4 pages via 300-dpi rasterization + vision, since the text layer garbled the receipts grid).
+
+Net budget receipts (millions), cross-checked against the 1943 bulletin's Table 6 calendar-year totals (CY1941=8849, CY1942=16403):
+- CY1941 = 8,848
+- CY1942 = 16,403
+- CY1943 (Jan–Sep, the only months the Oct-1943 bulletin reports) = 24,687
+
+National defense / war activities expenditures (millions):
+- CY1941 = 12,552  (1941 bulletin "National defense" Jan–Sep + 1942 bulletin "War activities" Oct–Dec)
+- CY1942 = 49,858
+- CY1943 (Jan–Sep) = 60,612
+
+Ratios: 0.7049, 0.3290, 0.4073 → mean = 0.48040, which rounds (HALF_UP) to 0.4804. The result is stable across receipt-source variants.
+
+<FINAL_ANSWER>0.4804</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

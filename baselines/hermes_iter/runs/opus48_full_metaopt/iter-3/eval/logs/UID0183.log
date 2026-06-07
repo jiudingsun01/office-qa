@@ -1,0 +1,20 @@
+=== rc=0 elapsed=72.2s ===
+=== stdout (604 chars) ===
+Computation complete.
+
+Source value: Treasury Survey of Ownership, January 31, 1964 (from treasury_bulletin_1964_03 markdown, Table 1) — total outstanding Public marketable interest-bearing securities = 209344 million USD.
+
+Annual average USD/INR rates (World Bank PA.NUS.FCRF, period average):
+- 1964 = 4.7619
+- 1965 = 4.7619
+- 1966 = 6.359125
+
+Since the USD value is the same constant converted into each year's INR, it cancels in both ratios:
+- ratio 1965/1964 = 4.7619/4.7619 = 1.0000
+- ratio 1966/1965 = 6.359125/4.7619 = 1.335418
+- |1.0000 − 1.335418| = 0.3354
+
+<FINAL_ANSWER>0.3354</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

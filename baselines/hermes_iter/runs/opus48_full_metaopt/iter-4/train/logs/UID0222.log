@@ -1,0 +1,13 @@
+=== rc=0 elapsed=56.7s ===
+=== stdout (400 chars) ===
+Both values are confirmed from the SBN-3 Series I tables (interest-bearing debt, in millions):
+- Calendar March 2001 = 3554 (treasury_bulletin_2001_06)
+- Calendar March 2006 = 34736 (treasury_bulletin_2006_06)
+
+CAGR over 5 years = (34736/3554)^(1/5) − 1 ≈ 57.77%. Projected 5 years forward to March 2011:
+34736 × (34736/3554)^1 = 34736² / 3554 = **339501.88**
+
+<FINAL_ANSWER>339501.88</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

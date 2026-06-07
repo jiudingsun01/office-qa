@@ -1,0 +1,20 @@
+=== rc=0 elapsed=112.2s ===
+=== stdout (276 chars) ===
+Using Table FD-1, the fiscal-year-end public debt securities are:
+
+1960: 286331
+1961: 288971
+1962: 298201
+
+Annual average CPI-U:
+1960: 29.6
+1961: 29.9
+1962: 30.2
+
+Absolute difference:
+288971 × 30.2 / 29.9 − 286331 × 30.2 / 29.6 = 264.632
+
+<FINAL_ANSWER>264.632</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,15 @@
+=== rc=0 elapsed=100.3s ===
+=== stdout (360 chars) ===
+Using the Q4 2-year note tenders accepted amounts in millions:
+
+1987: 9255, 9269, 9286 → average 9270.0
+1988: 9014, 9027, 9030 → average 9023.6667
+1989: 10039, 10021, 10014 → average 10024.6667
+1990: 12107, 12347, 12515 → average 12323.0
+
+The OLS slope through these four yearly Q4 averages is 1016 million dollars per year.
+
+<FINAL_ANSWER>1016</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

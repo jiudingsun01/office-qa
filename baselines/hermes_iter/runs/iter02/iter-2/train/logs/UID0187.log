@@ -1,0 +1,11 @@
+=== rc=0 elapsed=256.6s ===
+=== stdout (192 chars) ===
+Extracted U.S. monthly silver production values for Apr-Aug 1940:
+April 6,120; May 5,840; June 5,373; July 5,530; August 4,419.
+
+Geometric mean = 5423.58
+
+<FINAL_ANSWER>5423.58</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

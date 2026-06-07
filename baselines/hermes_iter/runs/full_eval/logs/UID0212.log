@@ -1,0 +1,13 @@
+=== rc=0 elapsed=105.3s ===
+=== stdout (260 chars) ===
+I used the Seigniorage table’s “Seigniorage on coins (silver and minor)” column:
+1945 = 429.5
+1955 = 807.0
+
+Continuously compounded average annual growth:
+ln(807.0 / 429.5) / 10 = 0.063070..., rounded to nearest thousandth.
+
+<FINAL_ANSWER>0.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,13 @@
+=== rc=0 elapsed=38.5s ===
+=== stdout (269 chars) ===
+Using 2001 for Amazon’s Dot-com low and 2008 for the bank bailout year:
+
+2001 ratio = (479,340 + 158,460) / 923,501 × 100 = 69.06
+2008 ratio = (1,679,181 + 994,583) / 3,386,589 × 100 = 78.95
+
+Absolute change = 9.89 percentage points.
+
+<FINAL_ANSWER>9.89</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,12 @@
+=== rc=0 elapsed=44.7s ===
+=== stdout (359 chars) ===
+The calculation:
+- Nominal redemptions (Unmatured Total, millions): Jan=284, Feb=295, Mar=375
+- CPI-U (1982-84=100): Jan=37.8, Feb=38.0, Mar=38.2
+- Real March 1970 dollars (= nominal × CPI_Mar/CPI_month): Jan=287.01, Feb=296.55, Mar=375.00
+- Linear regression (x = month 1,2,3): slope = 44.00, intercept = 231.52
+
+<FINAL_ANSWER>[44.00, 231.52]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

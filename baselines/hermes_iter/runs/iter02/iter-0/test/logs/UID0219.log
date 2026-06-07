@@ -1,0 +1,8 @@
+=== rc=0 elapsed=88.8s ===
+=== stdout (290 chars) ===
+Using the March rows from OFS-2: foreign holdings were 1,275.2 in Mar 2003 and 5,147.6 in Mar 2012. Using annual nominal GDP for 2003 and 2012 from BEA gives a GDP CAGR of about 4.0%, while the foreign-holdings CAGR is about 16.8%. The ratio is about 4.2.
+
+<FINAL_ANSWER>4.2</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

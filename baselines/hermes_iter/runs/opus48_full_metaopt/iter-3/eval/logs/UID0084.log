@@ -1,0 +1,20 @@
+=== rc=0 elapsed=99.4s ===
+=== stdout (665 chars) ===
+The forecast error (actual − forecast) for FY 1968 = 1.665714 billion dollars.
+
+Let me verify the FY 1968 actual value (15,426 million) and FY1961-1967 values once more against the table. From line 1154-1161 of the markdown, the third numeric column ("Computed annual interest charge - Public debt and guaranteed securities") values are:
+- 1961: 8769 ✓
+- 1962: 9534 ✓
+- 1963: 10141 ✓
+- 1964: 10931 ✓
+- 1965: 11488 ✓
+- 1966: 12533 ✓
+- 1967: 12972 ✓
+- 1968: 15426 ✓
+
+These match both markdown and PDF. The OLS trend on FY1961–1967 forecasts 13.760286 billion for 1968; actual is 15.426 billion, giving error = 1.665714 billion.
+
+<FINAL_ANSWER>1.665714</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

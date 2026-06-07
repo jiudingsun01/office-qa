@@ -1,0 +1,12 @@
+=== rc=0 elapsed=40.4s ===
+=== stdout (181 chars) ===
+Extracted Series I interest-bearing debt:
+March 2001: 3,554
+March 2006: 34,736
+
+Projected March 2011 = 34,736 × (34,736 / 3,554) = 339501.88
+
+<FINAL_ANSWER>339501.88</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

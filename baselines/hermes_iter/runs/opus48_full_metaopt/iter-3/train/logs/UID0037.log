@@ -1,0 +1,15 @@
+=== rc=0 elapsed=54.3s ===
+=== stdout (320 chars) ===
+The chart's "Payroll Employment" measures the average monthly change from end of quarter to end of quarter. The bar at quarter II represents the change from end of Q1 to end of Q2.
+
+Q1→Q2 values:
+- 2004: 219
+- 2005: 264
+- 2006: 124
+
+Mean = (219 + 264 + 124) / 3 = 607 / 3 = 202.333
+
+<FINAL_ANSWER>202.333</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

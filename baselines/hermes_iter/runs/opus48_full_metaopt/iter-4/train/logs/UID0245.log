@@ -1,0 +1,14 @@
+=== rc=0 elapsed=179.3s ===
+=== stdout (567 chars) ===
+Memory is full. The fisher reference file already documents this fully, so I'll skip the memory update — it's not worth pruning another entry for. The answer is confirmed.
+
+From Table AY-1 (Average Yields of Long-Term Treasury, Corporate and Municipal Bonds) in the August 1982 Treasury Bulletin, page 68:
+- August 1981 "Treasury bonds" (new long-term) yield = 13.61 (A, earlier)
+- August 1982 "Treasury bonds" yield = 12.15 (B, later)
+
+Fisher Ideal symmetric growth rate = 2·(12.15 − 13.61) / (12.15 + 13.61) = -0.11335 → -0.113
+
+<FINAL_ANSWER>-0.113</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

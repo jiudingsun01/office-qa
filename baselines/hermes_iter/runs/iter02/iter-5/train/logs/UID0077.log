@@ -1,0 +1,12 @@
+=== rc=0 elapsed=74.7s ===
+=== stdout (306 chars) ===
+I used the CY monthly totals (Jan-Dec) for net individual income taxes and total budget receipts, then computed:
+
+100 × (net individual income taxes / total budget receipts)
+
+Change from CY2010 to CY2011 = 47.5390% - 42.9256% = 4.6134 percentage points, rounded to 4.61.
+
+<FINAL_ANSWER>4.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

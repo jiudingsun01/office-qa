@@ -1,0 +1,8 @@
+=== rc=0 elapsed=54.1s ===
+=== stdout (115 chars) ===
+Slope=273.28, intercept=54244, predicted 1999 (year 9) = 56703.
+
+<FINAL_ANSWER>[273.28,54244,56703]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,11 @@
+=== rc=0 elapsed=63.6s ===
+=== stdout (188 chars) ===
+January 1980 surplus/deficit: -4,559
+February 1980 surplus/deficit: -9,346
+
+Absolute percentage change = |-9,346 - (-4,559)| / |-4,559| × 100 = 105.00
+
+<FINAL_ANSWER>105.00</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

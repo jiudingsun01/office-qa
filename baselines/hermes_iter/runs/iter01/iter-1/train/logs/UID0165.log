@@ -1,0 +1,8 @@
+=== rc=0 elapsed=98.6s ===
+=== stdout (243 chars) ===
+Extracted March mutual-funds holdings (billions USD): 222.3, 225.3, 266.1, 296.6, 280.8. Using annual returns, sample volatility, 1% normal lower-tail, and March 2004 USD/JPY = 108.5157, the rounded loss is:
+
+<FINAL_ANSWER>5437</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

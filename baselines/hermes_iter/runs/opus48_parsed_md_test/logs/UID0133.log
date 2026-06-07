@@ -1,0 +1,12 @@
+=== rc=0 elapsed=67.1s ===
+=== stdout (314 chars) ===
+Logarithmic growth rate = ln(4,526,138 / 2,066,131) = 0.78419 → 78.42%.
+
+- End of CY 2002 total liabilities to all foreigners: 2,066,131 (millions USD)
+- End of CY 2012 total liabilities to all foreigners: 4,526,138 (millions USD)
+- ln(4,526,138 / 2,066,131) = 0.78419 → 78.42%
+
+<FINAL_ANSWER>78.42</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

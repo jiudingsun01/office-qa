@@ -1,0 +1,10 @@
+=== rc=0 elapsed=35.0s ===
+=== stdout (137 chars) ===
+CY2018 California share: 13.1744%
+CY2019 California share: 13.2421%
+Change: +0.068 percentage points
+
+<FINAL_ANSWER>0.068</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

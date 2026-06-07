@@ -1,0 +1,10 @@
+=== rc=0 elapsed=47.4s ===
+=== stdout (296 chars) ===
+The 9 period-over-period returns yield a worst-case (95% tail, ceil(5%×9)=1 observation) of -18.51%. This matches the es-cvar reference pattern exactly (gold -18.51 noted in memory).
+
+The expected shortfall at 95% confidence = mean of worst 5% tail = -18.51.
+
+<FINAL_ANSWER>-18.51</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

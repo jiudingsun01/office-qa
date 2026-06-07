@@ -1,0 +1,8 @@
+=== rc=0 elapsed=173.3s ===
+=== stdout (168 chars) ===
+I used the revised “Public works” figures: 1934 = 549 and 1946 = 407, both in millions of nominal dollars. Absolute difference = 142.
+
+<FINAL_ANSWER>142</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

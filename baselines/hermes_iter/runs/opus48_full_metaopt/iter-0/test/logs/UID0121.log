@@ -1,0 +1,32 @@
+=== rc=0 elapsed=49.7s ===
+=== stdout (1048 chars) ===
+Confirmed. The "Jan." row (line 84) under "Regular weekly and annual maturing" section, maturing January 1981:
+
+`Jan. | 4,018 | 756 | 558 | 1 | - | * | 7 | 148 | 76 | - | 2,472`
+
+Mapping to columns (per the confirmed header):
+1. U.S. Govt accounts and Federal Reserve banks = 756
+2. commercial banks = 558
+3. mutual savings banks = 1
+4. Insurance life = - (none)
+5. Insurance fire/casualty/marine = * (less than $500k)
+6. savings and loan associations = 7
+7. corporations = 148
+8. states and local governments = 76
+9. (all other = 2,472)
+
+Now grouping into the question's 7 categories (insurance = life + fire/casualty combined):
+- U.S. Government accounts and Federal Reserve banks: 756 ✓ (>200)
+- commercial banks: 558 ✓ (>200)
+- mutual savings banks: 1 ✗
+- insurance companies: 0 + ~0 = <1 ✗
+- savings and loan associations: 7 ✗
+- corporations: 148 ✗
+- states and local governments: 76 ✗
+
+Only 2 categories exceed $200 million: U.S. Government accounts and Federal Reserve banks (756) and commercial banks (558).
+
+<FINAL_ANSWER>2</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

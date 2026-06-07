@@ -1,0 +1,19 @@
+=== rc=0 elapsed=82.0s ===
+=== stdout (484 chars) ===
+I can now read the October 1961 row in Table 2 clearly:
+- Total Redemptions: 406
+- Sales price: 349
+- Accrued discount: 57
+
+The "accrued discount" is the value buildup from the original price markdown (savings bonds are sold at a discount/markdown from face value, and the value accrues over time). 
+
+Percent = 57 / 406 = 0.140394... = 14.0394...%
+
+Let me confirm: 57/406 = 0.1403940886... → 14.04%.
+
+The total (406) = 349 + 57 = 406 ✓ (matches).
+
+<FINAL_ANSWER>14.04%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

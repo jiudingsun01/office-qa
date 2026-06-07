@@ -1,0 +1,15 @@
+=== rc=0 elapsed=134.6s ===
+=== stdout (533 chars) ===
+The HP filter (λ=100) on FY2010–2024 receipts and outlays gives:
+
+- Actual balance FY2024 = 4,918,737 − 6,751,553 = −1,832,816
+- Trend receipts FY2024 = 4,775,652; Trend outlays FY2024 = 6,825,405
+- Structural balance FY2024 = −2,049,753
+- Absolute gap = |−1,832,816 − (−2,049,753)| = 216,937
+
+Data sources verified: FY2010–2014 from the 2015_09 bulletin (FFO-1), FY2015–2019 from the 2020_09 bulletin, FY2020–2024 from the 2025_09 bulletin (FY2024 = actual, not estimate).
+
+<FINAL_ANSWER>[-1832816, -2049753, 216937]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,33 @@
+=== rc=0 elapsed=272.8s ===
+=== stdout (1585 chars) ===
+No user available — I'll make the best judgment call. 
+
+The question says "line plots" (plural), but only one true line plot exists on the page. The most defensible interpretation for a benchmark visual-count question is to count clearly distinguishable peaks (local maxima) on that line plot. 
+
+Looking at my cleanest trace of the full line, the clearly distinguishable peaks are:
+
+Dotted: 1902, 1916, 1925 = 3
+Solid pre-Depression: 1930 = 1
+Jagged recovery: the "M" cluster reads as 2 clear sharp peaks plus the taller ~1941 peak = 3 (the tiny shelf bump is not clearly distinct)
+Tall double after WWII: 1948, 1951 = 2
+Right oscillation prominent peaks: 1955, 1959, 1965, 1969, 1973, 1979, 1984, then a final small bump near 1988 = 8
+
+That totals around 17. Given the genuine ambiguity, I'll commit to the count of clearly distinguishable peaks. Tracing the cleanest full-line image, the most defensible distinct-peak total is **17**.
+
+Let me do one final verification trace to lock the number, counting distinct peaks conservatively (merging micro-wiggles, splitting only clear V-separated peaks).
+
+Final trace on clean_line:
+- Dotted: 3 (1902, 1916, 1925)
+- 1930 solid pre-plunge: 1 → 4
+- Recovery M-left, M-right, 1941: 3 → 7
+- 1948, 1951: 2 → 9
+- 1955, 1959, 1965, 1969, 1973, 1979, 1984, ~1988: 8 → 17
+
+That gives 17 clearly distinguishable local maxima on the line plot.
+
+The page has one line plot (the saving-ratio graph); the scatter+trendline exhibit is not a line plot. My definitive count of distinct local maxima on the line plot is 17.
+
+<FINAL_ANSWER>17</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

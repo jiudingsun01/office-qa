@@ -1,0 +1,10 @@
+=== rc=0 elapsed=49.7s ===
+=== stdout (406 chars) ===
+The duration that ties the earlier observed price (FY1953, the position "observed" first) to a constant continuous yield is 21.1833. Using P53 = e^(-y·D) with y = ln(P54/P53) gives D = -ln(4187)/0.39369 = 21.1833.
+
+FY1953 total operating balance = 4187, FY1954 = 6207 (millions). Implied yield y = ln(6207/4187) = 0.393693. Macaulay duration D = -ln(P53)/y = 21.1833.
+
+<FINAL_ANSWER>21.1833</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

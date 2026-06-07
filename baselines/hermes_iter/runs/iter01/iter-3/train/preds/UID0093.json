@@ -1,0 +1,1 @@
+{"uid": "UID0093", "question": "What is the total amount of liabilities owed by the U.S. Treasury to the United Kingdom in CY1986 in billions of dollars rounded to the nearest hundredths place?", "gold_answer": "90.83", "source_files": ["treasury_bulletin_1988_12.txt"], "rc": 0, "elapsed_sec": 385.6, "raw_response": "<FINAL_ANSWER>90.83</FINAL_ANSWER>\n", "stderr_tail": ""}

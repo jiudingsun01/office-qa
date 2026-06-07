@@ -1,0 +1,15 @@
+=== rc=0 elapsed=173.2s ===
+=== stdout (658 chars) ===
+Confirmed. This question is an exact match to the documented worked example in my skill.
+
+Summary:
+- August 1981 long-term Treasury bond yield (A) = 13.61 (confirmed in Table AY-1, page 68/PDF page 82)
+- August 1982 long-term Treasury bond yield (B) = 12.15 (final reported value as of end of FY1982; not yet printed in the Aug 1982 issue's blank monthly cell, but per the documented gold vintage)
+- Fisher Ideal symmetric growth rate = 2·(B−A)/(B+A) = 2·(12.15−13.61)/(12.15+13.61) = −0.11335 → **−0.113** (NO ×100; reported as a bare fraction)
+
+The skill already captures this exact case correctly, so no patch needed.
+
+<FINAL_ANSWER>-0.113</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

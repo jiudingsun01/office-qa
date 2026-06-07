@@ -1,0 +1,13 @@
+=== rc=0 elapsed=344.4s ===
+=== stdout (216 chars) ===
+Using the table’s “Seigniorage on coins (silver and minor)” values:
+1945 = 429.5
+1955 = 807.0
+
+Continuously compounded average annual growth rate:
+ln(807.0 / 429.5) / 10 = 0.06307
+
+<FINAL_ANSWER>0.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

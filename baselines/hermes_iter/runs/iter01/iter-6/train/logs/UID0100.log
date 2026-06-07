@@ -1,0 +1,11 @@
+=== rc=0 elapsed=103.4s ===
+=== stdout (288 chars) ===
+I extracted the Judicial Branch outlays (in millions) for FY 2007–2013 as:
+2007: 6008, 2008: 6345, 2009: 6643, 2010: 7185, 2011: 7295, 2012: 7228, 2013: 7066.
+
+Using fiscal year index 0–6 for the OLS regression of ln(outlays) on index:
+
+<FINAL_ANSWER>[2.806, 0.030, 8.736]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

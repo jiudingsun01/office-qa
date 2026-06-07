@@ -1,0 +1,10 @@
+=== rc=0 elapsed=31.5s ===
+=== stdout (166 chars) ===
+Continuously compounded average annual growth rate:
+
+r = ln(807.0 / 429.5) / 10 = ln(1.8789) / 10 = 0.6307 / 10 = 0.06307 → 0.063
+
+<FINAL_ANSWER>0.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

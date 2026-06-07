@@ -1,0 +1,12 @@
+=== rc=0 elapsed=64.6s ===
+=== stdout (636 chars) ===
+Both methods agree: with 9 returns, the worst 5% tail contains a single observation (the worst return), so the Expected Shortfall at 95% equals the worst return = -0.1851, or -18.51%.
+
+The question asks for the "expected shortfall... for the reported yield percentage values" rounded to the nearest hundredth. Expressed as a percentage, that's -18.51.
+
+Let me also consider whether they want it as a decimal vs percent. The values are yields in percent; "historical portfolio return approach" computes returns. The standard expression for ES rounded to nearest hundredth as a percentage is -18.51%.
+
+<FINAL_ANSWER>-18.51</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

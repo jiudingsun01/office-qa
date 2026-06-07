@@ -1,0 +1,12 @@
+=== rc=0 elapsed=193.0s ===
+=== stdout (184 chars) ===
+Using the Total public marketable securities values:
+1948: 164,945
+1958: 164,727
+
+ln(164945 / 164727) = 0.0013225, rounded to four decimal places.
+
+<FINAL_ANSWER>0.0013</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

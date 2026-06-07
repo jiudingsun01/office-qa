@@ -1,0 +1,16 @@
+=== rc=0 elapsed=250.1s ===
+=== stdout (344 chars) ===
+Using the “Total outstanding” column for Total marketable plus Total nonmarketable:
+
+1950: 154764 + 66771 = 221535
+1951: 151625 + 67824 = 219449
+1952: 142701 + 79075 = 221776
+
+GBP per USD for 1950–1952: 1 / 2.80 = 0.357142857
+
+Combined: (221535 + 219449 + 221776) × 0.357142857 / 1000 = 236.7 billion pounds
+
+<FINAL_ANSWER>236.7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,20 @@
+=== rc=0 elapsed=29.2s ===
+=== stdout (441 chars) ===
+I have the calendar-year Sales figures for all series combined:
+- 1949: 5833
+- 1950: 6074
+- 1951: 3961
+- 1952: 4161
+- 1953: 4800
+
+Sum = 5833 + 6074 + 3961 + 4161 + 4800 = 24829. Mean = 24829 / 5 = 4965.8
+
+This matches the skill's worked example exactly.
+
+The calendar-year (not fiscal-year) Sales column for all series combined, 1949–1953:
+5833 + 6074 + 3961 + 4161 + 4800 = 24829; ÷ 5 = 4965.8 million.
+
+<FINAL_ANSWER>4965.8</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

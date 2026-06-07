@@ -1,0 +1,20 @@
+=== rc=0 elapsed=41.0s ===
+=== stdout (804 chars) ===
+I found the relevant section (line 275-279). Let me verify the calculation.
+
+From the text:
+- **Total tenders submitted** for the 2-year notes (Series U-1984, due July 31, 1984): **$10,102 million** = $10,102,000,000
+- The foreign noncash rollover line: "$478 million at the average price from Federal Reserve banks as agents for foreign and international monetary authorities **in exchange for maturing securities**" — this is the noncash rollover accepted on behalf of foreign investors.
+
+Percent = 478 / 10,102 × 100 = 4.7317... ≈ 4.73%
+
+This confirms the skill's PASSED answer exactly.
+
+The total bids submitted = $10,102 million = 10,102,000,000 nominal dollars.
+Foreign noncash rollover accepted = $478 million.
+Percent = 478/10,102 × 100 = 4.73%.
+
+<FINAL_ANSWER>[10102000000, 4.73]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=69.3s ===
+=== stdout (603 chars) ===
+The phrasing "single percentage point difference" suggests the aggregate share: total American vessels tonnage over total grand total across the three months = 34.4%.
+
+Pearson correlation between American vessels [1186, 1317, 1439] and grand total [3839, 3636, 3981] = 0.391.
+
+Both values contain decimal points → MODE A delimiter (bare comma, no space) per the format and my memory.
+
+Grand total: Jan=3839, Feb=3636, Mar=3981; American: 1186, 1317, 1439. Aggregate American share = (1186+1317+1439)/(3839+3636+3981) = 3942/11456 = 34.4%. Correlation = 0.391.
+
+<FINAL_ANSWER>[34.4,0.391]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

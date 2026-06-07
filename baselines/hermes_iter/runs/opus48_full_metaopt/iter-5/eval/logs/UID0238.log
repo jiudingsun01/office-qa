@@ -1,0 +1,18 @@
+=== rc=0 elapsed=31.2s ===
+=== stdout (1238 chars) ===
+This is the PDO-1 table. The question asks for the total amount of nominal maturities with final maturity date in CY 1982. 
+
+The question phrase "not 52-week treasury bills" matches the table title itself ("Other than Regular Weekly and 52-Week Treasury Bills"). The word "nominal" distinguishes from TIPS/inflation-indexed (but in 1982 there were none, so all are nominal).
+
+I need the total for the year 1982. Looking at the table, the 1982 group's "Total" row is at line 2124: `Total......... | ...... | 80686 | 12473 | 68213`. The Total column (first amount) is **80686**.
+
+Let me verify this is the year-1982 total. The year header "1982" is on line 2101, and the entries run through line 2123, with the Total row on line 2124 showing 80686. The next year "1983" header is on line 2125. This confirms 80686 is the CY 1982 total.
+
+The question asks for "total amount of nominal maturities" — the "Total" column (which equals held by US Govt + all other investors). So the answer is 80686.
+
+Let me double-check there's no separate "nominal" subtlety. In 1982 there were no inflation-indexed securities (TIPS began 1997), so all securities are nominal. The total maturing in CY 1982 = 80686 million.
+
+<FINAL_ANSWER>80686</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

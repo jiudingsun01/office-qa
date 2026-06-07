@@ -1,0 +1,13 @@
+=== rc=0 elapsed=188.0s ===
+=== stdout (281 chars) ===
+Using CPI-U (NSA) to convert each June/September nominal value to March 2003 dollars, I computed:
+
+June adjusted FX-and-securities share: 41.290%
+September adjusted FX-and-securities share: 42.272%
+
+Absolute difference: 0.981 percentage points.
+
+<FINAL_ANSWER>0.981</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

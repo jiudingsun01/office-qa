@@ -1,0 +1,8 @@
+=== rc=0 elapsed=298.4s ===
+=== stdout (143 chars) ===
+Extracted the relevant Budget Receipts and Expenditures tables and computed the mean of the three ratios.
+
+<FINAL_ANSWER>0.4421</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

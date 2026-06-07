@@ -1,0 +1,21 @@
+=== rc=0 elapsed=327.6s ===
+=== stdout (325 chars) ===
+For Jan. 31 Treasury Ownership Survey TABs:
+
+1962 Mar. TAB row:
+- Commercial banks: 856 > 500
+- Corporations: 1,191 > 500
+- Other listed categories were <= 500
+Count: 2
+
+1963 Mar. TAB row:
+- Corporations: 1,317 > 500
+- Other listed categories were <= 500
+Count: 1
+
+Sum across 1962 and 1963: 3
+
+<FINAL_ANSWER>3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

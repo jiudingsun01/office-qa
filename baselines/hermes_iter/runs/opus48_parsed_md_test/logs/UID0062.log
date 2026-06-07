@@ -1,0 +1,14 @@
+=== rc=0 elapsed=28.8s ===
+=== stdout (370 chars) ===
+This is the correct table. In the 1948_04 bulletin, there is no separate Air Force column — Air Force expenditures were still charged to Army appropriations (footnote 12 confirms expenditures from prior year appropriations are included under Army).
+
+Department of the Army:
+- FY 1940: 667
+- FY 1947: 7425
+
+Increase = 7425 − 667 = 6758
+
+<FINAL_ANSWER>6758</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

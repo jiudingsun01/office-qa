@@ -1,0 +1,8 @@
+=== rc=0 elapsed=258.6s ===
+=== stdout (267 chars) ===
+Extracted the 3-1/2% Treasury Bond due 2/15/90 bid prices as 76-18/32, 73-30/32, 70-16/32, 76-22/32, and actual 1976 as 82-04/32. Converted historical bids to DEM using March EXGEUS rates and applied SES with alpha = 0.3.
+
+<FINAL_ANSWER>[206.06, 4.18]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

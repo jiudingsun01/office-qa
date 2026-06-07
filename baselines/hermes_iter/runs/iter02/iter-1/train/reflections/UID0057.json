@@ -1,0 +1,1 @@
+{"rc": 0, "elapsed_sec": 63.13, "skills_before": 107, "skills_after": 108, "skills_delta": 1, "verdict": "WRONG", "raw_response": "saved skill: research/treasury-bulletin-federal-debt\n\nupdated memory: OfficeQA TB debt questions should include agency securities when prompted and preserve thousands separators in final values.\n", "stderr_tail": ""}

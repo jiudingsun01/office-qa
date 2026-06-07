@@ -1,0 +1,19 @@
+=== rc=0 elapsed=255.7s ===
+=== stdout (291 chars) ===
+Using the five maturity totals:
+
+1972: 24,221
+1973: 24,292
+1974: 33,368
+1975: 31,653
+1976: 35,565
+
+Sample average = 29,819.8
+Sample standard deviation = 5,264.523
+
+1972 z-score = (24,221 - 29,819.8) / 5,264.523 = -1.063496..., rounded to three decimals.
+
+<FINAL_ANSWER>-1.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

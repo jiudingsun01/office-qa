@@ -1,0 +1,8 @@
+=== rc=0 elapsed=408.6s ===
+=== stdout (251 chars) ===
+The relevant table is Table CM-I-3, “Total Liabilities by Country,” in millions of dollars. The United Kingdom row shows 90,833 for calendar year 1986. Converted to billions and rounded to nearest hundredth: 90.83.
+
+<FINAL_ANSWER>90.83</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

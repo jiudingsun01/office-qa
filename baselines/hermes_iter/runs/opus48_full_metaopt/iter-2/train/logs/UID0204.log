@@ -1,0 +1,13 @@
+=== rc=0 elapsed=47.7s ===
+=== stdout (342 chars) ===
+Confirmed. Both values are as reported in the text:
+
+- September 2010 Bulletin (MSR estimate / projection for FY2010 deficit): $1.47 trillion (line 321)
+- September 2011 Bulletin (actual FY2010 deficit): $1.3 trillion → $1.30 trillion (line 305)
+
+Absolute difference: |1.47 − 1.30| = 0.17 trillion dollars.
+
+<FINAL_ANSWER>0.17</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

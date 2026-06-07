@@ -1,0 +1,10 @@
+=== rc=0 elapsed=60.9s ===
+=== stdout (384 chars) ===
+The weighted average denomination = total value / total number of bills = $987,708,827,824 / 30,202,172,786 bills ≈ $32.703.
+
+The bureau merged with Public Debt Bureau was the Financial Management Service (FMS), confirmed as the source. Using its June 30, 2011 USCC report, the weighted average denomination of currency in circulation is $32.703.
+
+<FINAL_ANSWER>32.703</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

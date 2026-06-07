@@ -1,0 +1,11 @@
+=== rc=0 elapsed=32.1s ===
+=== stdout (250 chars) ===
+Total assets dropped from 218,901,423 (June 30, 2022) to 208,360,809 (Sept 30, 2022).
+
+QoQ % change = (208,360,809 − 218,901,423) / 218,901,423 × 100 = −4.8152%
+Absolute value rounded to nearest thousandth = 4.815
+
+<FINAL_ANSWER>4.815</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=186.4s ===
+=== stdout (238 chars) ===
+I read Table CM-I-3 (“Total Liabilities by Country”) near the hinted page. The United Kingdom row shows 90,833 million dollars for calendar year 1986, which is 90.833 billion dollars, rounded to 90.83.
+
+<FINAL_ANSWER>90.83</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

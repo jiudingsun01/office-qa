@@ -1,0 +1,8 @@
+=== rc=0 elapsed=87.4s ===
+=== stdout (205 chars) ===
+Used the 26-week rates for issues dated September 1 and September 8, 1960: 2.825 and 2.801. Annualized realized volatility = sqrt(52 * (ln(2.801/2.825))^2) * 100 = 6.15.
+
+<FINAL_ANSWER>6.15</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

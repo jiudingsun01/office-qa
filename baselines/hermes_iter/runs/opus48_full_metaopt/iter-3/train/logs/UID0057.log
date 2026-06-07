@@ -1,0 +1,15 @@
+=== rc=0 elapsed=149.9s ===
+=== stdout (760 chars) ===
+All consistent (the 1975 off-by-1 is just rounding in the published sub-components; the Total 505483 is the authoritative printed figure). 
+
+Every figure is the "Total outstanding/Amount outstanding > Total" column = gross federal debt including agency securities (FHA-type), each read from its respective January bulletin's FD-1 Summary of Federal Debt table for that year's January month-end.
+
+Final series (Jan 1969 → Jan 1980), in millions of dollars:
+374443, 381327, 401845, 433432, 461855, 478957, 505483, 595307, 664852, 731821, 798733, 854741
+
+This is a list of integers (no decimal points) → MODE B delimiter (comma + space).
+
+<FINAL_ANSWER>374443, 381327, 401845, 433432, 461855, 478957, 505483, 595307, 664852, 731821, 798733, 854741</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

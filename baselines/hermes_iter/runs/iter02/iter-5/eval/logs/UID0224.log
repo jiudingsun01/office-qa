@@ -1,0 +1,11 @@
+=== rc=0 elapsed=63.4s ===
+=== stdout (139 chars) ===
+Extracted high-grade corporate bond yields:
+December 1942: 2.72
+December 1943: 2.63
+November 1944: 2.61
+
+<FINAL_ANSWER>2.65</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

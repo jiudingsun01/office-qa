@@ -1,0 +1,12 @@
+=== rc=0 elapsed=222.0s ===
+=== stdout (253 chars) ===
+I extracted the matching 2-3/8% TIPS rows in the Jan 1–Aug 1, 2007 window and used the adjusted equivalent prices:
+
+99.342280, 99.213485, 101.434007, 99.570169
+
+Population standard deviation rounded to 6 decimals:
+
+<FINAL_ANSWER>0.900544</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

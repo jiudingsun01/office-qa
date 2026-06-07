@@ -1,0 +1,14 @@
+=== rc=0 elapsed=69.6s ===
+=== stdout (432 chars) ===
+Both data points confirmed from the source tables:
+
+- Dec 1938 (treasury_bulletin_1939_12.md, line 851): Total balance = 3083, Working balance = 2449 → ratio = 0.79436
+- Dec 1940 (treasury_bulletin_1941_01.md, line 815): Total balance = 1928, Working balance = 1188 → ratio = 0.61618
+
+Geometric annual rate over n=2 years (Dec 1938 → Dec 1940):
+(0.61618 / 0.79436)^(1/2) − 1 = −0.11926 → −0.119
+
+<FINAL_ANSWER>-0.119</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

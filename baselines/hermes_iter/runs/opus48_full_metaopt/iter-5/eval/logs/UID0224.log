@@ -1,0 +1,18 @@
+=== rc=0 elapsed=30.7s ===
+=== stdout (670 chars) ===
+I have all three values. Let me extract:
+
+**December 1942** (1943_01 bulletin, line 3497): 1942 column, Dec. → High-grade corporate bonds = **2.72**
+
+**December 1943** (1944_01 bulletin, line 3305): 1943 column, Dec. → High-grade corporate bonds = **2.63**
+
+**November 1944** (1945_01 bulletin, line 4049): 1944 column, Nov. → High-grade corporate bonds = **2.61**
+
+Let me verify the November 1944 value via the weekly series too — the question asks for the monthly average yield, which is 2.61 (line 4049). The 1944_01 bulletin also has Dec 1943 = 2.63 confirmed.
+
+Average = (2.72 + 2.63 + 2.61) / 3 = 7.96 / 3 = 2.6533... → **2.65**
+
+<FINAL_ANSWER>2.65</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

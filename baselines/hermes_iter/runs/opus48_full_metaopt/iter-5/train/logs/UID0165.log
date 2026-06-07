@@ -1,0 +1,18 @@
+=== rc=0 elapsed=140.9s ===
+=== stdout (690 chars) ===
+Now I'll settle the methodology. The standard parametric VaR convention for these portfolio-loss questions: simple returns, sample standard deviation (n-1), z = 2.326 for 99%, applied to the current/most-recent portfolio value (end of March 2004 = 280.8). This gives the "loss exceeded with 1% probability."
+
+The simple/sample variant = **5437 billion JPY**.
+
+This uses:
+- Returns: simple year-over-year returns of the mutual-funds holdings series
+- μ = 6.398%, sample σ = 10.42%
+- 1% quantile return = μ − 2.326σ = −17.84%
+- Portfolio value V = 280.8 B USD (end Mar 2004)
+- VaR loss = 50.10 B USD
+- × FX 108.5157 JPY/USD = 5437.05 → **5437 billion JPY**
+
+<FINAL_ANSWER>5437</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

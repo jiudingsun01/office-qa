@@ -1,0 +1,11 @@
+=== rc=0 elapsed=40.1s ===
+=== stdout (204 chars) ===
+For 03/16/2016:
+Japanese yen: -74 billion yen / 114 = -649.12 million USD
+Pound sterling: 369 million pounds * 1.41 = 520.29 million USD
+Absolute difference: 1169.41
+
+<FINAL_ANSWER>1169.41</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

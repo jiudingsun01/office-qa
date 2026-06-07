@@ -1,0 +1,8 @@
+=== rc=0 elapsed=353.2s ===
+=== stdout (178 chars) ===
+The MY-2 “New Aa corporate bonds” series ends at December 2002 in the source table; no January 2003 actual value is available for that series.
+
+<FINAL_ANSWER>n.a.</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

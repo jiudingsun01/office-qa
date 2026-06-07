@@ -1,0 +1,14 @@
+=== rc=0 elapsed=758.2s ===
+=== stdout (448 chars) ===
+Calculation complete.
+
+Summary:
+- Source: Treasury Bulletin (June 2025), Table ESF-1 (Exchange Stabilization Fund Balance Sheet), "Foreign exchange and securities" section. The amounts are in thousands of dollars.
+- Japanese yen as of March 31, 2025 = 6,242,420 thousand = $6,242,420,000
+- Macrotrends USD/JPY rate for 2025-03-31 = 149.918 yen per dollar
+- Yen = 6,242,420,000 × 149.918 = 935,851,121,560
+
+<FINAL_ANSWER>935851121560</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

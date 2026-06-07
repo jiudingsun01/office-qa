@@ -1,0 +1,13 @@
+=== rc=0 elapsed=35.2s ===
+=== stdout (408 chars) ===
+Both values come from Table CM-I-1 "Total Liabilities by Type and Holder" (Liabilities to Foreigners Reported by Banks in the U.S.), "Total liabilities to all foreigners" row, Calendar Year column.
+
+- End of 2002: 2,066,131 (from the 2004_09 bulletin)
+- End of 2012: 4,526,138 (from the 2013_12 bulletin)
+
+Logarithmic growth = ln(4,526,138 / 2,066,131) = 0.78419 ≈ 78.42%
+
+<FINAL_ANSWER>78.42</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

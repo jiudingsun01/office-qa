@@ -1,0 +1,10 @@
+=== rc=0 elapsed=41.0s ===
+=== stdout (318 chars) ===
+N = 80 months (matches the inclusive span count), all raw level values in millions of dollars. Plain geometric mean = 4957.21.
+
+The geometric mean of the monthly budget expenditures from March 1942 to October 1948 inclusive (80 values, in millions of nominal dollars) is 4957.21.
+
+<FINAL_ANSWER>4957.21</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

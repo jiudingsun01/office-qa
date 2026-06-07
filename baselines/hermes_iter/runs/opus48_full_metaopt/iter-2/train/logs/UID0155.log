@@ -1,0 +1,10 @@
+=== rc=0 elapsed=45.5s ===
+=== stdout (182 chars) ===
+Geometric mean across the 16 values = 29347.01.
+
+The answer is a value WITH a decimal point, so per MODE A formatting it's just a bare number.
+
+<FINAL_ANSWER>29347.01</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

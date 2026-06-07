@@ -1,0 +1,11 @@
+=== rc=0 elapsed=68.7s ===
+=== stdout (211 chars) ===
+Using Table FD-1 “Summary of Federal Debt”:
+2000 total amount outstanding: 5,701,851
+2005 total amount outstanding: 7,956,346
+Ratio: 5,701,851 / 7,956,346 = 0.7166419 → 0.717
+
+<FINAL_ANSWER>0.717</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

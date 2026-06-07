@@ -1,0 +1,29 @@
+=== rc=0 elapsed=67.3s ===
+=== stdout (1577 chars) ===
+Now I can see the layout clearly. The table reads in two columns (left block first, then right block continues). The years run sequentially:
+
+Left block top: 1982 → ends with "Total 80,686", then 1983 (108,127), 1984 (60,674), 1985, 1986, 1987...
+
+Right block top: continues with the May 15 / Nov 15 rows which are the TAIL of 1982 (these are the last two 1982 entries), then "Total 14,534" which is... wait. Let me look more carefully.
+
+The right block top shows:
+- May 15.... 12⅜-C Note 2/15/80 2,472
+- Nov 15.... 7⅝-A Note 11/15/77 2,387
+- Total......... 14,534
+
+Then 1988 starts. This "Total 14,534" — what year does it belong to? The rows above it (May 15, Nov 15) are part of some year. Given the right block flows after the left block ends (1987 at bottom of left), the right block should start with continuation of 1987.
+
+The left block bottom shows 1987 with only two entries (Feb 15 9⅜-8 6,238; Feb 15 12¾-D 3,437) and NO total. So the right block top (May 15 2,472, Nov 15 2,387, Total 14,534) is the CONTINUATION of 1987, not 1982.
+
+So the 1982 maturities are ENTIRELY in the left block, ending at "Total 80,686".
+
+The question asks for "total amount of nominal maturities" with date of final maturity in CY 1982 = the **Total** column for the 1982 section = **80,686**.
+
+Let me verify: 1987 total = 6,238 + 3,437 + 2,472 + 2,387 = 14,534. ✓ This confirms the right-block top belongs to 1987, not 1982.
+
+The question wants the "Total" amount (nominal maturities = the Total column, all investors). The 1982 Total line is 80,686.
+
+<FINAL_ANSWER>80686</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

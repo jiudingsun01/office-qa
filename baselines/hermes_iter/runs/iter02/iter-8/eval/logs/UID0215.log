@@ -1,0 +1,15 @@
+=== rc=0 elapsed=158.4s ===
+=== stdout (354 chars) ===
+Using the Q4 accepted tender amounts for 2-year Treasury notes:
+
+1987: 9255, 9269, 9286 → average 9270.0
+1988: 9014, 9027, 9030 → average 9023.67
+1989: 10039, 10021, 10014 → average 10024.67
+1990: 12107, 12347, 12515 → average 12323.0
+
+The best-fit linear trend slope across 1987–1990 is 1016 million dollars per year.
+
+<FINAL_ANSWER>1016</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

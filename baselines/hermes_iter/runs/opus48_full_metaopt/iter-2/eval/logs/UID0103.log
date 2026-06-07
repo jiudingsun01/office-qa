@@ -1,0 +1,10 @@
+=== rc=0 elapsed=53.6s ===
+=== stdout (312 chars) ===
+Both values computed cleanly with n=25 (1942-1966 inclusive). Correlation = 0.997, partial correlation controlling for time = 0.977.
+
+These are decimal values (rates/ratios with a decimal point), so per MODE A formatting: bare comma, no space, inside square brackets.
+
+<FINAL_ANSWER>[0.997,0.977]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

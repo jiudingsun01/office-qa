@@ -1,0 +1,12 @@
+=== rc=0 elapsed=60.8s ===
+=== stdout (281 chars) ===
+The redemption rate (Total Redemptions / average amount outstanding):
+- 1980: 71 / ((352+300)/2) = 71/326 = 21.78%
+- 1981: 51 / ((300+269)/2) = 51/284.5 = 17.93%
+
+Relative difference in percentage points = 21.78 - 17.93 = 3.85 percentage points.
+
+<FINAL_ANSWER>3.85</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

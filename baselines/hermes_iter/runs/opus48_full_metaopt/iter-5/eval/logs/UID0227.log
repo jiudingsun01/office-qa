@@ -1,0 +1,10 @@
+=== rc=0 elapsed=35.1s ===
+=== stdout (444 chars) ===
+The "Amount outstanding > Interest-bearing debt" column gives the standard outstanding figure. The three Q3 1982 months (July, Aug, Sept) = 67132, 67148, 67274. Average ≈ 67184.67, rounds to 67185.
+
+The question phrasing "United States sales and redemptions outstanding" maps to the United States Savings Bonds "Sales and Redemptions by Periods" table (SB-2, All Series Combined), Amount outstanding column.
+
+<FINAL_ANSWER>67185</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,11 @@
+=== rc=0 elapsed=299.7s ===
+=== stdout (201 chars) ===
+I interpreted “Treasury TABs” as Treasury tax anticipation bills. The categories over 500 million were:
+
+1962: commercial banks, corporations = 2
+1963: corporations = 1
+
+<FINAL_ANSWER>3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

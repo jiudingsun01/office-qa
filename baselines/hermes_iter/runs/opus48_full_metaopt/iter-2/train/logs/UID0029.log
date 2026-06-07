@@ -1,0 +1,12 @@
+=== rc=0 elapsed=231.7s ===
+=== stdout (371 chars) ===
+All values match my visual reads from the PDF across all 4 panels. 120 months (10 years × 12). The spread = Aa corporate − Treasury for each month, averaged.
+
+Average spread = 0.88525.
+
+The answer is a decimal value, so per my memory MODE A formatting applies — single value, no delimiter issue here. 5 significant digits = 0.88525.
+
+<FINAL_ANSWER>0.88525</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

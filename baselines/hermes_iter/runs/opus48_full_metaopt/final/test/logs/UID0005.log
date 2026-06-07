@@ -1,0 +1,16 @@
+=== rc=0 elapsed=217.4s ===
+=== stdout (657 chars) ===
+Computation summary:
+
+1940 monthly national-defense expenditures (from "Budget Expenditures Classified as General, by Major Functions", National defense column): 132, 129, 143, 159, 154, 153, 177, 200, 219, 287, 376, 473 → sum = 2,602 (millions).
+
+1953 monthly "National defense and related activities" (1954_02 Table 2): 3632, 3501, 3789, 3891, 3746, 4056, 3890, 3519, 3787, 3647, 3540, 3465 → sum = 44,463 (millions).
+
+Inflation correction to 1953 dollars using Minneapolis Fed annual-average CPI-U (1982-84=100): 1940 = 14.0, 1953 = 26.7.
+- real_1940 = 2602 × 26.7/14.0 = 4,962.39
+- |44,463 − 4,962.39| = 39,500.61
+
+<FINAL_ANSWER>39500.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

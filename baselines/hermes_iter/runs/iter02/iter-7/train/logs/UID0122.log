@@ -1,0 +1,15 @@
+=== rc=0 elapsed=105.3s ===
+=== stdout (415 chars) ===
+I computed each date’s share as:
+
+(European euro + Japanese yen) / Total assets
+
+Then averaged the three June shares and the three September shares. CPI adjustment cancels within each date’s share because numerator and denominator are adjusted by the same factor.
+
+Absolute difference between the two average shares:
+0.952882893 percentage points, rounded to nearest thousandth.
+
+<FINAL_ANSWER>0.953</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

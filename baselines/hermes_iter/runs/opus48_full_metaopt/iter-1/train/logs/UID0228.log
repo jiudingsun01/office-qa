@@ -1,0 +1,10 @@
+=== rc=0 elapsed=87.3s ===
+=== stdout (462 chars) ===
+Both receipts values come straight from Table 3 ("Equals: Federal receipts from the public"): January 1956 = 4,964 and February 1956 = 7,140 (millions of nominal dollars), summing to 12,104 million USD.
+
+The Treasury Bulletin carries no USD/INR rate table, so the 1956 yearly-average USD/INR rate is the historical pegged rate of 4.7619 INR per USD, which rounds to 4.76. Converting: 12,104 × 4.76 = 57,615.04 million INR.
+
+<FINAL_ANSWER>57615.04</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

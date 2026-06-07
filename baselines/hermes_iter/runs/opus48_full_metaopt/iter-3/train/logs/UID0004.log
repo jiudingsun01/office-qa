@@ -1,0 +1,15 @@
+=== rc=0 elapsed=50.3s ===
+=== stdout (631 chars) ===
+My 1953 sum (44463) matches the bulletin's reported calendar-year defense total (44465) within rounding (the 2-unit difference is from "r" revisions in monthly figures — the printed Cal.yr uses the revised totals). This confirms I'm reading the correct column.
+
+The question asks for the absolute percent change between the two years' total sum values:
+- 1940 defense sum = 2602
+- 1953 defense sum = 44463
+- |44463 − 2602| / 2602 × 100 = 1608.80%
+
+Both values contain no decimal in the raw data, but the answer is a percent with two decimal places. Per the format, output as a percent value.
+
+<FINAL_ANSWER>1608.80%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

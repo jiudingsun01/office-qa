@@ -1,0 +1,12 @@
+=== rc=0 elapsed=225.3s ===
+=== stdout (168 chars) ===
+Extracted paired values used:
+Dec 1975: 12,060; 10,371
+Mar 1976: 2,246; 10,724
+June 1976: 16,408; 11,175
+Sept 1976: 13,327; 10,806
+
+<FINAL_ANSWER>0.3719</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

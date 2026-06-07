@@ -1,0 +1,14 @@
+=== rc=0 elapsed=40.7s ===
+=== stdout (251 chars) ===
+Using New York total internal revenue receipts:
+2010: 200,209,720
+2015: 269,716,999
+2024 actual: 384,447,300
+
+Projected 2024 from 2010–2015 CAGR: 461,179,514.69
+Percentage difference relative to actual 2024: 19.96%
+
+<FINAL_ANSWER>19.96</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

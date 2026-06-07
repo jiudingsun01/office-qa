@@ -1,0 +1,10 @@
+=== rc=0 elapsed=61.1s ===
+=== stdout (325 chars) ===
+The count checks out: March 1942 to October 1948 inclusive is 80 months (10 + 12×5 + 10 = 80). The values come directly from Table 6 "Budget expenditures" sub-block for calendar years 1940-1949.
+
+The geometric mean of the 80 monthly budget expenditure values is 4957.21 million dollars.
+
+<FINAL_ANSWER>4957.21</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

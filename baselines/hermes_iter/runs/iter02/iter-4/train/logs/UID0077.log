@@ -1,0 +1,20 @@
+=== rc=0 elapsed=126.0s ===
+=== stdout (362 chars) ===
+Using the monthly CY totals from FFO-2:
+
+CY2010:
+Net individual income taxes = 946,838
+Total budget receipts = 2,205,766
+Contribution = 42.9256%
+
+CY2011:
+Net individual income taxes = 1,105,822
+Total budget receipts = 2,326,137
+Contribution = 47.5390%
+
+Change = 47.5390 - 42.9256 = 4.6134, rounded to nearest hundredths = 4.61
+
+<FINAL_ANSWER>4.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

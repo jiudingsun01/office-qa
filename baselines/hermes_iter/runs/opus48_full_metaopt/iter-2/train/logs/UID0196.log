@@ -1,0 +1,15 @@
+=== rc=0 elapsed=43.3s ===
+=== stdout (434 chars) ===
+The calculation:
+- May 1979 Federal Reserve notes: 103,774 (nominal)
+- June 1979 Federal Reserve notes: 104,779 (nominal)
+- CPI-U May 1979 = 68.3, June 1979 = 69.2
+- May value in June 1979 real dollars: 103,774 × (69.2/68.3) = 105,141.45
+- Month-over-month change: 104,779 − 105,141.45 = −362.45
+
+The answer is a decimal value, so per my delimiter rule it's a single value rounded to hundredths.
+
+<FINAL_ANSWER>-362.45</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

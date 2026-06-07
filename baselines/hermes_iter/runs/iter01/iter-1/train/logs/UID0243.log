@@ -1,0 +1,18 @@
+=== rc=0 elapsed=107.7s ===
+=== stdout (307 chars) ===
+Using Table FD-1 “Summary of Federal Debt,” I used public debt securities outstanding:
+1960 = 286331
+1961 = 288971
+
+BLS CPI-U annual averages:
+1960 = 29.6
+1961 = 29.9
+1962 = 30.2
+
+Absolute difference in 1962 dollars:
+|288971 × 30.2/29.9 - 286331 × 30.2/29.6| = 264.632
+
+<FINAL_ANSWER>264.632</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

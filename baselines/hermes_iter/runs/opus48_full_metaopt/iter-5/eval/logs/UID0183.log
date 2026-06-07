@@ -1,0 +1,14 @@
+=== rc=0 elapsed=67.9s ===
+=== stdout (558 chars) ===
+The ratio of 1965/1964 = 1.0 (both pegged at 4.7619). The ratio of 1966/1965 ≈ 1.3365 using the standard annual-average rate of 6.3641. The absolute difference is 0.3365.
+
+Confirmed:
+- Base value (cancels): 209,344 USD-millions = total outstanding public marketable interest-bearing securities, Treasury Survey of Ownership, January 31, 1964.
+- INR rates (annual average, INR per USD): 1964 = 4.7619, 1965 = 4.7619, 1966 = 6.3641.
+- ratio₁ (1965/1964) = 1.0000; ratio₂ (1966/1965) = 1.3365.
+- |1.3365 − 1.0000| = 0.3365.
+
+<FINAL_ANSWER>0.3365</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

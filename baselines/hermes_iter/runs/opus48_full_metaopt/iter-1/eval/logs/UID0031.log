@@ -1,0 +1,16 @@
+=== rc=0 elapsed=57.2s ===
+=== stdout (572 chars) ===
+I can now see Chart TF-G clearly. The solid line is Receipts, the dashed line is Outlays.
+
+Looking at the chart:
+- 1987-1989: Receipts (solid) clearly above Outlays (dashed)
+- 1989-1990: Receipts dip sharply down to ~15.1 while Outlays continue rising to ~15.3
+- Around 1990: the lines cross, and the dashed Outlays line is slightly ABOVE the solid Receipts line
+- 1991: Receipts rise sharply back above Outlays
+
+The point where Outlays exceeds Receipts is around 1990, where the solid Receipts line drops below the dashed Outlays line.
+
+<FINAL_ANSWER>1990</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

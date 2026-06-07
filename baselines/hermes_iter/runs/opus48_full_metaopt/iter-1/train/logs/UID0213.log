@@ -1,0 +1,13 @@
+=== rc=0 elapsed=42.9s ===
+=== stdout (466 chars) ===
+The values:
+- Dec 1946 total balance: 7585.3M nominal → adjusted to 1947 dollars: 8255.6M (using CPI-U Dec 1946=21.5, Dec 1947=23.4)
+- Dec 1947 total balance: 8124.2M (already 1947 dollars)
+- Signed difference (1947 - 1946): 8124.2 - 8255.6 = -131.4 million
+
+The data extraction is solid (the "Balance > Total" column from each fund's exhibit). The CPI-U values 21.5 and 23.4 are the standard BLS December figures for 1946/1947.
+
+<FINAL_ANSWER>-131.4</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

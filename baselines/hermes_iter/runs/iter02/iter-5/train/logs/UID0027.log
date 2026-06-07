@@ -1,0 +1,8 @@
+=== rc=0 elapsed=156.8s ===
+=== stdout (232 chars) ===
+Using Table AY-1 from the June 1970 bulletin, the maximum monthly spread (Corporate Aa minus Treasury bonds) for 1960–1969 occurs in November 1969. Encoding per the prompt: 11 × 100 + 1969 = 3069.
+
+<FINAL_ANSWER>3069</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

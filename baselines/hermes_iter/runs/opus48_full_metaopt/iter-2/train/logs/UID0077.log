@@ -1,0 +1,13 @@
+=== rc=0 elapsed=103.8s ===
+=== stdout (393 chars) ===
+The change in percent contribution of net individual income taxes to total budget receipts:
+- CY2010: 946,838 / 2,205,765 = 42.93%
+- CY2011: 1,105,822 / 2,326,136 = 47.54%
+- Change = +4.61 percentage points
+
+This is a MODE A decimal answer (value with decimal point). The answer is a single value, so the delimiter rule doesn't apply here — just the number.
+
+<FINAL_ANSWER>4.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

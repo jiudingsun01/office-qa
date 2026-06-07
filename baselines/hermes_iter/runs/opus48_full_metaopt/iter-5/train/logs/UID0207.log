@@ -1,0 +1,8 @@
+=== rc=0 elapsed=30.9s ===
+=== stdout (98 chars) ===
+Realized variance = (ln 10.260 − ln 8.072)² = 0.0575 → 0.058.
+
+<FINAL_ANSWER>0.058</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

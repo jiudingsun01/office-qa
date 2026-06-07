@@ -1,0 +1,14 @@
+=== rc=0 elapsed=146.5s ===
+=== stdout (676 chars) ===
+Both sums use only the reported individual monthly values:
+- 1953 sum of 12 monthly National Defense totals = 44,463
+- 1940 sum of 12 monthly National defense values = 2,602
+
+Absolute percent change (base = earlier year 1940): (44463 − 2602)/2602 × 100 = 1608.80%.
+
+This matches my memory rule: relative diff uses the EARLIER year (1940) as base. The values are confirmed via native vision on clean 300dpi rasters (text layer was garbled). The 1940 column is explicitly labeled "National defense" and the 1953 table is "Expenditures for National Defense and Related Activities" — both match "national defense and associated activities."
+
+<FINAL_ANSWER>1608.80%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

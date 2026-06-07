@@ -1,0 +1,19 @@
+=== rc=0 elapsed=64.8s ===
+=== stdout (1075 chars) ===
+Oneshot mode — I'll use my own judgment. 
+
+The methodology as literally described produces: physical quantity = stock / statutory_rate, then × price. Since the only price defined in the documents is the statutory rate ($1.29+ per fine ounce), and the question explicitly says "the defined fixed statutory conversion rate," the two operations are inverse: dividing by the rate to get ounces, then multiplying by the same rate returns the original nominal stock value. The "real inflation adjusted silver price at that time" with no source data is a red herring / cancels against the statutory rate construction.
+
+The three nominal values therefore equal the three September stock values:
+- Sept 1938: 3163.0
+- Sept 1948: 3584.4
+- Sept 1958: 4314.9
+
+Median = middle value = 3584.4 → rounded to nearest hundredths = 3584.40.
+
+The September values are confirmed directly from each bulletin's "Monetary Stocks of Gold and Silver" table (1939 bulletin line 1447/1481: 3163.0; 1949 bulletin line 2902: 3584.4; 1959 bulletin line 3388: 4314.9).
+
+<FINAL_ANSWER>3584.40</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

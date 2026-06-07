@@ -1,0 +1,8 @@
+=== rc=0 elapsed=57.3s ===
+=== stdout (255 chars) ===
+The relevant Financing Operations text gives average bank discount rates of 8.072% and 10.260%. The one-step realized variance of the log rate is (ln(10.260) - ln(8.072))^2 = 0.057528..., rounded to nearest thousandth.
+
+<FINAL_ANSWER>0.058</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

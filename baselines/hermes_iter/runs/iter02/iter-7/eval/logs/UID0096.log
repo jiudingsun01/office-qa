@@ -1,0 +1,14 @@
+=== rc=0 elapsed=89.3s ===
+=== stdout (256 chars) ===
+Using total duties and taxes divided by total value of dutiable and taxable imports:
+
+FY1939: 312.095 / 820.157
+FY1940: 340.006 / 919.709
+FY1941: 385.306 / 1,011.262
+
+The centered 3-year moving average rate is 37.708%.
+
+<FINAL_ANSWER>37.708</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

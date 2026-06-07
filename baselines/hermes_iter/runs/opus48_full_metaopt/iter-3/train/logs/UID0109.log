@@ -1,0 +1,8 @@
+=== rc=0 elapsed=76.0s ===
+=== stdout (287 chars) ===
+The rank works out to exactly 9.0, giving 678077.00 — the FY2011 value (which is the 9th largest). Hazen plotting position: for the 9th sorted value, p = (9-0.5)/10 = 0.85 exactly, so the 85th percentile lands precisely on the 9th value, 678,077.
+
+<FINAL_ANSWER>678077.00</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

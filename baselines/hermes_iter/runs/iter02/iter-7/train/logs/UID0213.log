@@ -1,0 +1,16 @@
+=== rc=0 elapsed=662.8s ===
+=== stdout (272 chars) ===
+Used Unemployment Trust Fund total balances:
+1946 Dec: 7,585.3
+1947 Dec: 8,124.2
+
+Inflation adjustment to 1947 dollars using annual CPI-U:
+CPI 1946 = 19.5, CPI 1947 = 22.3
+
+Signed difference:
+8,124.2 - 7,585.3 × (22.3 / 19.5) = -550.3
+
+<FINAL_ANSWER>-550.3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=61.9s ===
+=== stdout (742 chars) ===
+I have 12 monthly values for fiscal year 1981 (Oct 1980 through Sept 1981) from Table FFO-5 "Net budget outlays" row, confirmed against the PDF.
+
+The population standard deviation = 2760.44 million dollars.
+
+The question asks "rounded to the nearest hundredths place" — note the answer format guidance in my memory is square brackets for OfficeQA, but this question's instructions specify a single value in FINAL_ANSWER tags. Since it's a single number, I'll provide it directly.
+
+The values used (millions): 55598, 48049, 56202, 59099, 53969, 54216, 57198, 54608, 55619, 58486, 53095, 53698 — these are the 12 monthly net budget outlays for FY1981 from the latest bulletin (Dec 1981), all in one table.
+
+<FINAL_ANSWER>2760.44</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

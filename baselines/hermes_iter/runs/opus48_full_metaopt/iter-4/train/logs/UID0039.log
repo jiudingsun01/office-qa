@@ -1,0 +1,10 @@
+=== rc=0 elapsed=58.7s ===
+=== stdout (499 chars) ===
+The sum of all agency-specific outlay entries for January 2003, excluding Commerce, FEMA, and Interior, and excluding the non-agency offsetting items (Employer share, Interest received by trust funds, Rents/royalties OCS, Other, and the on/off-budget totals) is 180,681 million dollars.
+
+Note: FEMA is "-" (zero/excluded anyway). The excluded non-agency items (cols 32-35) are the undistributed offsetting receipts/adjustments. Columns 1-31 are agency-specific.
+
+<FINAL_ANSWER>180681</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,21 @@
+=== rc=0 elapsed=114.3s ===
+=== stdout (388 chars) ===
+I extracted the Federal Reserve notes values from Table MS-1:
+
+May 1979: 103,774
+June 1979: 104,779
+
+Using CPI-U (not seasonally adjusted) from FRED/BLS:
+May 1979 CPI-U: 71.500
+June 1979 CPI-U: 72.300
+
+Adjusted May value in June 1979 dollars:
+103,774 × 72.300 / 71.500 = 104,935.1077
+
+Month-over-month real change:
+104,779 - 104,935.1077 = -156.1077
+
+<FINAL_ANSWER>-156.11</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

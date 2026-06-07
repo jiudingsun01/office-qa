@@ -1,0 +1,10 @@
+=== rc=0 elapsed=67.9s ===
+=== stdout (378 chars) ===
+Both index conventions give slope 0.030. The intercept differs based on whether the index starts at 0 or 1. "Fiscal year index" with values FY2007=0 (0-based) is the more standard interpretation where the index represents years-since-start. Intercept = 8.736.
+
+Final answer: YoY avg % = 2.806, slope = 0.030, intercept = 8.736.
+
+<FINAL_ANSWER>[2.806,0.030,8.736]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

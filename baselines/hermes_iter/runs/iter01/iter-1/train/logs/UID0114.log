@@ -1,0 +1,6 @@
+=== rc=0 elapsed=481.0s ===
+=== stdout (334 chars) ===
+API call failed after 3 retries: The server had an error processing your request. Sorry about that! You can retry your request, or contact us through an Azure support request at: https://go.microsoft.com/fwlink/?linkid=2213926 if you keep seeing this error. (Please include the request ID 7623c1c5-9147-46f9-8d7b-b1ff0c7115e8 in your
+
+=== stderr (0 chars) ===
+

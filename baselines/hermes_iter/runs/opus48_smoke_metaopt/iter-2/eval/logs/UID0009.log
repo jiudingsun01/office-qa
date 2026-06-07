@@ -1,0 +1,12 @@
+=== rc=0 elapsed=46.3s ===
+=== stdout (477 chars) ===
+The denomination values sum exactly to the reported total ($987,708,828,424 with the $600 fractional notes). The weighted average = total value / total number of bills.
+
+Using total value $987,708,828,424 and total bills ≈ 30,202,172,786, the weighted average ≈ 32.703.
+
+The result is essentially identical (32.703) whether or not the $600 fractional notes are included, since they're negligible. Rounded to the nearest thousandth: 32.703.
+
+<FINAL_ANSWER>32.703</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

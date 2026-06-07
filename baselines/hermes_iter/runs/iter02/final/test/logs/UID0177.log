@@ -1,0 +1,16 @@
+=== rc=0 elapsed=288.3s ===
+=== stdout (326 chars) ===
+Using the table totals:
+
+1950: 154,764 + 66,772 = 221,536 million USD
+1951: 151,625 + 67,824 = 219,449 million USD
+1952: 142,701 + 79,075 = 221,776 million USD
+
+Using GBP per USD = 1 / 2.80 = 0.357142857 for each year:
+
+Combined = 662,761 million USD × 0.357142857 = 236.700357 billion GBP
+
+<FINAL_ANSWER>236.7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

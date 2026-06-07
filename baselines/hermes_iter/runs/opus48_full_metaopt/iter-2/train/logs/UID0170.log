@@ -1,0 +1,17 @@
+=== rc=0 elapsed=42.3s ===
+=== stdout (714 chars) ===
+The HHI using fractional shares (the standard academic definition where shares are fractions summing to 1) gives 0.611, and the effective number of bank groups = 1/HHI = 1.635.
+
+The question asks for HHI "using shares based on the value of notes held" and the effective number as "the reciprocal of the HHI." The reciprocal definition (1/HHI) only equals 1.635 when HHI is in fractional form (0.611). This is the internally consistent pair.
+
+- Total notes = 1325 + 475 = 1800
+- NY share = 0.7361, Chicago share = 0.2639
+- HHI = 0.7361² + 0.2639² = 0.611
+- Effective number = 1/0.611 = 1.635
+
+Both values contain decimal points, so per MODE A I use bare comma, no space.
+
+<FINAL_ANSWER>[0.611,1.635]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,11 @@
+=== rc=0 elapsed=265.1s ===
+=== stdout (242 chars) ===
+Extracted total assets (millions) for Oct 1969–Mar 1970 as:
+6429, 7436, 6241, 7593, 7649, 7875
+
+A quadratic least-squares trend with x=1..6 projected April 1970 at x=7 as 8309.1, rounded to nearest integer.
+
+<FINAL_ANSWER>8309</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

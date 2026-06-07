@@ -1,0 +1,13 @@
+=== rc=0 elapsed=71.8s ===
+=== stdout (500 chars) ===
+The three nominal silver monetary stock values (in millions of dollars) are:
+- Sept 1938: 3163.0
+- Sept 1948: 3584.4
+- Sept 1958: 4314.9
+
+The defined fixed statutory conversion rate is the same $1.29+ per fine troy ounce that values each stock. Dividing each nominal value by that rate gives the implied physical quantity; multiplying back by that same statutory price returns the original nominal value. The median of the three is the Sept 1948 value, 3584.40.
+
+<FINAL_ANSWER>3584.40</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

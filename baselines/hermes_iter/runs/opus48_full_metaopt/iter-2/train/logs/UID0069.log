@@ -1,0 +1,8 @@
+=== rc=0 elapsed=56.0s ===
+=== stdout (255 chars) ===
+The historical Expected Shortfall at 95% confidence over these 10 observations takes the worst 5% tail. With n=10, the tail count is 10 × 0.05 = 0.5, so the single worst (lowest) observation defines the shortfall: 6.14.
+
+<FINAL_ANSWER>6.14</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,10 @@
+=== rc=0 elapsed=46.3s ===
+=== stdout (421 chars) ===
+The redemption rate for 1980 = 71/326 = 21.78%, for 1981 = 51/284.5 = 17.93%. The relative difference in percentage points is 21.78 − 17.93 = 3.85 pp.
+
+This uses the average amount outstanding = (beginning-of-year + end-of-year)/2 for each calendar year, which is the standard "average amount outstanding" interpretation. The redemption rate is total redemptions ÷ average outstanding.
+
+<FINAL_ANSWER>3.85</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

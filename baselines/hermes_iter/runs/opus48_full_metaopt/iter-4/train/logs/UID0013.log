@@ -1,0 +1,11 @@
+=== rc=0 elapsed=86.3s ===
+=== stdout (193 chars) ===
+OLS on individual income tax receipts (in billions), FY 1929–1942, with year as the untransformed predictor:
+
+slope = 0.096
+intercept = -184.143
+
+<FINAL_ANSWER>[0.096, -184.143]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

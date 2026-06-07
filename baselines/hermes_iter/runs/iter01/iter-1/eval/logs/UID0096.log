@@ -1,0 +1,15 @@
+=== rc=0 elapsed=134.3s ===
+=== stdout (257 chars) ===
+Using the bulletin tables:
+
+1939: 312.095 / 820.157 × 100 = 38.053
+1940: 340.006 / 919.709 × 100 = 36.969
+1941: 385.306 / 1,011.262 × 100 = 38.102
+
+Centered 3-year moving average:
+(38.053 + 36.969 + 38.102) / 3 = 37.708
+
+<FINAL_ANSWER>37.708</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

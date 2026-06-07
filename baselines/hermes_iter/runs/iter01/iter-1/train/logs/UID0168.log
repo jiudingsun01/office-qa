@@ -1,0 +1,8 @@
+=== rc=0 elapsed=757.7s ===
+=== stdout (242 chars) ===
+Extracted monthly grand totals: May 25,678; June 16,506; July 44,850; August 264,156. Quadratic projection for September (t=5) = 559,339.5. Germany invaded Poland on September 1, so divide by 1 and round.
+
+<FINAL_ANSWER>559340</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

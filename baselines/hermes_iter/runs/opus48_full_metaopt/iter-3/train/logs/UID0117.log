@@ -1,0 +1,10 @@
+=== rc=0 elapsed=86.3s ===
+=== stdout (416 chars) ===
+The 1972 maturity total (24,221) is below the 5-year mean (29,819.8), at z = -1.063 sample standard deviations.
+
+All five values were taken from the first/nearest calendar-year "Total" group in each respective February bulletin's maturity schedule (Table PDO-1), matching the established convention. The answer is a decimal value, so I use bare comma format (single value here).
+
+<FINAL_ANSWER>-1.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

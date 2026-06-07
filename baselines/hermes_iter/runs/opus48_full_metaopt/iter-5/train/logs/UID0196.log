@@ -1,0 +1,11 @@
+=== rc=0 elapsed=38.8s ===
+=== stdout (262 chars) ===
+Let me verify the CPI-U values. May 1979 = 68.5, June 1979 = 69.0 (1982-84=100, NSA). These are the standard BLS values.
+
+real_May value in June dollars = 103774 × (69.0/68.5) = 104531.47
+Change = 104779 − 104531.47 = 247.53
+
+<FINAL_ANSWER>247.53</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

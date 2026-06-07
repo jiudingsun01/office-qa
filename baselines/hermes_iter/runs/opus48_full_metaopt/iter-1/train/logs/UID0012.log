@@ -1,0 +1,15 @@
+=== rc=0 elapsed=76.8s ===
+=== stdout (621 chars) ===
+This is the function table — "Total major national security" for FY1955 = 42,089, but that's a function, not a department.
+
+The question explicitly asks about the highest spending **Department**, so Table 2 (Expenditures by Agencies) is correct. The Defense Department is clearly the highest:
+- Defense Department FY1955 = Military functions 35,532 + Civil functions 548 = **36,080** million
+
+All other departments are far lower (Treasury ~6,432, Independent offices 6,791, Agriculture 4,636).
+
+The Defense Department total for FY1955 is 35,532 + 548 = 36,080 million nominal dollars.
+
+<FINAL_ANSWER>36080</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

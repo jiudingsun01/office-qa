@@ -1,0 +1,1 @@
+{"rc": 0, "elapsed_sec": 147.23, "skills_before": 115, "skills_after": 115, "skills_delta": 0, "verdict": "CORRECT", "raw_response": "Updated the existing trust-fund Treasury Bulletin skill with the generalizable balance/CPI workflow, and updated memory with a compact rule:\n\nTB trust funds: Gini |R−E|/(R+E); CPI bal diff=end bal×CPI_t/CPI_y signed.\n", "stderr_tail": ""}

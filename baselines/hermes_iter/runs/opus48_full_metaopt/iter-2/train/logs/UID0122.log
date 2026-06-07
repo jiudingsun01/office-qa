@@ -1,0 +1,15 @@
+=== rc=0 elapsed=77.4s ===
+=== stdout (420 chars) ===
+The CPI factors cancel within each period's ratio, so the answer is independent of CPI values. The result is robust.
+
+Computation:
+- Avg June share = (40.0318 + 41.1861 + 42.7402)/3 = 41.319%
+- Avg Sept share = (42.0626 + 42.0698 + 42.6844)/3 = 42.272%
+- Absolute difference = 0.953 percentage points
+
+Per MODE A rule (decimal value): bare number, no delimiter needed (single value).
+
+<FINAL_ANSWER>0.953</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

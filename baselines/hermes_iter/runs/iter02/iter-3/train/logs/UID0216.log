@@ -1,0 +1,14 @@
+=== rc=0 elapsed=160.8s ===
+=== stdout (291 chars) ===
+Using the reported annual figures in millions:
+
+1941: net receipts 7,607; national defense 6,080
+1942: net receipts 12,799; national defense/war activities 26,011
+1943: net receipts 22,282; national defense/war activities 72,109
+
+Mean of ratios = 0.6841
+
+<FINAL_ANSWER>0.6841</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

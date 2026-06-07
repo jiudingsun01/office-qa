@@ -1,0 +1,17 @@
+=== rc=0 elapsed=184.5s ===
+=== stdout (191 chars) ===
+Using the calendar-year monthly rows:
+
+CY2010:
+946,838 / 2,205,765 × 100 = 42.93
+
+CY2011:
+1,105,822 / 2,326,136 × 100 = 47.54
+
+Change:
+47.54 - 42.93 = 4.61
+
+<FINAL_ANSWER>4.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

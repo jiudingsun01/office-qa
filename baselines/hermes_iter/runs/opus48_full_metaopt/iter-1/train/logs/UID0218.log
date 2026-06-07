@@ -1,0 +1,14 @@
+=== rc=0 elapsed=32.1s ===
+=== stdout (387 chars) ===
+October 1961, All Series Combined (Table 2):
+- Total redemptions: 406
+- Accrued discount (value buildup above the original markdown/discount price): 57
+
+The "accrued discount" component is precisely the value buildup from the original price markdown (savings bonds are sold at a discount and accrue toward face value). 
+
+57 / 406 = 0.140394 → 14.04%
+
+<FINAL_ANSWER>14.04%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

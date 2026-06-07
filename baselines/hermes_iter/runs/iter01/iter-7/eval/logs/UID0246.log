@@ -1,0 +1,22 @@
+=== rc=0 elapsed=754.0s ===
+=== stdout (377 chars) ===
+From the Treasury Survey of Ownership tables:
+
+1970:
+Regular weekly and annual maturing bills: 71,805
+Tax anticipation bills: 9,274
+
+1975:
+Regular weekly and annual maturing bills: 116,036
+Tax anticipation bills: 3,507
+
+Absolute changes:
+Regular/annual: 44,231
+Tax anticipation: 5,767
+
+Euclidean norm = sqrt(44,231² + 5,767²) = 44,605.38
+
+<FINAL_ANSWER>44605.38</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

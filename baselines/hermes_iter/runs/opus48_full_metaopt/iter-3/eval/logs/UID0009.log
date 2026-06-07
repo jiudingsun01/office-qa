@@ -1,0 +1,17 @@
+=== rc=0 elapsed=47.9s ===
+=== stdout (697 chars) ===
+The sum of denomination values (987,708,827,824) matches the reported total (987,708,828,424) up to the $600 fractional notes — confirming my count is right. The weighted average denomination = total value / total number of bills.
+
+Both numerator choices give **32.703**.
+
+Calculation:
+- Total value of currency in circulation: $987,708,828,424
+- Total number of bills (sum of value/denomination per row): ~30,202,172,786
+- Weighted average = 987,708,828,424 / 30,202,172,786 ≈ 32.703
+
+Bureau: Financial Management Service (merged with Bureau of the Public Debt → Bureau of the Fiscal Service), confirmed as the source of this USCC report dated June 30, 2011.
+
+<FINAL_ANSWER>32.703</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

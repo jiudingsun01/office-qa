@@ -1,0 +1,12 @@
+=== rc=0 elapsed=44.4s ===
+=== stdout (348 chars) ===
+The April 1948 Bulletin’s Table 3 uses the requested reporting structure: its footnote says Department of the Army expenditures include Department of the Air Force expenditures still being made from Army appropriations.
+
+FY1940 Army expenditures: 667
+FY1947 Army expenditures: 7,425
+Increase: 7,425 - 667 = 6,758
+
+<FINAL_ANSWER>6758</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,12 @@
+=== rc=0 elapsed=119.9s ===
+=== stdout (314 chars) ===
+Both values are from Table TSO-1 "Summary of Federal Securities," row "Total Federal securities," column "Total amount outstanding":
+- Feb 29, 1980: 861,602
+- Feb 28, 1981: 956,897
+
+Weighted average (1981 weighted twice): (861,602 + 2 × 956,897) / 3 = 2,775,396 / 3 = 925,132.
+
+<FINAL_ANSWER>925132</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

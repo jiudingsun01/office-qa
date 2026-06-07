@@ -1,0 +1,12 @@
+=== rc=0 elapsed=60.4s ===
+=== stdout (323 chars) ===
+March 2001 = 3,554 (interest-bearing debt, Series I). March 2006 = 34,736.
+
+5-year CAGR ≈ 57.77%. Projecting forward 5 more years to March 2011 gives 34736² / 3554 = 339,501.88 million.
+
+The answer has a decimal point, so per the delimiter rule: no commas, period decimal separator.
+
+<FINAL_ANSWER>339501.88</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

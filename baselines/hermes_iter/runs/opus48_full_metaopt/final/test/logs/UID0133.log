@@ -1,0 +1,8 @@
+=== rc=0 elapsed=40.6s ===
+=== stdout (101 chars) ===
+Logarithmic growth rate = ln(4526138/2066131) = 0.7842 = 78.42%.
+
+<FINAL_ANSWER>78.42</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

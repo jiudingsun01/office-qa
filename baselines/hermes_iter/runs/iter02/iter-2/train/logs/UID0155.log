@@ -1,0 +1,8 @@
+=== rc=0 elapsed=84.3s ===
+=== stdout (210 chars) ===
+Using the four component columns (gold stock, SDRs, foreign currencies, IMF reserve position) for July in each year 2010-2013, the geometric mean across the 16 values is:
+
+<FINAL_ANSWER>29347.01</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

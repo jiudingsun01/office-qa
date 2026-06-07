@@ -1,0 +1,8 @@
+=== rc=0 elapsed=29.9s ===
+=== stdout (91 chars) ===
+Mean Absolute Deviation = 1400.306 million dollars.
+
+<FINAL_ANSWER>1400.306</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

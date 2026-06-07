@@ -1,0 +1,12 @@
+=== rc=0 elapsed=89.9s ===
+=== stdout (302 chars) ===
+Change in share of total redemptions accounted for by Series I: 0.45623% − 0.00945% = 0.4468 → 0.4 percentage points.
+
+Absolute change in Series I redemptions: 2,006 − 39 = 1,967 million.
+
+These are plain decimal/integer values → Mode A (bare comma, no space).
+
+<FINAL_ANSWER>[0.4,1967]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

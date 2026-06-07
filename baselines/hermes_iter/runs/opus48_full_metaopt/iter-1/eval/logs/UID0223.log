@@ -1,0 +1,27 @@
+=== rc=0 elapsed=97.2s ===
+=== stdout (829 chars) ===
+All steps computed. Let me summarize the work:
+
+Extraction (Table CM-I-3, Total Liabilities by Country, June column, millions $):
+- June 1991: Europe = 268166, Latin America & Caribbean = 337565
+- June 1996: Europe = 426245, Latin America & Caribbean = 443872
+
+Regression (Europe → Latin America, 2-point line): slope = 0.672493, intercept = 157225.28
+
+Germany nominal GDP (World Bank, current US$, billions, 2 decimals):
+- 1991 = 1867.54, 1996 = 2502.37 → growth = 33.99%
+
+Counterfactual: Europe 1991 × (1 + 0.3399) = 359323.26
+Predicted LA = 398867.60
+Absolute diff vs actual 443872 = 45004.40 million
+As % of actual = 10.139%
+
+US liabilities growth proxy (EU+LA&C): (870117 − 605731)/605731 = 43.65%
+Ratio to Germany growth = 0.436474 / 0.339928 = 1.28402
+
+Final = 10.139 × 1.28402 = 13.02
+
+<FINAL_ANSWER>13.02</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

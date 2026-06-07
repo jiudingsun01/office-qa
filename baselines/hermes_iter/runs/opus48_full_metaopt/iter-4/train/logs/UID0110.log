@@ -1,0 +1,12 @@
+=== rc=0 elapsed=104.8s ===
+=== stdout (443 chars) ===
+The highest geometric mean is for 2017, with a value of 2.7437... which rounds to 2.74.
+
+Let me verify 2017's quarterly values once more from the chart: 2017 Q1=2.3, Q2=2.2, Q3=3.2, Q4=3.5. Geometric mean = (2.3 × 2.2 × 3.2 × 3.5)^(1/4) = (56.672)^(1/4) = 2.7437 → 2.74.
+
+The year with the highest geometric mean of quarterly real GDP growth from CY 2013-2019 is 2017, with a geometric mean of 2.74.
+
+<FINAL_ANSWER>[2017, 2.74]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

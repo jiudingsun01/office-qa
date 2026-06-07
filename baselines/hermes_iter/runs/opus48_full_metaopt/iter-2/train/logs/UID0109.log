@@ -1,0 +1,12 @@
+=== rc=0 elapsed=83.9s ===
+=== stdout (446 chars) ===
+The rank lands exactly at 9.0, giving 678077.0 (the FY2011 value, 9th in sorted order).
+
+Let me verify the Hazen plotting position logic: p_i = (i - 0.5)/n. Setting p = 0.85: i = 0.85·10 + 0.5 = 9.0. Position 9 in the sorted ascending list = 678077. Exact, no interpolation needed.
+
+The 85th Hazen percentile of the DoD military on-budget and off-budget outlays (FY2011–2020) is 678077.00 million dollars.
+
+<FINAL_ANSWER>678077.00</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

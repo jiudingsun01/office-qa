@@ -1,0 +1,8 @@
+=== rc=0 elapsed=479.0s ===
+=== stdout (210 chars) ===
+Using the Treasury Bulletin’s November 1969 total money/currency in circulation of 52,991 million and the official BLS CPI-U year-over-year rate for November 1969 of 6.0%:
+
+<FINAL_ANSWER>56170.5</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

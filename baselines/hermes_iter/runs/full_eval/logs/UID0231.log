@@ -1,0 +1,8 @@
+=== rc=0 elapsed=193.1s ===
+=== stdout (235 chars) ===
+Extracted the monthly average Tax and Loan Account balances for Jan-Dec 1961 from Table 2, paired them with BLS monthly unemployment rates for 1961, and computed the Pearson correlation coefficient.
+
+<FINAL_ANSWER>-0.48</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

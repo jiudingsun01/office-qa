@@ -1,0 +1,14 @@
+=== rc=0 elapsed=31.6s ===
+=== stdout (277 chars) ===
+The annual calendar-year averages:
+- 1945 (WWII ended): Moody's Aaa = 2.62
+- 1950 (Korean War began): Moody's Aaa = 2.62
+
+Absolute change = |2.62 - 2.62| = 0.0.
+
+Both values are identical at 2.62. The absolute change is 0.0 percentage points.
+
+<FINAL_ANSWER>0.0</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

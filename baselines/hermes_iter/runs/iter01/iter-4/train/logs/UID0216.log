@@ -1,0 +1,13 @@
+=== rc=0 elapsed=241.2s ===
+=== stdout (182 chars) ===
+Using the reported figures in millions:
+1941: 7,607 / 6,080
+1942: 12,799 / 26,011
+1943: 22,282 / 72,109
+
+Mean ratio rounded to 4 decimal places:
+
+<FINAL_ANSWER>0.6841</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

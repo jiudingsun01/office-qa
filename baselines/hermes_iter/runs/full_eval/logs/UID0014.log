@@ -1,0 +1,8 @@
+=== rc=0 elapsed=60.0s ===
+=== stdout (348 chars) ===
+Extracted FY 1929–1942 individual income tax receipts from the 1942 bulletin, converted the table’s thousands of dollars to billions, fit OLS with fiscal year as the numeric predictor, and used the FY 2000 net individual income tax receipts from the 2001 bulletin (1,004.461 billion; 1,004.5 rounded to tenths).
+
+<FINAL_ANSWER>997.3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

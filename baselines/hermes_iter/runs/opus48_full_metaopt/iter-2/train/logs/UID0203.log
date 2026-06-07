@@ -1,0 +1,17 @@
+=== rc=0 elapsed=100.5s ===
+=== stdout (429 chars) ===
+The five ratios are all very close to ~0.989, geometric mean ≈ 0.98909.
+
+Computation:
+- Ratios: 0.99092, 0.98965, 0.98929, 0.98796, 0.98764
+- Geometric mean ≈ 0.989088
+- × Second Liberty Bond Act value (1964) = 309227 → 305852.86 million USD
+- 1964 official annual average exchange rate: 1 GBP = $2.7926
+- → 305852.86 / 2.7926 ≈ 109522.6 million GBP
+
+Rounded to nearest whole number: 109523.
+
+<FINAL_ANSWER>109523</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

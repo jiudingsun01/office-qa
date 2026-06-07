@@ -1,0 +1,8 @@
+=== rc=0 elapsed=88.3s ===
+=== stdout (314 chars) ===
+I used the SB-4 “Redemptions of Matured and Unmatured Savings Bonds” table. The total unmatured redemptions for Jan-Mar 1970 are 284, 295, and 375 million nominal dollars. CPI-U values for Jan-Mar 1970 are 37.8, 38.0, and 38.2, with March 1970 as the real-dollar base.
+
+<FINAL_ANSWER>[44.00,231.52]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

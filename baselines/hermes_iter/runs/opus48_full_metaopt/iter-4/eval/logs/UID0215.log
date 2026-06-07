@@ -1,0 +1,16 @@
+=== rc=0 elapsed=133.9s ===
+=== stdout (509 chars) ===
+The Q4 averages are:
+- 1987: 9270.0
+- 1988: 9023.67
+- 1989: 10024.67
+- 1990: 12323.0
+
+OLS slope through these four points = 1016 million dollars per year.
+
+The data: Black Monday = Oct 19, 1987; Q4 1987 plus next three years (1988, 1989, 1990). Each year had exactly three 2-year note auctions in Q4 (Oct/Nov/Dec), and I averaged the "tenders accepted in the auction process" for each. The slope is 1016 (note the index-invariance — same slope whether x=raw years or 1..4).
+
+<FINAL_ANSWER>1016</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

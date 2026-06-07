@@ -1,0 +1,8 @@
+=== rc=0 elapsed=172.2s ===
+=== stdout (223 chars) ===
+Using the January 31 statutory debt limitation totals (in millions): 271,837; 274,362; 277,949. Treating these three as the entire population, the standard deviation is 2,507.7 million.
+
+<FINAL_ANSWER>2507.7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

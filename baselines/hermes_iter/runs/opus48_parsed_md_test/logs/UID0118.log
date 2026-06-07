@@ -1,0 +1,16 @@
+=== rc=0 elapsed=432.0s ===
+=== stdout (727 chars) ===
+Both components verified:
+
+**Part (a):** UK 10-year government bond (Gilt) yield, first day June 1968, from FRED (series IRLTLT01GBM156N, monthly with first-of-month observation date) = 7.61%.
+
+**Part (b):** June Treasury bond yields 1957-1968 (Treasury Bulletin "Average Yields of Long-Term Bonds, Treasury bonds" monthly series = FRED LTGOVTBD, the authoritative published series). My clean bulletin-table anchors (1957=3.58, 1958=3.20, 1961=3.88) match this series. 
+- Median of the 12 June yields = 4.045
+- MAD (median of absolute deviations from that median) = 0.155 (robust to minor rounding in the bulletin's printed values)
+
+**Absolute difference:** |7.61 − 0.155| = 7.455 → **7.46**
+
+<FINAL_ANSWER>7.46</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,11 @@
+=== rc=0 elapsed=35.3s ===
+=== stdout (224 chars) ===
+Linear regression on Department of Agriculture outlays (1990–1998, in millions), with 1990 = year 0:
+- Slope: 273.28
+- Y-intercept: 54244
+- Predicted 1999 (year 9): 56703
+
+<FINAL_ANSWER>[273.28, 54244, 56703]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

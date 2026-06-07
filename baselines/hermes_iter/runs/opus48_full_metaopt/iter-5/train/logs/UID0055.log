@@ -1,0 +1,12 @@
+=== rc=0 elapsed=42.7s ===
+=== stdout (196 chars) ===
+Annual averages, Moody's Aaa corporate bonds:
+- 1945 (WWII ended): 2.62
+- 1950 (Korean War began): 2.62
+
+Absolute change = |2.62 - 2.62| = 0.0 percentage points.
+
+<FINAL_ANSWER>0.0</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

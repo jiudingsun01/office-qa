@@ -1,0 +1,11 @@
+=== rc=0 elapsed=69.3s ===
+=== stdout (258 chars) ===
+Both data points confirmed:
+- December 1938: working/total = 2449/3083 = 0.79436
+- December 1940: working/total = 1188/1928 = 0.61618
+- Geometric annual rate over 2 years = (0.61618/0.79436)^(1/2) − 1 = −0.11926 → −0.119
+
+<FINAL_ANSWER>-0.119</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

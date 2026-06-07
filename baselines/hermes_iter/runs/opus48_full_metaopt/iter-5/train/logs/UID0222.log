@@ -1,0 +1,8 @@
+=== rc=0 elapsed=37.3s ===
+=== stdout (287 chars) ===
+The Series I interest-bearing debt grew from 2152 (March 2001) to 34736 (March 2006), an annualized compound rate of ~74.42% over n=5 years. Projecting forward another 5 years to March 2011 at the same rate gives 34736 × (34736/2152) = 560682.94.
+
+<FINAL_ANSWER>560682.94</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

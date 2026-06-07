@@ -1,0 +1,8 @@
+=== rc=0 elapsed=42.6s ===
+=== stdout (190 chars) ===
+Using the monthly “Rents and royalties on the Outer Continental Shelf lands” values for calendar year 2016, the smallest absolute value is January 2016: 56.
+
+<FINAL_ANSWER>56</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

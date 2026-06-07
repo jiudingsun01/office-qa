@@ -1,0 +1,10 @@
+=== rc=0 elapsed=77.4s ===
+=== stdout (594 chars) ===
+Now I can see clearly. The minor ticks are 1 per year. The tallest peak (~9.4%) sits clearly to the LEFT of the 1975 label. Counting: after 1970 the line goes up (1971 ~8.5), dips (1972 ~7.2), then jumps to the highest point. The peak appears at the second tick before 1975, i.e. ~1973. The very top of the line is two ticks left of the 1975 tick, then it stays high at 1974 and drops at 1975.
+
+The highest single point is at 1973. This matches historical data: the U.S. personal saving rate peaked in the early 1970s, with 1973 being the high point (~9.4%).
+
+<FINAL_ANSWER>1973</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

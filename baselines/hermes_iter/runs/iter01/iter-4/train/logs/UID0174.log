@@ -1,0 +1,10 @@
+=== rc=0 elapsed=39.3s ===
+=== stdout (195 chars) ===
+Computed using:
+- Total collections: Jan 1960 = 4,807,819; Mar 1960 = 11,893,553
+- Unemployment insurance contributions: Jan 1960 = 26,461; Mar 1960 = 20,774
+
+<FINAL_ANSWER>-3.524</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

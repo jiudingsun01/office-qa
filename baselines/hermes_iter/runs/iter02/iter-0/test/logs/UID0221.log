@@ -1,0 +1,8 @@
+=== rc=0 elapsed=87.9s ===
+=== stdout (358 chars) ===
+Using the Treasury Bulletin table values in millions and CPI-U NSA (Nov 1949 = 23.800, Dec 1949 = 23.600), the November value adjusted to Dec 1949 dollars is 155205 × 23.6 / 23.8 = 153900.756. Comparing to December’s 154962 gives an absolute difference of 1061.244 and an absolute percentage difference of 0.690%.
+
+<FINAL_ANSWER>[0.690, 1061]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

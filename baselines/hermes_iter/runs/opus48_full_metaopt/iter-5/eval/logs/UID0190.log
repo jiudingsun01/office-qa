@@ -1,0 +1,14 @@
+=== rc=0 elapsed=42.3s ===
+=== stdout (465 chars) ===
+Both values confirmed from the same table series:
+- October 1938 Total Receipts = 332 (from both bulletins, lines 236 and 211)
+- October 1939 Total Receipts = 321 (line 223 in 1939_11 bulletin)
+
+Difference: 321 - 332 = -11.
+
+Both figures come from the "Summary of Receipts and Expenditures" table (in millions of dollars, daily Treasury statements, unrevised), with the October 1938 value cross-confirmed in both bulletins as 332.
+
+<FINAL_ANSWER>-11</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

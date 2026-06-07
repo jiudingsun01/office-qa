@@ -1,0 +1,15 @@
+=== rc=0 elapsed=47.3s ===
+=== stdout (506 chars) ===
+The values:
+- Federal Reserve notes May 1979 = 103774 (millions)
+- Federal Reserve notes June 1979 = 104779 (millions)
+- CPI-U June 1978 = 65.2, June 1979 = 72.3 → YoY rate ≈ 10.89%
+- Adjusted May 1979 in June 1979 dollars = 103774 × 1.108896 ≈ 115074.54
+- Month-over-month change = 104779 − 115074.54 = −10295.54
+
+This is a Mode A (decimal) answer. The change is negative because inflating the May value to June real dollars makes it exceed the nominal June value.
+
+<FINAL_ANSWER>-10295.54</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

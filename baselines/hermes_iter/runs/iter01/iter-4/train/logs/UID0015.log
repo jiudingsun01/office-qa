@@ -1,0 +1,8 @@
+=== rc=0 elapsed=51.2s ===
+=== stdout (159 chars) ===
+Using the “Interest” total (net) row: 82.590 and 64.564 billion. Applying Box-Cox with lambda 0.75 and subtracting gives:
+
+<FINAL_ANSWER>6.1596</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,10 @@
+=== rc=0 elapsed=29.8s ===
+=== stdout (252 chars) ===
+The two nominal average bank discount rates are 8.072% (19-day, May 27) and 10.260% (2-day, June 2).
+
+One-step realized variance of the log discount rate = (ln(10.260) − ln(8.072))² = (0.239852)² = 0.057529 ≈ 0.058.
+
+<FINAL_ANSWER>0.058</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

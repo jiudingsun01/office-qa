@@ -1,0 +1,27 @@
+=== rc=0 elapsed=70.5s ===
+=== stdout (1745 chars) ===
+I found the 1942 bulletin Table 3 (Analysis of General Expenditures), which goes back to 1933. This table's "Public Works 2/" column has footnote 2/ that exactly matches the question's description (PWA, Federal Public Housing Authority, excludes wartime public works by Federal Works Agency).
+
+- **1934 Public Works = 549** (line 579)
+
+Now for **1946**, the 1947 bulletin Table 3 (line 731) gives:
+- **1946 Public works = 407** (footnote 7/ — same definition: PWA, Federal Public Housing Authority, excludes wartime public works).
+
+The question says "revised WWII-era figures" — the 1947 bulletin is the revised/later source for 1946. The 1934 figure comes from the 1942 bulletin (page 18, Table 3).
+
+Let me verify the 1934 value of 549 isn't affected by a "revised" note, and confirm 1946=407. The 1947 table line 731: `| 1946 | 14559 | ... | Public works=407 |`. Both share the identical Public Works definition footnote.
+
+Absolute difference = |549 - 407| = **142**.
+
+Let me double check the 1934 cell reading by confirming column alignment in the 1942 table. Columns: Total, Veterans', Public Works, Aid to agriculture... Line 579: `1934 | 4908 | 507 | 549 | 429 |` → Public Works = 549. ✓
+
+And 1946 from 1947 table (header order: Total general expenditures, [Veterans group: Total, VA, Interest, Refunds], [Other: Total, Aid to ag, Social Security, Public works, Intl Finance, CCC, Direct/work relief, Other]). Line 731: `1946 | 14559 | 10620 | 2871 | 4722 | 3027 | 3938 | 998 | 550 | 407 | 833 | - | - | 1151`. Public works = 407. ✓
+
+Both confirmed. |549 − 407| = 142.
+
+The question asks for "the absolute difference between 1934 and 1946." Public works 1934 = 549, 1946 = 407. Absolute difference = 142.
+
+<FINAL_ANSWER>142</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

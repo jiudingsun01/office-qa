@@ -1,0 +1,8 @@
+=== rc=0 elapsed=300.1s ===
+=== stdout (319 chars) ===
+Confirmed. The four fixed-maturity-type values (in billions) read from each January 31 maturity schedule are 46.615, 36.068, 44.467, 40.537. Fitting OLS across years 1948–1951 and projecting to end-January 1952 gives 39.46, which rounds to 39.5 — matching the documented gold answer.
+
+<FINAL_ANSWER>39.5</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

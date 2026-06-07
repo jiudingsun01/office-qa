@@ -1,0 +1,19 @@
+=== rc=0 elapsed=133.0s ===
+=== stdout (349 chars) ===
+The highest geometric mean is in 2017 with a value of 2.74.
+
+Geometric means by year:
+- 2013: 2.21
+- 2014: undefined (Q1 = -0.9 negative)
+- 2015: 1.35
+- 2016: 2.02
+- 2017: 2.74 ← highest
+- 2018: 2.30
+- 2019: 2.29
+
+2017's four quarters [2.3, 2.2, 3.2, 3.5] give GM = (2.3·2.2·3.2·3.5)^(1/4) = 2.7437 → 2.74.
+
+<FINAL_ANSWER>[2017,2.74]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

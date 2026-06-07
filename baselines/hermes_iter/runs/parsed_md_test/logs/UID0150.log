@@ -1,0 +1,8 @@
+=== rc=0 elapsed=193.0s ===
+=== stdout (289 chars) ===
+The converted DEM observations used were 1972–1975, with 1976 converted for the actual comparison. SES with alpha = 0.3 gives a 1976 forecast of 206.06 DEM; the actual converted 1976 quote is 210.24 DEM, so the absolute difference is 4.18 DEM.
+
+<FINAL_ANSWER>[206.06, 4.18]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

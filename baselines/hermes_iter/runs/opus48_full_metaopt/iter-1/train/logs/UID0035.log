@@ -1,0 +1,19 @@
+=== rc=0 elapsed=104.2s ===
+=== stdout (756 chars) ===
+The breakdown makes sense:
+- FRnotes3/ column = all "1" → 23 leading-1s
+- US notes FRnotes4/ column: rows 10-23 start with "10x" or "11x" → 14 leading-1s
+- Total currencies column: rows 10-23 start with "10x"/"11x" → 14 leading-1s
+
+Top total = 23 + 14 + 14 = 51 ✓
+
+Bottom: Dollars column has "1,063" through "1,461" (rows 9-23 = 15 leading-1s), Fractional coin has "10,011"+ (rows 10,17-23 = several), Total has "10,504"+ and "11,xxx", Total Currency&Coin has "107,663"/"118,716"/"112-125,xxx", per capita none start with 1.
+
+The total comes to **104**.
+
+The `*` symbols (Treasury notes of 1890 = "Less than $500,000") are correctly excluded as they're not numerals. All values verified against the high-resolution image.
+
+<FINAL_ANSWER>104</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

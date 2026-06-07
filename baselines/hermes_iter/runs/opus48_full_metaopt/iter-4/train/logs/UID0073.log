@@ -1,0 +1,10 @@
+=== rc=0 elapsed=50.1s ===
+=== stdout (266 chars) ===
+The 12 calendar-year 1981 monthly Net budget outlays (Jan–Dec 1981, in millions) are: 59099, 53969, 54216, 57198, 54608, 55619, 58486, 53095, 53698, 64216, 56838, 76875.
+
+Population standard deviation = 6379.29 million dollars.
+
+<FINAL_ANSWER>6379.29</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

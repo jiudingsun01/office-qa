@@ -1,0 +1,10 @@
+=== rc=0 elapsed=35.0s ===
+=== stdout (381 chars) ===
+The difference of exactly $600 is the fractional notes. The weighted average denomination = total value / total number of bills = $987,708,827,824 / 30,202,172,786 ≈ 32.703.
+
+The Bureau merged with the Public Debt Bureau was the Financial Management Service (confirmed as the source of this table). The weighted average denomination is 32.703.
+
+<FINAL_ANSWER>32.703</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

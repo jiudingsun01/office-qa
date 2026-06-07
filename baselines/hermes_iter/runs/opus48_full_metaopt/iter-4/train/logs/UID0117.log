@@ -1,0 +1,18 @@
+=== rc=0 elapsed=181.9s ===
+=== stdout (466 chars) ===
+All five totals confirmed visually from the authoritative PDFs:
+- 1972 (Feb 29 1972 schedule): 24,221
+- 1973 (Feb 28 1973): 24,292
+- 1974 (Feb 28 1974): 33,368
+- 1975 (Feb 28 1975): 31,653
+- 1976 (Feb 29 1976): 35,565
+
+5-year mean = 29,819.8; sample standard deviation (ddof=1) = 5,264.52.
+(24,221 − 29,819.8) / 5,264.52 = **−1.063**.
+
+The 1972 maturity total was about 1.063 sample standard deviations below the 5-year average.
+
+<FINAL_ANSWER>-1.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

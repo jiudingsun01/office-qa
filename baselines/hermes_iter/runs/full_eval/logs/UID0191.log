@@ -1,0 +1,14 @@
+=== rc=0 elapsed=213.4s ===
+=== stdout (239 chars) ===
+Using the November rows from Table GA-III-4:
+
+1979: 7 / 1574 = 0.0044472681
+1980: 10 / 1938 = 0.0051599587
+1981: 5 / 2608 = 0.0019171779
+
+Highest minus lowest = 0.0032427808, rounded to five decimals.
+
+<FINAL_ANSWER>0.00324</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

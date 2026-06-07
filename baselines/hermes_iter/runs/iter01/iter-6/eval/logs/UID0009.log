@@ -1,0 +1,12 @@
+=== rc=0 elapsed=114.4s ===
+=== stdout (373 chars) ===
+The bureau was the Financial Management Service. From Table USCC-2 for June 30, 2011, I used the total value of currency in circulation by denomination and divided by the implied total number of notes:
+
+Total value: 987,708,827,824
+Total notes: 30,202,172,786
+Weighted average denomination: 32.703237..., rounded to nearest thousandth.
+
+<FINAL_ANSWER>32.703</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

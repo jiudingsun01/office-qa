@@ -1,0 +1,12 @@
+=== rc=0 elapsed=86.4s ===
+=== stdout (722 chars) ===
+Now I need to interpret "the single percentage point difference." The question asks "what percentage... was attributed to American vessels" then "Return... the first value as the single percentage point difference."
+
+The phrase "single percentage point difference" most plausibly refers to the spread/difference in the American share across the three months (max − min), giving a single percentage-point value: 5.3. The aggregate share interpretation (34.4) wouldn't be called a "difference." The word "difference" strongly points to max−min = 5.3.
+
+The Pearson correlation between the American vessels series (1186, 1317, 1439) and grand total series (3839, 3636, 3981) = 0.391.
+
+<FINAL_ANSWER>[5.3,0.391]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

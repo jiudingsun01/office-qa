@@ -1,0 +1,14 @@
+=== rc=0 elapsed=34.0s ===
+=== stdout (386 chars) ===
+The question asks for the average monthly "amount outstanding" during Q3 1982 (July, Aug, Sept). Using the Amount outstanding (interest-bearing debt) column from Table SB-2 "Sales and Redemptions by Periods, All Series Combined":
+
+- July 1982: 67,132
+- Aug 1982: 67,148
+- Sept 1982: 67,274
+
+Average = (67132 + 67148 + 67274) / 3 = 67,184.67 → 67,185
+
+<FINAL_ANSWER>67185</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,11 @@
+=== rc=0 elapsed=39.4s ===
+=== stdout (185 chars) ===
+Dec 1938 ratio = 2449/3083 = 0.79436
+Dec 1940 ratio = 1188/1928 = 0.61618
+
+Geometric annual rate over 2 years: (0.61618/0.79436)^(1/2) − 1 = −0.119
+
+<FINAL_ANSWER>-0.119</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

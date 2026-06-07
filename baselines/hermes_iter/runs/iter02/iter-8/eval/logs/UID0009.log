@@ -1,0 +1,12 @@
+=== rc=0 elapsed=67.7s ===
+=== stdout (299 chars) ===
+Using Table USCC-2 for June 30, 2011, the relevant bureau is the Financial Management Service. I computed:
+
+weighted average denomination = total currency value / total number of notes
+= 987,708,827,824 / sum(value by denomination / denomination)
+= 32.703237...
+
+<FINAL_ANSWER>32.703</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

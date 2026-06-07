@@ -1,0 +1,16 @@
+=== rc=0 elapsed=83.4s ===
+=== stdout (215 chars) ===
+Using Federal Reserve notes:
+May 1979 = 103,774
+June 1979 = 104,779
+
+CPI-U:
+May 1979 = 71.5
+June 1979 = 72.3
+
+Real MoM change = 104,779 - (103,774 × 72.3 / 71.5) = -156.1077...
+
+<FINAL_ANSWER>-156.11</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

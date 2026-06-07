@@ -1,0 +1,8 @@
+=== rc=0 elapsed=81.9s ===
+=== stdout (160 chars) ===
+Extracted the CY1981 monthly “Net budget outlays” values from Table FFO-5 and computed the population standard deviation.
+
+<FINAL_ANSWER>6379.29</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

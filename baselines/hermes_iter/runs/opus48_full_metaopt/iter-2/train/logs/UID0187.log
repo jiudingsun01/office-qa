@@ -1,0 +1,8 @@
+=== rc=0 elapsed=29.7s ===
+=== stdout (180 chars) ===
+The geometric mean of U.S. silver production (thousands of fine ounces) for April–August 1940: values 6120, 5840, 5373, 5530, 4419 → 5423.58.
+
+<FINAL_ANSWER>5423.58</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

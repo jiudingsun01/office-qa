@@ -1,0 +1,13 @@
+=== rc=0 elapsed=348.9s ===
+=== stdout (163 chars) ===
+Using the reported values:
+1941: 7,607 / 6,080
+1942: 12,799 / 26,011
+1943: 22,282 / 72,109
+
+Mean ratio rounded to 4 decimals:
+
+<FINAL_ANSWER>0.6841</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

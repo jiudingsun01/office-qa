@@ -1,0 +1,12 @@
+=== rc=0 elapsed=46.7s ===
+=== stdout (273 chars) ===
+Using Table FCP-VI-2 (Monthly Report of Major Market Participants), excluding option positions:
+
+Net = (spot/forward/futures purchased - sold) + (non-capital assets - liabilities)
+= (1,950,622 - 1,943,752) + (657,186 - 619,882)
+= 44,174
+
+<FINAL_ANSWER>44174</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

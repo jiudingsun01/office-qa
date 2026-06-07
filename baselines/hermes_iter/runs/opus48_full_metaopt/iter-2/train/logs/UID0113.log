@@ -1,0 +1,12 @@
+=== rc=0 elapsed=34.0s ===
+=== stdout (233 chars) ===
+The redemption rates are:
+- 1980: 71/326 × 100 = 21.78%
+- 1981: 51/284.5 × 100 = 17.93%
+
+The relative difference in percentage points between 1980 and 1981 = 21.78 − 17.93 = 3.85 percentage points.
+
+<FINAL_ANSWER>3.85</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

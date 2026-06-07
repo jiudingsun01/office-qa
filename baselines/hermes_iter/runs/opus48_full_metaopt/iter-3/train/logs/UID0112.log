@@ -1,0 +1,8 @@
+=== rc=0 elapsed=60.7s ===
+=== stdout (220 chars) ===
+R² = 0.8298 for the relationship between on-budget and off-budget receipts across FY1991–2010 (20 data points, sourced from the four FFO-1 tables using actual—not estimated—figures).
+
+<FINAL_ANSWER>0.8298</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,15 @@
+=== rc=0 elapsed=150.1s ===
+=== stdout (241 chars) ===
+Extracted total trust account receipts:
+November 1959: 2,004
+December 1959: 1,474
+
+Absolute difference: 530 million USD
+December 1959 USD-CAD monthly average rate: 0.951 CAD per USD
+
+530 × 0.951 = 504.03
+
+<FINAL_ANSWER>504.03</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

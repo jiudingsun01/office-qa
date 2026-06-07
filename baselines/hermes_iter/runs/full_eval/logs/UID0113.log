@@ -1,0 +1,8 @@
+=== rc=0 elapsed=140.3s ===
+=== stdout (221 chars) ===
+Using Table SN-1 for U.S. savings notes, I used calendar-year redemptions and average outstanding for 1980 and 1981, then computed the relative difference between the redemption rates.
+
+<FINAL_ANSWER>17.69</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

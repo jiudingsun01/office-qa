@@ -1,0 +1,18 @@
+=== rc=0 elapsed=92.3s ===
+=== stdout (628 chars) ===
+Both values are stated in the text narratives, not in charts.
+
+From the 1995_12 bulletin (Profile of the Economy, "Nonfarm productivity and unit labor costs"):
+"Growth of nonfarm productivity, or real output per work-hour, rose at a **2.0 percent** annual rate in the third quarter [1995]..."
+
+From the 1998_06 bulletin ("Nonfarm productivity and unit labor costs"):
+"Nonfarm business productivity (real output per hour worked) rose at an annual rate of **0.2 percent** in the first quarter [1998]..."
+
+Absolute difference = |2.0 − 0.2| = 1.8 percentage points.
+
+Rounded to nearest tenths: 1.8
+
+<FINAL_ANSWER>1.8</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

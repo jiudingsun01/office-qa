@@ -1,0 +1,10 @@
+=== rc=0 elapsed=39.2s ===
+=== stdout (390 chars) ===
+The 12 calendar-year 1981 monthly "Net budget outlays" totals are read directly from the table's bottom row. Population standard deviation (÷N=12) = 6379.29.
+
+This bulletin (March 1982) reports calendar months Jan 1981 through Dec 1981 in those first 12 columns, with Dec showing 76875 (a large year-end spike, consistent with December outlay timing).
+
+<FINAL_ANSWER>6379.29</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

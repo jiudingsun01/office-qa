@@ -1,0 +1,18 @@
+=== rc=0 elapsed=40.2s ===
+=== stdout (1019 chars) ===
+I have the 1934 Public Works figure: **549** (from the 1942_10 bulletin, Table 3, with the revised definition matching footnote 2/).
+
+Now for 1946, the 1947_08 bulletin Table 3 (line 731) shows Public works = **407**, with footnote 7/ matching the same revised definition (PWA, Federal Public Housing Authority, excludes wartime FWA spending).
+
+Let me verify the 1946 figure. From line 731: `| 1946 | 14559 | 10620 | 2871 | 4722 | 3027 | 3938 | 998 11/ | 550 | 407 | 833 | - | - | 1151 |` — the Public works column value is 407.
+
+Both figures use the consistent revised WWII-era definition (footnote 2/ in 1942 = footnote 7/ in 1947): includes public buildings, highways, river/harbor, TVA, Federal Public Housing Authority, reclamation, and PWA; excludes certain wartime public works spending by the Federal Works Agency from July 1941.
+
+- 1934 Public works = 549 (million nominal dollars)
+- 1946 Public works = 407 (million nominal dollars)
+- Absolute difference = |549 − 407| = 142
+
+<FINAL_ANSWER>142</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

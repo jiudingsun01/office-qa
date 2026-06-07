@@ -1,0 +1,10 @@
+=== rc=0 elapsed=48.2s ===
+=== stdout (181 chars) ===
+The weighted average computes to exactly 925132 (no rounding needed).
+
+Calculation: (861,602 + 2×956,897) / 3 = 2,775,396 / 3 = 925,132 million
+
+<FINAL_ANSWER>925132</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

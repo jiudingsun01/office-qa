@@ -1,0 +1,8 @@
+=== rc=0 elapsed=158.7s ===
+=== stdout (297 chars) ===
+Using the March end mutual-fund holdings values 2000–2004, I computed annual simple returns, estimated the 1% lower-tail return with a normal approximation, applied it to the March 2004 holding value, and converted using the March 2004 USD/JPY rate of 108.5157.
+
+<FINAL_ANSWER>5437</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=729.0s ===
+=== stdout (256 chars) ===
+Used the fixed-maturity totals from the January 31 maturity schedules for 1948–1951, converted to billions, and fit a linear OLS trend through those four annual values. The projected end-of-January 1952 amount rounds to:
+
+<FINAL_ANSWER>39.5</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

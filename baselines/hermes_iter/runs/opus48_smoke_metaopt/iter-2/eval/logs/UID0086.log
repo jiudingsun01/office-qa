@@ -1,0 +1,10 @@
+=== rc=0 elapsed=37.8s ===
+=== stdout (284 chars) ===
+The QoQ percent change is −4.815%; absolute value rounded to the nearest thousandth is 4.815.
+
+Total assets: June 30, 2022 = 218,901,423; Sept. 30, 2022 = 208,360,809 (thousands). Change = (208,360,809 − 218,901,423) / 218,901,423 × 100 = −4.815%.
+
+<FINAL_ANSWER>4.815</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

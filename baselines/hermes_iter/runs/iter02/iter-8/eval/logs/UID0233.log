@@ -1,0 +1,13 @@
+=== rc=0 elapsed=264.7s ===
+=== stdout (162 chars) ===
+Using the table totals:
+
+1948-01-31: 164,945
+1958-01-31: 164,727
+
+ln(164945 / 164727) = 0.0013225, rounded to four decimals.
+
+<FINAL_ANSWER>0.0013</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

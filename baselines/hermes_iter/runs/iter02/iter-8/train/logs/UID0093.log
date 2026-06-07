@@ -1,0 +1,8 @@
+=== rc=0 elapsed=284.0s ===
+=== stdout (196 chars) ===
+Extracted United Kingdom row from Table CM-I-3: CY1986 value is 90,833 million dollars, which is 90.83 billion dollars rounded to the nearest hundredths place.
+
+<FINAL_ANSWER>90.83</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

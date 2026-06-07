@@ -1,0 +1,12 @@
+=== rc=0 elapsed=52.1s ===
+=== stdout (299 chars) ===
+Using total internal revenue collections:
+2019: California / United States = 472,027,235 / 3,564,583,961 = 13.242141%
+2018: California / United States = 456,555,954 / 3,465,466,627 = 13.174444%
+
+Change = 0.067697 percentage points, rounded to nearest thousandth:
+
+<FINAL_ANSWER>0.068</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

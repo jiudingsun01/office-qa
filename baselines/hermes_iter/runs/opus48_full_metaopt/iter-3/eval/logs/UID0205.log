@@ -1,0 +1,13 @@
+=== rc=0 elapsed=95.4s ===
+=== stdout (662 chars) ===
+The result is robustly 0.98 regardless of the 1949 rate assumption.
+
+Summary:
+- Data: FY1948-1949 net receipts & expenditures from the 1960 bulletin (the only source covering those years); FY1950-1964 from the 1965 bulletin (most recently published, taking precedence for overlapping years).
+- Converted each year's USD figures to GBP using that year's average USD/GBP rate ($4.03 for 1948, ~$3.68 for 1949 post-devaluation, $2.80 fixed par for 1950-1964).
+- Pearson correlation between the GBP-converted net receipts and expenditures series = 0.9801, which rounds to **0.98** (stable across all reasonable 1949 rate choices).
+
+<FINAL_ANSWER>0.98</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

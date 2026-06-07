@@ -1,0 +1,13 @@
+=== rc=0 elapsed=66.9s ===
+=== stdout (259 chars) ===
+I have the TSO-5 table for January 31, 1982. From it:
+
+- Total FHLB (Federal Home Loan Banks) = 80579
+- Total FNMA (Federal National Mortgage Association) = 58860
+
+Combined: 80579 + 58860 = 139439 (already whole numbers).
+
+<FINAL_ANSWER>139439</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

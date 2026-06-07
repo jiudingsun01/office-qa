@@ -1,0 +1,16 @@
+=== rc=0 elapsed=33.0s ===
+=== stdout (343 chars) ===
+The data is from "Table 2.- Sales and Redemptions by Periods, All Series Combined" (U.S. Savings Bonds), in millions of dollars. Using the "Sales" column for calendar years 1949–1953:
+
+- 1949: 5833.0
+- 1950: 6074.0
+- 1951: 3961.0
+- 1952: 4161.0
+- 1953: 4800.0
+
+Sum = 24,829.0; Mean = 24,829.0 / 5 = 4965.8
+
+<FINAL_ANSWER>4965.8</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

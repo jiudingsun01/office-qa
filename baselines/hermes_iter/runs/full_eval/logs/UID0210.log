@@ -1,0 +1,23 @@
+=== rc=0 elapsed=99.8s ===
+=== stdout (353 chars) ===
+Using Series E and EE interest-bearing debt outstanding:
+1992: 144,724
+1993: 158,633
+1994: 166,731
+
+CPI-U annual averages used:
+1992: 140.3
+1993: 144.5
+1994: 148.2
+
+Inflation-adjusted to 1994 dollars:
+1992: 152,873.1062
+1993: 162,694.8830
+1994: 166,731.0000
+
+Sample z-score for 1994 = 0.8369, rounded to two decimals.
+
+<FINAL_ANSWER>0.84</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

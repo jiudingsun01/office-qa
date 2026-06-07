@@ -1,0 +1,25 @@
+=== rc=0 elapsed=144.9s ===
+=== stdout (925 chars) ===
+Both confirmed. All twelve values verified, each sourced from a January bulletin.
+
+Final values (Total outstanding > Total, the total gross federal debt including agency securities), in millions of dollars:
+
+- Jan 1969 → 374443 (from 1970_01)
+- Jan 1970 → 381327 (from 1971_01)
+- Jan 1971 → 401845 (from 1972_01)
+- Jan 1972 → 433432 (from 1973_01)
+- Jan 1973 → 461855 (from 1974_01)
+- Jan 1974 → 478957 (from 1975_01)
+- Jan 1975 → 505483 (from 1976_01)
+- Jan 1976 → 595307 (from 1977_01)
+- Jan 1977 → 664852 (from 1978_01)
+- Jan 1978 → 731821 (from 1979_01)
+- Jan 1979 → 798733 (from 1980_01)
+- Jan 1980 → 854741 (from 1981_01)
+
+These come exclusively from January Treasury Bulletins, using Table FD-1 "Total outstanding > Total" which sums public debt securities plus agency securities (FHA, etc.).
+
+<FINAL_ANSWER>374443, 381327, 401845, 433432, 461855, 478957, 505483, 595307, 664852, 731821, 798733, 854741</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

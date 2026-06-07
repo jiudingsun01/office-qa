@@ -1,0 +1,10 @@
+=== rc=0 elapsed=40.8s ===
+=== stdout (560 chars) ===
+The Gini coefficient = 0.006 (rounded to thousandths). Receipts (753) exceed Expenditures excluding investments (735), so the fund is operating in a **surplus** (net increase in assets is +18, confirmed in the "Net increase" column showing 18).
+
+Both values lack a decimal point in the raw answer but the Gini is a decimal — using MODE A formatting (decimal value with comma, no space). However this is a mixed bracket (number + word), so standard comma-space separation applies between the two distinct answers.
+
+<FINAL_ANSWER>[0.006, surplus]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

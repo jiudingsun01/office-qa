@@ -1,0 +1,10 @@
+=== rc=0 elapsed=73.9s ===
+=== stdout (299 chars) ===
+The bureau was the Financial Management Service. Using Table USCC-2 for June 30, 2011, total currency in circulation was 987,708,828,424. The total bill count from the denomination rows is 30,202,172,786, giving:
+
+987,708,828,424 / 30,202,172,786 = 32.703237...
+
+<FINAL_ANSWER>32.703</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

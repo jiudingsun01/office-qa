@@ -1,0 +1,14 @@
+=== rc=0 elapsed=173.0s ===
+=== stdout (834 chars) ===
+2014 has a negative quarter (-0.9), so geometric mean is undefined and it can't be the max. Among the computable years, 2017 has the highest geometric mean at 2.74 (from Q1=2.3, Q2=2.2, Q3=3.2, Q4=3.5).
+
+Let me double-check the 2017 values from the 2020 chart, since that's the winner. The 2017 group read as Q1=2.3, Q2=2.2, Q3=3.2, Q4=3.5. Geometric mean = (2.3×2.2×3.2×3.5)^(1/4) = 2.7437 → 2.74.
+
+The answer is year 2017, geometric mean 2.74.
+
+The question asks the year value with no other instruction, and the geometric mean rounded to hundredths. Both are decimals/numbers. Per my memory note, the year 2017 is an integer (no decimal) and 2.74 has a decimal. Mixed — but the format is "[year, geomean]". Year as integer, geomean with decimal. I'll format as bracketed comma-separated.
+
+<FINAL_ANSWER>[2017, 2.74]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

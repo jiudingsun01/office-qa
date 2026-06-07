@@ -1,0 +1,16 @@
+=== rc=0 elapsed=153.4s ===
+=== stdout (631 chars) ===
+The identity NET = banking + brokerage + domestic securities + foreign securities holds exactly for both verification rows (1936: 130304 ✓, 1937: 209367 ✓).
+
+For the week ended Jan. 25, 1939 (which covers Jan 19–25, i.e., the third Thursday Jan 19 through the fourth Wednesday Jan 25), the Latin America net capital movement is:
+- Short-term banking funds: 1,323
+- Brokerage balances: 155
+- Domestic securities: −229
+- Foreign securities: 212
+
+Net total = **1,461** thousand dollars (a positive value = capital inflow to the US, per the table convention "capital inflow or capital outflow (−)").
+
+<FINAL_ANSWER>1461</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,10 @@
+=== rc=0 elapsed=226.9s ===
+=== stdout (290 chars) ===
+For March 1962, summing the two tax anticipation bill rows (Mar. 1962 and June 1962), 2 of the listed categories exceed 500: commercial banks and corporations.
+
+For March 1963, the tax anticipation bill row has 1 listed category exceeding 500: corporations.
+
+<FINAL_ANSWER>3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

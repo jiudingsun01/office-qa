@@ -1,0 +1,16 @@
+=== rc=0 elapsed=523.1s ===
+=== stdout (185 chars) ===
+Using the Treasury Survey totals:
+1964: 209,344
+1965: 215,070
+1966: 218,969
+
+Using annual average USD/INR:
+1964: 4.7619
+1965: 4.7619
+1966: 6.359125
+
+<FINAL_ANSWER>0.3323</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

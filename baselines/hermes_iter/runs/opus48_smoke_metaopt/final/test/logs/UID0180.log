@@ -1,0 +1,10 @@
+=== rc=0 elapsed=53.6s ===
+=== stdout (335 chars) ===
+The values come from Table FD-1, column (5) "Government accounts > Public debt securities", in millions of dollars, for the end of fiscal years (the rows labeled just "2005"–"2009", which are FY-end September values).
+
+Sum = 3,331,332 + 3,663,766 + 3,958,411 + 4,210,485 + 4,355,291 = 19,519,285
+
+<FINAL_ANSWER>19519285</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,20 @@
+=== rc=0 elapsed=104.1s ===
+=== stdout (414 chars) ===
+All values confirmed:
+
+Subtotals (millions USD, Total outstanding column):
+- Feb 28, 1950: 154,764 + 66,771 = 221,535
+- Feb 28, 1951: 151,625 + 67,824 = 219,449
+- Feb 29, 1952: 142,701 + 79,075 = 221,776
+
+GBP per USD = 1/2.80 = 0.357143 (pegged rate, calendar years 1950–1952):
+- 1950 → £79,119.6M
+- 1951 → £78,374.6M
+- 1952 → £79,205.7M
+
+Combined = £236,700M = £236.7 billion.
+
+<FINAL_ANSWER>236.7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

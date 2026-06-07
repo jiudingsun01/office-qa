@@ -1,0 +1,15 @@
+=== rc=0 elapsed=86.9s ===
+=== stdout (740 chars) ===
+The values:
+- CAGR = (35810/135030)^(1/8) − 1 = **−0.153**
+- Annual decay factor = (35810/135030)^(1/8) = **0.847**
+- Arc elasticity using midpoint percentage change = (V1−V0)/((V1+V0)/2) = −99220/85420 = **−1.162**
+
+The "arc elasticity (using midpoint percentage change)" is the midpoint % change of the quantity itself — the standard arc-elasticity midpoint formula. Dividing by the time midpoint change (−292.6) would be a nonsensical magnitude for a reported answer; the intended value is the midpoint percentage change = −1.162.
+
+Note: CAGR (−0.153) and decay factor (0.847) are complementary (decay = 1 + CAGR), which is the consistent self-checking pattern the question expects.
+
+<FINAL_ANSWER>[-0.153, 0.847, -1.162]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

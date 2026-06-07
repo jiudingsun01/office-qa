@@ -1,0 +1,27 @@
+=== rc=0 elapsed=95.9s ===
+=== stdout (775 chars) ===
+All computations complete. Let me summarize the chain:
+
+Data (Table CM-I-3, Total Liabilities by Country, $ millions):
+- June 1991: Europe = 268166, LatAm = 337565
+- June 1996: Europe = 426245, LatAm = 443872
+
+Regression (2-point OLS, Europe → LatAm): slope = 0.67249, intercept = 157225.28
+
+Germany nominal GDP (World Bank, current US$, rounded to 2 dec):
+- 1991 = 1875.79 B, 1996 = 2506.58 B → growth = 33.628%
+
+Counterfactual Europe = 268166 × 1.33628 = 358344.77
+Predicted LatAm = 398209.58
+Absolute difference vs actual 443872 = 45662.42
+As % of actual = 10.2873%
+
+US liability proxy growth (E+L): (870117 → 870117... actually 605731 → 870117) = 43.647%
+Ratio (US growth / Germany growth) = 1.29795
+
+Final = 10.2873 × 1.29795 = 13.35
+
+<FINAL_ANSWER>13.35</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

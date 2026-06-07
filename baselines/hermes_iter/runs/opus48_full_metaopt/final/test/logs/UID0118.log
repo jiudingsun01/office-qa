@@ -1,0 +1,17 @@
+=== rc=0 elapsed=86.3s ===
+=== stdout (384 chars) ===
+Both parts confirmed:
+
+(a) FRED 10-year UK Gilt yield, first day of June 1968 (1968-06-01) = 7.61%
+
+(b) MAD of June U.S. Treasury bond yields 1957-1968:
+- June values: 3.58, 3.20, 4.09, 3.98, 3.88, 3.90, 4.00, 4.13, 4.14, 4.63, 4.86, 5.23
+- median = 4.045
+- median of absolute deviations = 0.155
+
+Absolute difference = |7.61 − 0.155| = 7.455 → 7.46
+
+<FINAL_ANSWER>7.46</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

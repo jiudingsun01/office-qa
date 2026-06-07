@@ -1,0 +1,14 @@
+=== rc=0 elapsed=62.8s ===
+=== stdout (368 chars) ===
+The computation gives slope 44.00 and intercept 231.52.
+
+Both values contain decimal points (MODE A per my memory), so the delimiter is a bare comma with NO space: [44.00,231.52].
+
+- Real values (March 1970 dollars): Jan=287.01, Feb=296.55, Mar=375.00
+- Slope: 44.00 million real $/month
+- Intercept: 231.52 million real $
+
+<FINAL_ANSWER>[44.00,231.52]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

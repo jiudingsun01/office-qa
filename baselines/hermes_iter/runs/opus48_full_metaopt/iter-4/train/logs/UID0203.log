@@ -1,0 +1,14 @@
+=== rc=0 elapsed=85.5s ===
+=== stdout (468 chars) ===
+The 1964 official annual average exchange rate was 2.7912 USD per GBP (i.e. ~$2.79/£1). Converting USD→GBP means dividing by 2.7912.
+
+Calculation summary:
+- Ratios (IB / total public debt subject): 0.990916, 0.989647, 0.989288, 0.987955, 0.987640
+- Geometric mean = 0.989088
+- × 309227 (Second Liberty Bond Act securities subject, Mar 31 1964) = 305852.86 USD millions
+- ÷ 2.7912 (1964 avg USD/GBP) = 109577.5 → 109578 million GBP
+
+<FINAL_ANSWER>109578</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

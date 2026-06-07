@@ -1,0 +1,13 @@
+=== rc=0 elapsed=152.5s ===
+=== stdout (240 chars) ===
+Extracted net positions used:
+
+Dec. 1975: Belgian 12,060; Canadian 10,371
+Mar. 1976: Belgian 2,246; Canadian 10,724
+June 1976: Belgian 16,408; Canadian 11,175
+Sept. 1976: Belgian 13,327; Canadian 10,806
+
+<FINAL_ANSWER>0.3719</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

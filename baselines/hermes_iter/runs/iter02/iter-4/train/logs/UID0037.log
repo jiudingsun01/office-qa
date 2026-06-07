@@ -1,0 +1,10 @@
+=== rc=0 elapsed=185.2s ===
+=== stdout (158 chars) ===
+Using the Q2 bars (end of Q1 to end of Q2) for 2004–2006: 219, 264, and 124.
+
+Mean = (219 + 264 + 124) / 3 = 202.333...
+
+<FINAL_ANSWER>202.333</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

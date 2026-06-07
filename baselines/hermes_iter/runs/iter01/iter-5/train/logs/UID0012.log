@@ -1,0 +1,8 @@
+=== rc=0 elapsed=56.7s ===
+=== stdout (207 chars) ===
+The highest-spending department was the Defense Department. Its 1955 expenditures were 35,532 for military functions and 548 for civil functions, totaling 36,080 million.
+
+<FINAL_ANSWER>36080</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

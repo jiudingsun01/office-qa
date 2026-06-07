@@ -1,0 +1,14 @@
+=== rc=0 elapsed=111.2s ===
+=== stdout (828 chars) ===
+The result is robust: r ≈ 0.98 across reasonable rate assumptions. The conversion to GBP does change the correlation (raw USD = 0.9709, converted = 0.9801) because the 1948/1949 par rates (4.03/3.68) differ sharply from the 2.80 post-devaluation rate, which down-weights those early years' GBP values.
+
+The varying-rate and flat-2.80 both give **0.9801**, and the par-both variant gives 0.9806 — all round to **0.98** at two decimals. The question explicitly says "rounded to two decimal places."
+
+Let me confirm: FY1948/1949 receipts and expenditures use the 1960 bulletin values (41375/32955 and 37663/39474), and FY1950-1964 use the 1965 bulletin (most recently published). The result is stable at 0.98.
+
+The answer is 0.98 (Pearson correlation coefficient, rounded to two decimal places).
+
+<FINAL_ANSWER>0.98</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,13 @@
+=== rc=0 elapsed=108.6s ===
+=== stdout (224 chars) ===
+Computed from:
+FY1939: 312,095 / 820,157
+FY1940: 340,006 / 919,709
+FY1941: 385,306 / 1,011,262
+
+The 3-year centered moving average of the duty rate is 0.377078..., rounded to thousandths.
+
+<FINAL_ANSWER>0.377</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

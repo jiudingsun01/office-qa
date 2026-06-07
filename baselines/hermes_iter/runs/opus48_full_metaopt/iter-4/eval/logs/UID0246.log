@@ -1,0 +1,22 @@
+=== rc=0 elapsed=92.0s ===
+=== stdout (459 chars) ===
+The computation:
+
+1970 (Jan 31, 1970, Table TSO-3):
+- Regular weekly and annual maturing total = 71,805
+- Tax anticipation total = 9,274
+
+1975 (Jan 31, 1975, Table TSO-3):
+- Regular weekly and annual maturing total = 116,036
+- Tax anticipation total = 3,507
+
+Absolute changes 1970→1975:
+- Regular: |116,036 − 71,805| = 44,231
+- Tax anticipation: |3,507 − 9,274| = 5,767
+
+Euclidean norm = √(44,231² + 5,767²) = 44,605.38
+
+<FINAL_ANSWER>44605.38</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,12 @@
+=== rc=0 elapsed=90.2s ===
+=== stdout (505 chars) ===
+The three FY rates are ~0.3805, 0.3697, 0.3810. The centered 3-year moving average (centered on FY1940) = 0.377 (or 37.708% if expressed as a percent).
+
+The question says "rounded to the nearest thousandths place." As a rate/proportion that's 0.377. As a percentage it would be 37.708. The rate "imposed on goods subject to duty" is naturally a ratio of duties to value, so 0.377.
+
+The centered moving average of FY1939–1941 inclusive averages all three years = 0.377.
+
+<FINAL_ANSWER>0.377</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

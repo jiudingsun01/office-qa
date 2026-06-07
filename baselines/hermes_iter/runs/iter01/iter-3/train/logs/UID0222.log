@@ -1,0 +1,12 @@
+=== rc=0 elapsed=50.0s ===
+=== stdout (177 chars) ===
+Using Series I interest-bearing debt:
+- March 2001: 3554
+- March 2006: 34736
+
+Projected March 2011 at the same annualized compound rate:
+
+<FINAL_ANSWER>339501.88</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

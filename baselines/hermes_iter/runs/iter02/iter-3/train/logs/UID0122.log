@@ -1,0 +1,8 @@
+=== rc=0 elapsed=90.8s ===
+=== stdout (228 chars) ===
+Computed the per-date shares as (European euro + Japanese yen) / Total assets, averaged June 2000–2002 and September 2000–2002 separately. The CPI adjustment cancels within each date’s share.
+
+<FINAL_ANSWER>0.953</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

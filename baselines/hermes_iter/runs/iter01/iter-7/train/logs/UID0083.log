@@ -1,0 +1,8 @@
+=== rc=0 elapsed=268.5s ===
+=== stdout (251 chars) ===
+I used the FY 1981 monthly “Total” rows in the Budget Outlays by Function table, including undistributed offsetting receipts, and computed the population standard deviation across the 216 monthly function values.
+
+<FINAL_ANSWER>5206.33</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

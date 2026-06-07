@@ -1,0 +1,13 @@
+=== rc=0 elapsed=55.7s ===
+=== stdout (386 chars) ===
+The three issues labeled "Nat. Defense Series" on the "first callable" side of the schedule:
+- Bills (Nat. Defense Series) — 401 (callable in 1941)
+- 3/4% Notes D (Nat. Defense Series) 9/15/44-54 — 635 (first callable 1944)
+- 3/4% Notes B (Nat. Defense Series) 12/15/45 — 531 (first callable 1945)
+
+Total par = 401 + 635 + 531 = 1567 million dollars.
+
+<FINAL_ANSWER>1567</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

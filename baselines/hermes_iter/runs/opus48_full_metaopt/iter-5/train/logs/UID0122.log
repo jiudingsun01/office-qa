@@ -1,0 +1,14 @@
+=== rc=0 elapsed=86.9s ===
+=== stdout (445 chars) ===
+The CPI deflation cancels within each period's share ratio (numerator and denominator share the same period CPI factor), so the result is unaffected by the inflation adjustment.
+
+Shares of total assets from FX holdings & securities (euro + yen):
+- June: 40.032%, 41.186%, 42.740% → avg 41.319%
+- Sept: 42.063%, 42.070%, 42.684% → avg 42.272%
+
+Absolute difference: |41.319 − 42.272| = 0.953 percentage points.
+
+<FINAL_ANSWER>0.953</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

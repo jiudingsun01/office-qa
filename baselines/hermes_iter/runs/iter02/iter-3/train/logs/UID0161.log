@@ -1,0 +1,12 @@
+=== rc=0 elapsed=208.4s ===
+=== stdout (244 chars) ===
+Using the monthly nominal yield pairs from the specified Treasury Bulletin tables:
+
+1979 correlation: 0.9955123486
+1984 correlation: 0.9958384494
+Absolute difference: 0.0003261008, rounded to four decimals.
+
+<FINAL_ANSWER>0.0003</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

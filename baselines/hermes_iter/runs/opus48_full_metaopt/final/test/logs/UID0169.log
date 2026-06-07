@@ -1,0 +1,21 @@
+=== rc=0 elapsed=282.5s ===
+=== stdout (768 chars) ===
+I can now clearly read Table TSO-5 on PDF page 73 (printed page 59), "Securities Issued by Government-Sponsored Agencies," dated JANUARY 31, 1982.
+
+The "Total amount outstanding" (column 1) for each issuer:
+- Total PCA (Farm Credit Administration): 71,512
+- **Total FHLB (Federal Home Loan Banks): 80,579**
+- **Total FNMA (Federal National Mortgage Association): 58,860**
+- Student Loan Marketing Association: 127
+- Grand Total: 211,077
+
+The combined total of Federal Home Loan Banks + Federal National Mortgage Association:
+
+80,579 + 58,860 = **139,439**
+
+This confirms the markdown values (lines 4336 "Total FHLB 80579" and 4343 "Total FNMA 58860"). Both are exact whole numbers, so the combined total is already a whole number.
+
+<FINAL_ANSWER>139439</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

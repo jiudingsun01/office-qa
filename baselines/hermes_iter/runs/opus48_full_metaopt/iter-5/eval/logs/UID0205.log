@@ -1,0 +1,12 @@
+=== rc=0 elapsed=99.9s ===
+=== stdout (508 chars) ===
+The Pearson r is robust to the FX assumptions, landing at **0.98** in all per-year-FX variants (0.9801 / 0.9786), and even 0.97 without FX. Rounded to 2 dp, the answer is 0.98.
+
+The FX conversion barely matters because the rate was effectively pegged at 2.80 for 1950-1964, with only 1948 (and slightly 1949) differing. Both realistic FX scenarios round to 0.98.
+
+The question's headline ask is the Pearson correlation coefficient. Rounded to two decimal places: **0.98**.
+
+<FINAL_ANSWER>0.98</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

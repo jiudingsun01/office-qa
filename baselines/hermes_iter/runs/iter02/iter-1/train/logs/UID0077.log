@@ -1,0 +1,13 @@
+=== rc=0 elapsed=90.4s ===
+=== stdout (326 chars) ===
+Using the monthly rows, I summed nominal net individual income taxes and total budget receipts for each calendar year.
+
+CY2010 contribution: 946,838 / 2,205,765 × 100 = 42.9256%
+CY2011 contribution: 1,105,822 / 2,326,136 × 100 = 47.5390%
+
+Change: 47.5390 - 42.9256 = 4.6134, rounded to 4.61
+
+<FINAL_ANSWER>4.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

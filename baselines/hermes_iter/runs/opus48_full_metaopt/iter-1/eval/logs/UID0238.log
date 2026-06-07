@@ -1,0 +1,20 @@
+=== rc=0 elapsed=167.1s ===
+=== stdout (1566 chars) ===
+Now it's crystal clear. The right-half top "May 15 / Nov 15 / Total 14,534" belong to **1987**, NOT 1982. The 1987 section started at the bottom of the LEFT column (the left half ended with "1987" header → Feb 15 9%-8, Feb 15 12-3/4%-D) and continued at the top of the right column with May 15, Nov 15, then Total 14,534.
+
+So the column flow is: read DOWN the entire left column (all years 1982-1987 partial), then continue at TOP of right column (1987 remainder, then 1988, 1989...).
+
+Therefore the **1982 total is the 80,686 row** in the left column — that IS the complete 1982 total. All 1982 maturities are contained in the left column, and the "Total 80,686" row is the year-1982 total.
+
+Let me confirm this is correct: the 1982 section in the left column has the year header "1982", entries Mar 31 through Dec 31, then "Total.......... 80,686". My sum of those left entries = 80,685 (≈80,686, the diff being the two "*" sub-$500K entries rounding). 
+
+The 1982 total = **80,686** million dollars.
+
+The question asks: "total value of total amount of nominal maturities for public debt securities that are not 52-week treasury bills and are interest-bearing marketable... which had their date of final maturity in CY 1982." This is exactly Table PDO-1 (which excludes regular weekly and 52-week bills, and covers interest-bearing marketable securities), the Total column, summed for date of final maturity in CY 1982 = the 1982 Total row = 80,686.
+
+The answer is the "Total" column value, which is the printed total of 80,686.
+
+<FINAL_ANSWER>80686</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

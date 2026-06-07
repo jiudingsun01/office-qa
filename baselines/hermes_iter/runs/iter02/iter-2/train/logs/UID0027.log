@@ -1,0 +1,14 @@
+=== rc=0 elapsed=207.0s ===
+=== stdout (326 chars) ===
+Extracted the June 1970 bulletin’s “Average Yields of Treasury, Corporate and Municipal Bonds by Periods” table and computed monthly spreads as Corporate Aa minus Treasury bonds for 1960–1969.
+
+The maximum spread occurs in November 1969:
+8.94 - 6.52 = 2.42
+
+Encoding:
+11 * 100 + 1969 = 3069
+
+<FINAL_ANSWER>3069</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

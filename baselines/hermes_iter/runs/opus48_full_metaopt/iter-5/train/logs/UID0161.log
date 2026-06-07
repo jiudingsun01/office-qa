@@ -1,0 +1,12 @@
+=== rc=0 elapsed=93.8s ===
+=== stdout (639 chars) ===
+Both correlations are very high (~0.995) and the absolute difference rounds to 0.0003.
+
+Let me verify the 1979 data once more against the source. The 1979 values in the first bulletin (block 4) match what I extracted: Treasury Jan 8.43...Dec 9.58, corp Jan 9.47...Dec 11.30. And 1984 from the second bulletin matches. Both series are consistent across the two bulletins (the overlap years like 1979 in the second bulletin's block 3 also show 8.43/9.47 etc.).
+
+Sample Pearson correlation = np.corrcoef gives the standard Pearson r (sample/population scaling cancels). The absolute difference is 0.0003.
+
+<FINAL_ANSWER>0.0003</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

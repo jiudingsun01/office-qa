@@ -1,0 +1,13 @@
+=== rc=0 elapsed=43.3s ===
+=== stdout (475 chars) ===
+The number of bills per denomination divides cleanly. Fractional notes ($600) don't have a clean denomination so they're excluded from the bill count (negligible). 
+
+Total value = $987,708,828,424; total bills = 30,202,172,786.
+Weighted average = 987,708,828,424 / 30,202,172,786 = 32.703.
+
+This represents: if there were a single bill carrying all the value spread across all the bills in circulation, its denomination would be ~$32.70.
+
+<FINAL_ANSWER>32.703</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

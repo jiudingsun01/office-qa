@@ -1,0 +1,14 @@
+=== rc=0 elapsed=79.9s ===
+=== stdout (206 chars) ===
+Using the printed high-grade corporate bond yields:
+
+December 1942: 2.72
+December 1943: 2.63
+November 1944: 2.61
+
+Average = 2.6533..., rounded to nearest hundredth = 2.65
+
+<FINAL_ANSWER>2.65</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

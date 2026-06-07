@@ -1,0 +1,15 @@
+=== rc=0 elapsed=81.6s ===
+=== stdout (602 chars) ===
+The calculation is consistent. 
+
+Approach summary:
+- Mutual funds Treasury holdings, end of March (Table OFS-2, billions USD): 2000=222.3, 2001=225.3, 2002=266.1, 2003=296.6, 2004=280.8
+- Annual simple returns: 1.35%, 18.11%, 11.46%, -5.33%; μ=6.40%, sample σ=10.42%
+- 1% lower-tail return quantile (Gaussian): μ + z₀.₀₁·σ = 0.0640 + (-2.3263)(0.1042) = -0.17843
+- Portfolio loss exceeded with 1% probability on the latest holding (P=280.8B): 50.10B USD
+- Convert at USD→JPY March 2004 monthly NSA rate (FRED EXJPUS, dated 2004-03-01) = 109.43 JPY/USD → ≈ 5,483B JPY
+
+<FINAL_ANSWER>5483</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

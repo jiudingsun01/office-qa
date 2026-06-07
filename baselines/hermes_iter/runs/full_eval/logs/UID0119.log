@@ -1,0 +1,14 @@
+=== rc=0 elapsed=262.7s ===
+=== stdout (224 chars) ===
+Summed fiscal years 1952–1961 inclusive:
+
+Alcohol taxes: 29,119,444
+Tobacco taxes: 17,122,803
+
+Percentage difference relative to tobacco taxes:
+(alcohol - tobacco) / tobacco × 100 = 70.06
+
+<FINAL_ANSWER>70.06</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

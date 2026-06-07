@@ -1,0 +1,10 @@
+=== rc=0 elapsed=48.0s ===
+=== stdout (511 chars) ===
+I can see the PERSONAL SAVING chart clearly. The line peaks at its highest point (~9.4%) right around the mid-1970s. Looking at the x-axis gridlines (1950, 1955, 1960, 1965, 1970, 1975, 1980, 1985, 1990), the highest peak sits just before the 1975 gridline — at approximately 1974.
+
+The line rises sharply to its absolute maximum at about 1974 (~9.4%), then there's a slight dip and a smaller secondary peak around 1975, before declining. The single highest point is at 1974.
+
+<FINAL_ANSWER>1974</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

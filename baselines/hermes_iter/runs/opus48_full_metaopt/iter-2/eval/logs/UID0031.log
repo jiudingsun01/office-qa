@@ -1,0 +1,10 @@
+=== rc=0 elapsed=43.3s ===
+=== stdout (414 chars) ===
+I can see the chart clearly. The solid Receipts line peaks ~17 in 1989, then drops to ~15.1 at 1990, where the dashed Outlays line (~15.3) crosses just above it. So Outlays exceeded Receipts around 1990.
+
+The Receipts line dips to its lowest at 1990 and the dashed Outlays line is slightly above it at that point — the crossover where outlays exceed receipts occurs around 1990.
+
+<FINAL_ANSWER>1990</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

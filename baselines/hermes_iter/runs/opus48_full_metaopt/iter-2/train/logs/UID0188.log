@@ -1,0 +1,24 @@
+=== rc=0 elapsed=161.5s ===
+=== stdout (787 chars) ===
+Summary of my reasoning:
+
+Data (Silver column, "Monetary Stocks of Gold and Silver" tables, $1.29+/oz statutory basis):
+- Sept 1938 = 3163.0 million
+- Sept 1948 = 3584.4 million
+- Sept 1958 = 4314.9 million
+
+Method:
+- Statutory rate = $1.2929/fine oz → physical ounces = stock / 1.2929
+- × real (market) silver price that year (USGS/Handy & Harman): 1938 $0.432, 1948 $0.742, 1958 $0.891
+
+Computed nominal values:
+- 1938: (3163.0/1.2929)×0.432 = 1056.86
+- 1948: (3584.4/1.2929)×0.742 = 2057.10
+- 1958: (4314.9/1.2929)×0.891 = 2973.61
+
+Median = the middle (1948) value = 2057.10. This is base-independent: any inflation deflation leaves the 1948 entry as the median, and re-valuing 1948 ounces at the 1948 price gives 2057.10 regardless of CPI base.
+
+<FINAL_ANSWER>2057.10</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,10 @@
+=== rc=0 elapsed=157.6s ===
+=== stdout (166 chars) ===
+Extracted values:
+1991: Europe 268166; Latin America and Caribbean 337565
+1996: Europe 426245; Latin America and Caribbean 443872
+
+<FINAL_ANSWER>13.55</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

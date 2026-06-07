@@ -1,0 +1,12 @@
+=== rc=0 elapsed=71.5s ===
+=== stdout (304 chars) ===
+Using the January 31, 1977 survey, the remaining Treasury bill totals exceed 20,000 for February through July 1977: 6 months.
+
+Using the January 31, 1978 survey, the remaining Treasury bill totals exceed 20,000 for February through July 1978: 6 months.
+
+Total count: 12.
+
+<FINAL_ANSWER>12</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

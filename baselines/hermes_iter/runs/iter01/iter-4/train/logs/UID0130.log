@@ -1,0 +1,12 @@
+=== rc=0 elapsed=183.6s ===
+=== stdout (149 chars) ===
+Using Table TSO-1 values:
+1980: 861,602
+1981: 956,897
+
+Weighted average = (861,602 + 2 × 956,897) / 3 = 925,132
+
+<FINAL_ANSWER>925132</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

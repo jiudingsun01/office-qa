@@ -1,0 +1,10 @@
+=== rc=0 elapsed=86.6s ===
+=== stdout (325 chars) ===
+All 12 FY1981 monthly net budget outlays values (Oct 1980 – Sept 1981) from Table FFO-5 confirmed both in markdown and visually in the PDF. The FY1982 Oct column (64,216) and cumulative/comparable columns are correctly excluded.
+
+Population standard deviation = 2760.44 million dollars.
+
+<FINAL_ANSWER>2760.44</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

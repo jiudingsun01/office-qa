@@ -1,0 +1,10 @@
+=== rc=0 elapsed=44.4s ===
+=== stdout (228 chars) ===
+"The entire set for this computation" signals population standard deviation. All three values are in millions of dollars as required.
+
+Population standard deviation = 4630.4 million dollars.
+
+<FINAL_ANSWER>4630.4</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

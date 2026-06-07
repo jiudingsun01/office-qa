@@ -1,0 +1,13 @@
+=== rc=0 elapsed=132.0s ===
+=== stdout (525 chars) ===
+Both subquestion values resolved:
+
+1. Total dollar value of bids submitted by investors = total tenders = $10,102 million = **10,102,000,000** (nominal dollars).
+2. Noncash rollover tenders on behalf of foreign/international (global non-domestic) monetary authorities, accepted in exchange for maturing securities = $478 million. As a percent of total bids: 478 / 10,102 × 100 = **4.73%**.
+
+The answer format requested: comma-separated values in enclosed brackets, in order.
+
+<FINAL_ANSWER>[10102000000, 4.73]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

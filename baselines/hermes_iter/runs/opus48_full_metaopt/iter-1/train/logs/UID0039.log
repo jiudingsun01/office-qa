@@ -1,0 +1,10 @@
+=== rc=0 elapsed=56.7s ===
+=== stdout (952 chars) ===
+The sum of all agency-specific outlay entries for January 2003, excluding Department of Commerce (437), FEMA (no transactions), and Department of the Interior (338), and excluding the non-agency items (Employer share/employee retirement, Interest received by trust funds, Rents and royalties on the Outer Continental Shelf, Other) and totals, is **180,681** million dollars.
+
+The agency entries summed (columns 1–31 of FFO-3, "On-Budget and Off-Budget Outlays by Agency", row 2003-Jan): Legislative branch, Judicial branch, Agriculture, Defense-military, Education, Energy, HHS, Homeland Security, HUD, Justice, Labor, State, Transportation, Treasury (interest on debt), Treasury (other), Veterans Affairs, Corps of Engineers, Other Defense civil programs, EPA, Executive Office of the President, GSA, International Assistance Program, NASA, NSF, OPM, SBA, Social Security Administration, and Independent agencies.
+
+<FINAL_ANSWER>180681</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

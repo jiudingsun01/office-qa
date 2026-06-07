@@ -1,0 +1,8 @@
+=== rc=0 elapsed=407.0s ===
+=== stdout (177 chars) ===
+Extracted the “Table 2.- Sales and Redemptions by Periods, All Series Combined” calendar-year sales values for 1949-1953 and averaged them.
+
+<FINAL_ANSWER>4965.8</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

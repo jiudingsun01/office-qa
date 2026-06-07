@@ -1,0 +1,25 @@
+=== rc=0 elapsed=171.0s ===
+=== stdout (713 chars) ===
+I verified the nominal Total Federal Securities Outstanding (Table FD-1, "Amount outstanding — Total" column) against both the Markdown and the PDF image:
+
+- Feb 1980: 861,603
+- Mar 1980: 870,444
+- Apr 1980: 876,914
+- May 1980: 884,788
+- June 1980: 884,381
+
+Using BLS CPI-U (U.S. city average, 1982-84=100) for 1980 — Feb 78.9, Mar 80.1, Apr 81.0, May 81.8, June 82.7 — with February 1980 rebased to CPI=100, each nominal value is deflated to February dollars (adjusted = nominal × 78.9/CPI_month).
+
+Inflation-adjusted normalized values:
+- Feb: 861,603.00
+- Mar: 857,403.64
+- Apr: 854,179.19
+- May: 853,420.21
+- June: 843,744.39
+
+Average = 854,070.09 (millions of dollars)
+
+<FINAL_ANSWER>854070.09</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

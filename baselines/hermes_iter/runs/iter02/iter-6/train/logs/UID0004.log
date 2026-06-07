@@ -1,0 +1,12 @@
+=== rc=0 elapsed=236.4s ===
+=== stdout (196 chars) ===
+I summed the reported individual monthly values:
+1940 total = 2,602
+1953 total = 44,463
+
+Absolute percent change = |44,463 - 2,602| / 2,602 × 100 = 1608.80%
+
+<FINAL_ANSWER>1608.80%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

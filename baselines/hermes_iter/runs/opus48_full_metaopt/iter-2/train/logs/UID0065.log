@@ -1,0 +1,14 @@
+=== rc=0 elapsed=42.0s ===
+=== stdout (336 chars) ===
+Both values found:
+- Q3 1995: nonfarm productivity rose at a 2.0 percent annual rate
+- Q1 1998: nonfarm business productivity rose at an annual rate of 0.2 percent
+
+Absolute difference = |2.0 − 0.2| = 1.8
+
+These are decimal values, both with a decimal point — single value answer, no delimiter needed.
+
+<FINAL_ANSWER>1.8</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,16 @@
+=== rc=0 elapsed=55.7s ===
+=== stdout (448 chars) ===
+This calendar-month receipts table confirms the figures exactly:
+- 1938 October receipts: 332
+- 1939 October receipts: 321
+
+Both tables agree. October 1939 (321) − October 1938 (332) = −11.
+
+These are calendar-month total federal receipts in millions of nominal dollars, on basis of daily Treasury statements. The answer is consistent across both tables in the November 1939 bulletin.
+
+Difference: 321 − 332 = −11
+
+<FINAL_ANSWER>-11</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

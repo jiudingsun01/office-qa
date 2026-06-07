@@ -1,0 +1,36 @@
+=== rc=0 elapsed=103.2s ===
+=== stdout (865 chars) ===
+Now I have both sources. Let me count all 24 months exceeding $20,000 million.
+
+1977_03 bulletin (Feb 1977 – Jan 1978):
+- Feb 1977: 27949 ✓
+- Mar 1977: 31058 ✓
+- Apr 1977: 28967 ✓
+- May 1977: 20773 ✓
+- June 1977: 19231 ✗
+- July 1977: 17085 ✗
+- Aug–Jan: all <4000 ✗
+
+→ 4 months
+
+1978_03 bulletin (Feb 1978 – Jan 1979):
+- Feb 1978: 26128 ✓
+- Mar 1978: 31017 ✓
+- Apr 1978: 29190 ✓
+- May 1978: 19036 ✗
+- June 1978: 19260 ✗
+- July 1978: 16757 ✗
+- Aug–Jan: all <4000 ✗
+
+→ 3 months
+
+Total: 4 + 3 = 7 months exceed $20,000 million.
+
+The "Total amount outstanding" column is the nominal par value outstanding (table is in par values). All 24 calendar months Feb 1977–Jan 1979 are covered exactly once across the two surveys.
+
+Count: Feb77(27949), Mar77(31058), Apr77(28967), May77(20773), Feb78(26128), Mar78(31017), Apr78(29190) = 7 months.
+
+<FINAL_ANSWER>7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

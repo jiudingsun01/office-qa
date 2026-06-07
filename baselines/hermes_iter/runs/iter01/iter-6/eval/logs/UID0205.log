@@ -1,0 +1,8 @@
+=== rc=0 elapsed=335.2s ===
+=== stdout (180 chars) ===
+Computed using the most recent fiscal-year receipts/expenditures from the supplied bulletins, converted to GBP by year, then Pearson-correlated.
+
+<FINAL_ANSWER>0.98</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

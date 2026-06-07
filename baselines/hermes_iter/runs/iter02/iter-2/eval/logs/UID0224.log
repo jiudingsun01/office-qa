@@ -1,0 +1,13 @@
+=== rc=0 elapsed=93.4s ===
+=== stdout (177 chars) ===
+Extracted monthly high-grade corporate bond yields:
+Dec 1942: 2.72
+Dec 1943: 2.63
+Nov 1944: 2.61
+
+Average rounded to nearest hundredths: 2.65
+
+<FINAL_ANSWER>2.65</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

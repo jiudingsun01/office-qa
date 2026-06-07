@@ -1,0 +1,8 @@
+=== rc=0 elapsed=563.8s ===
+=== stdout (244 chars) ===
+The table reports total federal expenditures of 528 for February 1938 and 693 for January 1939. Using the standard percent difference formula relative to their average gives 27.0 rounded to one decimal place.
+
+<FINAL_ANSWER>27.0</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

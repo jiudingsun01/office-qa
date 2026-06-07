@@ -1,0 +1,11 @@
+=== rc=0 elapsed=71.6s ===
+=== stdout (265 chars) ===
+Both values confirmed.
+
+- Share of total redemptions by Series I: March 2000 = 4/1657 = 0.241%, March 2005 = 86/1171 = 7.344%. Change = +7.1 percentage points.
+- Absolute change in Series I redemptions = 86 − 4 = 82 million.
+
+<FINAL_ANSWER>[7.1, 82]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

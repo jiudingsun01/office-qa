@@ -1,0 +1,15 @@
+=== rc=0 elapsed=45.5s ===
+=== stdout (336 chars) ===
+The "net interest" function value in billions:
+- FY1981 (cumulative to date) Total = 82,590 million = 82.590 billion
+- FY1980 (comparable period) Total = 64,564 million = 64.564 billion
+
+Box-Cox transform with λ=0.75: y = (x^0.75 − 1)/0.75
+- FY1981: 35.19538
+- FY1980: 29.03574
+- Difference: 6.1596
+
+<FINAL_ANSWER>6.1596</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=91.2s ===
+=== stdout (124 chars) ===
+12 monthly values confirmed. Population standard deviation = 2760.44 million dollars.
+
+<FINAL_ANSWER>2760.44</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,13 @@
+=== rc=0 elapsed=56.7s ===
+=== stdout (303 chars) ===
+The arc elasticity computation:
+
+- Jan 1960: Total IRS collections = 4,807,819; Unemployment insurance = 26,461
+- Mar 1960: Total IRS collections = 11,893,553; Unemployment insurance = 20,774
+
+Arc elasticity = %ΔQ / %ΔP (midpoint method) = 0.8485 / -0.2408 = -3.524
+
+<FINAL_ANSWER>-3.524</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

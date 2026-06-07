@@ -1,0 +1,8 @@
+=== rc=0 elapsed=77.5s ===
+=== stdout (171 chars) ===
+Using the September 2010 MSR projection of 1.47 and the September 2011 actual deficit rounded to 1.30, the absolute difference is 0.17.
+
+<FINAL_ANSWER>0.17</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

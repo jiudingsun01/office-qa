@@ -1,0 +1,12 @@
+=== rc=0 elapsed=133.2s ===
+=== stdout (563 chars) ===
+Confirmed. The February 1964 row in Table 2 - Trust Receipts: FOASI 2,170, Disability 159, **Railroad Retirement Account 92**, Unemployment 735, etc. Matches the markdown.
+
+So the railroad retirement account trust receipts for February 1964 = 92 million dollars = 92,000,000 in full nominal dollars.
+
+The minimum spread (Aa corporate − Treasury) over 1960-1969 was in February 1964 (4.39 − 4.14 = 0.25), uniquely. The railroad retirement account trust receipts for that month = 92 million = 92,000,000 full nominal dollars.
+
+<FINAL_ANSWER>92000000</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

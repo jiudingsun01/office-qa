@@ -1,0 +1,19 @@
+=== rc=0 elapsed=154.4s ===
+=== stdout (692 chars) ===
+Computation summary:
+
+Data source: Table 2 "Computed Interest Charge and Computed Interest Rate on Federal Securities" (PDF page 30). The markdown parse dropped the "Computed annual interest charge — Public debt" column, so I read it from the PDF (verified visually).
+
+Computed annual interest charge on public debt (millions), FY1961–1967:
+8761, 9519, 10119, 10900, 11467, 12516, 12953 → in billions: 8.761 … 12.953
+
+OLS fit (x = raw fiscal years 1961–1967):
+- slope = 0.711357, intercept = −1386.214714
+- FY1968 forecast = 13.736143 billion
+- FY1968 actual = 15.404 billion
+- Forecast error (actual − forecast) = 15.404 − 13.736143 = 1.667857 billion
+
+<FINAL_ANSWER>1.667857</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

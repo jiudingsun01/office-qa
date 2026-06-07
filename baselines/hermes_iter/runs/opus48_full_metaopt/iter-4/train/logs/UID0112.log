@@ -1,0 +1,14 @@
+=== rc=0 elapsed=67.8s ===
+=== stdout (328 chars) ===
+R-squared for the 20 fiscal years (1991-2010) of on-budget vs off-budget receipts = 0.8298.
+
+Data assembled from the four bulletins (each provides 5 actual fiscal years):
+- 1996 bulletin → FY1991-1995
+- 2001 bulletin → FY1996-2000
+- 2006 bulletin → FY2001-2005
+- 2011 bulletin → FY2006-2010
+
+<FINAL_ANSWER>0.8298</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

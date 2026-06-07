@@ -1,0 +1,22 @@
+=== rc=0 elapsed=522.4s ===
+=== stdout (463 chars) ===
+Using the statutory debt limitation table values:
+
+1960: 287538 / 290174
+1961: 287140 / 290144
+1962: 292485 / 295652
+1963: 298978 / 302623
+1964: 305405 / 309227
+
+Geometric mean of ratios: 0.9890884564
+
+Applied to March 31, 1964 Second Liberty Bond Act securities subject to limitation:
+0.9890884564 × 309227 = 305852.856 million USD
+
+Converted using 1964 USD/GBP annual average 2.79:
+305852.856 / 2.79 = 109624.68 million GBP
+
+<FINAL_ANSWER>109625</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

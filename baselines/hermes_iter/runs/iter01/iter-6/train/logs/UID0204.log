@@ -1,0 +1,8 @@
+=== rc=0 elapsed=202.5s ===
+=== stdout (168 chars) ===
+2010 MSR estimate: 1.47 trillion. Actual FY 2010 deficit: 1,294,236 million = 1.29 trillion rounded to hundredths. Difference: 0.18.
+
+<FINAL_ANSWER>0.18</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

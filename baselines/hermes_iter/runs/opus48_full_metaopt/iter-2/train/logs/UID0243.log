@@ -1,0 +1,17 @@
+=== rc=0 elapsed=97.1s ===
+=== stdout (573 chars) ===
+Public debt outstanding (Total outstanding > Public debt securities, Table FD-1, in millions):
+- FY1960 = 286,331; FY1961 = 288,971; FY1962 = 298,201
+
+Adjusted to constant 1962 dollars via CPI-U annual averages (1960=29.6, 1961=29.9, 1962=30.2):
+- Real FY1960 = 286,331 × 30.2/29.6 = 292,135.00676
+- Real FY1961 = 288,971 × 30.2/29.9 = 291,870.37458
+
+Absolute difference = |291,870.37458 − 292,135.00676| = 264.632
+
+This is a decimal-point answer, so per MODE A delimiter rules I report a bare numeric value (single value, no commas).
+
+<FINAL_ANSWER>264.632</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

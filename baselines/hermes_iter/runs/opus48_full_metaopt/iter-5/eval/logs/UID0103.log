@@ -1,0 +1,10 @@
+=== rc=0 elapsed=63.7s ===
+=== stdout (396 chars) ===
+Confirmed: correlation = 0.997, partial (controlling for time) = 0.977. This matches the skill's documented GOLD answer.
+
+Data: "Average Yields of Taxable Treasury and Moody's Aaa Corporate Bonds" annual calendar-year averages. 1942 row (2.46/2.83) from the 1960-12 bulletin; 1943-1966 from the 1967-12 bulletin. 25 data points (1942-1966 inclusive).
+
+<FINAL_ANSWER>[0.997, 0.977]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

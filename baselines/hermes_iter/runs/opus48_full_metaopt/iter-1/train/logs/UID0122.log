@@ -1,0 +1,14 @@
+=== rc=0 elapsed=52.5s ===
+=== stdout (857 chars) ===
+The CPI adjustment cancels out within each period's ratio, so it doesn't affect the share. But the question explicitly mentions adjusting nominal values to March 2003 dollars — this is a deliberate distractor because the share is a ratio at a single point in time (same deflator on numerator and denominator).
+
+Let me double-check whether the question intends a different aggregation. "Average share of the Fund's total assets that came from its foreign-exchange holdings" — this is the average of the per-period shares. The CPI adjustment would only matter if we were summing dollar amounts across different dates before dividing. But "share of total assets" is clearly per-period. The values confirm the answer.
+
+June average share: 41.319%
+September average share: 42.272%
+Absolute difference: 0.953 percentage points
+
+<FINAL_ANSWER>0.953</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

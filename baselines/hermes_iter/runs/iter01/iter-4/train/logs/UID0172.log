@@ -1,0 +1,15 @@
+=== rc=0 elapsed=108.5s ===
+=== stdout (315 chars) ===
+Extracted United Kingdom Total Liabilities:
+2000 June: 206,014
+2001 June: 172,920
+2002 June: 194,154
+
+Sum: 573,088 million USD
+
+Retrieved USD to GBP rate for 2002-06-30 via Frankfurter; since 2002-06-30 was non-business day, it returned 2002-06-28: 0.65143, rounded to 0.65.
+
+<FINAL_ANSWER>372507.20</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

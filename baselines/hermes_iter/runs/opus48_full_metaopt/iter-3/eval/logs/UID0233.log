@@ -1,0 +1,12 @@
+=== rc=0 elapsed=56.3s ===
+=== stdout (299 chars) ===
+Both totals are the "Total public marketable securities" line from Table 3 (Treasury Survey of Ownership), as of January 31, 1948 and January 31, 1958, in millions of nominal dollars:
+- 1948: 164,945
+- 1958: 164,727
+
+ln(164945 / 164727) = ln(1.0013234) = 0.0013
+
+<FINAL_ANSWER>0.0013</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

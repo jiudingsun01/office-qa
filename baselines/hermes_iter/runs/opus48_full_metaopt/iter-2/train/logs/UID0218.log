@@ -1,0 +1,14 @@
+=== rc=0 elapsed=61.7s ===
+=== stdout (385 chars) ===
+October 1961, all series combined (Table 2, Sales and Redemptions by Periods):
+- Total redemptions = 406 (million)
+- Redemptions from accrued discount = 57 (million)
+
+"Accrued discount" is the elapsed value buildup above the original discounted purchase price (savings bonds were sold at a markdown below face value). 
+
+57 / 406 = 0.14039 → 14.04%
+
+<FINAL_ANSWER>14.04%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

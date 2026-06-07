@@ -1,0 +1,15 @@
+=== rc=0 elapsed=90.4s ===
+=== stdout (493 chars) ===
+The three subtotals (Total outstanding column):
+- 1950: 154,764 + 66,771 = 221,535 million USD
+- 1951: 151,625 + 67,824 = 219,449 million USD
+- 1952: 142,701 + 79,075 = 221,776 million USD
+
+GBP/USD was pegged at $2.80 = £1 throughout 1950–1952 (after the Sept 1949 devaluation), so the annual average pounds-per-dollar rate = 1/2.80 = 0.357143 for all three years.
+
+Converted: 79,119.6 + 78,374.6 + 79,205.7 = 236,700 million pounds = 236.7 billion pounds.
+
+<FINAL_ANSWER>236.7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

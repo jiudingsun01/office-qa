@@ -1,0 +1,14 @@
+=== rc=0 elapsed=48.4s ===
+=== stdout (308 chars) ===
+The four 2-3/8% TIPS adjusted prices auctioned/issued between Jan 1 and Aug 1, 2007 (from TABLE PDO-2, column 6 "equivalent price"):
+- 99.342280 (01/16/07)
+- 99.213485 (01/31/07)
+- 101.434007 (04/16/07)
+- 99.570169 (07/31/07)
+
+Population standard deviation = 0.900544.
+
+<FINAL_ANSWER>0.900544</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=57.2s ===
+=== stdout (226 chars) ===
+The net Euro position not considering options = Purchased − Sold = 1,950,622 − 1,943,752 = 6,870 million euros (from TABLE FCP-VI-2, Monthly Report, which is expressed in millions of euros).
+
+<FINAL_ANSWER>6870</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

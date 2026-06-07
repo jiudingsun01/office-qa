@@ -1,0 +1,8 @@
+=== rc=0 elapsed=714.7s ===
+=== stdout (210 chars) ===
+Computed as net inflow = increase in Latin America liabilities - increase in Latin America assets + net security inflow + joint arbitrage net + brokerage balance net.
+
+<FINAL_ANSWER>1,107 inflow</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

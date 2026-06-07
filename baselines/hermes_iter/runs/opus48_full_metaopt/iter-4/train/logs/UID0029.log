@@ -1,0 +1,13 @@
+=== rc=0 elapsed=106.5s ===
+=== stdout (423 chars) ===
+120 months (10 years × 12), all parsed. Let me verify the 1960 and 1969 data against the image:
+
+- 1960 (Block1, group2): Jan T=4.37/Aa=5.34, ..., Dec T=3.88/Aa=4.94. Image block1 second group (1960): Jan 4.37/5.34 ✓, Dec 3.88/4.94 ✓.
+- 1969 (Block4, group2): Jan T=5.74/Aa=7.29 ✓, Dec T=6.81/Aa=9.22 ✓.
+
+The spread = Aa corporate − Treasury, averaged across all 120 months = 0.88525.
+
+<FINAL_ANSWER>0.88525</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

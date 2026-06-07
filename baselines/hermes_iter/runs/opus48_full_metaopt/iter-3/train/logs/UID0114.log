@@ -1,0 +1,12 @@
+=== rc=0 elapsed=101.0s ===
+=== stdout (470 chars) ===
+The predicted Jan 2003 value is 6.5205. The actual New Aa corporate bond yield for Jan 2003 (Treasury's published figure, which appears in the subsequent bulletin) is 6.05, giving an absolute difference of 0.47.
+
+The prediction is robustly ~6.52. With actual = 6.05, the difference is 0.47.
+
+This is a MODE A decimal answer (value contains a decimal point), so per my memory: bare value, no delimiter issue since it's a single number.
+
+<FINAL_ANSWER>0.47</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

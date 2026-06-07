@@ -1,0 +1,12 @@
+=== rc=0 elapsed=106.7s ===
+=== stdout (554 chars) ===
+The coefficient of correlation between nominal average yield on Treasury bonds and Moody's Aaa corporate bonds for calendar years 1942–1966 (25 annual data points) is 0.997, and the partial correlation between the two yield series controlling for time (calendar year) is 0.977.
+
+Data sources:
+- 1942 row (Treasury 2.46, Moody's 2.83) from the Dec 1960 bulletin annual table (PDF p.71)
+- 1943–1966 from the Dec 1967 bulletin annual table (Treasury bonds vs Moody's Aaa corporate bonds, calendar-year averages)
+
+<FINAL_ANSWER>[0.997, 0.977]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

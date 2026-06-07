@@ -1,0 +1,10 @@
+=== rc=0 elapsed=74.1s ===
+=== stdout (337 chars) ===
+39 months, geometric mean = 80.289 million.
+
+All values read from the Judiciary column (3rd data column) of Table FFO-3 across the four bulletins, inclusive of both endpoints (Jan 1984 → Mar 1987). Plain raw-level geometric mean, intermediates kept full precision, rounded to the nearest thousandth.
+
+<FINAL_ANSWER>80.289</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

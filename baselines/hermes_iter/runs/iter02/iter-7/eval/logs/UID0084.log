@@ -1,0 +1,14 @@
+=== rc=0 elapsed=68.7s ===
+=== stdout (348 chars) ===
+Extracted FY 1961–1968 public debt computed annual interest charge values from Table 2:
+
+1961–1967 used for trend: 8761, 9519, 10119, 10900, 11467, 12516, 12953
+FY 1968 actual: 15404
+
+OLS forecast for FY 1968: 13736.142857 million
+Forecast error: 15404 − 13736.142857 = 1667.857143 million = 1.667857 billion
+
+<FINAL_ANSWER>1.667857</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

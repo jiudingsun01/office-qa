@@ -1,0 +1,14 @@
+=== rc=0 elapsed=129.1s ===
+=== stdout (591 chars) ===
+Now the values match the table exactly. November 1969: corporate 8.94 − Treasury 6.52 = 2.42 (the highest). Let me verify these specific cells against the table line for Nov 1969 (Group 1 = rows 4961-4972, Nov = row 4971).
+
+Line 4971: `| Nov. | 3.98 | 4.52 | 3.20 | 4.11 | 4.42 | 3.20 | 4.74 | 6.11 | 3.90 | 6.52 | 8.94 | 6.05 |` — Block D (1969) = Treasury 6.52, corporate 8.94. Spread = 2.42. ✓
+
+December 1969 = 9.22 − 6.81 = 2.41, just slightly below. November 1969 is the maximum.
+
+Month = 11, Year = 1969. Answer = 11×100 + 1969 = 1100 + 1969 = 3069.
+
+<FINAL_ANSWER>3069</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

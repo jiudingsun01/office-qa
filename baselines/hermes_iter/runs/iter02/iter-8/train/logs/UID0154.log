@@ -1,0 +1,12 @@
+=== rc=0 elapsed=106.9s ===
+=== stdout (334 chars) ===
+From the January 31, 1977 survey, the remaining Treasury bill par amounts by forward month stay above 20,000 through July 1977: 6 months.
+
+From the January 31, 1978 survey, they stay above 20,000 through July 1978: 6 months.
+
+Total months from February 1977 through January 1979 exceeding 20,000: 12.
+
+<FINAL_ANSWER>12</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

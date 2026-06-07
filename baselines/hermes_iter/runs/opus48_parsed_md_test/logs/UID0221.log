@@ -1,0 +1,13 @@
+=== rc=0 elapsed=42.7s ===
+=== stdout (352 chars) ===
+The values:
+- Nov 1949 total marketable subject to statutory limit: 155205M nominal, adjusted to Dec 1949 dollars = 155205 × 23.6/23.8 = 153900.76M
+- Dec 1949: 154962M (already in Dec 1949 dollars)
+
+Absolute percentage difference = |154962 − 153900.76| / 153900.76 × 100 = 0.690%
+Absolute difference = 1061M
+
+<FINAL_ANSWER>[0.690, 1061]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

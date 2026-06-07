@@ -1,0 +1,8 @@
+=== rc=0 elapsed=60.3s ===
+=== stdout (163 chars) ===
+The four Q4 averages: 9270.0, 9023.67, 10024.67, 12323.0 (millions). Best-fit slope over years 0-3 = 1016 million dollars/year.
+
+<FINAL_ANSWER>1016</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

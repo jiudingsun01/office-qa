@@ -1,0 +1,8 @@
+=== rc=0 elapsed=56.3s ===
+=== stdout (263 chars) ===
+I extracted the “Rents and royalties on the Outer Continental Shelf lands” column from Table FFO-3 for calendar-year 2016 across the two bulletins and compared absolute monthly values. The smallest absolute recorded amount is 56.
+
+<FINAL_ANSWER>56</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

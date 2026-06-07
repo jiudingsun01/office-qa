@@ -1,0 +1,13 @@
+=== rc=0 elapsed=37.0s ===
+=== stdout (260 chars) ===
+Sum of fiscal-year-end (Sept 30) "Public debt securities held by U.S. Government accounts" (Table FD-1, column 5) for FY2005–2009:
+- 2005: 3,331,332
+- 2006: 3,663,766
+- 2007: 3,958,411
+- 2008: 4,210,485
+- 2009: 4,355,291
+
+<FINAL_ANSWER>19519285</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

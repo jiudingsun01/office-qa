@@ -1,0 +1,24 @@
+=== rc=0 elapsed=122.1s ===
+=== stdout (792 chars) ===
+The PDF confirms Mar. 1963 TAB: 3,005 total | 446 commercial | (mutual savings=2, hidden) | 58 life | 23 fire/cas | 1 S&L | 1,317 corporations | 11 general funds | etc. Matches the markdown. 
+
+So for 1963, only corporations (1,317) > 500.
+
+Final tally:
+- 1962: commercial banks (1,797) + corporations (1,815) = 2 categories
+- 1963: corporations (1,317) = 1 category
+- Sum = 2 + 1 = **3**
+
+Let me sanity-check the 1962 insurance and state&local sums once more:
+- 1962 insurance: Mar(60+20=80) + June(31+14=45) = 125 < 500 ✓
+- 1962 state&local: Mar(31+16=47) + June(56+0=56) = 103 < 500 ✓
+- 1962 USGovt+FRB: 136 + 0 = 136 < 500 ✓
+
+All correct. The two >500 in 1962 are commercial banks and corporations. The one >500 in 1963 is corporations.
+
+Total = 2 + 1 = 3.
+
+<FINAL_ANSWER>3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

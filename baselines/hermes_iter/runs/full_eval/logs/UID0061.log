@@ -1,0 +1,9 @@
+=== rc=0 elapsed=146.5s ===
+=== stdout (144 chars) ===
+Series E accrued discount share minus Series D share:
+(2,300 - 499) / 3,405 = 0.528928..., rounded to 0.529
+
+<FINAL_ANSWER>0.529</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=198.0s ===
+=== stdout (247 chars) ===
+I used the New Aa corporate bonds monthly values from Jan 1999 through Dec 2002, fit a linear trend with an intercept over t = 1..48, forecast t = 49 for Jan 2003, and compared it with the Jan 2003 actual value.
+
+<FINAL_ANSWER>0.35</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

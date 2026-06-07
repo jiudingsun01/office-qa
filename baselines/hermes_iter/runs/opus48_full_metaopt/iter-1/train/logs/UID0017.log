@@ -1,0 +1,13 @@
+=== rc=0 elapsed=37.3s ===
+=== stdout (651 chars) ===
+Both values confirmed.
+
+Reasoning:
+- **Total bids submitted** for the 2-year notes (Series U-1984, due July 31, 1984): tenders "totaled $10,102 million" = $10,102,000,000 in nominal dollars.
+- **Noncash rollover tenders for non-domestic investors**: "$478 million at the average price from Federal Reserve banks as agents for foreign and international monetary authorities in exchange for maturing securities." This matches all three qualifiers: accepted, noncash/rollover (in exchange for maturing securities), and foreign/international (non-domestic).
+- Percent of total bids: 478 / 10,102 = 4.73%.
+
+<FINAL_ANSWER>[10102000000, 4.73]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

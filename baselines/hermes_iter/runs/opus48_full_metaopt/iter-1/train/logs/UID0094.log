@@ -1,0 +1,11 @@
+=== rc=0 elapsed=130.8s ===
+=== stdout (283 chars) ===
+The calculation:
+- December 1938: Working balance 2,449 / Total balance 3,083 = 0.79436
+- December 1940: Working balance 1,188 / Total balance 1,928 = 0.61618
+- Geometric annual rate over 2 years = (0.61618/0.79436)^(1/2) − 1 = −0.11926 ≈ −0.119
+
+<FINAL_ANSWER>-0.119</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

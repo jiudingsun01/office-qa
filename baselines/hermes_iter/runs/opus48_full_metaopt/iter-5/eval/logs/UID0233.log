@@ -1,0 +1,12 @@
+=== rc=0 elapsed=86.0s ===
+=== stdout (340 chars) ===
+The ratio is Jan 31, 1948 (164945) to Jan 31, 1958 (164727).
+
+ln(164945/164727) = ln(1.001323) = 0.0013
+
+Both values come from the "Treasury Survey of Ownership" Table 3 "Interest-Bearing Public Marketable Securities by Issues", "Total public marketable securities" row, in millions of nominal dollars.
+
+<FINAL_ANSWER>0.0013</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,12 @@
+=== rc=0 elapsed=239.5s ===
+=== stdout (151 chars) ===
+Using the Monthly Receipts table:
+October 1938 receipts: 332
+October 1939 receipts: 321
+
+Difference: 321 - 332 = -11
+
+<FINAL_ANSWER>-11</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,1 @@
+{"rc": 0, "elapsed_sec": 80.69, "skills_before": 117, "skills_after": 119, "skills_delta": 2, "verdict": "CORRECT", "raw_response": "Created a reusable skill and updated memory.\n\nSkill created:\nresearch/treasury-bulletin-reserve-assets\n\nMemory updated with the reserve-assets pattern while preserving the prior capital-movements note in compressed form.\n", "stderr_tail": ""}

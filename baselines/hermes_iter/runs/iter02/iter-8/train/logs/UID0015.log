@@ -1,0 +1,10 @@
+=== rc=0 elapsed=55.9s ===
+=== stdout (181 chars) ===
+Using the Interest function total (net) values from Table FFO-5:
+1981 fiscal year: 82.590 billion
+Comparable 1980 fiscal period: 64.564 billion
+
+<FINAL_ANSWER>6.1596</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

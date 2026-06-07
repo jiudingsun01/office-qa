@@ -1,0 +1,13 @@
+=== rc=0 elapsed=58.8s ===
+=== stdout (228 chars) ===
+Both values confirmed.
+
+Share Mar 2000 = 4/1657 = 0.2414%
+Share Mar 2005 = 86/1171 = 7.3442%
+Change in share = +7.1 percentage points
+Absolute change in Series I redemptions = 86 − 4 = 82
+
+<FINAL_ANSWER>[7.1, 82]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

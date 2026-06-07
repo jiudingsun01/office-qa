@@ -1,0 +1,10 @@
+=== rc=0 elapsed=99.9s ===
+=== stdout (302 chars) ===
+The maximum yield spread between US corporate Aa bonds and US Treasury bonds over 1960–1969 occurred in **November 1969** (Aa corporate 8.94% − Treasury 6.52% = 2.42 percentage points).
+
+Encoding: month integer (11) × 100 + calendar year (1969) = 1100 + 1969 = 3069.
+
+<FINAL_ANSWER>3069</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

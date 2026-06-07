@@ -1,0 +1,8 @@
+=== rc=0 elapsed=59.8s ===
+=== stdout (138 chars) ===
+The geometric mean across the 16 values (4 reserve asset components × July 2010-2013) is 29347.01.
+
+<FINAL_ANSWER>29347.01</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,17 @@
+=== rc=0 elapsed=81.2s ===
+=== stdout (250 chars) ===
+Using March values from OFS-2:
+Foreign and international holdings:
+2003 Mar = 1,275.2
+2012 Mar = 5,147.6
+
+BEA nominal GDP:
+2003 = 11,456.450
+2012 = 16,253.970
+
+CAGR ratio over 9 years = 4.2319..., rounded to tenths.
+
+<FINAL_ANSWER>4.2</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=70.7s ===
+=== stdout (189 chars) ===
+Extracted the end-of-period balances for July through January in each span and computed range / average * 100. The highest percentage is for 1963–1964.
+
+<FINAL_ANSWER>115.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

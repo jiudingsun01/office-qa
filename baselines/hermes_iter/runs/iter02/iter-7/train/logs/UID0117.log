@@ -1,0 +1,16 @@
+=== rc=0 elapsed=404.1s ===
+=== stdout (310 chars) ===
+Extracted same-year maturity totals (millions) from the end-of-February schedules:
+
+1972: 24,221
+1973: 24,292
+1974: 33,368
+1975: 31,653
+1976: 35,565
+
+Using sample standard deviation (n-1), the 1972 value is -1.063 sample standard deviations from the 5-year sample average.
+
+<FINAL_ANSWER>-1.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

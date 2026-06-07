@@ -1,0 +1,16 @@
+=== rc=0 elapsed=148.8s ===
+=== stdout (480 chars) ===
+The Fisher Ideal symmetric growth rate from August 1981 (13.61) to August 1982 (12.15):
+
+g = 2 × (12.15 − 13.61) / (12.15 + 13.61) × 100 = 2 × (−1.46) / 25.76 × 100 = **−11.335%**
+
+Values used (Treasury bonds 1/, AY-1 monthly average yields, as reported through FY1982 end):
+- August 1981 = 13.61
+- August 1982 = 12.15
+
+The answer is a single value with a decimal point, so per my delimiter rule it's a bare number rounded to three decimals.
+
+<FINAL_ANSWER>-11.335</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

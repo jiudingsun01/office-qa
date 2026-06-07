@@ -1,0 +1,13 @@
+=== rc=0 elapsed=82.6s ===
+=== stdout (368 chars) ===
+Extracted the “Computed annual interest charge — Public debt” values from Table 2, in millions of dollars:
+
+FY 1961–1967: 8761, 9519, 10119, 10900, 11467, 12516, 12953
+FY 1968 actual: 15404
+
+OLS linear trend on FY 1961–1967 forecasts FY 1968 at 13.736143 billion, so actual − forecast = 15.404000 − 13.736143 = 1.667857 billion.
+
+<FINAL_ANSWER>1.667857</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

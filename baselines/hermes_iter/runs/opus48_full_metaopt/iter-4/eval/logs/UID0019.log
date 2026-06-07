@@ -1,0 +1,14 @@
+=== rc=0 elapsed=63.4s ===
+=== stdout (492 chars) ===
+Both values converted to USD millions:
+- Yen: -74 billion yen ÷ 114.0 = -649.12 million USD
+- Pound: 369 million pounds × 1.41 = 520.29 million USD
+
+Absolute difference = |-649.12 - 520.29| = 1169.41 million USD.
+
+The mid-March 2016 row (03/16/2016) gives yen net options -74 (billions of yen, rate 114.0 yen/USD) and sterling net options 369 (millions of pounds, rate 1.41 USD/pound). Converting each to USD millions and taking the absolute difference:
+
+<FINAL_ANSWER>1169.41</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

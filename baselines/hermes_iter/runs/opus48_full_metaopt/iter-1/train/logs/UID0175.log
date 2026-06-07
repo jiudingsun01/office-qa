@@ -1,0 +1,10 @@
+=== rc=0 elapsed=72.3s ===
+=== stdout (258 chars) ===
+The values for High-grade corporate bonds (Jan–June 1938): 3.17, 3.15, 3.16, 3.25, 3.14, 3.15.
+
+The benchmark convention for "variance" is population variance (dividing by N), which gives 0.00137 to five decimal places.
+
+<FINAL_ANSWER>0.00137</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

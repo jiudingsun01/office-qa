@@ -1,0 +1,17 @@
+=== rc=0 elapsed=59.0s ===
+=== stdout (482 chars) ===
+The calendar-year total sales for Treasury Savings Notes (All Series Combined), 1949-1953:
+- 1949: 5,971
+- 1950: 3,613
+- 1951: 5,883
+- 1952: 3,726
+- 1953: 5,730
+
+Sum = 24,923. Mean = 24,923 / 5 = 4,984.6 million dollars.
+
+This is the "TREASURY SAVINGS NOTES" → "Table 2.- Sales and Redemptions by Periods, All Series Combined" table, sourced from "Office of the Treasurer of the U.S." — matching the "(U.S. Treasury)" qualifier in the question.
+
+<FINAL_ANSWER>4984.6</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

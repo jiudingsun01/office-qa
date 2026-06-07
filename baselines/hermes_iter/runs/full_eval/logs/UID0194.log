@@ -1,0 +1,12 @@
+=== rc=0 elapsed=71.7s ===
+=== stdout (174 chars) ===
+Using total liabilities to all foreigners:
+June 2003: 2,289,997
+June 2013: 4,764,858
+
+CAGR over 10 years = 7.6023%, rounded to hundredths.
+
+<FINAL_ANSWER>7.60</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

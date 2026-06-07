@@ -1,0 +1,11 @@
+=== rc=0 elapsed=76.7s ===
+=== stdout (500 chars) ===
+The January New Aa corporate bond yields for 1990–1999 are:
+9.56, 9.60, 8.36, 7.91, 7.16, 8.59, 7.00, 7.62, 6.62, 6.14
+
+Historical Expected Shortfall at 95% confidence = average of the worst 5% of returns. With 10 observations, the 5% tail (0.5 obs) collapses to the single worst (lowest) value = 6.14 (January 1999). Both standard historical-ES conventions (mean of worst ⌈0.05×10⌉=1 observation, and mean of returns ≤ the 5th-percentile VaR) agree on this value.
+
+<FINAL_ANSWER>6.14</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

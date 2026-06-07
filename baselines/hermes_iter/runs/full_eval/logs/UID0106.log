@@ -1,0 +1,8 @@
+=== rc=0 elapsed=80.1s ===
+=== stdout (237 chars) ===
+Using the fiscal-year surplus/deficit figures from the cited Treasury Bulletin summary tables for FY 1945–1959 inclusive, and computing the sample standard deviation in millions of dollars, I get:
+
+<FINAL_ANSWER>14813.213</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

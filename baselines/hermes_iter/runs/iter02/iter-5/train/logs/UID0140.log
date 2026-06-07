@@ -1,0 +1,8 @@
+=== rc=0 elapsed=173.9s ===
+=== stdout (235 chars) ===
+I treated deficits as negative signed values in millions of dollars, fit a cubic polynomial to years 1989-2013, predicted 2025, and compared it to the Treasury-reported 2025 estimate of -1,877,649.
+
+<FINAL_ANSWER>907654</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

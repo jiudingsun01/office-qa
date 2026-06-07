@@ -1,0 +1,10 @@
+=== rc=0 elapsed=277.9s ===
+=== stdout (133 chars) ===
+1980 value: 861,602
+1981 value: 956,897
+Weighted average: (861,602 + 2 × 956,897) / 3 = 925,132
+
+<FINAL_ANSWER>925132</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

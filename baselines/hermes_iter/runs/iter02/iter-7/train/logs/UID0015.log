@@ -1,0 +1,8 @@
+=== rc=0 elapsed=65.7s ===
+=== stdout (170 chars) ===
+Using the Interest “Total” row: 1981 = 82.590 billion, comparable 1980 = 64.564 billion. Box-Cox difference with λ = 0.75 is 6.1596.
+
+<FINAL_ANSWER>6.1596</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,9 @@
+=== rc=0 elapsed=369.8s ===
+=== stdout (130 chars) ===
+1962 counts: 2 categories (commercial banks; corporations)
+1963 counts: 1 category (corporations)
+
+<FINAL_ANSWER>3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

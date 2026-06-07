@@ -1,0 +1,10 @@
+=== rc=0 elapsed=378.9s ===
+=== stdout (315 chars) ===
+Extracted bid quotes using Treasury price notation where decimals are 32nds, converted each year’s March quote to DEM using EXGEUS March 1 rates, then applied SES with α = 0.3 and initial forecast equal to the 1972 converted value.
+
+Difference is forecast minus actual.
+
+<FINAL_ANSWER>[206.06,-4.18]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

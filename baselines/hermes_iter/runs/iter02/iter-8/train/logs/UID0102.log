@@ -1,0 +1,15 @@
+=== rc=0 elapsed=50.7s ===
+=== stdout (371 chars) ===
+Extracted Corporate income taxes monthly net budget receipts for FY 2021, in billions:
+
+Oct 9.2, Nov -3.2, Dec 62.9, Jan 16.5, Feb 3.8, Mar 15.3, Apr 72.8, May 13.8, Jun 74.2, Jul 16.9, Aug 3.0, Sep 86.7.
+
+Using Type 7 quartiles:
+Q1 = 7.85 → rounded to tenths = 7.9
+Q3 = 65.375 → rounded to tenths = 65.4
+H spread = 65.4 - 7.9 = 57.50
+
+<FINAL_ANSWER>57.50</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

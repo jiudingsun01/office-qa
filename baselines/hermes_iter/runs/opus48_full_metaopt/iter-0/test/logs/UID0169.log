@@ -1,0 +1,15 @@
+=== rc=0 elapsed=151.0s ===
+=== stdout (299 chars) ===
+The PDF confirms Table TSO-5 clearly. Total amount outstanding:
+
+- **Total FHLB** (Federal Home Loan Banks) = 80,579
+- **Total FNMA** (Federal National Mortgage Association) = 58,860
+
+Combined: 80,579 + 58,860 = 139,439
+
+These match the markdown values exactly.
+
+<FINAL_ANSWER>139439</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

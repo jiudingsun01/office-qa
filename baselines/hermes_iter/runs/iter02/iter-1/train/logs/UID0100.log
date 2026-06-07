@@ -1,0 +1,10 @@
+=== rc=0 elapsed=88.1s ===
+=== stdout (284 chars) ===
+Extracted Judicial Branch total on-budget and off-budget outlays (millions): 2007–2013 = 6008, 6345, 6643, 7185, 7295, 7228, 7066.
+
+Using the average of annual YoY growth rates and OLS of ln(outlays) on a 0-based fiscal year index:
+
+<FINAL_ANSWER>[2.806, 0.030, 8.736]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

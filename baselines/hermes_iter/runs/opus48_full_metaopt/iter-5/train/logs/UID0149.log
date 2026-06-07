@@ -1,0 +1,43 @@
+=== rc=0 elapsed=319.5s ===
+=== stdout (1703 chars) ===
+Confirmed. For January 31, 1963, there is exactly **one** Tax anticipation row: **Mar. 1963**.
+
+**Mar. 1963 TAB:** 3,005 | comm banks 446 | mutual savings 2 | life 58 | fire/casualty/marine 23 | savings&loan 1 | corporations 1,317 | gen funds 11 | pension funds 0 (–) | U.S. Govt & FRB 19 | all other 1,128
+
+Now compute the 7 question categories for 1963 (total Treasury TABs = just Mar 1963 row since it's the only TAB):
+- U.S. Govt accounts & FRB: 19 → ✗
+- Commercial banks: 446 → ✗ (not >500)
+- Mutual savings banks: 2 → ✗
+- Insurance: 58 + 23 = 81 → ✗
+- Savings & loan: 1 → ✗
+- Corporations: 1,317 → >500 ✓
+- State & local: 11 + 0 = 11 → ✗
+
+So **1963 count = 1** (corporations only).
+
+Now let me reconcile with the 1962 calculation. Note the question says "total Treasury TABs as recorded in March of each corresponding year." The 1962_03 bulletin (Jan 31, 1962 survey) has two TAB rows (Mar 1962, June 1962). Summing per category:
+
+- Commercial banks: 804 + 993 = 1,797 ✓
+- Mutual savings: 4 + 6 = 10 ✗
+- Insurance: 80 + 45 = 125 ✗
+- Savings & loan: 2 + 6 = 8 ✗
+- Corporations: 1,191 + 624 = 1,815 ✓
+- State & local: 47 + 56 = 103 ✗
+- U.S. Govt & FRB: 136 + 0 = 136 ✗
+
+**1962 count = 2.**
+
+Total = 2 + 1 = **3**.
+
+Let me double-check whether the question intends "total Treasury TABs" as the sum of all TAB issues in that bulletin, which is what I did. Yes — "total Treasury TABs" per category = sum across all tax anticipation issues listed. For 1962 there are 2 issues, for 1963 there is 1 issue.
+
+Verification of the two categories exceeding 500M each year:
+- 1962: commercial banks (1,797) and corporations (1,815) → 2
+- 1963: corporations (1,317) → 1
+
+Sum = 3.
+
+<FINAL_ANSWER>3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,16 @@
+=== rc=0 elapsed=59.2s ===
+=== stdout (542 chars) ===
+The "Interest" function in this table is the budget's net interest function (function 900). The Total row nets gross outlays against proprietary receipts and intrabudgetary transactions, giving net interest outlays.
+
+- Net interest, FY1981 (cumulative to date): 82,590 million = 82.590 billion
+- Net interest, comparable period fiscal 1980: 64,564 million = 64.564 billion
+
+Box-Cox transform (λ=0.75): y = (x^0.75 − 1)/0.75
+- y(82.590) = 35.195377
+- y(64.564) = 29.035741
+- Difference = 6.159635 → 6.1596
+
+<FINAL_ANSWER>6.1596</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

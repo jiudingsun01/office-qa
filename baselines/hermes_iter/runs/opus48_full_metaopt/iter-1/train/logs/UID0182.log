@@ -1,0 +1,12 @@
+=== rc=0 elapsed=71.2s ===
+=== stdout (557 chars) ===
+The maximum share is in 2011: 24579/4925045 = 0.004990... → rounds to 0.005.
+
+The question asks for the maximum share as a decimal rounded to nearest thousandths. Max = 0.005.
+
+The Canadian dollar liabilities are under "Payable in foreign currencies > Major currencies", and the denominator "total liabilities to foreign countries" = "Total liabilities to all foreigners". The values used are calendar-year-end (the first "Calendar Year YYYY" column in each respective issue, which is the authoritative year-end figure).
+
+<FINAL_ANSWER>0.005</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

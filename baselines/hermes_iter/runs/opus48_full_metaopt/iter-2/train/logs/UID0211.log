@@ -1,0 +1,12 @@
+=== rc=0 elapsed=59.5s ===
+=== stdout (341 chars) ===
+The arithmetic mean of total sales (Sales column) for calendar years 1949-1953, all series combined:
+
+(5833 + 6074 + 3961 + 4161 + 4800) / 5 = 24829 / 5 = 4965.8
+
+This is from Table 2 "Sales and Redemptions by Periods, All Series Combined" (in millions of dollars), Calendar years section, Sales column.
+
+<FINAL_ANSWER>4965.8</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

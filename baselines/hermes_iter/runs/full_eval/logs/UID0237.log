@@ -1,0 +1,12 @@
+=== rc=0 elapsed=51.0s ===
+=== stdout (287 chars) ===
+Using OFS-1, “Public debt securities — Held by private investors — Total”:
+June 2007: 4,156.876 billion
+June 2006: 4,034.853 billion
+
+Mid-point normalized difference = (4,156.876 - 4,034.853) / ((4,156.876 + 4,034.853) / 2) = 0.02979, rounded to 0.03.
+
+<FINAL_ANSWER>0.03</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

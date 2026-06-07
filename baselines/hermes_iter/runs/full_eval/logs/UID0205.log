@@ -1,0 +1,8 @@
+=== rc=0 elapsed=281.2s ===
+=== stdout (366 chars) ===
+Used the fiscal-year net receipts and expenditures from the Summary of Federal Fiscal Operations tables, taking the 1965 bulletin values where available and the 1960 bulletin for 1948–1949. After converting each year’s pair from USD to GBP using the respective annual average exchange rate, the Pearson correlation coefficient is:
+
+<FINAL_ANSWER>0.98</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

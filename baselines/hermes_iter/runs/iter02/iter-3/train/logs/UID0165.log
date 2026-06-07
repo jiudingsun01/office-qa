@@ -1,0 +1,8 @@
+=== rc=0 elapsed=48.5s ===
+=== stdout (360 chars) ===
+Using the March 2010 Treasury Bulletin OFS-2 table, mutual funds at end of March for 2000-2004 were 222.3, 225.3, 266.1, 296.6, 280.8 billion USD. Applying the one-year change/loss VaR convention with sample standard deviation and the March 2004 USD→JPY monthly rate of 108.5157 gives 4,927.75 billion JPY, rounded to 4,928.
+
+<FINAL_ANSWER>4928</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

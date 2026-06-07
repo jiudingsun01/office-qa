@@ -1,0 +1,15 @@
+=== rc=0 elapsed=52.7s ===
+=== stdout (383 chars) ===
+The highest percentage is 115.61 (FY 1963-64).
+
+Computation summary (End-of-period Tax and Loan Account balances, July–January, $M):
+- 1962–63: max 7919, min 3678, range 4241, avg 5835.29 → 72.68%
+- 1963–64: max 7958, min 2451, range 5507, avg 4763.29 → 115.61%
+- 1964–65: max 8339, min 3612, range 4727, avg 5322.14 → 88.82%
+
+Highest = 115.61%.
+
+<FINAL_ANSWER>115.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

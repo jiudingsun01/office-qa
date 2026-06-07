@@ -1,0 +1,11 @@
+=== rc=0 elapsed=100.6s ===
+=== stdout (180 chars) ===
+Computed CY shares as:
+CY2010: 946,838 / 2,205,765 * 100 = 42.9256
+CY2011: 1,105,822 / 2,326,136 * 100 = 47.5390
+Change: 4.6134, rounded to 4.61
+
+<FINAL_ANSWER>4.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

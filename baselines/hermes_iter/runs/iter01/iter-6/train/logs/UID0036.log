@@ -1,0 +1,8 @@
+=== rc=0 elapsed=70.6s ===
+=== stdout (230 chars) ===
+Using calendar years 2001 and 2008, and treating “marketable liabilities” as marketable U.S. Treasury bonds and notes plus other readily marketable liabilities for foreign official institutions:
+
+<FINAL_ANSWER>9.89</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

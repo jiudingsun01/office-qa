@@ -1,0 +1,11 @@
+=== rc=0 elapsed=126.8s ===
+=== stdout (400 chars) ===
+Confirmed values:
+- Total currency in circulation, end of fiscal month November 1969 = 46,431 million (from Treasury Bulletin Table MS-1, verified in both Markdown and PDF)
+- BLS CPI-U YoY inflation rate for November 1969 = (37.500 − 35.400)/35.400 = 5.9322% (official FRED/BLS CPIAUCNS series)
+- Inflation-adjusted amount = 46,431 × 1.059322 = 49,185.4 million
+
+<FINAL_ANSWER>49185.4</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

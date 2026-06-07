@@ -1,0 +1,8 @@
+=== rc=0 elapsed=80.6s ===
+=== stdout (191 chars) ===
+All 50 states accounted for (verified count = 50), DC and territories excluded. The Zipf exponent from OLS regression of log(value) on log(rank) is 1.172.
+
+<FINAL_ANSWER>1.172</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

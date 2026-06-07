@@ -1,0 +1,8 @@
+=== rc=0 elapsed=37.9s ===
+=== stdout (284 chars) ===
+The table “Average Yields of Taxable Treasury and Moody’s Aaa Corporate Bonds by Periods” shows Moody’s Aaa corporate bond annual averages of 2.62 for 1945 and 2.62 for 1950. The absolute change is 0.0 percentage points rounded to the nearest tenth.
+
+<FINAL_ANSWER>0.0</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

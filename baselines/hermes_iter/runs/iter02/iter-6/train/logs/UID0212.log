@@ -1,0 +1,8 @@
+=== rc=0 elapsed=135.6s ===
+=== stdout (302 chars) ===
+Using the Seigniorage table, the “Seigniorage on coins (silver and minor)” values are 429.5 for 1945 and 807.0 for 1955. The continuously compounded average annual growth rate over 10 years is ln(807.0 / 429.5) / 10 = 0.063070..., rounded to the nearest thousandth:
+
+<FINAL_ANSWER>0.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

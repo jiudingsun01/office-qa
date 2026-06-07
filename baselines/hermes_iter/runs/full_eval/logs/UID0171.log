@@ -1,0 +1,15 @@
+=== rc=0 elapsed=385.3s ===
+=== stdout (307 chars) ===
+Used the Tax and Loan Account Balances table values:
+
+1963 Nov: credits 4,704; withdrawals 4,022; average balance 3,076
+1964 Nov: credits 5,421; withdrawals 3,394; average balance 4,639
+
+Applied monthly USD-to-GBP average rates:
+1963 Nov: 0.35738536
+1964 Nov: 0.35902775
+
+<FINAL_ANSWER>35.14</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

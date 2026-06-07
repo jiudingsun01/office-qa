@@ -1,0 +1,11 @@
+=== rc=0 elapsed=181.5s ===
+=== stdout (174 chars) ===
+Using the worldwide net position values:
+
+Belgian francs: 12,060; 2,246; 16,408; 13,327
+Canadian dollars: 10,371; 10,724; 11,175; 10,806
+
+<FINAL_ANSWER>0.3719</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

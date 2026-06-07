@@ -1,0 +1,17 @@
+=== rc=0 elapsed=117.9s ===
+=== stdout (422 chars) ===
+Mean = 29,819.8; sample stddev = 5,264.52; z = -1.063. This matches the gold value noted in the skill (-1.063). The 1972 total is below the 5-year average, so the answer is negative.
+
+All five values confirmed (three visually, two from clean markdown Total rows):
+- 1972: 24,221
+- 1973: 24,292
+- 1974: 33,368
+- 1975: 31,653
+- 1976: 35,565
+
+z = (24221 − 29819.8) / 5264.52 = **−1.063**
+
+<FINAL_ANSWER>-1.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

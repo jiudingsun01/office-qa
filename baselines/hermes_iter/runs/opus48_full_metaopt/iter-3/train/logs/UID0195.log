@@ -1,0 +1,10 @@
+=== rc=0 elapsed=56.3s ===
+=== stdout (268 chars) ===
+The OLS regression on 36 monthly values (July 1953 through June 1956) of the "20 years and after" taxable Treasury bond yields, extrapolated to July 1956 (x=37), gives:
+
+slope ≈ 0.00091, intercept ≈ 2.8823, predicted yield ≈ 2.916.
+
+<FINAL_ANSWER>2.916</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

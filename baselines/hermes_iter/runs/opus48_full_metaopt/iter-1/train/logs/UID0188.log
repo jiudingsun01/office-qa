@@ -1,0 +1,13 @@
+=== rc=0 elapsed=67.4s ===
+=== stdout (555 chars) ===
+The three Treasury Bulletin silver monetary stock values (in millions, nominal, at the statutory $1.29+/fine-troy-oz rate):
+- Sept 1938: 3163.0
+- Sept 1948: 3584.4
+- Sept 1958: 4314.9
+
+The chain (ounces = nominal ÷ statutory rate, then × the silver price) recovers the same nominal magnitude when the statutory price ($1.29292/oz) is the reference price — which is the only price basis grounded in the source documents. The median of the three computed nominal values is 3584.4, or to the nearest hundredth, 3584.40.
+
+<FINAL_ANSWER>3584.40</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

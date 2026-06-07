@@ -1,0 +1,13 @@
+=== rc=0 elapsed=57.6s ===
+=== stdout (443 chars) ===
+The series of 8 year-to-year log growth rates from the National Defense expenditures (Table 4):
+- Mean = 0.2783
+- Population std = 0.4334
+- CV = std/mean = 1.5572 ≈ **1.56**
+
+The 1941 value (6301) already includes emergency/urgent ship construction via the U.S. Maritime Commission column (footnote 2/: "Includes emergency ship construction, beginning in the month of March 1941"), as the question requires.
+
+<FINAL_ANSWER>1.56</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

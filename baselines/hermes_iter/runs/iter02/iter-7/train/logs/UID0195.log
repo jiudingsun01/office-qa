@@ -1,0 +1,8 @@
+=== rc=0 elapsed=214.4s ===
+=== stdout (229 chars) ===
+Using the monthly “20 years and after” taxable Treasury bond yield series for July 1953 through June 1956, I fit an OLS trend with intercept using t = 1..36 and forecasted July 1956 at t = 37.
+
+<FINAL_ANSWER>2.916</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

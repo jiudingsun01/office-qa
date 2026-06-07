@@ -1,0 +1,14 @@
+=== rc=0 elapsed=39.5s ===
+=== stdout (451 chars) ===
+I have both values directly from the narrative text:
+
+- Q3 1995 (1995_12 bulletin): "Growth of nonfarm productivity, or real output per work-hour, rose at a 2.0 percent annual rate in the third quarter" → **2.0%**
+
+- Q1 1998 (1998_06 bulletin): "Nonfarm business productivity (real output per hour worked) rose at an annual rate of 0.2 percent in the first quarter" → **0.2%**
+
+Absolute difference: |2.0 − 0.2| = 1.8
+
+<FINAL_ANSWER>1.8</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

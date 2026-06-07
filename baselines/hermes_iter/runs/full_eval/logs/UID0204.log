@@ -1,0 +1,12 @@
+=== rc=0 elapsed=79.3s ===
+=== stdout (175 chars) ===
+Using the reported trillion-dollar figures:
+2010 MSR projection: 1.47
+2011 reported actual FY 2010 deficit: 1.30
+
+Absolute difference: 0.17
+
+<FINAL_ANSWER>0.17</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

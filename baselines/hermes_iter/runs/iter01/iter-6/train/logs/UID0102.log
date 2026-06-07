@@ -1,0 +1,8 @@
+=== rc=0 elapsed=102.4s ===
+=== stdout (185 chars) ===
+Extracted FY 2021 monthly net corporate income tax receipts, rounded each to tenths of billions, computed Type 7 Q1 and Q3, then H spread = Q3 - Q1.
+
+<FINAL_ANSWER>57.53</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,17 @@
+=== rc=0 elapsed=121.8s ===
+=== stdout (575 chars) ===
+All steps computed cleanly:
+
+- Treasury (June): Europe 1991=268166, 1996=426245; Latin America 1991=337565, 1996=443872
+- Germany GDP (World Bank, billions): 1991=1875.79, 1996=2506.58 → growth = 33.628%
+- 2-point regression: LA = 0.67249·EU + 157225.28
+- Counterfactual Europe = 268166 × 1.33628 = 358344.77
+- Predicted LA = 398209.58; actual June 1996 LA = 443872 → abs diff = 45662.42 M
+- As % of actual = 10.2873%
+- US proxy growth (EU+LA) = 43.647%; ratio to Germany growth (33.628%) = 1.29795
+- Final = 10.2873 × 1.29795 = **13.35**
+
+<FINAL_ANSWER>13.35</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

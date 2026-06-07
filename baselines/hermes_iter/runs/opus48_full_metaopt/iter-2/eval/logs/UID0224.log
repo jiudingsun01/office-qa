@@ -1,0 +1,19 @@
+=== rc=0 elapsed=41.1s ===
+=== stdout (561 chars) ===
+November 1944 high-grade corporate bonds = 2.61 (line 4049, the 1944 monthly block column, third value).
+
+Let me verify all three values:
+- Dec 1942: 2.72
+- Dec 1943: 2.63
+- Nov 1944: 2.61
+
+The monthly series in the 1945 bulletin confirms Nov 1944 = 2.61. Let me verify Dec 1943 in the 1945 bulletin too: line 4038 shows 1943-Dec = 2.63. Consistent.
+
+Average = (2.72 + 2.63 + 2.61) / 3 = 7.96 / 3 = 2.6533... ≈ 2.65
+
+All three values are decimals → MODE A delimiter, but this is a single number answer so no delimiter needed.
+
+<FINAL_ANSWER>2.65</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

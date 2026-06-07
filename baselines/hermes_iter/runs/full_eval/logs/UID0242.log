@@ -1,0 +1,8 @@
+=== rc=0 elapsed=178.0s ===
+=== stdout (273 chars) ===
+Using equal weights (0.5 / 0.5), the correlation-adjusted VaR rates are 1.4959% for 2009 and 1.3520% for 2010. Applying those to the combined liabilities + derivative holdings positions gives VaR in millions.
+
+<FINAL_ANSWER>[170505.06, 159744.21, Decreased]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

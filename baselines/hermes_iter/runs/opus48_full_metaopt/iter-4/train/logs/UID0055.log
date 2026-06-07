@@ -1,0 +1,16 @@
+=== rc=0 elapsed=26.3s ===
+=== stdout (386 chars) ===
+I have the annual data:
+- 1945 (WWII ended): Moody's Aaa = 2.62
+- 1950 (Korean War began): Moody's Aaa = 2.62
+
+Absolute change = |2.62 − 2.62| = 0.00 → rounded to nearest tenths = 0.0
+
+WWII ended in 1945, Korean War began June 1950. Both years show Moody's Aaa corporate bonds at 2.62 percent.
+
+Absolute change = |2.62 − 2.62| = 0.0 percentage points.
+
+<FINAL_ANSWER>0.0</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=84.6s ===
+=== stdout (253 chars) ===
+Using total duties and taxes divided by total value of dutiable and taxable imports for FY1939, FY1940, and FY1941, then taking the centered 3-year moving average gives 0.377078..., rounded to the nearest thousandth.
+
+<FINAL_ANSWER>0.377</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

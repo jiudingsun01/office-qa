@@ -1,0 +1,12 @@
+=== rc=0 elapsed=62.7s ===
+=== stdout (195 chars) ===
+Using total liabilities to all foreigners:
+June 2003 = 2,289,997
+June 2013 = 4,764,858
+
+CAGR = (4,764,858 / 2,289,997)^(1/10) - 1 = 7.6023%, rounded to 7.60%.
+
+<FINAL_ANSWER>7.60%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

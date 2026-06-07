@@ -1,0 +1,12 @@
+=== rc=0 elapsed=103.8s ===
+=== stdout (351 chars) ===
+From the Treasury Bulletin table, mutual funds’ estimated ownership at end-March 2000–2004 was:
+
+222.3, 225.3, 266.1, 296.6, 280.8 billion USD
+
+Using one-year changes, the 1% lower-tail loss estimate is 45.41 billion USD. Converting at the March 2004 USD/JPY rate of 108.5157 gives 4,927.75 billion JPY, rounded to:
+
+<FINAL_ANSWER>4928</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

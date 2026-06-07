@@ -1,0 +1,16 @@
+=== rc=0 elapsed=111.6s ===
+=== stdout (253 chars) ===
+Using the Treasury Bulletin FD-1 public debt securities values for FY-end June 30:
+1960: 286,331
+1961: 288,971
+
+Using BLS CPI-U annual averages:
+1960: 29.6
+1961: 29.9
+1962: 30.2
+
+Absolute difference in 1962 dollars:
+<FINAL_ANSWER>264.632</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

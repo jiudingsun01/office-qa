@@ -1,0 +1,8 @@
+=== rc=0 elapsed=206.3s ===
+=== stdout (200 chars) ===
+Extracted total unmatured redemptions: January 284, February 295, March 375. CPI-U: 37.8, 38.0, 38.2. Using March 1970 dollars and month numbers 1, 2, 3:
+
+<FINAL_ANSWER>[44.00, 231.52]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

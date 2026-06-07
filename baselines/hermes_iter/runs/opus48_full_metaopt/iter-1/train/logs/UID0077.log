@@ -1,0 +1,14 @@
+=== rc=0 elapsed=87.2s ===
+=== stdout (523 chars) ===
+The change in percent contribution of net individual income taxes to total budget receipts from CY2010 to CY2011:
+
+- CY2010: 946,838 / 2,205,765 = 42.93%
+- CY2011: 1,105,822 / 2,326,136 = 47.54%
+- Change: +4.61 percentage points
+
+I computed calendar-year totals by summing the 12 monthly values (Jan–Dec) from FFO-1 (Total receipts, col 1) and FFO-2 (Individual income taxes, Net, col 4) across the March 2011 bulletin (for CY2010 months) and the March 2012 bulletin (for CY2011 months).
+
+<FINAL_ANSWER>4.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

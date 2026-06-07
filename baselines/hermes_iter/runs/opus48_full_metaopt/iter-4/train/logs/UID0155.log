@@ -1,0 +1,14 @@
+=== rc=0 elapsed=46.8s ===
+=== stdout (343 chars) ===
+The geometric mean across the 16 values is 29347.01.
+
+The 16 values (Gold stock, SDR, Foreign currencies, Reserve position in IMF for July end-of-month 2010-2013):
+- 2010: 11041, 56013, 49743, 12330
+- 2011: 11041, 57182, 54635, 23024
+- 2012: 11041, 54011, 50293, 34039
+- 2013: 11041, 54214, 47688, 34483
+
+<FINAL_ANSWER>29347.01</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

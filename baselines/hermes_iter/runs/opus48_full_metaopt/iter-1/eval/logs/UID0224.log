@@ -1,0 +1,13 @@
+=== rc=0 elapsed=94.2s ===
+=== stdout (320 chars) ===
+All three high-grade corporate bond average yields confirmed from the monthly series tables:
+- December 1942 = 2.72 (1943 bulletin)
+- December 1943 = 2.63 (1944 bulletin)
+- November 1944 = 2.61 (1945 bulletin, verified against PDF)
+
+Average = (2.72 + 2.63 + 2.61) / 3 = 2.6533… → 2.65
+
+<FINAL_ANSWER>2.65</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

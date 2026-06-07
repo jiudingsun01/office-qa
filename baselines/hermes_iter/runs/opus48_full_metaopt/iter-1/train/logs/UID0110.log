@@ -1,0 +1,12 @@
+=== rc=0 elapsed=136.5s ===
+=== stdout (416 chars) ===
+The year with the highest geometric mean is 2017, with a geometric mean of 2.7437 → rounded to nearest hundredth = 2.74.
+
+2014 has a negative quarter (-0.9) making its geometric mean undefined for real values, but it's irrelevant since 2017 clearly dominates. The values are confirmed directly from both PDF charts.
+
+Answer format: [year,geomean] with no space after comma.
+
+<FINAL_ANSWER>[2017,2.74]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

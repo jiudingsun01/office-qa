@@ -1,0 +1,8 @@
+=== rc=0 elapsed=237.0s ===
+=== stdout (269 chars) ===
+Using the printed “New Aa corporate bonds” monthly values for Jan 1999–Dec 2002, an OLS trend forecast for Jan 2003 gives 6.5205. Comparing to the Jan 2003 actual value of 6.17 gives an absolute difference of 0.3505, which rounds to:
+
+<FINAL_ANSWER>0.35</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=45.0s ===
+=== stdout (240 chars) ===
+Using Table FFO-5/FFO-6 in the December 1981 Treasury Bulletin, I used the FY 1981 “Net budget outlays” monthly values (Oct. 1980–Sept. 1981) in millions and computed the population standard deviation.
+
+<FINAL_ANSWER>2760.44</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

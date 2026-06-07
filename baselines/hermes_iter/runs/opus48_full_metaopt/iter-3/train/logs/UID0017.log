@@ -1,0 +1,16 @@
+=== rc=0 elapsed=55.8s ===
+=== stdout (930 chars) ===
+The values are clear from the narrative:
+
+- **Sub-question 1 (total bids submitted by investors):** Total tenders = $10,102 million = $10,102,000,000 nominal dollars.
+- **Sub-question 2 (percent noncash rollover for foreign/international = "global non-domestic"):** The $478 million from Federal Reserve banks acting as agents for foreign and international monetary authorities in exchange for maturing securities (a noncash rollover) ÷ $10,102 million = 4.73%.
+
+The question phrasing maps precisely:
+- "2-year notes maturing at the end of July 1984" = Series U-1984, due July 31, 1984.
+- "total dollar value of bids submitted by investors" = $10,102 million tendered.
+- "noncash rollover tenders accepted... on behalf of global non-domestic investors" = $478M (FRB as agents for foreign & international monetary authorities, exchange for maturing securities = noncash rollover).
+
+<FINAL_ANSWER>[10102000000, 4.73]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

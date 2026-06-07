@@ -1,0 +1,19 @@
+=== rc=0 elapsed=148.0s ===
+=== stdout (909 chars) ===
+The geometric means per year (CY 2013-2019):
+- 2013: 2.21
+- 2014: undefined (Q3 = -0.9, negative — geometric mean not real)
+- 2015: 1.35
+- 2016: 2.02
+- 2017: 2.74  ← highest
+- 2018: 2.30
+- 2019: 2.29
+
+The year 2017 has the highest geometric mean (Q1=2.3, Q2=2.2, Q3=3.2, Q4=3.5 → GM = 2.7437… ≈ 2.74). 2014 is excluded because it contains a negative quarter (-0.9), making the geometric mean undefined over the reals.
+
+Per the output format: square brackets, comma-separated, year first then geometric mean to nearest hundredths. Both values contain a decimal-style... the year is a bare integer; the geomean is a decimal. The format requested literally: "[year, geomean]". Following the memory rule, when values include decimals I should use bare comma no space. The year here is an integer though. I'll format as the question shows: bracketed and comma-separated.
+
+<FINAL_ANSWER>[2017, 2.74]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=41.8s ===
+=== stdout (171 chars) ===
+1948 reporting structure lists Department of the Army expenditures as 667 in FY1940 and 7,425 in FY1947. Increase: 7,425 - 667 = 6,758.
+
+<FINAL_ANSWER>6758</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

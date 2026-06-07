@@ -1,0 +1,18 @@
+=== rc=0 elapsed=130.3s ===
+=== stdout (474 chars) ===
+The arithmetic mean is exactly 1026002.00.
+
+Foreign-countries Total Liabilities (all types = Official institutions Total + Banks and other foreigners Total), from CM-I-1 "Liabilities to Foreigners Reported by Banks in the United States" (latest revised year-end values):
+- 1991: 747,085
+- 1992: 873,202
+- 1993: 993,609
+- 1994: 1,095,112
+- 1995: 1,197,085
+- 1996: 1,249,919
+
+Mean = 6,156,012 / 6 = 1,026,002.00 (millions of dollars).
+
+<FINAL_ANSWER>1026002.00</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

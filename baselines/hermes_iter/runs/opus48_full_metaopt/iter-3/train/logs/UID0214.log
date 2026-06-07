@@ -1,0 +1,14 @@
+=== rc=0 elapsed=289.0s ===
+=== stdout (546 chars) ===
+The YoY CPI-U rate for Nov 1969 = 37.500/35.400 − 1 = 5.9322%.
+
+Applied to total currency in circulation. The reference is explicit: "total currency in circulation" → the GRAND-TOTAL row, Nov 1969 ~$53.3B (NOT FRN ~$46.7B). The grand-total row "Total money in circulation" = 52,991 for Nov 1969 (≈$53.0B, matching the reference's guidance).
+
+52,991 × (1.059322) = 56,134.5 million dollars.
+
+This is a decimal answer with a value containing a decimal point — but it's a single value, so just the bare number.
+
+<FINAL_ANSWER>56134.5</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

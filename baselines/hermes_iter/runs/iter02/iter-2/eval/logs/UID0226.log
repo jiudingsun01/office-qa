@@ -1,0 +1,14 @@
+=== rc=0 elapsed=107.1s ===
+=== stdout (307 chars) ===
+Using the statutory debt limitation tables, I used the “Total public debt” amounts subject to statutory debt limitation for January 31:
+
+1953: 271,789
+1954: 274,287
+1955: 277,925
+
+Treating these three nominal figures as the entire population, the standard deviation is:
+
+<FINAL_ANSWER>2519.4</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

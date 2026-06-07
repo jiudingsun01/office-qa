@@ -1,0 +1,18 @@
+=== rc=0 elapsed=102.5s ===
+=== stdout (492 chars) ===
+The arithmetic mean of the Total Liabilities of Foreign Countries for calendar years 1991–1996.
+
+Values (in millions of nominal dollars), reported by U.S. banks (Table CM-I-1 / CM-I-3, "Total foreign countries"):
+- 1991 = 821,943 (1996 bulletin CM-I-1: 131,088 official + 690,855 banks & other)
+- 1992 = 873,202
+- 1993 = 993,609
+- 1994 = 1,095,112 (revised)
+- 1995 = 1,197,085
+- 1996 = 1,249,919
+
+Sum = 6,230,870 → mean = 6,230,870 / 6 = 1,038,478.33
+
+<FINAL_ANSWER>1038478.33</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

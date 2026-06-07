@@ -1,0 +1,24 @@
+=== rc=0 elapsed=355.8s ===
+=== stdout (384 chars) ===
+Extracted from Table FD-1:
+
+1960 public debt securities: 286331
+1961 public debt securities: 288971
+1962 public debt securities: 298201
+
+Using CPI-U annual averages:
+1960: 29.6
+1961: 29.9
+1962: 30.3
+
+Inflation-adjusted to 1962 dollars:
+1960: 286331 × 30.3 / 29.6 = 293102.341
+1961: 288971 × 30.3 / 29.9 = 292836.833
+
+Absolute difference:
+265.508
+
+<FINAL_ANSWER>265.508</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

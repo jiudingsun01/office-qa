@@ -1,0 +1,18 @@
+=== rc=0 elapsed=419.2s ===
+=== stdout (309 chars) ===
+1970:
+Regular weekly + annual maturing Treasury bills: 71,806
+Tax anticipation Treasury bills: 9,275
+
+1975:
+Regular weekly + annual maturing Treasury bills: 116,036
+Tax anticipation Treasury bills: 3,507
+
+Absolute changes:
+Regular/annual: 44,230
+Tax anticipation: 5,768
+
+<FINAL_ANSWER>44604.51</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,19 @@
+=== rc=0 elapsed=63.5s ===
+=== stdout (456 chars) ===
+Across reasonable BEA revisions, the ratio rounds to 4.3 consistently.
+
+Foreign holdings of total estimated U.S. Treasury securities (OFS-2, June 2013 bulletin = end of FY2013 reporting):
+- March 2003: 1,275.2 billion
+- March 2012: 5,147.6 billion
+- CAGR (9 years) ≈ 16.77%
+
+Nominal U.S. GDP (BEA, current dollars):
+- 2003 ≈ 11,512.2 billion; 2012 ≈ 16,197.0 billion
+- CAGR (9 years) ≈ 3.87%
+
+Ratio = 16.77% / 3.87% ≈ 4.3
+
+<FINAL_ANSWER>4.3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

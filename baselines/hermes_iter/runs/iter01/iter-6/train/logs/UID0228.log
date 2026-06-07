@@ -1,0 +1,14 @@
+=== rc=0 elapsed=99.2s ===
+=== stdout (250 chars) ===
+Extracted receipts from the April 1956 bulletin table:
+January 1956: 4,964
+February 1956: 7,140
+
+Sum: 12,104 million USD
+1956 USD/INR average rounded to hundredths: 4.76
+Converted sum: 12,104 × 4.76 = 57,615.04
+
+<FINAL_ANSWER>57615.04</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

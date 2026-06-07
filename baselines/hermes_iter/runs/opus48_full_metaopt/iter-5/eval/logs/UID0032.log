@@ -1,0 +1,14 @@
+=== rc=0 elapsed=47.3s ===
+=== stdout (415 chars) ===
+The table is in thousands of dollars. 
+
+- Tobacco and manufactures values (Feb-May 1940): 2729 + 2625 + 3010 + 3292 = 11,656 thousand
+- Wool and manufactures values (Feb-May 1940): 6850 + 7214 + 4720 + 4469 = 23,253 thousand
+- Absolute difference: 11,597 thousand = 11.597 million ≈ 11.60 million
+
+The difference rounded to the nearest hundredths place is 11.60 million dollars.
+
+<FINAL_ANSWER>11.60</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

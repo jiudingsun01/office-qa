@@ -1,0 +1,20 @@
+=== rc=0 elapsed=763.8s ===
+=== stdout (534 chars) ===
+The OLS regression on the four fixed-maturity totals (in billions):
+- 1948: 55.427
+- 1949: 48.044
+- 1950: 54.565
+- 1951: 57.479
+
+Slope = 1.2677, intercept = 50.7095. Projected for end of January 1952 = 57.048 → **57.0 billion**.
+
+Data verification summary (all in millions, confirmed via vision on rasterized PDF pages):
+- 1948 = 46,615 + 6,127 + 2,635 + 50 = 55,427
+- 1949 = 36,068 + 11,926 + 50 = 48,044
+- 1950 = 44,467 + 5,373 + 4,675 + 50 = 54,565
+- 1951 = 40,537 + 4,675 + 12,217 + 50 = 57,479
+
+<FINAL_ANSWER>57.0</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

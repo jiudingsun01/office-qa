@@ -1,0 +1,12 @@
+=== rc=0 elapsed=57.1s ===
+=== stdout (162 chars) ===
+Using the June values from TABLE CM-I-1:
+2003: 2,289,997
+2013: 4,764,858
+
+CAGR = (4,764,858 / 2,289,997)^(1/10) - 1 = 7.6023%
+
+<FINAL_ANSWER>7.60%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

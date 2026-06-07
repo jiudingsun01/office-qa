@@ -1,0 +1,10 @@
+=== rc=0 elapsed=37.9s ===
+=== stdout (202 chars) ===
+CA share 2018 = 13.174%, 2019 = 13.242%. Change = +0.068 percentage points.
+
+This is a MODE A decimal answer (value has a decimal point) → bare value, single number.
+
+<FINAL_ANSWER>0.068</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

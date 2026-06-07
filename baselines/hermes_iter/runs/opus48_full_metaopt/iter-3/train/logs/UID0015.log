@@ -1,0 +1,14 @@
+=== rc=0 elapsed=52.0s ===
+=== stdout (421 chars) ===
+The Box-Cox transformed difference is 6.1596.
+
+- FY1981 net interest (Interest function, Total) = 82,590 million = 82.590 billion → BC(λ=0.75) = 35.1954
+- FY1980 net interest (comparable period fiscal 1980, Total) = 64,564 million = 64.564 billion → BC(λ=0.75) = 29.0357
+- Difference = 6.1596
+
+This is a MODE A answer (decimal value), so no special delimiter concerns — single value.
+
+<FINAL_ANSWER>6.1596</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

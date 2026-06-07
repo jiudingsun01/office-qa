@@ -1,0 +1,16 @@
+=== rc=0 elapsed=134.7s ===
+=== stdout (606 chars) ===
+Both values are decimals (well, the ratio/log is a decimal). The answer is a single value with a decimal point → MODE A formatting (bare number, no delimiter issue since it's a single value).
+
+ln(164945 / 164727) = ln(1.0013234) = 0.0013
+
+Verification:
+- Jan 31, 1948 "Total public marketable securities" = 164,945 million (from 1948_04 markdown, line 2040)
+- Jan 31, 1958 "Total public marketable securities" = 164,727 million (from 1958_04 PDF page 54, confirmed visually)
+- Ratio = 164945/164727 = 1.00132340
+- ln(ratio) = 0.0013234 → rounded to 4 decimals = 0.0013
+
+<FINAL_ANSWER>0.0013</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,12 @@
+=== rc=0 elapsed=171.6s ===
+=== stdout (191 chars) ===
+Using the “Total foreign countries” column in Table CM-I-2 for 1991–1996:
+
+Values: 747085, 800909, 915736, 1006390, 1088510, 1148176
+
+Mean = 951134.33
+
+<FINAL_ANSWER>951134.33</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

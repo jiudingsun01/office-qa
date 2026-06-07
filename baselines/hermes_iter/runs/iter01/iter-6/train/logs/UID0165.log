@@ -1,0 +1,8 @@
+=== rc=0 elapsed=150.9s ===
+=== stdout (271 chars) ===
+Using the end-March mutual fund holdings values (222.3, 225.3, 266.1, 296.6, 280.8), I estimated one-year returns, applied a 1% lower-tail normal quantile, and converted the resulting loss using the March 2004 USD/JPY rate of 108.5157.
+
+<FINAL_ANSWER>5437</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

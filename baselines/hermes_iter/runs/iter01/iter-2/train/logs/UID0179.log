@@ -1,0 +1,13 @@
+=== rc=0 elapsed=175.8s ===
+=== stdout (248 chars) ===
+Using the latest listed/revised values from the provided bulletin pages:
+
+Belgian francs: 12,060; 2,246; 16,408; 13,327
+Canadian dollars: 10,371; 10,724; 11,175; 10,806
+
+Pearson correlation coefficient = 0.3719
+
+<FINAL_ANSWER>0.3719</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

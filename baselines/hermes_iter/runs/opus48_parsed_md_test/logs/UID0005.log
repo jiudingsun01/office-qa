@@ -1,0 +1,14 @@
+=== rc=0 elapsed=109.0s ===
+=== stdout (553 chars) ===
+Both sums are deflated by the same 1953 CPI factor (26.7), so the absolute difference = (44,463 − 2,602) / 26.7 = 41,861 / 26.7 = 1,567.83.
+
+Verification:
+- 1940 sum = 2,602 (matches skill check exactly, confirmed from 1941_01 budget table monthly "National defense" cells)
+- 1953 sum = 44,463 (skill-documented reported-monthly-cells check; the "Calendar yr." printed total is 44,465)
+- CPI-U 1953 annual average (Minneapolis Fed) = 26.7
+- Absolute difference of inflation-adjusted sums = 41,861 / 26.7 = 1,567.83
+
+<FINAL_ANSWER>1567.83</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

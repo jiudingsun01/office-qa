@@ -1,0 +1,1 @@
+{"rc": 0, "elapsed_sec": 88.52, "skills_before": 102, "skills_after": 104, "skills_delta": 2, "verdict": "CORRECT", "raw_response": "Saved.\n\nCreated skill:\nresearch/treasury-bulletin-nonbanking-foreign-currency-positions\n\nAdded durable memory:\nOfficeQA TB nonbank FX: signed current-currency millions; no USD conversion; match month/currency columns.\n", "stderr_tail": ""}

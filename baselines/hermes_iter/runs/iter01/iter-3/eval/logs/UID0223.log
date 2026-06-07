@@ -1,0 +1,14 @@
+=== rc=0 elapsed=247.9s ===
+=== stdout (281 chars) ===
+Used the Treasury Bulletin values:
+1991 June: Europe 268166; Latin America and Caribbean 337565.
+1996 June: Europe 426245; Latin America and Caribbean 443872.
+
+Used IMF nominal GDP for Germany, rounded to 2 decimals:
+1991: 1882.49
+1996: 2507.45
+
+<FINAL_ANSWER>13.75</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

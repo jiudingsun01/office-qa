@@ -1,0 +1,12 @@
+=== rc=0 elapsed=52.3s ===
+=== stdout (282 chars) ===
+Sum of receipts: 4964 (Jan 1956) + 7140 (Feb 1956) = 12104 million USD.
+
+The yearly average 1956 USD/INR exchange rate was 4.7619 (the pegged Indian rupee, 1 USD = 4.7619 INR), which rounds to 4.76.
+
+12104 × 4.76 = 57615.04 (millions of INR).
+
+<FINAL_ANSWER>57615.04</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

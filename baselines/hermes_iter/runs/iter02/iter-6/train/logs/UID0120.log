@@ -1,0 +1,8 @@
+=== rc=0 elapsed=49.8s ===
+=== stdout (147 chars) ===
+Used SB-4 “Redemptions of Matured and Unmatured Savings Bonds” and the BLS CPI-U values Jan-Mar 1970.
+
+<FINAL_ANSWER>[44.00,231.52]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

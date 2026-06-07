@@ -1,0 +1,8 @@
+=== rc=0 elapsed=136.6s ===
+=== stdout (200 chars) ===
+Using the 26-week bill discount rates for Sept. 1 and Sept. 8, 1960: 2.825 and 2.801. Annualized realized volatility with 365/7 scaling is 6.1609%, rounded to 6.16.
+
+<FINAL_ANSWER>6.16</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=286.4s ===
+=== stdout (261 chars) ===
+I extracted the total surplus/deficit series for 1989–2013 from the FFO-1 tables, fit an ordinary least-squares cubic polynomial, projected 2025, and compared it to the Treasury Bulletin 2025 estimate of -1,877,649 million.
+
+<FINAL_ANSWER>907654</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

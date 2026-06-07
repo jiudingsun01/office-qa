@@ -1,0 +1,11 @@
+=== rc=0 elapsed=162.4s ===
+=== stdout (131 chars) ===
+From the relevant tables:
+1934 public works: 549
+1946 public works: 407
+Absolute difference: 142
+
+<FINAL_ANSWER>142</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

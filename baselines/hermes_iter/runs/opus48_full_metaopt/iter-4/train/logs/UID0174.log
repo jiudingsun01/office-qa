@@ -1,0 +1,14 @@
+=== rc=0 elapsed=121.4s ===
+=== stdout (393 chars) ===
+Arc elasticity uses the midpoint formula (the standard definition of "arc elasticity"), giving **-3.524**.
+
+Values used:
+- Jan 1960: Total collections = 4,807,819; Unemployment insurance = 26,461
+- Mar 1960: Total collections = 11,893,553; Unemployment insurance = 20,774
+
+Arc elasticity = (ΔQ / avg Q) / (ΔP / avg P) = (0.84852) / (-0.24080) = **-3.524**
+
+<FINAL_ANSWER>-3.524</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

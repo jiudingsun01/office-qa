@@ -1,0 +1,12 @@
+=== rc=0 elapsed=104.3s ===
+=== stdout (278 chars) ===
+Both values are integers (no decimals), so this is MODE B — bare integer answer.
+
+- Feb 1980 Total Federal securities: 861,602 million
+- Feb 1981 Total Federal securities: 956,897 million
+- Weighted average = (861602 + 2×956897)/3 = 925,132
+
+<FINAL_ANSWER>925132</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

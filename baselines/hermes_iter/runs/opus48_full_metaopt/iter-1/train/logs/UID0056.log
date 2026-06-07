@@ -1,0 +1,12 @@
+=== rc=0 elapsed=59.9s ===
+=== stdout (757 chars) ===
+I can now see the Personal Saving chart clearly. The line peaks at its highest point — reaching nearly 9.5 percent — between the 1970 and 1975 gridlines. The peak is just before the 1975 tick mark, which corresponds to approximately 1973-1974. Looking carefully, the maximum point sits roughly two ticks before 1975, placing it at 1973.
+
+The line rises through the early 1970s, hits its absolute highest point (~9.4-9.5%) right around 1973, then drops sharply afterward. This matches the well-known historical fact that the U.S. personal saving rate peaked around 1973-74.
+
+Examining the tick spacing: gridlines at 1970 and 1975 with the peak sitting clearly closer to 1975 but distinctly before it — the apex is at 1973.
+
+<FINAL_ANSWER>1973</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

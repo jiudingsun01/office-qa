@@ -1,0 +1,14 @@
+=== rc=0 elapsed=60.7s ===
+=== stdout (366 chars) ===
+The public series has a near-zero mean log growth (0.000956), producing a very large CV. The calculation:
+
+- Government held: CV ≈ 0.1004
+- Public held: CV ≈ 23.688
+- Absolute difference ≈ 23.587
+
+Using fiscal years 1995-1999 (cols 5 and 8 of FD-1), nominal dollars, log year-to-year growth rates, population standard deviation.
+
+<FINAL_ANSWER>23.587</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=413.7s ===
+=== stdout (287 chars) ===
+Using Table SB-2, “Sales and Redemptions by Periods, All Series Combined,” the interest-bearing debt amount outstanding values for 1982 were:
+
+July: 67,132
+August: 67,148
+September: 67,274
+
+Average = 67,184.666..., rounded to nearest million = 67,185
+
+<FINAL_ANSWER>67185</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

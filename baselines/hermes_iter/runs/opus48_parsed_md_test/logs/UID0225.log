@@ -1,0 +1,10 @@
+=== rc=0 elapsed=87.2s ===
+=== stdout (352 chars) ===
+Standard half-up rounding of 12.595 gives 12.60.
+
+The two relevant bills are the bills maturing in the 2nd week of June (6/10/82, bid 12.57) and 3rd week of June (6/17/82, bid 12.62). These are quoted on the Feb 26, 1982 close (last week of February), with nominal bank discount bid rates. Average = 12.595 → 12.60.
+
+<FINAL_ANSWER>12.60</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

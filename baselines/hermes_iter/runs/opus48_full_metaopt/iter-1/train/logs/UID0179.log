@@ -1,0 +1,15 @@
+=== rc=0 elapsed=55.5s ===
+=== stdout (373 chars) ===
+All four data points are confirmed from the FCP-I-1 "Nonbanking Firms' Positions" summary tables (in millions of foreign currency units):
+
+- Dec 1975: Belgian 12060, Canadian 10371
+- Mar 1976: Belgian 2245, Canadian 10724
+- Jun 1976: Belgian 16408, Canadian 11175
+- Sep 1976: Belgian 13327, Canadian 10806
+
+Pearson correlation = 0.3719
+
+<FINAL_ANSWER>0.3719</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

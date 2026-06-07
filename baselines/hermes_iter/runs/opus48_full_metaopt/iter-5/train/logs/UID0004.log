@@ -1,0 +1,14 @@
+=== rc=0 elapsed=59.1s ===
+=== stdout (590 chars) ===
+My 1953 sum (44463) is within rounding of the printed Cal. yr. total (44465) — confirming the monthly values are correct (the tiny diff is from the printed total being slightly revised).
+
+The 1940 expenditures table (Budget Expenditures by Major Functions) sums to 2602.
+
+Absolute percent change: |(44463 − 2602)/2602| × 100 = 1608.80%.
+
+Let me verify the direction of the formula. "absolute percent change of these corresponding years' total sum values" — base is the earlier year (1940). The change from 1940 to 1953 = (44463−2602)/2602 = 1608.80%.
+
+<FINAL_ANSWER>1608.80%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

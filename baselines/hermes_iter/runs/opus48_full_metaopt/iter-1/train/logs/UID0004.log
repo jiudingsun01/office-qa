@@ -1,0 +1,12 @@
+=== rc=0 elapsed=52.1s ===
+=== stdout (249 chars) ===
+My 1953 sum (44463) matches the worked example in my skill exactly. The 1940 sum is 2602.
+
+Absolute percent change = |44463 - 2602| / 2602 × 100 = 1608.80%.
+
+The percent change from the 1940 base year to 1953.
+
+<FINAL_ANSWER>1608.80%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

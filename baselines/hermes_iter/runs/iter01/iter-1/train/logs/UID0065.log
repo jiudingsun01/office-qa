@@ -1,0 +1,12 @@
+=== rc=0 elapsed=27.9s ===
+=== stdout (229 chars) ===
+From the 1995 bulletin: Q3 1995 nonfarm business productivity growth was 2.0.
+
+From the 1998 bulletin: Q1 1998 nonfarm business productivity growth was 0.2.
+
+Absolute difference: 2.0 - 0.2 = 1.8
+
+<FINAL_ANSWER>1.8</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

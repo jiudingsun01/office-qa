@@ -1,0 +1,15 @@
+=== rc=0 elapsed=111.5s ===
+=== stdout (327 chars) ===
+Extracted paired values (Belgian francs, Canadian dollars) from Table FCP-I-1, using the latest available revisions in the provided PDFs:
+
+Dec. 1975: 12,060; 10,371
+Mar. 1976: 2,246; 10,724
+June 1976: 16,408; 11,175
+Sept. 1976: 13,327; 10,806
+
+Pearson correlation rounded to four decimals:
+
+<FINAL_ANSWER>0.3719</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

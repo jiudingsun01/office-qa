@@ -1,0 +1,16 @@
+=== rc=0 elapsed=126.7s ===
+=== stdout (666 chars) ===
+Black Monday (Oct 19, 1987) → base quarter Q4 1987, plus Q4 of the next three years (1988, 1989, 1990).
+
+2-year Treasury note auctions — tenders accepted in the auction process (millions of $), three per Q4, averaged:
+- Q4 1987: (9255 + 9269 + 9286)/3 = 9270.00
+- Q4 1988: (9014 + 9027 + 9030)/3 = 9023.67  [Dec figure corrected via PDF: 9,030, not md's 9,036]
+- Q4 1989: (10039 + 10021 + 10014)/3 = 10024.67  [Dec figure corrected via PDF: 10,014, not md's 10,011]
+- Q4 1990: (12107 + 12347 + 12515)/3 = 12323.00
+
+Least-squares best-fit line through the four (year, average) points gives a slope of 1016 million dollars per year.
+
+<FINAL_ANSWER>1016</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

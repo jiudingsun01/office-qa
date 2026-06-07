@@ -1,0 +1,10 @@
+=== rc=0 elapsed=57.8s ===
+=== stdout (373 chars) ===
+The CAGR from March 2001 to March 2006 (5-year span) is ~57.77%. Projecting another 5 years to March 2011 gives v2006²/v2001 = 339501.88.
+
+The answer is a single value with a decimal point. Per my memory notes (MODE A — value with decimal point), use a period decimal separator and no commas, which the question explicitly requests.
+
+<FINAL_ANSWER>339501.88</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,15 @@
+=== rc=0 elapsed=48.2s ===
+=== stdout (559 chars) ===
+The shares are all small. Using the finalized "Calendar Year" reported values from each respective bulletin:
+- 2009: 17,694/4,479,544 = 0.00395 → 0.004
+- 2010: 15,907/4,640,601 = 0.00343 → 0.003
+- 2011: 24,579/4,925,045 = 0.00499 → 0.005
+
+The maximum is 2011 = 0.004990614, which rounds to 0.005.
+
+The 2011 value should come from the bulletin reporting calendar-year-end 2011 as its finalized "Calendar Year" column (the 2013_03 bulletin), consistent with how 2009 and 2010 are read. This gives the maximum share of 0.005.
+
+<FINAL_ANSWER>0.005</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

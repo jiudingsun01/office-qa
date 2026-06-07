@@ -1,0 +1,14 @@
+=== rc=0 elapsed=55.2s ===
+=== stdout (600 chars) ===
+The phrase "relative difference in percentage points of [the] redemption rate" — the redemption rate is itself a percentage. The "relative difference in percentage points" most naturally means the difference between the two rates (each expressed in percentage points): 21.78 − 17.93 = 3.85 percentage points.
+
+This is the difference between the two redemption rates, expressed in percentage points. Both rates are computed as redemptions ÷ average amount outstanding.
+
+- CY1980: 71 / 326 = 21.78%
+- CY1981: 51 / 284.5 = 17.93%
+- Difference = 3.85 percentage points
+
+<FINAL_ANSWER>3.85</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

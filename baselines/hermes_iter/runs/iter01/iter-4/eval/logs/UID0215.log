@@ -1,0 +1,15 @@
+=== rc=0 elapsed=104.8s ===
+=== stdout (350 chars) ===
+Using Q4 2-year note accepted amounts (in millions):
+
+1987: 9255, 9269, 9286 → average 9270.0
+1988: 9014, 9027, 9030 → average 9023.7
+1989: 10039, 10021, 10014 → average 10024.7
+1990: 12107, 12347, 12515 → average 12323.0
+
+Best-fit linear slope through those four annual Q4 averages: 1016 million dollars per year.
+
+<FINAL_ANSWER>1016</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

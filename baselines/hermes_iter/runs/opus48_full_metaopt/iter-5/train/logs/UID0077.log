@@ -1,0 +1,17 @@
+=== rc=0 elapsed=86.7s ===
+=== stdout (764 chars) ===
+Both methods agree closely. The detailed table totals (line 852/862: IIT = 270370 of 555437 total; and 256022 of 531796) give the more precise figures. Let me verify the total receipts figure for the 2012 detail table matches 555437.
+
+The summary table gives Total receipts: 555437 (2012) and 531796 (2011). The detailed receipts-by-source table gives IIT net = 270370 (2012) and 256022 (2011).
+
+Using the most precise (full-dollar) figures:
+- CY2011: 270370/555437 = 48.677%
+- CY2010: 256022/531796 = 48.143%
+- Change = 0.53
+
+The billions-rounded chart numbers give 0.55, but the precise full-dollar figures give 0.53. The full-dollar figures are authoritative. The change in percent contribution is **0.53** percentage points.
+
+<FINAL_ANSWER>0.53</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

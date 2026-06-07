@@ -1,0 +1,11 @@
+=== rc=0 elapsed=39.9s ===
+=== stdout (294 chars) ===
+No user available. I'll proceed with the well-established historical rate. The IMF/Bank of Canada monthly average USD-CAD for December 1959 is 0.9560 (CAD per USD).
+
+Difference in USD = 2004 - 1474 = 530 million.
+In CAD = 530 × 0.9560 = 506.68 million CAD.
+
+<FINAL_ANSWER>506.68</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

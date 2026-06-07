@@ -1,0 +1,10 @@
+=== rc=0 elapsed=31.6s ===
+=== stdout (291 chars) ===
+Continuously compounded growth rate = ln(807.0/429.5)/10 = 0.0631 → rounded to thousandths = 0.063.
+
+Seigniorage on coins (silver and minor): end CY1945 = 429.5, end CY1955 = 807.0, n = 10 years. Continuously compounded rate = ln(807.0/429.5)/10 = 0.063.
+
+<FINAL_ANSWER>0.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

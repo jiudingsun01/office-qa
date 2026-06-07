@@ -1,0 +1,16 @@
+=== rc=0 elapsed=205.4s ===
+=== stdout (709 chars) ===
+The mean of the three ratios is 0.6841.
+
+Each issue reports its primary fiscal year's totals, matching the page hints (each ~p12/p22 summary table). The three years are fully and consistently reported:
+- 1941: net receipts 7607 / national defense 6080 = 1.251151
+- 1942: net receipts 12799 / war activities 26011 = 0.492061
+- 1943: net receipts 22282 / war activities 72109 = 0.309004
+- Mean = 0.6841
+
+This is the only interpretation with complete data for all three years (calendar-year 1943 data does not exist in the Oct 1943 issue). The "national defense" line is reported as "national defense" in 1941 and "war activities" in 1942-43 — the same expenditure category.
+
+<FINAL_ANSWER>0.6841</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

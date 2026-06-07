@@ -1,0 +1,8 @@
+=== rc=0 elapsed=36.3s ===
+=== stdout (228 chars) ===
+Summing the 12 monthly National Defense values for calendar year 1940 (Jan–Dec 1940) from the "Budget Expenditures Classified as General, by Major Functions" table gives 2,602 million dollars.
+
+<FINAL_ANSWER>2602</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

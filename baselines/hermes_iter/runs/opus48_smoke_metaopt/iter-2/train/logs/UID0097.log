@@ -1,0 +1,17 @@
+=== rc=0 elapsed=25.5s ===
+=== stdout (684 chars) ===
+The Mar. 31, 1989 column is clear:
+
+- Total capital = 8,124,453 thousand → 8.124453 B → 8.124 B
+- Total liabilities and capital = 20,976,061 thousand → 20.976061 B → 20.976 B
+- Absolute difference = |8.124453 − 20.976061| = 12.851608 B → 12.852 B
+
+Note: my memory had the worked example with 12.852 as the grand total, but reading the actual table, the grand total (Total liabilities and capital) is 20.976 B and the difference is 12.852 B. The question asks for (1) total nominal capital and (2) the absolute difference between it and total capital and liabilities.
+
+- Total nominal capital = 8.124 B
+- |8.124453 − 20.976061| = 12.852 B
+
+<FINAL_ANSWER>[8.124, 12.852]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

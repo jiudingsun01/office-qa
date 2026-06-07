@@ -1,0 +1,10 @@
+=== rc=0 elapsed=118.6s ===
+=== stdout (214 chars) ===
+The OLS regression gives slope = 0.096 and intercept = -184.142.
+
+Both values contain decimal points → MODE A delimiter: bare comma, no space, inside square brackets.
+
+<FINAL_ANSWER>[0.096,-184.142]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

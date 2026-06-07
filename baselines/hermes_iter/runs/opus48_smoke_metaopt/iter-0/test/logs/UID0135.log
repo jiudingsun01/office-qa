@@ -1,0 +1,18 @@
+=== rc=0 elapsed=70.1s ===
+=== stdout (455 chars) ===
+The two answers differ only slightly based on the 1994 revision. The revised figures (used consistently in the later bulletins) give 1038478.33.
+
+The "Foreign countries Total" for each year-end:
+- 1991: 821,943
+- 1992: 873,202
+- 1993: 993,609
+- 1994: 1,095,112 (revised)
+- 1995: 1,197,085
+- 1996: 1,249,919
+
+Mean = 1,038,478.33 (using revised 1994 figure, consistent with the most authoritative/latest reporting).
+
+<FINAL_ANSWER>1038478.33</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=782.2s ===
+=== stdout (126 chars) ===
+Using FY 1947 = 1,459.5 and FY 1950 = 2,106.4, with 3 annual periods, the CAGR is 13.01%.
+
+<FINAL_ANSWER>13.01</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

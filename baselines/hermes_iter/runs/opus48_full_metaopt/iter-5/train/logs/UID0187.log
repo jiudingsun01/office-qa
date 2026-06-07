@@ -1,0 +1,8 @@
+=== rc=0 elapsed=34.8s ===
+=== stdout (168 chars) ===
+The values Apr–Aug 1940 (US silver production, thousands of fine ounces): 6120, 5840, 5373, 5530, 4419. Geometric mean = 5423.58.
+
+<FINAL_ANSWER>5423.58</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

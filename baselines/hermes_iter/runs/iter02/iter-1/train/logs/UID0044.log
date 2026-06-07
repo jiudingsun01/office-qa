@@ -1,0 +1,15 @@
+=== rc=0 elapsed=377.4s ===
+=== stdout (330 chars) ===
+Extracted Jan. 18 and Jan. 25 Latin America figures:
+
+Liabilities: 250,451 to 250,049 = -402
+Assets: 97,471 to 95,746 = -1,725
+Banking net: -402 - (-1,725) = +1,323
+Security transactions, week ended Jan. 25: purchases 908 - sales 916 = -8
+
+Net capital movement: 1,323 - 8 = 1,315 inflow
+
+<FINAL_ANSWER>1,315 inflow</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

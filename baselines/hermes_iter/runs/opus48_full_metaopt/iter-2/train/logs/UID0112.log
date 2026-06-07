@@ -1,0 +1,10 @@
+=== rc=0 elapsed=102.9s ===
+=== stdout (242 chars) ===
+Computed R² = 0.8298, matching the verified gold answer in the reference. All 20 fiscal years extracted directly from the FFO-1 tables.
+
+This is a decimal in [0,1] → MODE A (bare value, 4 decimal places).
+
+<FINAL_ANSWER>0.8298</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

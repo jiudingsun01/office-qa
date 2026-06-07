@@ -1,0 +1,9 @@
+=== rc=0 elapsed=50.3s ===
+=== stdout (155 chars) ===
+From Table FCP-VI-2, Dec. 2000 euro position excluding options:
+(1,950,622 - 1,943,752) + (657,186 - 619,882) = 44,174
+
+<FINAL_ANSWER>44174</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

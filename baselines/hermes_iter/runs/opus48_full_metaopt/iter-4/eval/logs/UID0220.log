@@ -1,0 +1,15 @@
+=== rc=0 elapsed=73.7s ===
+=== stdout (535 chars) ===
+This page is extremely faded and illegible — the scan quality is too poor to read. The Markdown parse (sonnet46) is the reliable source here, and its values are internally consistent. I'll rely on it.
+
+From the Summary of Federal Receipts and Expenditures table (Expenditures Total column, in millions):
+- February 1938: 528
+- January 1939: 693
+
+Absolute percent difference, base = earlier period (Feb 1938 = 528):
+(693 − 528) / 528 × 100 = 165 / 528 × 100 = 31.25% → rounded to nearest tenth = 31.3
+
+<FINAL_ANSWER>31.3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

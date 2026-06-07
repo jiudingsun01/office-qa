@@ -1,0 +1,13 @@
+=== rc=0 elapsed=339.6s ===
+=== stdout (244 chars) ===
+Using the Treasury Bulletin total balance values:
+Dec. 1946: 7,585.3
+Dec. 1947: 8,124.2
+
+Using CPI-U annual values 1946 = 19.5 and 1947 = 22.3:
+Signed difference = 8,124.2 - 7,585.3 × (22.3 / 19.5) = -550.3
+
+<FINAL_ANSWER>-550.3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

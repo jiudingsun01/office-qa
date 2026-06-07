@@ -1,0 +1,16 @@
+=== rc=0 elapsed=163.1s ===
+=== stdout (301 chars) ===
+Using the Direct Sales and Repurchases of Loans table, the Export-Import Bank of the United States sales values for 1963–1974 are:
+
+366, 436, 124, 63, 153, 91, 379, 406, 269, 248, 145, 21
+
+Median = 200.5
+
+FY 1974 value = 21
+
+Signed deviation = 21 - 200.5 = -179.5
+
+<FINAL_ANSWER>-179.5</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

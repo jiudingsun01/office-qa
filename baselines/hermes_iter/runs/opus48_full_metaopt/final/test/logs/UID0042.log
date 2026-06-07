@@ -1,0 +1,8 @@
+=== rc=0 elapsed=49.9s ===
+=== stdout (150 chars) ===
+50 states confirmed (DC and territories excluded). The Zipf exponent via OLS of log(value) on log(rank) is 1.172.
+
+<FINAL_ANSWER>1.172</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

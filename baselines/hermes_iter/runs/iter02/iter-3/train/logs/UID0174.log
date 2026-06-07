@@ -1,0 +1,18 @@
+=== rc=0 elapsed=226.9s ===
+=== stdout (341 chars) ===
+From the Internal Revenue Collections table:
+
+January 1960:
+Total collections = 4,807,819
+Unemployment insurance contributions = 26,461
+
+March 1960:
+Total collections = 11,893,553
+Unemployment insurance contributions = 20,774
+
+Using midpoint arc elasticity gives -3.523817..., rounded to three decimals.
+
+<FINAL_ANSWER>-3.524</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

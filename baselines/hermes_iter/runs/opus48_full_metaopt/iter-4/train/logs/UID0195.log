@@ -1,0 +1,10 @@
+=== rc=0 elapsed=46.5s ===
+=== stdout (211 chars) ===
+36 months extracted correctly (Jul 1953 → Jun 1956). OLS regression on x=1..36 forecasts x=37 (July 1956).
+
+slope ≈ 0.00091, intercept ≈ 2.8823, prediction(x=37) = **2.916**.
+
+<FINAL_ANSWER>2.916</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

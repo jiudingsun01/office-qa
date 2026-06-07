@@ -1,0 +1,8 @@
+=== rc=0 elapsed=173.2s ===
+=== stdout (243 chars) ===
+Using the printed monthly yield levels from the Average Yields of Long-Term Bonds tables, I computed the sample Pearson correlation for each year and took the absolute difference, rounded to four decimals.
+
+<FINAL_ANSWER>0.0003</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

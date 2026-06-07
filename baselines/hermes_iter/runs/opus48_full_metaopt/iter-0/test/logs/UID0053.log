@@ -1,0 +1,13 @@
+=== rc=0 elapsed=63.2s ===
+=== stdout (483 chars) ===
+The data comes from Table FD-1 (in millions of dollars), columns (5) Government accounts public debt securities and (8) The public public debt securities, for fiscal years 1995–1999.
+
+Computation:
+- Gov accounts CV of log growth rates ≈ 0.10043
+- Public CV of log growth rates ≈ 23.68767 (the public's mean log-growth is near zero — debt held by public was roughly flat over this period — making its CV very large)
+- Absolute difference ≈ 23.587
+
+<FINAL_ANSWER>23.587</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

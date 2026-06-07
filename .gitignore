@@ -27,15 +27,15 @@ reg_my2.py
 baselines/runs/
 
 # ---- Hermes meta-opt run artifacts ----
-# Keep only the aggregate, answer-key-free results:
-#   summary.json, history.json, controller.log, launch.log,
-#   controller_runner.log, curator.log, splits_*/manifest.json
-# Exclude the heavy / answer-bearing pieces:
-baselines/hermes_iter/runs/**/preds/
-baselines/hermes_iter/runs/**/logs/
-baselines/hermes_iter/runs/**/reflections/
+# Included: aggregate summaries (summary.json, history.json, *.log, manifest.json)
+# AND the per-question trajectories + results:
+#   preds/<uid>.json     (final answer, rationale, gold, score)
+#   logs/<uid>.log       (rc / elapsed / captured stdout-stderr)
+#   reflections/<uid>.json (train-phase reflection outputs)
+#   per_row.jsonl        (uid, gold, predicted, score)
+# NOTE: these embed the gated OfficeQA gold answers — see EXPERIMENTS.md §9.
+# Excluded: the redundant ~19 MB-per-iter skill-library copies, and plots.
 baselines/hermes_iter/runs/**/snapshot/
-baselines/hermes_iter/runs/**/per_row.jsonl
 
 # Generated split prompts embed gold answers (gated) + absolute paths.
 # Regenerate deterministically with build_splits.py (seed 42). Manifests are kept.

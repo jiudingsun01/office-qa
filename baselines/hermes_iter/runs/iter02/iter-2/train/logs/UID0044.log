@@ -1,0 +1,8 @@
+=== rc=0 elapsed=566.0s ===
+=== stdout (162 chars) ===
+The relevant “NET CAPITAL MOVEMENT” row for week ended Jan. 25, 1939 shows Latin America as a positive value, meaning inflow.
+
+<FINAL_ANSWER>1,462</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

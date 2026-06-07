@@ -1,0 +1,19 @@
+=== rc=0 elapsed=102.4s ===
+=== stdout (310 chars) ===
+Using the Treasury Bulletin FD-1 “Public debt securities” fiscal-year-end values:
+1960: 286331
+1961: 288971
+1962: 298201
+
+Using CPI-U annual averages:
+1960: 29.6
+1961: 29.9
+1962: 30.2
+
+Absolute difference:
+abs(288971 × 30.2 / 29.9 − 286331 × 30.2 / 29.6) = 264.6321748...
+
+<FINAL_ANSWER>264.632</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=139.7s ===
+=== stdout (708 chars) ===
+Data extracted from FFO-1 "Summary of Federal Fiscal Operations" (page 15) of both bulletins:
+- FY1948–1949 from the 1960 bulletin (only source for those years)
+- FY1950–1964 from the 1965 bulletin (most recently published; overlapping years confirmed identical)
+
+Net receipts and Expenditures converted to GBP using the era's fixed peg ($4.03/£ pre-Sept-1949 devaluation for FY1948/49, $2.80/£ thereafter), then Pearson correlation between the two GBP series. The result is robust: r = 0.9806 across plausible peg assumptions → 0.98.
+
+The "covariance figure presented as a rate" is the Pearson correlation coefficient itself (a normalized, unitless covariance in [-1,1]).
+
+<FINAL_ANSWER>0.98</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

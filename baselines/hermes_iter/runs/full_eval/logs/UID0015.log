@@ -1,0 +1,8 @@
+=== rc=0 elapsed=100.1s ===
+=== stdout (157 chars) ===
+Using the Interest “Total” row: 82.590 and 64.564 billion. Applying Box-Cox with λ = 0.75 gives a difference of 6.1596.
+
+<FINAL_ANSWER>6.1596</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

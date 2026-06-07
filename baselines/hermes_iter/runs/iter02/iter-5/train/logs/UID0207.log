@@ -1,0 +1,12 @@
+=== rc=0 elapsed=150.2s ===
+=== stdout (259 chars) ===
+Extracted nominal average bank discount rates:
+May 27, 1980 19-day bills: 8.072%
+June 2, 1980 2-day bills: 10.260%
+
+One-step realized variance = (ln(0.10260) - ln(0.08072))² = 0.057528769..., rounded to nearest thousandth.
+
+<FINAL_ANSWER>0.058</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

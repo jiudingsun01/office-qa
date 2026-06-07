@@ -1,0 +1,8 @@
+=== rc=0 elapsed=66.9s ===
+=== stdout (206 chars) ===
+Using the Public debt computed annual interest charge values for FY 1961–1967 and actual FY 1968 value 15,404 million, the FY 1968 actual minus OLS forecast error is:
+
+<FINAL_ANSWER>1.667857</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

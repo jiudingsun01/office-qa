@@ -1,0 +1,16 @@
+=== rc=0 elapsed=25.4s ===
+=== stdout (673 chars) ===
+I found the relevant table. Footnote 8/ confirms this reporting structure includes Air Force expenditures charged to Army appropriations (pending transfer per the Act of July 26, 1947).
+
+From Table 3 (Expenditures for National Defense and Related Activities):
+- FY 1940 Department of the Army: 667
+- FY 1947 Department of the Army: 7425
+
+Increase = 7425 - 667 = 6758
+
+This matches the question's specified reporting structure (Air Force still charged to Army appropriations). The 1948_04 bulletin is the right source since footnote 8/ explicitly notes Army expenditures include Air Force expenditures being made from Army appropriations.
+
+<FINAL_ANSWER>6758</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

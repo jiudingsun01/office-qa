@@ -1,0 +1,10 @@
+=== rc=0 elapsed=53.5s ===
+=== stdout (418 chars) ===
+All 50 states accounted for (DC, territories, US total excluded). Fitting log(value) against log(rank) for the descending-ranked values gives a Zipf exponent of 1.172.
+
+The values are in thousands of dollars as required (table header: "In thousands of dollars"). The "2020" table corresponds to fiscal year 2020 receipts, which is the calendar-year-2020 bulletin's state breakdown.
+
+<FINAL_ANSWER>1.172</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

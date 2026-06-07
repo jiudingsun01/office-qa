@@ -1,0 +1,16 @@
+=== rc=0 elapsed=59.3s ===
+=== stdout (709 chars) ===
+October 1961 row: Total redemptions = 406, Sales price = 349, Accrued discount = 57.
+
+The "value buildup from the original price markdown" = the accrued discount portion (the increase above the original discounted sales price). Sales price (349) is the original price, accrued discount (57) is the value that built up.
+
+Percent = 57 / 406 = 0.140394... = 14.04%.
+
+Let me confirm with the footnotes that "Accrued discount" represents the value buildup. Footnote 3/ "the distribution of redemptions between sales price and accrued discount." Yes — sales price = original purchase price; accrued discount = interest/value accrual built up.
+
+57 / 406 = 0.1403940... → 14.04%.
+
+<FINAL_ANSWER>14.04%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

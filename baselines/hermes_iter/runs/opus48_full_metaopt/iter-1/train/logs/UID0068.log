@@ -1,0 +1,19 @@
+=== rc=0 elapsed=127.8s ===
+=== stdout (880 chars) ===
+Pattern saved to the skill reference.
+
+Summary of my work:
+
+The OCS (Outer Continental Shelf, per 43 U.S.C. § 1331) rents and royalties data lives in Table FFO-3 "On-Budget and Off-Budget Outlays by Agency" (continued page), under the "Undistributed offsetting receipts" group — specifically column (33), "Rents and royalties on the Outer Continental Shelf lands." This wasn't in the markdown parse, so I read it from the PDFs.
+
+Calendar year 2016 monthly values (in millions):
+- Jan: 56, Feb: -353, Mar: -152, Apr: -100 (from the Dec 2016 bulletin: Jan–Aug)
+- May: -347, June: -339, July: -97, Aug: -413
+- Sept: -338, Oct: -61, Nov: -297, Dec: -94 (from the June 2017 bulletin: Sept–Dec)
+
+The lowest absolute value is January's +56 (|56| = 56), which is smaller than the closest negative, October's -61 (|61|). Reported as an absolute value: 56.
+
+<FINAL_ANSWER>56</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

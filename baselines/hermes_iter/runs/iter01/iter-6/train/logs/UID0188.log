@@ -1,0 +1,16 @@
+=== rc=0 elapsed=773.2s ===
+=== stdout (311 chars) ===
+Extracted September total silver stock values:
+1938: 3,163.0
+1948: 3,584.4
+1958: 4,314.9
+
+Using $1.292929... per fine troy ounce and inflation-adjusted September silver prices of 10.16, 10.06, and 10.26 respectively, the computed values are:
+24,855.25
+27,889.43
+34,240.75
+
+<FINAL_ANSWER>27889.43</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

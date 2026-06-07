@@ -1,0 +1,14 @@
+=== rc=0 elapsed=43.7s ===
+=== stdout (507 chars) ===
+My sum of denominations ($987,708,827,824) differs slightly from the reported total ($987,708,828,424) by $600 — likely a rounding/footnote on the $100 row ("- 5"). Using the reported total currency in circulation with my computed bill count:
+
+The weighted average denomination = total value / total number of bills.
+
+Using sum of denomination values: 987,708,827,824 / 30,202,172,786 = 32.703
+
+Using reported total 987,708,828,424: also 32.703 (difference negligible).
+
+<FINAL_ANSWER>32.703</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

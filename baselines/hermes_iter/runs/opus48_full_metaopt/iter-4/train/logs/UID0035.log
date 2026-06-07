@@ -1,0 +1,12 @@
+=== rc=0 elapsed=66.9s ===
+=== stdout (631 chars) ===
+I made an error: I have 23 rows but should have 22. Let me recheck. The rows are: 1971, 1972, 1973, 1974, 1975, 1976, T.Q., 1977, 1978, 1979 = 10 rows. Then 1979-Mar through Dec = Mar,Apr,May,June,July,Aug,Sept,Oct,Nov,Dec = 10 rows. Then 1980-Jan,Feb,Mar = 3 rows. Total = 23 rows. That matches the image — yes, 23 rows is correct.
+
+The count is 104. Let me verify the breakdown — the "1" appears 23 times in the FRnote column (one per row), plus the leading-1 numbers. This all checks out. Each of the 23 rows has the Federal Reserve notes column = "1".
+
+The total leading-'1' count is **104**.
+
+<FINAL_ANSWER>104</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

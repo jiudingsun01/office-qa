@@ -1,0 +1,8 @@
+=== rc=0 elapsed=294.2s ===
+=== stdout (268 chars) ===
+The New Aa corporate bonds series in Table MY-2 ends at December 2002, and no January 2003 actual value is published for that series in the source bulletin. Therefore the absolute difference is not computable from the provided data.
+
+<FINAL_ANSWER>n.a.</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

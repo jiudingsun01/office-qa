@@ -1,0 +1,8 @@
+=== rc=0 elapsed=75.6s ===
+=== stdout (167 chars) ===
+Used Table FD-1 “Summary of Federal Debt” public debt securities and BLS CPI-U annual averages: 1960=29.6, 1961=29.9, 1962=30.2.
+
+<FINAL_ANSWER>264.632</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

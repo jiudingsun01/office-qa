@@ -1,0 +1,10 @@
+=== rc=0 elapsed=70.7s ===
+=== stdout (174 chars) ===
+From Table FCP-VI-2 (Monthly Report of Major Market Participants), December 2000:
+
+(1,950,622 - 1,943,752) + (657,186 - 619,882) = 44,174
+
+<FINAL_ANSWER>44174</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

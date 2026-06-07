@@ -1,0 +1,8 @@
+=== rc=0 elapsed=805.9s ===
+=== stdout (283 chars) ===
+I summed the monthly “net receipts” and “war activities” / national-defense budget expenditure entries for each calendar year, computed each year’s receipts-to-defense-expenditures ratio, then averaged the three ratios and rounded to 4 decimals.
+
+<FINAL_ANSWER>0.4883</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

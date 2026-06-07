@@ -1,0 +1,12 @@
+=== rc=0 elapsed=647.3s ===
+=== stdout (346 chars) ===
+I used the short-term banking funds “Grand total” monthly totals for May-August 1939:
+
+May 25,678; June 16,506; July 34,850; August 264,156.
+
+A quadratic least-squares fit for t=1..4 projects September (t=5) as 566,839.5. Germany invaded Poland on September 1, so dividing by day number 1 and rounding gives:
+
+<FINAL_ANSWER>566840</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

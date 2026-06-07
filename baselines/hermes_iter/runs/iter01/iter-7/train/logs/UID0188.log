@@ -1,0 +1,14 @@
+=== rc=0 elapsed=699.8s ===
+=== stdout (416 chars) ===
+I extracted the September total silver monetary stock values as:
+
+1938 September: 3,163.0
+1948 September: 3,584.4
+1958 September: 4,314.9
+
+Using the statutory $1.29+ per fine ounce conversion rate to infer ounces and then valuing back at that fixed rate leaves the three computed values equal to the reported monetary-stock values. The median is 3,584.4, rounded to hundredths.
+
+<FINAL_ANSWER>3584.40</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

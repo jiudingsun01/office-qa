@@ -1,0 +1,17 @@
+=== rc=0 elapsed=27.6s ===
+=== stdout (882 chars) ===
+The question asks about "total nominal capital" — but the balance sheet shows "Total capital" = 8,124,453 thousand. However, "nominal capital" likely refers to the Capital account (the appropriated capital), which is 200,000 thousand. Let me consider the wording carefully.
+
+The phrase "total nominal capital" — "Total capital" line = 8,124,453 thousand = 8.124453 billion. This is the total capital held. The "Total liabilities and capital" = 20,976,061 thousand = 20.976061 billion.
+
+The most natural reading: "total nominal capital" = Total capital = 8,124,453 thousand dollars (in millions: 8124.453; in billions: 8.124453).
+
+Absolute difference with Total liabilities and capital: 20,976,061 − 8,124,453 = 12,851,608 thousand = 12.851608 billion.
+
+- Total capital: 8.124453 billion → 8.124
+- Difference: 12.851608 billion → 12.852
+
+<FINAL_ANSWER>[8.124, 12.852]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

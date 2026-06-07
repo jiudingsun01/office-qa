@@ -1,0 +1,48 @@
+=== rc=0 elapsed=142.4s ===
+=== stdout (1631 chars) ===
+Confirmed. For Jan 31 1963 survey, there is only ONE tax anticipation row: **Mar. 1963**.
+
+Tax anticipation Mar. 1963: commercial 446, mutual savings 2, life 58, fire/casualty 23, S&L 1, corporations 1,317, gen funds 11, pension -, USG/FRB 19
+
+Now compute 1963 totals per the 7 categories (only one TAB row, so "total" = that row):
+- USG accounts + FRB: 19
+- commercial banks: 446
+- mutual savings banks: 2
+- insurance companies (life+fire): 58 + 23 = 81
+- savings and loan: 1
+- corporations: 1,317 ✓ >500
+- states and local (gen+pension): 11 + 0 = 11
+
+So **1963: 1 category** > 500 (corporations only).
+
+Total sum across both years = 2 (for 1962) + 1 (for 1963) = **3**.
+
+Let me verify the arithmetic clearly:
+
+**1962 (sum of Mar 1962 + June 1962 tax anticipation rows):**
+- USG/FRB: 136 + 0 = 136 → no
+- commercial: 804 + 993 = 1,797 → YES
+- mutual savings: 4 + 6 = 10 → no
+- insurance: 80 + 45 = 125 → no
+- S&L: 2 + 6 = 8 → no
+- corporations: 1,191 + 624 = 1,815 → YES
+- state/local: 47 + 56 = 103 → no
+→ 2 categories
+
+**1963 (Mar 1963 row):**
+- corporations: 1,317 → YES (only one)
+→ 1 category
+
+Sum = 2 + 1 = **3**
+
+The two March bulletins each report "Treasury TABs" (tax anticipation bills) by ownership category. For each calendar year I summed the tax-anticipation Treasury-bill rows in the Treasury Survey of Ownership table, then counted categories exceeding $500 million.
+
+1962 (Mar+June TAB rows summed per category): commercial banks 1,797 and corporations 1,815 exceed 500 → 2 categories.
+1963 (single Mar TAB row): only corporations 1,317 exceeds 500 → 1 category.
+
+Sum = 2 + 1 = 3.
+
+<FINAL_ANSWER>3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

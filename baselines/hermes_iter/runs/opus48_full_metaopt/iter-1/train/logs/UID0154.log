@@ -1,0 +1,46 @@
+=== rc=0 elapsed=68.0s ===
+=== stdout (1071 chars) ===
+I have both datasets. Now I'll count months with total amount outstanding > $20000 million.
+
+The "Total amount outstanding" column is the 2nd value in each row.
+
+From 1977_03 survey (Feb 1977 – Jan 1978):
+- Feb 1977: 27949 ✓ >20000
+- Mar 1977: 31058 ✓
+- Apr 1977: 28967 ✓
+- May 1977: 20773 ✓
+- June 1977: 19231 ✗
+- July 1977: 17085 ✗
+- Aug 1977: 2953 ✗
+- Sept 1977: 2917 ✗
+- Oct 1977: 3095 ✗
+- Nov 1977: 3402 ✗
+- Dec 1977: 3505 ✗
+- Jan 1978: 3071 ✗
+
+That's 4 months (Feb, Mar, Apr, May 1977).
+
+From 1978_03 survey (Feb 1978 – Jan 1979):
+- Feb 1978: 26128 ✓
+- Mar 1978: 31017 ✓
+- Apr 1978: 29190 ✓
+- May 1978: 19036 ✗
+- June 1978: 19260 ✗
+- July 1978: 16757 ✗
+- Aug 1978: 3005 ✗
+- Sept 1978: 3036 ✗
+- Oct 1978: 3162 ✗
+- Nov 1978: 3587 ✗
+- Dec 1978: 3838 ✗
+- Jan 1979: 3205 ✗
+
+That's 3 months (Feb, Mar, Apr 1978).
+
+Total: 4 + 3 = **7 months** exceeding $20000 million.
+
+The range Feb 1977 to Jan 1979 inclusive is fully covered by the two surveys (12 + 12 = 24 months), with no overlap or gap. Count of months exceeding $20000 million = 7.
+
+<FINAL_ANSWER>7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

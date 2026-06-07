@@ -1,0 +1,8 @@
+=== rc=0 elapsed=133.2s ===
+=== stdout (212 chars) ===
+I used the January 31 statutory debt limitation tables for 1953, 1954, and 1955 and computed the population standard deviation across the three nominal million-dollar values.
+
+<FINAL_ANSWER>4636.4</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

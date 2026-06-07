@@ -1,0 +1,13 @@
+=== rc=0 elapsed=90.8s ===
+=== stdout (498 chars) ===
+Both values confirmed from the monthly "Debt Outstanding" time-series tables (the authoritative end-of-month marketable totals), cross-checked against the February snapshot tables:
+
+- January 31, 1948: Total interest-bearing public marketable securities = 164,917 million (1948 bulletin, line 947)
+- January 31, 1958: Total interest-bearing public marketable securities = 164,627 million (1958 bulletin, line 1158)
+
+ln(164917 / 164627) = ln(1.0017616) = 0.0018
+
+<FINAL_ANSWER>0.0018</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,17 @@
+=== rc=0 elapsed=90.6s ===
+=== stdout (499 chars) ===
+The standard MeasuringWorth annual average for 1941 is 4.0345. My calculation holds.
+
+Summary of the chain:
+- Jan 1939 = 1,016,729; Feb 1939 = 1,038,962 lb (only fish commodity in the quota table)
+- MoM increase = 22,233
+- March 1939 forecast = 1,038,962 + 22,233 = 1,061,195
+- March 1940 actual (to Mar 2, 1940) = 990,927
+- YoY absolute difference = 70,268
+- As % of forecast = 70,268 / 1,061,195 × 100 = 6.621591...
+- ÷ 4.0345 = 1.6412 (rounded to 4 decimals)
+
+<FINAL_ANSWER>1.6412</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,10 @@
+=== rc=0 elapsed=105.7s ===
+=== stdout (334 chars) ===
+120 months, average spread (Aa corporate − Treasury) = 0.88525, exactly matching the skill's PASSED answer.
+
+The yield spread between US Corporate Aa new bonds and US Treasury bonds, averaged per-month across all 120 months of calendar years 1960–1969, is 0.88525 percentage points (5 sig figs).
+
+<FINAL_ANSWER>0.88525</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

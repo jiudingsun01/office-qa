@@ -1,0 +1,14 @@
+=== rc=0 elapsed=116.0s ===
+=== stdout (261 chars) ===
+Used the Series I “Interest-bearing debt” values from Table SBN-3:
+
+March 2001: 3,554
+March 2006: 34,736
+
+Projection for March 2011 using the same 5-year compound growth factor:
+34,736 × (34,736 / 3,554) = 339,501.884...
+
+<FINAL_ANSWER>339501.88</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

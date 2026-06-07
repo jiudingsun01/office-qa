@@ -1,0 +1,8 @@
+=== rc=0 elapsed=63.9s ===
+=== stdout (149 chars) ===
+Using the “Net budget outlays” row in Table FFO-5 for Jan-Dec 1981 and population standard deviation (ddof=0):
+
+<FINAL_ANSWER>6379.29</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

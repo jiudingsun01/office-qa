@@ -1,0 +1,22 @@
+=== rc=0 elapsed=80.0s ===
+=== stdout (847 chars) ===
+Confirmed from the PDF image. For the 1946 row under "Other general expenditures":
+- Aid to agriculture = 998
+- Social Security program = 550
+- **Public works 1/ = 407**
+- International Finance = 833
+
+The "Public works 1/" column (footnote 7/ = PWA + Federal Public Housing Authority + excludes wartime FWA spending) for 1946 = **407**. The 833 I initially questioned belongs to International Finance.
+
+Now the values:
+- 1934 Public Works = 549 (1942 bulletin, footnote 2/ matches PWA + housing definition)
+- 1946 Public works = 407 (1947 bulletin, footnote 7/ matches same definition)
+
+Absolute difference = |549 − 407| = **142**
+
+Both columns use the identical definition (PWA, Federal Public Housing Authority, excludes certain wartime FWA public works) — the "revised WWII-era figures" the question asks for.
+
+<FINAL_ANSWER>142</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=31.5s ===
+=== stdout (613 chars) ===
+I found Table CM-I-3 "Total Liabilities by Country" — exactly matching "total amount of liabilities owed by the U.S. Treasury." The table is "Position at end of period in millions of dollars."
+
+For the United Kingdom, the CY1986 column value is 90833.0 million dollars.
+
+Note the header: columns are `1985 | 1986 | 1987 | May | June | July | Aug | Sept`. The first unnamed column header maps to 1985, then 1986, 1987. So United Kingdom row: 79757 (1985), 90833 (1986), 126446 (1987)...
+
+CY1986 = 90833.0 million = 90.833 billion → rounded to nearest hundredth = 90.83 billion.
+
+<FINAL_ANSWER>90.83</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

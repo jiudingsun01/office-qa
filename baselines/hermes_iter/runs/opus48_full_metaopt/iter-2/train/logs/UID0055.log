@@ -1,0 +1,15 @@
+=== rc=0 elapsed=97.1s ===
+=== stdout (392 chars) ===
+I can now clearly read the table. In the "Annual series - calendar year averages of monthly series" section, the Moody's Aaa corporate bonds column shows:
+
+- **1945**: 2.62 (WWII ended in 1945)
+- **1950**: 2.62 (Korean War began in 1950)
+
+Both values are 2.62. The absolute change = |2.62 − 2.62| = 0.00 percentage points.
+
+Rounded to the nearest tenth: 0.0
+
+<FINAL_ANSWER>0.0</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

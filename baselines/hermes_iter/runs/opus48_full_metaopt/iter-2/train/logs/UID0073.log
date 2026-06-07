@@ -1,0 +1,12 @@
+=== rc=0 elapsed=59.6s ===
+=== stdout (502 chars) ===
+The "Net budget outlays" row is the net outlays total by function, summed across functions for each month — i.e., the monthly net outlays. CY1981 = 12 months Jan–Dec 1981.
+
+Population standard deviation = 6379.29.
+
+This is a MODE A answer? No — it's a plain number with a decimal but it's a computed statistic in millions. Per my memory: values WITH a decimal point use bare formatting, but this is a single value, so delimiter rules don't apply. Just the number.
+
+<FINAL_ANSWER>6379.29</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

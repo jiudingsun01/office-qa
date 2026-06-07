@@ -1,0 +1,16 @@
+=== rc=0 elapsed=95.7s ===
+=== stdout (232 chars) ===
+Using the midpoint arc elasticity formula with:
+
+Jan 1960:
+Total collections = 4,807,819
+Unemployment insurance = 26,461
+
+Mar 1960:
+Total collections = 11,893,553
+Unemployment insurance = 20,774
+
+<FINAL_ANSWER>-3.524</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

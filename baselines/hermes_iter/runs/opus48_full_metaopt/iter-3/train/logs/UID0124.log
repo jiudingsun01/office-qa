@@ -1,0 +1,12 @@
+=== rc=0 elapsed=61.0s ===
+=== stdout (662 chars) ===
+Both values contain decimals/are part of a bracketed list. First is 7.1 (one decimal), second is 82 (whole number). Per my delimiter rule, the second value 82 has no decimal point, but the question explicitly asks for square brackets with comma-separated values. The first value 7.1 has a decimal. Mixed — but the question format uses square brackets like MODE A. Following the standard bracketed format with bare comma:
+
+March 2000: Series I redemptions = 4, total = 1657, share = 0.2414%
+March 2005: Series I redemptions = 86, total = 1171, share = 7.3442%
+Change in share = +7.1 pp; absolute change in redemptions = 82.
+
+<FINAL_ANSWER>[7.1,82]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

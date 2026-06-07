@@ -1,0 +1,13 @@
+=== rc=0 elapsed=46.2s ===
+=== stdout (356 chars) ===
+The regression on real March 1970 dollars:
+- Real values: Jan = 287.01, Feb = 296.55, Mar = 375.00
+- Slope = 44.00 (millions of March 1970 real dollars per month)
+- Intercept = 231.52
+
+CPI-U NSA values used (1982-84=100): Jan 1970 = 37.8, Feb = 38.0, Mar = 38.2 — these are the standard BLS historical values.
+
+<FINAL_ANSWER>[44.00, 231.52]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

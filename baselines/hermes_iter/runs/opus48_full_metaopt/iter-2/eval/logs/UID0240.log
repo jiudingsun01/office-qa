@@ -1,0 +1,10 @@
+=== rc=0 elapsed=34.1s ===
+=== stdout (411 chars) ===
+The two prices observed one period apart: under continuous compounding with constant yield, the price relationship P = e^(−y·D). The implied duration making the two values consistent is the magnitude of the continuously-compounded log change: D = |ln(P₂/P₁)| = 0.3937.
+
+Since duration is a positive quantity (Macaulay-style), the implied duration is ln(6207/4187) = 0.3937.
+
+<FINAL_ANSWER>0.3937</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

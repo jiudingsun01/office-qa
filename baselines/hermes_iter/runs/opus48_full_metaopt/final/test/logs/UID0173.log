@@ -1,0 +1,16 @@
+=== rc=0 elapsed=87.2s ===
+=== stdout (407 chars) ===
+Total Federal Securities Outstanding (Table FD-1, "Amount outstanding > Total") for FY1980 Feb–June, deflated to a Feb-1980 base (CPI=100) using BLS CPI-U NSA monthly index, then averaged:
+
+- Feb: 861603 → 861603.00
+- Mar: 870444 → 857403.64
+- Apr: 876914 → 854179.19
+- May: 884788 → 853420.21
+- Jun: 884381 → 843744.39
+
+Average = 854070.09 (in millions of dollars).
+
+<FINAL_ANSWER>854070.09</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

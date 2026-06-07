@@ -1,0 +1,9 @@
+=== rc=0 elapsed=307.0s ===
+=== stdout (187 chars) ===
+Used Jan. 18 and Jan. 25, 1939 table values for Latin America:
+Net inflow = Δliabilities - Δassets = (250049 - 250451) - (95746 - 97471) = 1323.
+
+<FINAL_ANSWER>1323 inflow</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

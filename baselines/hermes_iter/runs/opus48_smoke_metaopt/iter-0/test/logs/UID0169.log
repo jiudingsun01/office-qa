@@ -1,0 +1,13 @@
+=== rc=0 elapsed=152.8s ===
+=== stdout (349 chars) ===
+Confirmed from the PDF (Table TSO-5, Treasury Survey of Ownership, January 31, 1982):
+
+- Total FHLB (Federal Home Loan Banks): Total amount outstanding = 80,579
+- Total FNMA (Federal National Mortgage Association): Total amount outstanding = 58,860
+
+Combined = 80,579 + 58,860 = 139,439 (already whole numbers).
+
+<FINAL_ANSWER>139439</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

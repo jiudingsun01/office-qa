@@ -1,0 +1,17 @@
+=== rc=0 elapsed=125.3s ===
+=== stdout (631 chars) ===
+The computation confirms 0.953 percentage points, matching the reference's stated answer. All six data points were verified directly from the bulletins:
+
+- June 2000: (6634663+8877769)/38750276 = 40.032%
+- June 2001: (6817884+7595657)/34996129 = 41.186%
+- June 2002: (8198962+7879571)/37619185 = 42.740%  → avg 41.319%
+- Sep 2000: (6869302+8733757)/37094883 = 42.063%
+- Sep 2001: (7373916+7920048)/36353790 = 42.070%
+- Sep 2002: (8288205+7757327)/37591058 = 42.684%  → avg 42.272%
+
+|41.319 − 42.272| = 0.953 pp. The CPI-U adjustment cancels exactly within each same-date share, so it's a no-op.
+
+<FINAL_ANSWER>0.953</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

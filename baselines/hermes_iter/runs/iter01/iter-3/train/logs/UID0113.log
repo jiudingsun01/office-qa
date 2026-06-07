@@ -1,0 +1,13 @@
+=== rc=0 elapsed=164.5s ===
+=== stdout (251 chars) ===
+Using total redemptions divided by the average of beginning and ending amount outstanding:
+
+1980: 71 / ((352 + 300) / 2) * 100 = 21.78%
+1981: 51 / ((300 + 269) / 2) * 100 = 17.93%
+
+Difference: 3.85 percentage points
+
+<FINAL_ANSWER>3.85</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

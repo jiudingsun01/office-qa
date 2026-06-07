@@ -1,0 +1,8 @@
+=== rc=0 elapsed=42.4s ===
+=== stdout (190 chars) ===
+The average bank discount rates are 8.072% and 10.260%. The one-step realized variance of the log rates is 0.057528769..., rounded to nearest thousandth.
+
+<FINAL_ANSWER>0.058</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

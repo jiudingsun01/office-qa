@@ -1,0 +1,10 @@
+=== rc=0 elapsed=31.3s ===
+=== stdout (216 chars) ===
+Sum of monthly values = 94987, matching the FY 2018 total — confirming I have the correct 12 monthly net excise tax figures.
+
+Mean = 7915.583, MAD = 1400.306 (million dollars).
+
+<FINAL_ANSWER>1400.306</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

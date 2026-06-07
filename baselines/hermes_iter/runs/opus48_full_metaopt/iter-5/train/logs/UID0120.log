@@ -1,0 +1,15 @@
+=== rc=0 elapsed=45.6s ===
+=== stdout (307 chars) ===
+The regression yields slope 44.00 and intercept 231.52.
+
+Real March 1970 values:
+- Jan: 284 × 38.2/37.8 = 287.01
+- Feb: 295 × 38.2/38.0 = 296.55
+- Mar: 375 × 38.2/38.2 = 375.00
+
+Slope = 44.00, intercept = 231.52 (millions of March 1970 real dollars per month).
+
+<FINAL_ANSWER>[44.00, 231.52]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

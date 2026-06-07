@@ -1,0 +1,16 @@
+=== rc=0 elapsed=38.9s ===
+=== stdout (276 chars) ===
+Annual series, calendar year averages. WWII ended 1945, Korean War began 1950.
+
+Moody's Aaa corporate bonds:
+- 1945: 2.62
+- 1950: 2.62
+
+Absolute change = |2.62 − 2.62| = 0.00 → 0.0
+
+Both values contain decimals (MODE A), single value answer.
+
+<FINAL_ANSWER>0.0</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

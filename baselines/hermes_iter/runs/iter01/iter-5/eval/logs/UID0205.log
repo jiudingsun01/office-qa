@@ -1,0 +1,8 @@
+=== rc=0 elapsed=366.3s ===
+=== stdout (293 chars) ===
+Used the Treasury Bulletin fiscal-year net receipts and expenditures, with later-published figures taking precedence where available, converted each year’s pair to GBP using the respective annual exchange rate, then computed Pearson’s r across FY 1948-1964.
+
+<FINAL_ANSWER>0.98</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

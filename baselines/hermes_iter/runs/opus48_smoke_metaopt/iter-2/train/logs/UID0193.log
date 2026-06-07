@@ -1,0 +1,13 @@
+=== rc=0 elapsed=67.7s ===
+=== stdout (355 chars) ===
+All values confirmed against the PDF:
+- Jan 1939: 1,016,729; Feb 1939: 1,098,962 (PDF-corrected; Markdown had wrong digit)
+- MoM increase: 82,233 → March 1939 forecast: 1,181,195
+- March 1940 actual (to Mar 2): 990,927
+- YoY absolute diff: 190,268 → as % of forecast: 16.108094%
+- ÷ 1941 USD/GBP avg (4.0300) = 3.9970
+
+<FINAL_ANSWER>3.9970</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

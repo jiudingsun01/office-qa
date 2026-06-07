@@ -1,0 +1,10 @@
+=== rc=0 elapsed=127.1s ===
+=== stdout (109 chars) ===
+Using the June values from Table CM-I-1:
+2003: 2,289,997
+2013: 4,764,858
+
+<FINAL_ANSWER>7.60%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

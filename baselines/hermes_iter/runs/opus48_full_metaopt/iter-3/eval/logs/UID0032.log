@@ -1,0 +1,12 @@
+=== rc=0 elapsed=79.3s ===
+=== stdout (356 chars) ===
+The table is in thousands of dollars. Converting to millions:
+
+- Tobacco sum (Feb-May 1940): 2,729 + 2,625 + 3,010 + 3,292 = 11,656 thousand = 11.656 million
+- Wool sum (Feb-May 1940): 6,850 + 7,214 + 4,720 + 4,469 = 23,253 thousand = 23.253 million
+- Absolute difference: |11.656 − 23.253| = 11.597 → **11.60** million
+
+<FINAL_ANSWER>11.60</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

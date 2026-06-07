@@ -1,0 +1,13 @@
+=== rc=0 elapsed=118.9s ===
+=== stdout (394 chars) ===
+The PDF clearly confirms Table TSO-5, "Securities Issued by Government-Sponsored Agencies," as of January 31, 1982, in millions of dollars:
+
+- Total FHLB (Federal Home Loan Banks), Total amount outstanding = 80,579
+- Total FNMA (Federal National Mortgage Association), Total amount outstanding = 58,860
+
+Combined: 80,579 + 58,860 = 139,439 million dollars.
+
+<FINAL_ANSWER>139439</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

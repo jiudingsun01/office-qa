@@ -1,0 +1,14 @@
+=== rc=0 elapsed=183.2s ===
+=== stdout (240 chars) ===
+Using the Calendar Year columns in Table CM-I-1:
+
+2009: 17,694 / 4,479,544 = 0.003950
+2010: 15,907 / 4,640,601 = 0.003428
+2011: 24,579 / 4,925,045 = 0.004991
+
+Maximum rounded to nearest thousandth: 0.005
+
+<FINAL_ANSWER>0.005</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

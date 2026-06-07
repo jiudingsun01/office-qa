@@ -1,0 +1,16 @@
+=== rc=0 elapsed=69.5s ===
+=== stdout (426 chars) ===
+The computation chain:
+- Jan 1939 fish = 1,016,729; Feb 1939 = 1,038,962
+- MoM increase = 22,233
+- Forecast March 1939 = 1,038,962 + 22,233 = 1,061,195
+- Actual March 1940 = 990,927
+- Abs diff = 70,268; as % of forecast = 6.6216%
+- Divided by 1941 USD/GBP rate (4.0300) = 1.6431
+
+Using the standard 1941 annual average exchange rate of 4.0300 (the WWII pegged rate), the result is 1.6431.
+
+<FINAL_ANSWER>1.6431</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

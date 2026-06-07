@@ -1,0 +1,12 @@
+=== rc=0 elapsed=406.7s ===
+=== stdout (205 chars) ===
+Used the total balance values:
+1946 Dec: 7,585.3
+1947 Dec: 8,124.2
+
+Adjusted 1946 to 1947 dollars using CPI-U annual averages 19.5 and 22.3, then computed 1947 - 1946.
+
+<FINAL_ANSWER>-550.3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

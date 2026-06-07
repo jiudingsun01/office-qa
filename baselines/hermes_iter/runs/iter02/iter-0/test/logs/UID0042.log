@@ -1,0 +1,8 @@
+=== rc=0 elapsed=112.8s ===
+=== stdout (291 chars) ===
+I extracted the unemployment insurance tax column from Table FFO-5, excluded D.C. and non-state rows, sorted the 50 state values descending, and fit log(value) against log(rank). The Zipf exponent is the negative slope, rounded to the nearest thousandth.
+
+<FINAL_ANSWER>1.172</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

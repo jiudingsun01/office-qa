@@ -1,0 +1,16 @@
+=== rc=0 elapsed=102.0s ===
+=== stdout (861 chars) ===
+The maximum spread is in November 1969: Aa corporate = 8.94, Treasury = 6.52, spread = 2.42.
+
+Let me verify the year mapping is correct by spot-checking. November 1969 falls in group4 (1968,1969,1970), block 1 (=1969). In markdown line 4971 (Nov, block 2/the second of 36... wait, idx for Nov in block1 = 12+10 = 22, row index 22). Group4 columns 10-12: T=6.52, Aa=8.94. That matches line 4971: `| Nov. | 3.93 | 4.82 | 3.20 | 4.11 | 4.42 | 3.20 | 4.74 | 6.11 | 3.90 | 6.52 | 8.94 | 6.05 |` — group4 (cols 10-11) = 6.52, 8.94. ✓ And block1 of group4 = 1969. ✓
+
+Computing the result: month = 11, year = 1969. 11 × 100 + 1969 = 1100 + 1969 = 3069.
+
+The maximum yield spread between US corporate Aa bonds (8.94) and US Treasury bonds (6.52) over 1960-1969 occurred in **November 1969**, a spread of 2.42.
+
+11 × 100 + 1969 = 3069.
+
+<FINAL_ANSWER>3069</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,10 @@
+=== rc=0 elapsed=40.7s ===
+=== stdout (340 chars) ===
+The standard interpretation of "percent difference between A and B" rounded to nearest tenth, using the first-mentioned (Feb 1938) as the base, gives 31.2%.
+
+The total federal expenditures: Feb 1938 = 528 million, Jan 1939 = 693 million. Absolute percent difference = |693−528|/528 × 100 = 31.25 → 31.2%.
+
+<FINAL_ANSWER>31.2</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

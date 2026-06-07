@@ -1,0 +1,15 @@
+=== rc=0 elapsed=146.5s ===
+=== stdout (669 chars) ===
+The result is robust at ~0.4997 (the Mar76 revision 2245→2246 doesn't change the 4th decimal; only the Jun76 Canadian 11176→11175 shifts it slightly to 0.4993).
+
+The cleanest, primary-quarter reading uses each value from the bulletin where that quarter is the most current report:
+- Dec 1975, Mar 1976 → March bulletin: BEF 10164, 2245 / CAD 10371, 10724
+- Jun 1976 → April bulletin: BEF 16408 / CAD 11176
+- Sep 1976 → May bulletin: BEF 13327 / CAD 10806
+
+This gives 0.4997. The Jun76 Canadian value 11,176 (April, the bulletin that first reports June as latest quarter) is the appropriate authoritative figure. Result: **0.4997**.
+
+<FINAL_ANSWER>0.4997</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

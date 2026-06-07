@@ -1,0 +1,13 @@
+=== rc=0 elapsed=65.0s ===
+=== stdout (313 chars) ===
+Both correlations are very high (~0.995), and the absolute difference is 0.0003.
+
+Computation:
+- 1979: Treasury vs New Aa corporate Pearson r = 0.99551
+- 1984: Treasury vs New Aa corporate Pearson r = 0.99584
+- |0.99551 − 0.99584| = 0.0003261 → rounded to 4 decimals = 0.0003
+
+<FINAL_ANSWER>0.0003</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

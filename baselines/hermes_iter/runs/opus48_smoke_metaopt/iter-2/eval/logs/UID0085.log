@@ -1,0 +1,11 @@
+=== rc=0 elapsed=39.5s ===
+=== stdout (227 chars) ===
+California's share of total US Internal Revenue Receipts:
+- CY2018: 456,555,954 / 3,465,466,627 = 13.1744%
+- CY2019: 472,027,235 / 3,564,583,961 = 13.2421%
+- Change: +0.068 percentage points
+
+<FINAL_ANSWER>0.068</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

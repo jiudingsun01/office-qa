@@ -1,0 +1,10 @@
+=== rc=0 elapsed=53.3s ===
+=== stdout (211 chars) ===
+CY2018 California share: 456,555,954 / 3,465,466,627 = 13.17444%
+CY2019 California share: 472,027,235 / 3,564,583,961 = 13.24214%
+Change = +0.06770 percentage points → 0.068.
+
+<FINAL_ANSWER>0.068</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

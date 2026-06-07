@@ -1,0 +1,8 @@
+=== rc=0 elapsed=319.4s ===
+=== stdout (162 chars) ===
+Using the September weekly 91-day bill discount rates for 1953-1955, the geometric mean rounded to the nearest thousandth is:
+
+<FINAL_ANSWER>1.558</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

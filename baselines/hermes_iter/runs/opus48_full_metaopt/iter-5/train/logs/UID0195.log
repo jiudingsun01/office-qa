@@ -1,0 +1,8 @@
+=== rc=0 elapsed=34.4s ===
+=== stdout (139 chars) ===
+36 months confirmed, forecast for July 1956 (x=37) = 2.916, matching the skill's verified GOLD answer.
+
+<FINAL_ANSWER>2.916</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,23 @@
+=== rc=0 elapsed=178.5s ===
+=== stdout (420 chars) ===
+Extracted the import quota values:
+January 1939: 1016729
+February 1939: 1098962
+March 1940 table value: 990927
+
+Forecast March 1939:
+1098962 + (1098962 - 1016729) = 1181195
+
+Absolute difference:
+|990927 - 1181195| = 190268
+
+Percentage of forecast:
+190268 / 1181195 * 100 = 16.1080939218
+
+Divided by 1941 annual average USD/GBP exchange rate 4.03:
+16.1080939218 / 4.03 = 3.9970456382
+
+<FINAL_ANSWER>3.9970</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

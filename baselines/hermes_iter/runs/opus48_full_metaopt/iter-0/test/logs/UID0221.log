@@ -1,0 +1,21 @@
+=== rc=0 elapsed=44.8s ===
+=== stdout (652 chars) ===
+The computation is complete.
+
+Data (in millions of dollars, Total marketable securities outstanding subject to statutory debt limitation):
+- Nov 30, 1949: 155,205 (Treasury Bulletin Jan 1950, Table 2)
+- Dec 31, 1949: 154,962 (Treasury Bulletin Feb 1950, Table 2)
+
+CPI-U (NSA, 1982-84=100): Nov 1949 = 23.8, Dec 1949 = 23.6
+
+Adjusting to constant December 1949 dollars:
+- Nov real = 155,205 × (23.6/23.8) = 153,900.76
+- Dec real = 154,962 (already in Dec 1949 dollars)
+
+Absolute difference ≈ 1061
+Absolute percentage difference = |154962 − 153900.76| / 153900.76 × 100 = 0.690% (to nearest thousandth: 0.690)
+
+<FINAL_ANSWER>[0.690, 1061]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

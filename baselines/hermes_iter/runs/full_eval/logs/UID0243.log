@@ -1,0 +1,8 @@
+=== rc=0 elapsed=89.8s ===
+=== stdout (234 chars) ===
+From Table FD-1, I used the “Public debt securities” fiscal-year-end values, and adjusted FY 1960 and FY 1961 to constant 1962 dollars using CPI-U annual averages 1960=29.6, 1961=29.9, 1962=30.3.
+
+<FINAL_ANSWER>265.326</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

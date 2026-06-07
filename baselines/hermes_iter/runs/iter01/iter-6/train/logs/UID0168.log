@@ -1,0 +1,17 @@
+=== rc=0 elapsed=407.3s ===
+=== stdout (326 chars) ===
+Extracted monthly grand totals for Movement in Short-Term Banking Funds:
+
+May 1939: 25,678
+June 1939: 16,506
+July 1939: 34,850
+August 1939: 264,156
+
+Quadratic regression projection for September (t=5): 566,839.5
+
+Germany invaded Poland on September 1, so divide by day number 1 and round:
+
+<FINAL_ANSWER>566840</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

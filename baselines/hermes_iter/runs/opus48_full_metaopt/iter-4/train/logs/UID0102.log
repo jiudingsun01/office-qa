@@ -1,0 +1,13 @@
+=== rc=0 elapsed=63.6s ===
+=== stdout (382 chars) ===
+The FY total matches exactly (371832), confirming I have the correct 12 monthly values.
+
+Calculation:
+- Monthly Corporation income tax net receipts (millions) → billions rounded to tenths: [-3.2, 3.0, 3.8, 9.2, 13.8, 15.3, 16.5, 16.9, 62.9, 72.8, 74.2, 86.7]
+- Q1 (Type 7) = 7.85, Q3 (Type 7) = 65.375
+- H-spread (IQR) = Q3 − Q1 = 57.525 → 57.52
+
+<FINAL_ANSWER>57.52</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

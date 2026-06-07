@@ -1,0 +1,12 @@
+=== rc=0 elapsed=64.1s ===
+=== stdout (573 chars) ===
+The 85th Hazen percentile: with n=10, P=0.85, rank r = 0.85·10 + 0.5 = 9.0, which lands exactly on the 9th sorted value = 732852 (FY2011 = 678077 + 54775).
+
+Let me verify the Hazen formula interpretation. The Hazen plotting position assigns p_i = (i-0.5)/n to the i-th smallest value. For the 9th value, p_9 = 8.5/10 = 0.85 = exactly 85%. So the 85th percentile is exactly the 9th sorted value = 732852.00.
+
+DoD total = Department of Defense, military + Other Defense, civil programs (both sub-rows summed, per established pattern).
+
+<FINAL_ANSWER>732852.00</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

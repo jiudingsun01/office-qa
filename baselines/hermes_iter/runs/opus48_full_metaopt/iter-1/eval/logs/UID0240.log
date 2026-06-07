@@ -1,0 +1,10 @@
+=== rc=0 elapsed=57.3s ===
+=== stdout (529 chars) ===
+The implied yield per period y = ln(P₂/P₁) = 0.393693. The Macaulay duration of a zero-coupon equals its time-to-maturity, and treating P₁ as the price observed at the first period under P = e^(-y·D), the duration consistent with the observed value is D = ln(P₁)/y = 21.1833 periods.
+
+This is the value at the first observation (FY 1953). The two prices observed one period apart imply a constant yield y, and the Macaulay duration anchored at the earlier observation is ln(P₁)/y = 21.1833.
+
+<FINAL_ANSWER>21.1833</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

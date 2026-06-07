@@ -1,0 +1,16 @@
+=== rc=0 elapsed=89.3s ===
+=== stdout (499 chars) ===
+CAGR = 7.60%.
+
+Both values are "total liabilities to all foreigners reported by banks in the U.S." (Section I, CM-I tables):
+- June 2003: 2,289,997 million (Grand total, Table CM-I-3)
+- June 2013: 4,764,858 million (Total liabilities to all foreigners, Table CM-I-1, June column)
+- N = 10 elapsed years
+- CAGR = ((4764858/2289997)^(1/10) − 1) × 100 = 7.60%
+
+The answer is a single decimal value with a % concern — single value, no delimiter issue. Period decimal.
+
+<FINAL_ANSWER>7.60</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

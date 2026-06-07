@@ -1,0 +1,15 @@
+=== rc=0 elapsed=53.8s ===
+=== stdout (464 chars) ===
+The phrase "as the entire set for this computation" explicitly signals treating these three values as the entire population, so population standard deviation applies.
+
+Values (millions of dollars, Jan 31 of each year, Table 1 "Total amount of securities outstanding subject to statutory debt limitation"):
+- 1953: 266,837.0
+- 1954: 274,362.0
+- 1955: 277,949
+
+Mean = 273,049.33; population standard deviation = 4,630.4 million.
+
+<FINAL_ANSWER>4630.4</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

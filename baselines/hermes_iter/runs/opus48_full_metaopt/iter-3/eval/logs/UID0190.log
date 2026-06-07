@@ -1,0 +1,12 @@
+=== rc=0 elapsed=35.2s ===
+=== stdout (247 chars) ===
+Both values confirmed in the 1939_11 bulletin:
+- October 1938 total receipts = 332 (line 211)
+- October 1939 total receipts = 321 (line 223, the last month in this November bulletin)
+
+Difference = 321 - 332 = -11
+
+<FINAL_ANSWER>-11</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

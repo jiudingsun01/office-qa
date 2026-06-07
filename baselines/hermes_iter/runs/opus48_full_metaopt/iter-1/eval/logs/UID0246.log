@@ -1,0 +1,19 @@
+=== rc=0 elapsed=140.0s ===
+=== stdout (961 chars) ===
+Let me verify the totals against the table's "Total Treasury Bills" row as a sanity check. 1975 total bills = 119543, which includes regular+annual + tax + Federal Financing Bank bills. Regular(116036) + tax(3507) = 119543. That matches exactly the Total Treasury Bills row (and there were FFB bills listed separately but apparently the total already nets). 
+
+Let me verify: 116036 + 3507 = 119543. ✓ Exactly matches the "Total Treasury Bills" row. Excellent confirmation for 1975.
+
+For 1970: 71805 + 9274 = 81079, vs reported Total Treasury bills 81081 (off by 2 due to rounding of individual cells — acceptable, matches gold-standard precision). 
+
+The extraction is confirmed correct.
+
+Computation summary:
+- Regular weekly + annual: 1970 = 71,805 → 1975 = 116,036; abs change = 44,231
+- Tax anticipation: 1970 = 9,274 → 1975 = 3,507; abs change = 5,767
+- Euclidean norm = √(44231² + 5767²) = 44,605.3769... → 44,605.38
+
+<FINAL_ANSWER>44605.38</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

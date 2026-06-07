@@ -1,0 +1,8 @@
+=== rc=0 elapsed=57.1s ===
+=== stdout (191 chars) ===
+Used the adjusted equivalent prices for all 2-3/8% TIPS entries dated Jan. 1, 2007 through Aug. 1, 2007 and computed the population standard deviation.
+
+<FINAL_ANSWER>0.900544</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

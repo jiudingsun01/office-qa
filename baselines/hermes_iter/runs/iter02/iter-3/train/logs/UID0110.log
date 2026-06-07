@@ -1,0 +1,8 @@
+=== rc=0 elapsed=295.0s ===
+=== stdout (227 chars) ===
+I extracted the quarterly annualized real GDP growth values from the hinted Profile of the Economy chart pages and computed the geometric mean after deannualizing each quarterly rate.
+
+<FINAL_ANSWER>[2017, 0.69]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

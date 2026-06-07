@@ -1,0 +1,10 @@
+=== rc=0 elapsed=68.9s ===
+=== stdout (511 chars) ===
+I can see Chart TF-G clearly now. The solid line (Receipts) peaks around 1989 then declines sharply toward 1990, while the dashed line (Outlays) rises steadily. Near 1990, the receipts line dips down to about 15.1 and the outlays dashed line is around 15.3 — the dashed (outlays) line is briefly above the solid (receipts) line right around 1990. After 1990 receipts shoot back up above outlays toward 1991.
+
+So the crossover where outlays exceed receipts occurs around 1990.
+
+<FINAL_ANSWER>1990</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,16 @@
+=== rc=0 elapsed=31.6s ===
+=== stdout (464 chars) ===
+I found the table. "Table CM-1-3. - Total Liabilities by Country" with the CY1986 column. The United Kingdom row at line 3457:
+
+Columns: 1985 | 1986 | 1987 | May | June | July | Aug | Sept
+
+United Kingdom: 79757.0 (1985) | **90833.0 (1986)** | 126446.0 (1987) | ...
+
+The CY1986 value is 90833.0 million dollars. The question asks for billions rounded to the nearest hundredth.
+
+90833.0 million = 90.833 billion ≈ 90.83 billion.
+
+<FINAL_ANSWER>90.83</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

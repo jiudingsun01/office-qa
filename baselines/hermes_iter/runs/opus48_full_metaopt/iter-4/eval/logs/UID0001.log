@@ -1,0 +1,12 @@
+=== rc=0 elapsed=116.4s ===
+=== stdout (802 chars) ===
+This is the cash-basis "Cash Income and Outgo" table. However, the question asks for "total expenditures for national defense in calendar year 1940." This cash series carries a footnote (1/) noting it does not reflect the budgetary position. 
+
+There's also a budget-basis "National defense" series at line 130. But that table is fiscal-year based. The question specifically says "calendar year 1940" — and the only table that gives monthly data summable to a calendar year is this Cash Income and Outgo table. The sum of the 12 calendar-year-1940 months = 2602 million.
+
+The values are confirmed against the PDF image (Nov shows 376r = revised). Calendar year 1940 national defense cash outgo = 132+129+143+159+154+153+177+200+219+287+376+473 = 2602 million dollars.
+
+<FINAL_ANSWER>2602</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

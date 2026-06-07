@@ -1,0 +1,13 @@
+=== rc=0 elapsed=1235.5s ===
+=== stdout (220 chars) ===
+From Table SB-2, July–September 1982 amount outstanding totals were:
+July: 67,132 + 57 = 67,189
+August: 67,148 + 57 = 67,205
+September: 67,274 + 55 = 67,329
+
+Average = 67,241 million.
+
+<FINAL_ANSWER>67241</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

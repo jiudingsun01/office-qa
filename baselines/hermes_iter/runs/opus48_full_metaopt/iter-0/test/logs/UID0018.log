@@ -1,0 +1,16 @@
+=== rc=0 elapsed=65.0s ===
+=== stdout (475 chars) ===
+39 months confirmed (Jan 1984 through Mar 1987). All values are in millions of dollars (the table header states "In millions of dollars").
+
+The geometric mean of the monthly Judiciary outlays is 80.289 million dollars.
+
+Summary of data used:
+- 1984 (Jan–Dec): from treasury_bulletin_1985_03
+- 1985 (Jan–Dec): from treasury_bulletin_1986_03
+- 1986 (Jan–Dec): from treasury_bulletin_1987_03
+- 1987 (Jan–Mar): from treasury_bulletin_1988_03
+
+<FINAL_ANSWER>80.289</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

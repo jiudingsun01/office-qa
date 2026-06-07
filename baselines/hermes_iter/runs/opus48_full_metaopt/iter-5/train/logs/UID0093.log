@@ -1,0 +1,14 @@
+=== rc=0 elapsed=41.2s ===
+=== stdout (428 chars) ===
+Confirmed. This is Table CM-1-3 "Total Liabilities by Country" [Position at end of period in millions of dollars]. The columns are: 1985, 1986, 1987, May, June, July, Aug, Sept.
+
+For United Kingdom, the CY1986 column = the 2nd value = **90833.0** millions.
+
+Scaling to billions: 90833.0 / 1000 = 90.833 → **90.83** billion.
+
+This exactly matches the skill's documented PASSED answer (90.83).
+
+<FINAL_ANSWER>90.83</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=169.2s ===
+=== stdout (215 chars) ===
+Using the January 1977 and January 1978 Treasury Survey bill maturity rows, the months exceeding 20,000 million are February through July in each 12-month source window: 6 + 6 = 12.
+
+<FINAL_ANSWER>12</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

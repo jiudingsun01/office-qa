@@ -1,0 +1,20 @@
+=== rc=0 elapsed=97.9s ===
+=== stdout (701 chars) ===
+The computation is complete. Let me verify the chain:
+
+- June 1991: Europe = 268166, Latin America = 337565
+- June 1996: Europe = 426245, Latin America = 443872
+- Regression (2 points): slope = 0.6725, intercept = 157225.28
+- Germany GDP (World Bank): 1991 = 1875.79B, 1996 = 2506.58B → growth = 33.63%
+- Counterfactual Europe = 268166 × 1.33628 = 358344.77
+- Predicted LA = 398209.58
+- Abs diff from actual (443872) = 45662.42 → 10.2873% of actual
+- US liabilities (EU+LA) growth = 43.65%; ratio to Germany growth = 1.2980
+- Final = 10.2873 × 1.2980 = 13.35
+
+This is a decimal/percentage answer (MODE A — all values have decimal points), single number, no commas.
+
+<FINAL_ANSWER>13.35</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

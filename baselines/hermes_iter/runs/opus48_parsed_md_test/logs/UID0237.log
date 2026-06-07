@@ -1,0 +1,12 @@
+=== rc=0 elapsed=63.8s ===
+=== stdout (678 chars) ===
+The question asks for the result "reported in billions of nominal dollars rounded to the nearest hundredths place." A ratio (0.0118) wouldn't be in billions of dollars. So the answer is the difference in billions: 41.14.
+
+"Mid-point normalized difference" likely refers to the difference between the two values where the "mid-point" is a statistical convention (Tukey hinges/midpoint). Given the requested unit is billions of dollars, the answer is the simple difference: 3514.691 − 3473.551 = 41.14 billion.
+
+June 2006 = 3,473,551 M; June 2007 = 3,514,691 M (FD-5 "Amount outstanding privately held"). Difference = 41,140 M = 41.14 billion.
+
+<FINAL_ANSWER>41.14</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

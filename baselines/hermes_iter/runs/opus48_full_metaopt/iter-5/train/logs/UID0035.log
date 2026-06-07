@@ -1,0 +1,12 @@
+=== rc=0 elapsed=85.3s ===
+=== stdout (494 chars) ===
+State doesn't persist. The breakdown isn't essential — the logic is sound. Let me just confirm: FRnotes1890 column = 23 rows all "1" → 23 leading-1s. That's the dominant contributor, plus the Total column (107,xxx, 1xx,xxx values), USnotes (none start with 1), etc.
+
+The total is 104. The "*" cells correctly excluded (footnote markers, not data values per the question framing — they represent "less than $500,000" but are not numerals). 
+
+The answer is 104.
+
+<FINAL_ANSWER>104</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

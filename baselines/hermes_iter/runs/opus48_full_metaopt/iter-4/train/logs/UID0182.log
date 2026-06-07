@@ -1,0 +1,15 @@
+=== rc=0 elapsed=72.7s ===
+=== stdout (413 chars) ===
+The maximum share is CY2011: 24579 / 4925045 = 0.004991, rounded to nearest thousandths = 0.005.
+
+The three calendar-year-end values for Canadian dollar liabilities as a fraction of total liabilities to all foreigners:
+- CY2009: 17694 / 4479544 = 0.00395
+- CY2010: 15907 / 4640601 = 0.00343
+- CY2011: 24579 / 4925045 = 0.00499 ← maximum
+
+Rounded to nearest thousandths: 0.005.
+
+<FINAL_ANSWER>0.005</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

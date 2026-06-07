@@ -1,0 +1,16 @@
+=== rc=0 elapsed=52.8s ===
+=== stdout (673 chars) ===
+Let me reason about each:
+
+- **CAGR** = (35810/135030)^(1/8) - 1 = -0.153
+- **Annual decay factor** = the ratio (1 + CAGR) = 0.847 (the multiplier per year)
+- **Arc elasticity using midpoint percentage change**: The arc elasticity = % change in quantity / % change in something. But here only outlays values are given. "Arc elasticity using midpoint percentage change given these values" most naturally = the midpoint method percentage change of outlays = (V1-V0)/((V1+V0)/2) = -1.162.
+
+These all check out. The midpoint % change in decimal form = -1.162.
+
+CAGR = -0.153, decay factor = 0.847, arc elasticity = -1.162.
+
+<FINAL_ANSWER>[-0.153, 0.847, -1.162]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

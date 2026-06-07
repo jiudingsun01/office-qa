@@ -1,0 +1,15 @@
+=== rc=0 elapsed=1131.8s ===
+=== stdout (236 chars) ===
+Used fixed-maturity issue totals (millions) from the January 31 schedules:
+
+1948: 55.427
+1949: 48.044
+1950: 54.565
+1951: 57.479
+
+OLS projection for January 31, 1952: 57.048 billion, rounded to tenths.
+
+<FINAL_ANSWER>57.0</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

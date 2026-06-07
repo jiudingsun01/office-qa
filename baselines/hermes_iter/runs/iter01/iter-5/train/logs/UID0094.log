@@ -1,0 +1,13 @@
+=== rc=0 elapsed=41.6s ===
+=== stdout (222 chars) ===
+Using the Treasury Bulletin tables:
+
+December 1938 ratio = 2,449 / 3,083
+December 1940 ratio = 1,188 / 1,928
+
+Geometric annual rate over 2 years = ((1940 ratio / 1938 ratio)^(1/2)) - 1
+
+<FINAL_ANSWER>-0.119</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

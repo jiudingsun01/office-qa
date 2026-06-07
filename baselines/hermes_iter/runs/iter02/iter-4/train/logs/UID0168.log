@@ -1,0 +1,19 @@
+=== rc=0 elapsed=789.2s ===
+=== stdout (389 chars) ===
+Using the monthly “Movement in short-term banking funds” Grand total values:
+May 1939 = 25,678
+June 1939 = 16,506
+July 1939 = 34,850
+August 1939 = 264,156
+
+Quadratic regression projection for September (t=5): 566,839.5
+
+Germany invaded Poland on September 1, 1939, so divide by day number 1:
+566,839.5 / 1 = 566,839.5
+
+Rounded to nearest whole number:
+
+<FINAL_ANSWER>566840</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

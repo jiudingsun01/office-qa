@@ -1,0 +1,15 @@
+=== rc=0 elapsed=53.7s ===
+=== stdout (645 chars) ===
+The result depends on the exact 1966 annual average rate. The most commonly cited annual average USD/INR for 1966 is **6.36** (the IMF/standard figure given the mid-year devaluation). 
+
+With rates 1964=4.7619, 1965=4.7619, 1966=6.36:
+- Ratio 1965/1964 = 1.0000
+- Ratio 1966/1965 = 6.36/4.7619 = 1.3356
+- Absolute difference = 0.3356
+
+The value 209,344 million cancels out entirely (it's the same dollar figure for all three years), so the answer is purely driven by the exchange-rate ratios. Using the standard annual average rates (1964 & 1965 = 4.7619, 1966 = 6.36), the absolute difference is **0.3356**.
+
+<FINAL_ANSWER>0.3356</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,12 @@
+=== rc=0 elapsed=42.6s ===
+=== stdout (333 chars) ===
+Both rates confirmed from line 347 (19-day, opened May 27 → 8.072%) and line 349 (2-day, opened June 2 → 10.260%).
+
+One-step realized variance of the log discount rate series:
+- log return r = ln(10.260/8.072) = 0.239852
+- realized variance = r² = 0.057529 → rounded to nearest thousandth = 0.058
+
+<FINAL_ANSWER>0.058</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

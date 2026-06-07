@@ -1,0 +1,10 @@
+=== rc=0 elapsed=99.8s ===
+=== stdout (277 chars) ===
+Both tables verified. Top table: 51 (mostly the "1" Federal Reserve notes column and 10xxxx/11xxxx totals). Bottom table: 53.
+
+The values match the PDF image exactly. The "*" symbols are excluded (not numerals). Total leading-'1' count = 104.
+
+<FINAL_ANSWER>104</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=55.9s ===
+=== stdout (434 chars) ===
+I have both values from Table OFS-1 "Total Federal securities outstanding":
+- 1980-Feb: 861603
+- 1981-Feb: 956898
+
+Both bulletins agree the 1980-Feb value is 861603 (cross-confirmed in both files). The 1981 bulletin shows Feb 1981 = 956898 (also confirmed by TSO-1 line 4732 showing 956897/956898).
+
+Weighted average: (861603 × 1 + 956898 × 2) / 3 = (861603 + 1913796) / 3 = 2775399 / 3 = 925133.
+
+<FINAL_ANSWER>925133</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

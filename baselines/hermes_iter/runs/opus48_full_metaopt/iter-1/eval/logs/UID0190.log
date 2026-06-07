@@ -1,0 +1,16 @@
+=== rc=0 elapsed=37.6s ===
+=== stdout (411 chars) ===
+Both bulletins consistent:
+- 1938-Oct Total Receipts = 332
+- 1939-Oct Total Receipts = 321
+
+Difference = 321 − 332 = −11.
+
+Both values agree across the two bulletins (Oct 1938 = 332 appears in both). This is MODE A style — millions, signed integer, no commas. The answer is simple integer subtraction, no rounding ambiguity.
+
+October 1939 (321) minus October 1938 (332) = −11.
+
+<FINAL_ANSWER>-11</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

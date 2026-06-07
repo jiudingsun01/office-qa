@@ -1,0 +1,13 @@
+=== rc=0 elapsed=62.4s ===
+=== stdout (360 chars) ===
+Both values confirmed from the SBN-1 cumulative tables:
+- Series I redemptions: 39 (Mar 2000) → 2,006 (Mar 2005)
+- Total redemptions: 412,536 (Mar 2000) → 439,688 (Mar 2005)
+
+Share of total: 0.00945% → 0.45623%, a change of +0.447 pp → 0.4 (nearest tenth).
+Absolute change in Series I redemptions: 2,006 − 39 = 1,967.
+
+<FINAL_ANSWER>[0.4, 1967]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

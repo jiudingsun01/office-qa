@@ -1,0 +1,12 @@
+=== rc=0 elapsed=89.6s ===
+=== stdout (484 chars) ===
+The sum of all 1982 individual rows (Total column) = **80,686**, exactly matching the printed subtotal. This confirms the answer.
+
+The question asks for the total value of total amount of nominal maturities (Total column) for interest-bearing marketable public debt securities (excluding 52-week T-bills, which is exactly what Table PDO-1 covers) with date of final maturity in CY 1982, in millions of dollars.
+
+Answer: **80,686** million dollars.
+
+<FINAL_ANSWER>80686</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

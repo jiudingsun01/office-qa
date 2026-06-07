@@ -1,0 +1,16 @@
+=== rc=0 elapsed=140.1s ===
+=== stdout (632 chars) ===
+Both formulations of the midpoint arc elasticity agree: **-3.524**.
+
+Values used (in thousands of dollars):
+- Total collections reported by IRS: Jan 1960 = 4,807,819; Mar 1960 = 11,893,553
+- Unemployment insurance: Jan 1960 = 26,461; Mar 1960 = 20,774
+
+Arc elasticity = [(Y₂−Y₁)/((Y₁+Y₂)/2)] / [(X₂−X₁)/((X₁+X₂)/2)] = -3.524
+
+The key trap (resolved via PDF image inspection): the monthly rows leave "Old-age and disability insurance" blank, so the two rightmost numbers belong to Railroad retirement and Unemployment insurance respectively. Unemployment insurance Jan = 26,461 and Mar = 20,774.
+
+<FINAL_ANSWER>-3.524</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

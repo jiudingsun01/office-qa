@@ -1,0 +1,13 @@
+=== rc=0 elapsed=450.4s ===
+=== stdout (188 chars) ===
+Extracted total operating balances:
+FY 1953: 4,187
+FY 1954: 6,207
+
+Using continuous compounding:
+duration = ln(4187) / ln(6207 / 4187) = 21.183347...
+
+<FINAL_ANSWER>21.1833</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

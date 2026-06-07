@@ -1,0 +1,16 @@
+=== rc=0 elapsed=52.5s ===
+=== stdout (637 chars) ===
+I found the December 2000 row in the Monthly Report table (TABLE FCP-VI-2). The question asks for the "total net Euro position not considering any option positions" — that's the spot, forward and future contracts net position = Purchased − Sold.
+
+For 2000 - Dec:
+- Purchased = 1,950,622
+- Sold = 1,943,752
+
+Net (excluding options) = 1,950,622 − 1,943,752 = 6,870 million euros.
+
+This monthly table is "In millions of euros" — matching the question's requested scale. The "not considering any option positions" excludes the Net delta equivalent (-10,431), so we use only spot/forward/future contracts.
+
+<FINAL_ANSWER>6,870</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

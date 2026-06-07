@@ -1,0 +1,14 @@
+=== rc=0 elapsed=64.9s ===
+=== stdout (538 chars) ===
+My 1953 sum (44463) is within 2 of the reported Cal. yr. row (44465) — the tiny diff is rounding in the published total. The question says use "only the reported values for all individual calendar months", so I sum the 12 monthly values = 44463.
+
+Absolute percent change = |44463 - 2602| / 2602 × 100 = 1608.80%.
+
+The answer is a percent with decimals → MODE A (value contains a decimal point) → bare format, report as percent with the % sign.
+
+Sum 1940 = 2602; Sum 1953 = 44463; change = 1608.80%.
+
+<FINAL_ANSWER>1608.80%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

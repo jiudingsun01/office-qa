@@ -1,0 +1,15 @@
+=== rc=0 elapsed=59.6s ===
+=== stdout (513 chars) ===
+The customs duty rate (duties collected ÷ value of dutiable imports) for each fiscal year:
+- FY1939: 312.095 / 820.157 = 0.3805 (38.053%)
+- FY1940: 340.006 / 919.709 = 0.3697 (36.969%)
+- FY1941: 385.306 / 1011.262 = 0.3810 (38.102%)
+
+The centered moving average over FY1939–1941 inclusive (3-year window centered on FY1940) = average of the three = 0.377 as a fraction, or 37.708%.
+
+The most likely intended answer is the rate as a decimal/ratio rounded to thousandths: 0.377.
+
+<FINAL_ANSWER>0.377</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

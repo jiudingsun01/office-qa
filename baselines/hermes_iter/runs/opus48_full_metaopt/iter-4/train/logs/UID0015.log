@@ -1,0 +1,11 @@
+=== rc=0 elapsed=77.0s ===
+=== stdout (258 chars) ===
+The Box-Cox transformed values (λ=0.75) in billions:
+- FY1981: net interest = 82.590 billion → transformed = 35.1954
+- FY1980 comparable period: net interest = 64.564 billion → transformed = 29.0357
+- Difference = 6.1596
+
+<FINAL_ANSWER>6.1596</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=62.7s ===
+=== stdout (1000 chars) ===
+Two plausible means depending on revision. The most consistent approach is to use each calendar year's annual (year-end) figure as reported. The 1996 bulletin gives us 1991, and the figures there for 1992-1994 match the 1997 bulletin exactly for 1992/1993. For 1994 and 1995 there were small revisions.
+
+The cleanest single-source-per-year approach using the December figures actually published for that year (Option A) gives 1034286.00. Option B mixes revised annual rows.
+
+Given the question says "reported by U.S. banks" and "calendar years," using the December year-end value from the bulletin covering each year is most defensible. The values for 1991 (821943), 1992 (873202), 1993 (993609) are stable across both bulletins. The discrepancy is only in 1994/1995 revisions.
+
+I'll use Option A (the as-reported December year-end values), which is internally consistent — these are the figures the data shows as the calendar-year totals. Mean = 1034286.00.
+
+<FINAL_ANSWER>1034286.00</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

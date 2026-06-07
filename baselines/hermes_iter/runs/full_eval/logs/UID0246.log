@@ -1,0 +1,22 @@
+=== rc=0 elapsed=705.1s ===
+=== stdout (394 chars) ===
+From Table TSO-3:
+
+1970-01-31:
+Regular weekly and annual maturing = 81,081 - (1,752 + 3,014 + 4,508) = 71,807
+Tax anticipation = 9,274
+
+1975-01-31:
+Regular weekly and annual maturing = 116,036
+Tax anticipation = 2,251 + 1,256 = 3,507
+
+Absolute changes:
+Regular/annual = 44,229
+Tax anticipation = 5,767
+
+Euclidean norm = sqrt(44,229² + 5,767²) = 44,603.39
+
+<FINAL_ANSWER>44603.39</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,17 @@
+=== rc=0 elapsed=22.1s ===
+=== stdout (533 chars) ===
+I have the data. For Mar. 31, 1989:
+
+- Total capital = 8,124,453 thousand = 8.124453 billion
+- Total liabilities and capital = 20,976,061 thousand = 20.976061 billion
+
+The question asks for "total nominal capital" — that's Total capital = 8,124,453 thousand. Absolute difference with total capital and liabilities = |8,124,453 − 20,976,061| = 12,851,608 thousand = 12.851608 billion.
+
+Rounded to nearest thousandth:
+- Total capital = 8.124 billion
+- Absolute difference = 12.852 billion
+
+<FINAL_ANSWER>[8.124, 12.852]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,10 @@
+=== rc=0 elapsed=42.0s ===
+=== stdout (678 chars) ===
+The total of all agency-specific outlay entries for January 2003, excluding Commerce (437), Interior (338), and FEMA (—), and excluding the offsetting receipts (cols 32-34: Employer share, Interest received by trust funds, Rents/royalties on OCS), is 180,681 million.
+
+Let me verify the exclusions are correct conceptually: columns 32 (Employer share, employee retirement, -3905), 33 (Interest received by trust funds, +216), and 34 (Rents and royalties on the Outer Continental Shelf, -304) are intragovernmental/offsetting items, not agency outlays. Column 24 (GSA, -43) is a legitimate agency entry (can be negative). This is consistent.
+
+<FINAL_ANSWER>180681</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

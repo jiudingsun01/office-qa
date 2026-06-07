@@ -1,0 +1,18 @@
+=== rc=0 elapsed=183.8s ===
+=== stdout (280 chars) ===
+Using Federal Reserve notes:
+May 1979 = 103,774
+June 1979 = 104,779
+
+Using CPI-U:
+May 1979 = 71.5
+June 1979 = 72.3
+
+May adjusted to June dollars = 103,774 × (72.3 / 71.5) = 104,935.11
+
+Month-over-month change = 104,779 - 104,935.11 = -156.11
+
+<FINAL_ANSWER>-156.11</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

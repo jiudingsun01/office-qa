@@ -1,0 +1,16 @@
+=== rc=0 elapsed=252.8s ===
+=== stdout (271 chars) ===
+From the Treasury Bulletin country table, I used the United Kingdom June values:
+
+2000: 206,014
+2001: 172,920
+2002: 194,154
+
+Sum: 573,088 million USD.
+
+Using the June 30, 2002 USD-to-GBP rate rounded to the hundredths place: 0.66.
+
+<FINAL_ANSWER>378238.08</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

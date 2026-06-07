@@ -1,0 +1,8 @@
+=== rc=0 elapsed=124.5s ===
+=== stdout (220 chars) ===
+Extracted Department of Defense-military outlays from FFO-3 for FY 2011–2020 and applied Hazen plotting positions. The 85th percentile corresponds exactly to the 9th sorted value.
+
+<FINAL_ANSWER>678077.00</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

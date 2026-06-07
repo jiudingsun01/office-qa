@@ -1,0 +1,8 @@
+=== rc=0 elapsed=54.3s ===
+=== stdout (283 chars) ===
+The total net Euro position for December 2000, excluding option positions, combines the net of spot/forward/future contracts (Purchased − Sold = 6,870) and the net of non-capital items (Assets − Liabilities = 37,304), giving 44,174 million euros.
+
+<FINAL_ANSWER>44174</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

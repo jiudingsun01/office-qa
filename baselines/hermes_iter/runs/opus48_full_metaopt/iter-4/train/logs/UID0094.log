@@ -1,0 +1,10 @@
+=== rc=0 elapsed=141.9s ===
+=== stdout (265 chars) ===
+The result is **-0.119**, which matches the worked SUCCESS in my reference file exactly.
+
+Ratio Dec 1938 = 2,449/3,083 = 0.79436; Ratio Dec 1940 = 1,188/1,928 = 0.61618. CAGR over 2 years = (0.61618/0.79436)^(1/2) − 1 = −0.119.
+
+<FINAL_ANSWER>-0.119</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

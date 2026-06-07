@@ -1,0 +1,8 @@
+=== rc=0 elapsed=359.1s ===
+=== stdout (163 chars) ===
+Used Aug 1982 = 12.45 and Aug 1981 = 13.61. Fisher Ideal symmetric growth rate = 100 * (12.45 - 13.61) / sqrt(12.45 * 13.61).
+
+<FINAL_ANSWER>-8.911</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

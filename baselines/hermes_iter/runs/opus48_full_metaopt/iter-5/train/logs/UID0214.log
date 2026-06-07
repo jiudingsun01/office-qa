@@ -1,0 +1,12 @@
+=== rc=0 elapsed=52.9s ===
+=== stdout (454 chars) ===
+The question specifically says "total **currency** in circulation" — that maps to the "Total currencies" column (46431 for Nov 1969), not "Total money in circulation" (which adds coin).
+
+Inflation-adjusted amount = 46431 × (1 + 0.0543478) = 48954.4 (millions of dollars), rounded to nearest tenth.
+
+My memory pin confirms the CPI index approach (Nov69=38.8, Nov68=36.8 = 5.4348% YoY), avoiding the row-slip failure.
+
+<FINAL_ANSWER>48954.4</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

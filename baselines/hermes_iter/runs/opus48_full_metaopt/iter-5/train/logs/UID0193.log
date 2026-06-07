@@ -1,0 +1,16 @@
+=== rc=0 elapsed=59.1s ===
+=== stdout (414 chars) ===
+Computation summary:
+- Jan 1939 fish quota imports = 1,016,729; Feb 1939 = 1,038,962
+- MoM increase = 22,233
+- March 1939 forecast = 1,038,962 + 22,233 = 1,061,195
+- Actual March 1940 (fish quota) = 990,927
+- YoY absolute difference = 70,268 lb
+- As % of forecast = 70,268 / 1,061,195 × 100 = 6.6216%
+- Annual average nominal USD/GBP for CY1941 = 4.03
+- 6.6216 / 4.03 = 1.6431
+
+<FINAL_ANSWER>1.6431</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

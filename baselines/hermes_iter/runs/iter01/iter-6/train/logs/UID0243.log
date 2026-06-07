@@ -1,0 +1,21 @@
+=== rc=0 elapsed=83.0s ===
+=== stdout (359 chars) ===
+From Table FD-1, I used “Public debt securities” for fiscal-year-end public debt outstanding:
+1960: 286331
+1961: 288971
+
+Using CPI-U annual averages:
+1960: 29.6
+1961: 29.9
+1962: 30.3
+
+Adjusted to 1962 dollars:
+1960: 286331 × 30.3 / 29.6 = 293102.341
+1961: 288971 × 30.3 / 29.9 = 292836.833
+
+Absolute difference = 265.508
+
+<FINAL_ANSWER>265.508</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

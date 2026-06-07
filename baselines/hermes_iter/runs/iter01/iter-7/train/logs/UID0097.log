@@ -1,0 +1,11 @@
+=== rc=0 elapsed=31.3s ===
+=== stdout (282 chars) ===
+From Table ESF-1, as of Mar. 31, 1989:
+Total capital = 8,124,453 thousand dollars = 8.124 billion dollars
+Total liabilities and capital = 20,976,061 thousand dollars = 20.976 billion dollars
+Absolute difference = 12.852 billion dollars
+
+<FINAL_ANSWER>[8.124, 12.852]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

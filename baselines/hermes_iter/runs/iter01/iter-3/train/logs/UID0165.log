@@ -1,0 +1,8 @@
+=== rc=0 elapsed=124.4s ===
+=== stdout (266 chars) ===
+Extracted mutual fund holdings for March 2000-2004: 222.3, 225.3, 266.1, 296.6, 280.8 billion USD. Using one-year losses, sample standard deviation, 1% lower-tail normal VaR, and March 2004 USD/JPY = 108.5157, the rounded loss is:
+
+<FINAL_ANSWER>4928</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

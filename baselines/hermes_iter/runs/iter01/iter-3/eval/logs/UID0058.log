@@ -1,0 +1,9 @@
+=== rc=0 elapsed=54.0s ===
+=== stdout (128 chars) ===
+Using Table FCP-VI-2 for December 2000:
+1,950,622 + 657,186 - 1,943,752 - 619,882 = 44,174
+
+<FINAL_ANSWER>44,174</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

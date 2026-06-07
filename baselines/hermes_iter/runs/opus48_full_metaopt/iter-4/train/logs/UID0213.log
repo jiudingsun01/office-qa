@@ -1,0 +1,15 @@
+=== rc=0 elapsed=139.3s ===
+=== stdout (561 chars) ===
+Both balance figures verified from the PDFs visually:
+- Dec 1946 Unemployment Trust Fund total balance = 7,585.3 million (1946 dollars)
+- Dec 1947 Unemployment Trust Fund total balance = 8,124.2 million (1947 dollars)
+
+Adjusting for inflation to 1947 dollars using BLS CPI-U annual averages (1946 = 19.5, 1947 = 22.3):
+- Dec 1946 balance in 1947 dollars: 7,585.3 × (22.3/19.5) = 8,674.5 million
+- Dec 1947 balance: 8,124.2 million (already 1947 dollars)
+- Signed difference (1947 − 1946): 8,124.2 − 8,674.5 = −550.3 million
+
+<FINAL_ANSWER>-550.3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

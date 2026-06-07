@@ -1,0 +1,20 @@
+=== rc=0 elapsed=198.2s ===
+=== stdout (1166 chars) ===
+Summary of my analysis:
+
+I built the annual "Total surplus or deficit (-)" series (FFO-1 column 7, in millions of dollars) for the 25 years 1989–2013 by pulling actual fiscal-year values from the five June bulletins (deduping overlapping Estimate vs. actual rows, always using actuals):
+
+-152087, -220388, -268729, -290204, -254948, -203370, -163813, -107331, -22618, 70039, 125974, 236917, 127401, -157823, -374791, -412986, -318298, -248197, -161527, -454798, -1415722, -1294204, -1295591, -1089353, -680276
+
+Fitting a cubic polynomial regression (np.polyfit degree 3) and evaluating at 2025 yields an expected deficit of **-2,785,303 million**.
+
+The "U.S. Treasury's reported estimate" for 2025 is not present in any of the supplied bulletins (FFO tables only project 2 fiscal years ahead). Using Treasury's official FY2025 deficit estimate (FY2025 President's Budget projection of $1,781 billion = -1,781,000 million):
+
+|−2,785,303 − (−1,781,000)| = 1,004,303
+
+Note: the cubic prediction (-2,785,303) is firmly document-grounded; the reference estimate is the uncertain piece since it is external to the provided documents.
+
+<FINAL_ANSWER>1004303</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,16 @@
+=== rc=0 elapsed=296.3s ===
+=== stdout (814 chars) ===
+The footnote "Prior to April 1, 1938, corporate bonds are averages of Saturday figures" confirms the table's earliest data is early 1938 — so the first block is **1938**, not 1936. The monthly series runs consecutively 1938, 1939, 1940, ..., 1946 across the three column groups.
+
+The High-grade corporate bond yields for January–June 1938 are: 3.17, 3.15, 3.16, 3.25, 3.14, 3.15.
+
+For a "variance" of a sample of months, the population variance (dividing by n) is the standard interpretation for a complete enumeration of the specified months:
+- Population variance = 0.00137
+- Sample variance = 0.00164
+
+Since the question says "just the sample calendar months January to June" — treating these six months as the complete set being analyzed, the population variance applies.
+
+<FINAL_ANSWER>0.00137</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

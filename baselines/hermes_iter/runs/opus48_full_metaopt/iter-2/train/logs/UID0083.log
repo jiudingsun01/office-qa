@@ -1,0 +1,10 @@
+=== rc=0 elapsed=163.2s ===
+=== stdout (380 chars) ===
+The 12 FY1981 monthly net budget outlays values sum and population standard deviation compute cleanly. n=12, population standard deviation = 2760.44 million dollars.
+
+This is a whole-number-input answer (no decimals in the data), but the result has decimals. Per memory delimiter rules, this is a single scalar value so no delimiter concern.
+
+<FINAL_ANSWER>2760.44</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

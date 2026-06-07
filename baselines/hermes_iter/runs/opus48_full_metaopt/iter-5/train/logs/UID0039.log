@@ -1,0 +1,10 @@
+=== rc=0 elapsed=43.4s ===
+=== stdout (483 chars) ===
+Confirmed: 180681, matching the skill's recorded PASS value.
+
+Computation summary: Summed all individual agency outlay rows for 2003-Jan (columns 1-31), excluding Department of Commerce (col 4, 437), Department of the Interior (col 11, 338), and FEMA (col 23, blank). Also excluded all non-agency undistributed offsetting receipt items (Employer share, Interest received by trust funds, Rents/royalties on OCS, Other) and the Total outlays rows.
+
+<FINAL_ANSWER>180681</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

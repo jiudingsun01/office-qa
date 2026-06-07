@@ -1,0 +1,13 @@
+=== rc=0 elapsed=97.6s ===
+=== stdout (389 chars) ===
+The calculation:
+- 26-week bills: Sept 1 = 2.825%, Sept 8 = 2.801% (the parsed Markdown was missing these rows; confirmed via PDF visual)
+- Weekly log return: ln(2.801/2.825) = -0.0085319
+- Realized variance (squared return): (-0.0085319)² = 7.2793e-05
+- Annualized variance (×52 weeks): 0.0037852
+- Annualized volatility: √0.0037852 = 0.061524 = 6.15%
+
+<FINAL_ANSWER>6.15%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

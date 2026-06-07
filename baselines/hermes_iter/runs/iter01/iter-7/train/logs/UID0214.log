@@ -1,0 +1,8 @@
+=== rc=0 elapsed=191.0s ===
+=== stdout (224 chars) ===
+From Treasury Bulletin Table MS-1, 1969-Nov. “Total currencies” = 47,026 million. BLS CPI-U YoY inflation rate for Nov. 1969 = 5.9%. Adjusted amount = 47,026 × 1.059 = 49,800.5 million.
+
+<FINAL_ANSWER>49800.5</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=75.2s ===
+=== stdout (424 chars) ===
+The liquidity ratio (marketable liabilities as a share of total official institutions liabilities):
+- CY 2001 (Amazon stock low): 637800 / 923501 = 69.06%
+- CY 2008 (TARP bank bailout): 2673764 / 3386589 = 78.95%
+
+Change = |78.95 − 69.06| = 9.89 absolute percentage points.
+
+The values are decimals (percentages), so per MODE A formatting the answer is a bare number with a decimal point.
+
+<FINAL_ANSWER>9.89</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

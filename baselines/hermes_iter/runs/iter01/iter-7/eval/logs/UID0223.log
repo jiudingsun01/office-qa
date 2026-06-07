@@ -1,0 +1,14 @@
+=== rc=0 elapsed=153.9s ===
+=== stdout (283 chars) ===
+Extracted values (millions):
+1991 June: Europe 268166; Latin America and Caribbean 337565
+1996 June: Europe 426245; Latin America and Caribbean 443872
+
+GDP values used (billions, rounded; World Bank and IMF averaged):
+1991: 1879.14
+1996: 2507.015
+
+<FINAL_ANSWER>13.55</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

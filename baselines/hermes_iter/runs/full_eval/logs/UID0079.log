@@ -1,0 +1,8 @@
+=== rc=0 elapsed=105.2s ===
+=== stdout (196 chars) ===
+Using the FFO-4 Social Security Administration total funds outlays for FY2010-FY2019 and population standard deviation, the coefficient of variation is 11.73%.
+
+<FINAL_ANSWER>11.73</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

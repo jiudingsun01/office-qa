@@ -1,0 +1,16 @@
+=== rc=0 elapsed=207.5s ===
+=== stdout (397 chars) ===
+From Table SN-1 (calendar years):
+1980: redemptions = 71, amount outstanding = 300; prior year outstanding = 352
+1981: redemptions = 51, amount outstanding = 269; prior year outstanding = 300
+
+Using average amount outstanding:
+1980 rate = 71 / ((352 + 300) / 2) × 100 = 21.78
+1981 rate = 51 / ((300 + 269) / 2) × 100 = 17.93
+
+Difference = 3.85 percentage points
+
+<FINAL_ANSWER>3.85</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,45 @@
+=== rc=0 elapsed=154.8s ===
+=== stdout (1673 chars) ===
+I can now read the table clearly. The TSO-3 table "Treasury Bills: Regular weekly and annual maturing", row **Jan. 1981**:
+
+Column mapping:
+- Total amount outstanding: 4,018
+- U.S. Government accounts and Federal Reserve banks: **756**
+- 5,389 commercial banks: **558**
+- 460 mutual savings banks: 1
+- Insurance 287 life: – (0)
+- Insurance 436 fire/casualty/marine: * (rounds to <0.5)
+- 483 savings and loan associations: 7
+- 420 corporations: **148**
+- States and local govt - 311 general funds: 76
+- States and local govt - 181 pension: – (0)
+- Held by all other investors: – (0)
+
+Now the 7 categories and their holdings of the Jan. 1981 bill:
+1. U.S. Government accounts and Federal Reserve banks: 756
+2. Commercial banks: 558
+3. Mutual savings banks: 1
+4. Insurance companies (life 0 + fire * ) ≈ 0
+5. Savings and loan associations: 7
+6. Corporations: 148
+7. States and local governments (general 76 + pension 0) = 76
+
+Count of categories exceeding $200 million:
+1. U.S. Gov't & FRB: 756 > 200 ✓
+2. Commercial banks: 558 > 200 ✓
+3. Mutual savings: 1 ✗
+4. Insurance: ~0 ✗
+5. S&L: 7 ✗
+6. Corporations: 148 ✗ (not > 200)
+7. State & local: 76 ✗
+
+That gives **2** categories exceeding $200 million.
+
+Note: "states and local governments" has two sub-columns (general funds 76 + pension funds). For TSO tables, "State and local governments" is a single category whose total = general + pension. Pension column for Jan. 1981 shows "–" (0), so total = 76. Insurance companies = life (0) + fire/casualty/marine (*≈0) = ~0. Both well below 200.
+
+Only 2 categories exceed $200 million: U.S. Government accounts/FRB (756) and commercial banks (558).
+
+<FINAL_ANSWER>2</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

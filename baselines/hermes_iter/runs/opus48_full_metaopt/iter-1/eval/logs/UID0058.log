@@ -1,0 +1,28 @@
+=== rc=0 elapsed=151.8s ===
+=== stdout (1167 chars) ===
+I found the table. FCP-VI-2 (Monthly Report of Major Market Participants), "In millions of euros", Source: Office of Foreign Exchange Operations.
+
+For 2000 - Dec:
+- Spot, forward and future contracts: Purchased (1) = 1,950,622; Sold (2) = 1,943,752
+
+The question asks for "total net Euro position not considering any option positions." The net position from spot/forward/future contracts = Purchased − Sold. But there are also Non-capital items (Assets/Liabilities).
+
+Net position (excluding options) = (Purchased − Sold) + (Assets − Liabilities):
+- Spot/forward/future net: 1,950,622 − 1,943,752 = 6,870
+- Non-capital items net: 657,186 − 619,882 = 37,304
+- Total = 44,174
+
+Let me verify the standard definition for these FCP tables. The "net position" not considering options typically = (Purchased + Assets) − (Sold + Liabilities).
+
+= (1,950,622 + 657,186) − (1,943,752 + 619,882)
+= 2,607,808 − 2,563,634
+= 44,174
+
+This gives the total net Euro position excluding options = 44,174 million euros.
+
+The net position not considering options = (purchased contracts + assets) − (sold contracts + liabilities) = 44,174 million euros.
+
+<FINAL_ANSWER>44174</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

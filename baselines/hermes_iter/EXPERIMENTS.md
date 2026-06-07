@@ -219,8 +219,29 @@ python baselines/hermes_iter/iterate.py \
   --max-iters 8 --patience 3 --hours 23
 ```
 
-Committed run artifacts are the answer-key-free aggregates only
-(`summary.json`, `history.json`, `controller.log`, `manifest.json`). Split prompts
-(`*.jsonl`), per-question `preds/`/`logs/`, profile `snapshot/`s, and `per_row.jsonl`
-are gitignored because they embed gated gold answers or full transcripts —
-regenerate them locally with the commands above.
+## 9. What's committed, and the answer-key caveat
+
+Committed:
+- **Code** + this report.
+- **Aggregate results:** `summary.json`, `history.json`, `*.log`, `manifest.json`.
+- **Per-question trajectories + results:** `runs/**/preds/<uid>.json` (final answer +
+  rationale + score), `runs/**/logs/<uid>.log`, `runs/**/reflections/<uid>.json`
+  (train-phase reflections), and `runs/**/per_row.jsonl` (uid, gold, predicted, score).
+- **Evolved scaffold** (the meta-opt output): `evolved_profiles/<profile>/`
+  (`MEMORY.md` + the authored Treasury skills).
+
+Not committed (gitignored):
+- The gated OfficeQA corpus under `data/` and `final_parsed_db_augmented.tar.gz`.
+- Generated split prompts (`splits*/<split>.jsonl`) — they embed gold answers + local
+  absolute paths; regenerate with `build_splits.py` (the `question`/`source_files`
+  needed to interpret a trajectory are already inside each `preds/<uid>.json`).
+- The redundant ~19 MB-per-iter `snapshot/` skill-library copies; result plots (`*.png`).
+- Secrets (`.env`).
+
+> ⚠️ **Answer-key caveat.** The committed trajectories (`preds`, `reflections`,
+> `per_row.jsonl`) and some evolved SKILL.md worked-examples contain OfficeQA **gold
+> answers / values**, which the dataset's gating explicitly asks not to be
+> redistributed in a way that could inflate benchmark scores. This is acceptable for
+> a **private** repo, but **review before making the repository public.** A scrub
+> option: drop `gold`/`gold_answer` fields from `per_row.jsonl`/`preds/*.json` and the
+> `reflections/` dir, which removes the answer key while keeping the model outputs.

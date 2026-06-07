@@ -1,0 +1,10 @@
+=== rc=0 elapsed=116.5s ===
+=== stdout (429 chars) ===
+120 months (12 × 10 years), mean spread = 0.88525. Let me verify the year mapping is solid by confirming a couple of known values. The 1969 column (block2, cg4) should show rising yields — Dec 1969 Treasury 6.81, Aa 9.22, which matches the weekly series for late 1969 (6.65-6.91 range, 9.x). 
+
+The average yield spread (Aa corporate − Treasury) across all months of 1960-1969 = **0.88525**.
+
+<FINAL_ANSWER>0.88525</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

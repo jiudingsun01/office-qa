@@ -1,0 +1,8 @@
+=== rc=0 elapsed=49.2s ===
+=== stdout (276 chars) ===
+The Zipf exponent, computed via OLS regression of log(value) on log(rank) for the 50 states' unemployment insurance tax receipts (Table FFO-5, in thousands of dollars, excluding DC, territories, International, and Undistributed), is 1.172.
+
+<FINAL_ANSWER>1.172</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

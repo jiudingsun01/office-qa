@@ -1,0 +1,13 @@
+=== rc=0 elapsed=38.7s ===
+=== stdout (318 chars) ===
+I have the table. The TSO-5 table groups securities by issuing agency. The "Total amount outstanding" column (column 1) is what we need.
+
+- Total FHLB (Federal Home Loan Banks) = 80579
+- Total FNMA (Federal National Mortgage Association) = 58860
+
+Combined = 80579 + 58860 = 139439
+
+<FINAL_ANSWER>139439</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=461.2s ===
+=== stdout (359 chars) ===
+I extracted the statutory debt limitation rows for each bulletin and computed the geometric mean of the five interest-bearing / total public debt subject-to-limitation ratios. Applying it to the March 31, 1964 Second Liberty Bond Act amount and converting USD to GBP at the 1964 annual average USD/GBP rate of 2.79 gives:
+
+<FINAL_ANSWER>109625</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

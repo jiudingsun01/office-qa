@@ -1,0 +1,23 @@
+=== rc=0 elapsed=262.4s ===
+=== stdout (860 chars) ===
+Summary of my analysis:
+
+Source data — Table MQ-3 (Treasury Bonds market quotations, closing bid prices, end of March) for the 3-1/2% U.S. Treasury Bond maturing 2/15/1990:
+- 1972: 76.18 (32nds) = 76.5625 USD
+- 1973: 73.3 (32nds) = 73.09375 USD
+- 1974: 70.16 (32nds) = 70.50000 USD
+- 1975: 76.22 (32nds) = 76.68750 USD
+- 1976: 82.04 (32nds) = 82.12500 USD (actual)
+
+Official USD/DEM (DEM per USD) March-1 monthly rates (FRED EXGEUS, NSA): 1972=3.1746, 1973=2.8132, 1974=2.6182, 1975=2.3193.
+
+DEM-converted bids (each year × its March rate): 243.0553, 205.6273, 184.5831, 177.8613.
+
+Simple exponential smoothing (α=0.3, standard recursive one-step-ahead) → 1976 forecast = 205.72 DEM.
+Actual 1976 in DEM (82.125 × 1975 rate 2.3193, the last "1972–1975" rate) = 190.47 DEM.
+Difference = 205.72 − 190.47 = 15.24 DEM.
+
+<FINAL_ANSWER>[205.72, 15.24]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

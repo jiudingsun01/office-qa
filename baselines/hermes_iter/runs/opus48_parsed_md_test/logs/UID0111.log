@@ -1,0 +1,12 @@
+=== rc=0 elapsed=88.2s ===
+=== stdout (358 chars) ===
+All values computed using nominal Total Receipts and Total outlays (in millions) for FY2010-2024 from the FFO-1 tables, HP filter with λ=100.
+
+- FY2024 actual balance = 4918737 − 6751553 = -1,832,816
+- FY2024 structural balance (trend receipts − trend outlays) = -2,049,753
+- Absolute gap = 216,937
+
+<FINAL_ANSWER>[-1832816, -2049753, 216937]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

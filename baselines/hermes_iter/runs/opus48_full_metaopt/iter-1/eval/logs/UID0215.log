@@ -1,0 +1,16 @@
+=== rc=0 elapsed=104.6s ===
+=== stdout (392 chars) ===
+All data verified (two PDF discrepancies resolved: 9,030 and 10,014).
+
+Q4 averages of 2-year note tenders accepted (millions):
+- 1987: (9255+9269+9286)/3 = 9270.0
+- 1988: (9014+9027+9030)/3 = 9023.67
+- 1989: (10039+10021+10014)/3 = 10024.67
+- 1990: (12107+12347+12515)/3 = 12323.0
+
+Linear best-fit slope over the four years = 1016 million dollars per year.
+
+<FINAL_ANSWER>1016</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

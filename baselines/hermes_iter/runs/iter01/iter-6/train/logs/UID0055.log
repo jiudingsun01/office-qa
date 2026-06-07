@@ -1,0 +1,8 @@
+=== rc=0 elapsed=29.5s ===
+=== stdout (162 chars) ===
+The Moody’s Aaa corporate bond yield was 2.62 in 1945 and 2.62 in 1950, so the absolute change rounded to the nearest tenth is:
+
+<FINAL_ANSWER>0.0</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

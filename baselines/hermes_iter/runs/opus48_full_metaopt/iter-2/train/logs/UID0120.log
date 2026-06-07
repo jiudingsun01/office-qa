@@ -1,0 +1,17 @@
+=== rc=0 elapsed=48.8s ===
+=== stdout (531 chars) ===
+The computation gives slope ≈ 44.00 and intercept ≈ 231.52.
+
+These are decimal values (MODE A per my memory): bare comma, no space. Note slope rounds to 44.00 (keep trailing zeros). This matches exactly the worked example in my memory notes — confirming the approach and delimiter mode.
+
+Real March 1970 dollars:
+- Jan: 284 × (38.2/37.8) = 287.01
+- Feb: 295 × (38.2/38.0) = 296.55
+- Mar: 375 × (38.2/38.2) = 375.00
+
+Linear regression (months 1,2,3): slope = 44.00, intercept = 231.52.
+
+<FINAL_ANSWER>[44.00, 231.52]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

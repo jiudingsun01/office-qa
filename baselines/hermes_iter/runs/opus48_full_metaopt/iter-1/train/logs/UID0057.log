@@ -1,0 +1,26 @@
+=== rc=0 elapsed=321.3s ===
+=== stdout (1321 chars) ===
+I have all 12 values, each verified from the "Total outstanding/Amount outstanding > Total" column (gross federal debt = public debt securities + agency securities including FHA) in the January bulletin that reports each respective January.
+
+Let me do a sanity check: the values rise monotonically (debt growing over the decade) from ~374B to ~855B (in millions), consistent with known U.S. debt history. The Jan 1980 ≈ $854.7 billion matches actual gross federal debt of that era.
+
+Summary table (millions of dollars, "End of fiscal month January", Total outstanding incl. agency securities):
+- Jan 1969: 374443 (1970-01 issue)
+- Jan 1970: 381327 (1971-01)
+- Jan 1971: 401845 (1972-01)
+- Jan 1972: 433432 (1973-01)
+- Jan 1973: 461855 (1974-01)
+- Jan 1974: 478957 (1975-01)
+- Jan 1975: 505483 (1976-01)
+- Jan 1976: 595307 (1977-01)
+- Jan 1977: 664852 (1978-01)
+- Jan 1978: 731821 (1979-01)
+- Jan 1979: 798733 (1980-01)
+- Jan 1980: 854741 (1981-01)
+
+Each figure is the gross total outstanding (public debt securities + agency securities like FHA debentures), read from the FD-1 "Summary of Federal Debt" table, sourced from the January Treasury Bulletin whose historical monthly series reports that January.
+
+<FINAL_ANSWER>374443,381327,401845,433432,461855,478957,505483,595307,664852,731821,798733,854741</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

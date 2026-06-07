@@ -1,0 +1,10 @@
+=== rc=0 elapsed=176.5s ===
+=== stdout (240 chars) ===
+From Table MS-1, the November 1969 “Total currencies” value is 47,026 million dollars. Applying the official BLS CPI-U year-over-year inflation rate for November 1969 (6.0%):
+
+47,026 × 1.060 = 49,847.6
+
+<FINAL_ANSWER>49847.6</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

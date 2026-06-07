@@ -1,0 +1,12 @@
+=== rc=0 elapsed=61.7s ===
+=== stdout (787 chars) ===
+Now I get meaningful, non-trivial durations that differ by exactly 1 (the one-period separation), confirming internal consistency. 
+
+The Macaulay duration for a zero-coupon position equals its time-to-maturity, recovered as D = -ln(P)/y. Using the first observed value (FY1953, the earlier/observation point), D = 21.1833.
+
+The question says "treat these balances as prices observed one period apart" and find "the implied Macaulay style duration that makes the two observed values consistent." The duration for the FY1953 observation is 21.1833 (and FY1954's is exactly one period less, 22.1833 — wait, it's one more in maturity terms since later price is higher under negative yield). The FY1953 price is the natural reference point: **21.1833**.
+
+<FINAL_ANSWER>21.1833</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

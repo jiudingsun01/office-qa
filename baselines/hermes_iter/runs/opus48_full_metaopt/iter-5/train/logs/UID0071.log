@@ -1,0 +1,15 @@
+=== rc=0 elapsed=102.9s ===
+=== stdout (551 chars) ===
+The four 2-3/8% TIPS auctions between Jan 1 and Aug 1, 2007 (from PDO-2, page 53), with their equivalent adjusted prices (column 6, which for TIPS rows are inflation-adjusted via the index ratio — confirmed by the July 24 narrative where 96.580051 × index ratio 1.03096 = 99.570169):
+
+- 01/16/07  2-3/8% TIPS—01/15/17-A: 99.342280
+- 01/31/07  2-3/8% TIPS—01/15/27:   99.213485
+- 04/16/07  2-3/8% TIPS—01/15/17-A: 101.434007
+- 07/31/07  2-3/8% TIPS—01/15/27:   99.570169
+
+Population standard deviation = 0.900544
+
+<FINAL_ANSWER>0.900544</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

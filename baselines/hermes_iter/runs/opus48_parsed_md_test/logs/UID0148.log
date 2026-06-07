@@ -1,0 +1,16 @@
+=== rc=0 elapsed=111.6s ===
+=== stdout (383 chars) ===
+All values are confirmed. 
+
+- 1972: 6 bills exceed 2400 (Feb-Apr issues)
+- 1973: 10 bills exceed 2400
+- 1974: 12 bills exceed 2400 (Jan 31 excluded)
+- Total: 28 bills
+- Geometric mean of all 28 amount-outstanding values: 2444.28
+
+The count of 13-week bills exceeding 2400 million is 28, and the geometric mean of those amounts is 2444.28.
+
+<FINAL_ANSWER>[28, 2444.28]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

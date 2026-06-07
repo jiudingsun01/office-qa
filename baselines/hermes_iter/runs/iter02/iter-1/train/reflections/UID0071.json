@@ -1,0 +1,1 @@
+{"rc": 0, "elapsed_sec": 86.26, "skills_before": 99, "skills_after": 101, "skills_delta": 2, "verdict": "CORRECT", "raw_response": "Created a new procedural skill and saved a compact memory.\n\nSkill:\nresearch/treasury-bulletin-tips-price-volatility\n\nMemory:\nOfficeQA TB TIPS: use price×index ratio; match coupon; pop SD (ddof=0).\n", "stderr_tail": ""}

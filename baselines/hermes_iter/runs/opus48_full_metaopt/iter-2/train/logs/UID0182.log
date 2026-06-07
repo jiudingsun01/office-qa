@@ -1,0 +1,10 @@
+=== rc=0 elapsed=112.4s ===
+=== stdout (298 chars) ===
+The maximum share is in 2011: 24,579 / 4,925,045 = 0.004991, which rounds to 0.005.
+
+The Canadian dollar liabilities are the maximum share out of total liabilities to all foreigners in 2011 (0.4991%), giving a decimal of 0.005 rounded to the nearest thousandth.
+
+<FINAL_ANSWER>0.005</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

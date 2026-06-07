@@ -1,0 +1,8 @@
+=== rc=0 elapsed=959.3s ===
+=== stdout (286 chars) ===
+I extracted the fixed-maturity issue amounts from each January 31 maturity schedule, summed the fixed-maturity column for each year, converted to billions, and fit a simple OLS trend over 1948–1951. The projected value for January 31, 1952 rounds to:
+
+<FINAL_ANSWER>57.0</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

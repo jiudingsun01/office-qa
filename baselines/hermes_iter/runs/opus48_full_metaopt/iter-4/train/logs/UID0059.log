@@ -1,0 +1,16 @@
+=== rc=0 elapsed=109.3s ===
+=== stdout (480 chars) ===
+The CAGR = (3.7/0.4)^(1/4) - 1 = 74.40%.
+
+Verification of the reasoning:
+- "Expenditure transfers to the trust fund for Federal Old-Age and Survivors Insurance" → EXPENDITURES table, column "Transfers to F.O.A. and S.I. Trust Fund"
+- FY 1947 = 0.4 (million dollars)
+- Korean War started June 25, 1950 → FY 1951 (July 1950–June 1951)
+- FY 1951 = 3.7 (million dollars)
+- n = 4 years
+- CAGR = (3.7/0.4)^(1/4) − 1 = 9.25^0.25 − 1 = 0.7440 = 74.40%
+
+<FINAL_ANSWER>74.40</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=66.3s ===
+=== stdout (385 chars) ===
+All values extracted from the Treasury Survey of Ownership Table TSO-3 (Total amount outstanding column).
+
+Summary:
+- 1970: Regular weekly/annual = 71,805; Tax anticipation = 9,274
+- 1975: Regular weekly/annual = 116,036; Tax anticipation = 3,507
+- Absolute changes: Regular = 44,231; Tax = 5,767
+- Euclidean norm = √(44231² + 5767²) = 44,605.38
+
+<FINAL_ANSWER>44605.38</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

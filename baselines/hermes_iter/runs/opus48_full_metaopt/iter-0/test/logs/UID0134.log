@@ -1,0 +1,12 @@
+=== rc=0 elapsed=39.5s ===
+=== stdout (258 chars) ===
+The highest range-as-percentage-of-average is for the 1963-1964 span at 115.61%.
+
+- 1962-1963: range 4241, avg 5835.29 → 72.68%
+- 1963-1964: range 5507, avg 4763.29 → 115.61%
+- 1964-1965: range 4727, avg 5322.14 → 88.82%
+
+<FINAL_ANSWER>115.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

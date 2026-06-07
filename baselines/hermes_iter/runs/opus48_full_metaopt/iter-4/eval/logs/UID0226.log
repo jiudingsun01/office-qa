@@ -1,0 +1,15 @@
+=== rc=0 elapsed=50.6s ===
+=== stdout (306 chars) ===
+"The entire set for this computation" signals population standard deviation (N denominator).
+
+Values (Total public debt subject to statutory debt limitation, end of January):
+- 1953: 266789
+- 1954: 274287
+- 1955: 277925
+
+Population standard deviation = 4636.4 million.
+
+<FINAL_ANSWER>4636.4</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

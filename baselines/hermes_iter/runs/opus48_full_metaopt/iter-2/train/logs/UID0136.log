@@ -1,0 +1,14 @@
+=== rc=0 elapsed=69.1s ===
+=== stdout (353 chars) ===
+All 14 weekly average discount rates extracted from the three Bulletins' narrative summaries (each issue date being a Thursday in September):
+
+- 1953: 1.961, 1.953, 1.957, 1.634
+- 1954: 1.022, 1.016, 1.024, 0.986, 0.984
+- 1955: 2.088, 2.135, 2.104, 1.981, 2.122
+
+Geometric mean of all 14 values = 1.558358... → 1.558
+
+<FINAL_ANSWER>1.558</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,15 @@
+=== rc=0 elapsed=56.1s ===
+=== stdout (433 chars) ===
+Both versions give essentially identical results when rounded to thousandths. The slope rounds to 0.030, intercept 8.706, avg YoY 2.806.
+
+The 7295 vs 7296 discrepancy washes out at the rounding level. I'll use the chronologically-natural sourcing (2007-2011 from the 2011 bulletin = 7296).
+
+Final values:
+- Average YoY growth rate: 2.806%
+- OLS slope: 0.030
+- OLS intercept: 8.706
+
+<FINAL_ANSWER>[2.806, 0.030, 8.706]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

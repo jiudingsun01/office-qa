@@ -1,0 +1,22 @@
+=== rc=0 elapsed=90.6s ===
+=== stdout (634 chars) ===
+The breakdown is sensible and consistent:
+
+Upper table (51):
+- FRBnotes3/ column = 1 for all 23 rows → 23
+- FR notes 4/ (large values): 14 start with 1 (the 100,xxx–113,xxx ones)
+- Total currencies: 14 start with 1 (101k–113k range)
+
+Lower table (53):
+- Dollars (coin): 15 (the 1,xxx values from 1978 onward)
+- Fractional coin: 8 (the 10,xxx values)
+- Total: 15 (10,xxx and 11,xxx values)
+- Total Currency & Coin: 15 (107k–125k values starting with 1)
+- Per capita: 0 (all start 2-5)
+
+Grand total = 51 + 53 = 104. The asterisks ("less than $500,000") were correctly excluded as they aren't numerals.
+
+<FINAL_ANSWER>104</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

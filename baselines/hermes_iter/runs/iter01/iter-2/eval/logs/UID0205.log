@@ -1,0 +1,8 @@
+=== rc=0 elapsed=340.0s ===
+=== stdout (264 chars) ===
+Extracted the fiscal-year receipts and expenditures from the relevant Treasury Bulletin summary tables, used the 1965 bulletin values where overlapping, converted USD figures to GBP by year, and computed the Pearson correlation.
+
+<FINAL_ANSWER>0.98</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

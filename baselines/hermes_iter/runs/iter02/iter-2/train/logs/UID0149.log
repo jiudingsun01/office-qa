@@ -1,0 +1,12 @@
+=== rc=0 elapsed=631.1s ===
+=== stdout (300 chars) ===
+I counted the seven specified investor categories for total Treasury tax anticipation bills (TABs) in the January 31 Treasury Survey tables published in the March 1962 and March 1963 bulletins.
+
+1962 count: 2 categories over 500
+1963 count: 1 category over 500
+Sum: 3
+
+<FINAL_ANSWER>3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

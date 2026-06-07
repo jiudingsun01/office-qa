@@ -1,0 +1,17 @@
+=== rc=0 elapsed=43.5s ===
+=== stdout (649 chars) ===
+I have both values from the narrative text:
+
+- **1995 Q3**: "Growth of nonfarm productivity, or real output per workhour, rose at a **2.0 percent** annual rate in the third quarter"
+- **1998 Q1**: "Nonfarm business productivity (real output per hour worked) rose at an annual rate of **0.2 percent** in the first quarter"
+
+The question asks for the absolute difference in the growth rate between 1995 Q3 and 1998 Q1.
+
+|2.0 − 0.2| = 1.8
+
+Both values are nonfarm business productivity / real output per hour worked, expressed as annual-rate growth percentages. The absolute difference rounded to nearest tenth = 1.8.
+
+<FINAL_ANSWER>1.8</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

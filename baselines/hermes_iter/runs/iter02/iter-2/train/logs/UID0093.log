@@ -1,0 +1,8 @@
+=== rc=0 elapsed=294.2s ===
+=== stdout (176 chars) ===
+The United Kingdom row in Table CM-I-3 shows 90,833 million dollars for CY1986. Converted to billions and rounded to the nearest hundredth:
+
+<FINAL_ANSWER>90.83</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

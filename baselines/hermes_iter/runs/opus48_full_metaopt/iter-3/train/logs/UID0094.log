@@ -1,0 +1,13 @@
+=== rc=0 elapsed=81.1s ===
+=== stdout (302 chars) ===
+The geometric annual rate of change:
+- Dec 1938 ratio: 2449/3083 = 0.79436
+- Dec 1940 ratio: 1188/1928 = 0.61618
+- 2-year geometric rate: (0.61618/0.79436)^(1/2) − 1 = −0.1193
+
+This is a MODE A answer (decimal value with a decimal point), so bare format, no units.
+
+<FINAL_ANSWER>-0.119</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

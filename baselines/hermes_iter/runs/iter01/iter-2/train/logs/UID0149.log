@@ -1,0 +1,9 @@
+=== rc=0 elapsed=385.0s ===
+=== stdout (60 chars) ===
+1962 count: 2
+1963 count: 1
+
+<FINAL_ANSWER>3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

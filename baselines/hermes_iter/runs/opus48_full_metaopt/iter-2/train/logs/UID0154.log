@@ -1,0 +1,42 @@
+=== rc=0 elapsed=97.0s ===
+=== stdout (991 chars) ===
+Now I have both surveys. Let me compile and count months from Feb 1977 to Jan 1979 inclusive where total amount outstanding > $20,000M.
+
+From Jan 31, 1977 survey (Feb 1977 – Jan 1978):
+- Feb 1977: 27,949 ✓
+- Mar 1977: 31,058 ✓
+- Apr 1977: 28,967 ✓
+- May 1977: 20,773 ✓ (>20,000)
+- June 1977: 19,231 ✗
+- July 1977: 17,085 ✗
+- Aug 1977: 2,953 ✗
+- Sept 1977: 2,917 ✗
+- Oct 1977: 3,095 ✗
+- Nov 1977: 3,402 ✗
+- Dec 1977: 3,505 ✗
+- Jan 1978: 3,071 ✗
+
+From Jan 31, 1978 survey (Feb 1978 – Jan 1979):
+- Feb 1978: 26,128 ✓
+- Mar 1978: 31,017 ✓
+- Apr 1978: 29,190 ✓
+- May 1978: 19,036 ✗
+- June 1978: 19,260 ✗
+- July 1978: 16,757 ✗
+- Aug 1978: 3,005 ✗
+- Sept 1978: 3,036 ✗
+- Oct 1978: 3,162 ✗
+- Nov 1978: 3,587 ✗
+- Dec 1978: 3,838 ✗
+- Jan 1979: 3,205 ✗
+
+Count of months exceeding $20,000M: Feb77, Mar77, Apr77, May77, Feb78, Mar78, Apr78 = **7 months**.
+
+Note May 1977 = 20,773 > 20,000 ✓; both May 1978 (19,036) and the June values fall below 20,000.
+
+The answer is 7.
+
+<FINAL_ANSWER>7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

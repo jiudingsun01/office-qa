@@ -1,0 +1,15 @@
+=== rc=0 elapsed=77.6s ===
+=== stdout (411 chars) ===
+The 1964 official annual average exchange rate was 2.7891 USD per GBP. Let me verify this standard rate value.
+
+The 1964 official annual average USD/GBP exchange rate is 2.79 (commonly cited as $2.7891 per £1). Using 2.7891:
+
+- Ratios: 0.99092, 0.98965, 0.98929, 0.98796, 0.98764
+- Geometric mean: 0.989088
+- × 309227 = 305852.86 million USD
+- ÷ 2.7891 = 109660 million GBP
+
+<FINAL_ANSWER>109660</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

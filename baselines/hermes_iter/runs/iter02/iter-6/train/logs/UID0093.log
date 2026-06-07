@@ -1,0 +1,8 @@
+=== rc=0 elapsed=332.7s ===
+=== stdout (146 chars) ===
+The CY1986 United Kingdom value is 90,833 million dollars, which is 90.833 billion dollars, rounded to 90.83.
+
+<FINAL_ANSWER>90.83</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

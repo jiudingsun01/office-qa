@@ -1,0 +1,12 @@
+=== rc=0 elapsed=128.3s ===
+=== stdout (162 chars) ===
+Using Grand total liabilities:
+2003 June: 2,289,997
+2013 June: 4,764,858
+
+CAGR = (4,764,858 / 2,289,997)^(1/10) - 1 = 7.6023%
+
+<FINAL_ANSWER>7.60%</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

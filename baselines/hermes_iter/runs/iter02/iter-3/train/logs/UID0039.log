@@ -1,0 +1,8 @@
+=== rc=0 elapsed=159.6s ===
+=== stdout (297 chars) ===
+Extracted January 2003 FFO-3 agency outlays and summed columns 1–31, excluding Department of Commerce (437), Department of the Interior (338), Federal Emergency Management Agency (-/0), and excluding the undistributed offsetting receipts/total outlay columns.
+
+<FINAL_ANSWER>180681</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

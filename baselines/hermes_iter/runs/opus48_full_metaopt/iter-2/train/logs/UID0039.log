@@ -1,0 +1,10 @@
+=== rc=0 elapsed=38.7s ===
+=== stdout (339 chars) ===
+The total of all agency-specific outlays for January 2003, excluding Commerce, FEMA, and Interior, and excluding the undistributed offsetting receipts (columns 32-35) and totals, is 180,681 million dollars.
+
+This is a MODE B answer (integer dollar amount, no decimals), so bare integer is appropriate.
+
+<FINAL_ANSWER>180681</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

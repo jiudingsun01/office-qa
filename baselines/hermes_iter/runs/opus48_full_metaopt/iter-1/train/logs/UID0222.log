@@ -1,0 +1,12 @@
+=== rc=0 elapsed=82.2s ===
+=== stdout (335 chars) ===
+Both values come from the SBN-1 table column (5) "Interest-bearing debt", in millions of dollars:
+- March 2001: 2152
+- March 2006: 34736
+
+Compound annual growth rate over 5 years = (34736/2152)^(1/5) − 1 ≈ 0.7442. Projecting 5 more years to March 2011: 34736 × (34736/2152) = 560682.94 million.
+
+<FINAL_ANSWER>560682.94</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=23.8s ===
+=== stdout (433 chars) ===
+As of Mar. 31, 1989 (in thousands of dollars):
+- Total capital = 8,124,453 → 8.124453 billion ≈ 8.124 billion
+- Total liabilities and capital = 20,976,061
+
+The question asks for "total nominal capital" — that's Total capital = 8,124,453 thousand = 8.124453 billion → 8.124 billion.
+
+Absolute difference: 20,976,061 − 8,124,453 = 12,851,608 thousand = 12.851608 billion → 12.852 billion.
+
+<FINAL_ANSWER>[8.124, 12.852]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,18 @@
+=== rc=0 elapsed=82.3s ===
+=== stdout (621 chars) ===
+The computation confirms the answer: 0.953 percentage points.
+
+Summary of data (foreign exchange = euro + yen; in thousands of dollars):
+- June 2000: 15,512,432 / 38,750,276 = 40.032%
+- June 2001: 14,413,541 / 34,996,129 = 41.186%
+- June 2002: 16,078,533 / 37,619,185 = 42.740% → avg June = 41.319%
+- Sept 2000: 15,603,059 / 37,094,883 = 42.063%
+- Sept 2001: 15,293,964 / 36,353,790 = 42.070%
+- Sept 2002: 16,045,532 / 37,591,058 = 42.684% → avg Sept = 42.272%
+
+The CPI-U adjustment cancels in each same-date share ratio, so it doesn't affect the result. |41.319 − 42.272| = 0.953 pp.
+
+<FINAL_ANSWER>0.953</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

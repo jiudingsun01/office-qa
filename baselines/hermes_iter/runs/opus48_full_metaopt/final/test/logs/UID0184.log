@@ -1,0 +1,10 @@
+=== rc=0 elapsed=41.1s ===
+=== stdout (392 chars) ===
+There are 11 debenture entries. The arithmetic mean of all their Mean (average) yields is 1.2536... → 1.25%.
+
+The question specifies "nominal yields reported for that calendar date" — January 30, 1948 is the quotation date for the entire table, and all 11 debentures are quoted as of that date. The "Mean" yield column gives each debenture's average yield.
+
+<FINAL_ANSWER>1.25</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

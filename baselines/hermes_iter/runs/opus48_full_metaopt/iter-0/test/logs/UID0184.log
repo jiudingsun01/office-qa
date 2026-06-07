@@ -1,0 +1,10 @@
+=== rc=0 elapsed=48.2s ===
+=== stdout (271 chars) ===
+The arithmetic mean of all 11 Mean (average) yields is 13.79 / 11 = 1.2536... ≈ 1.25.
+
+The data is consistent and clear (the bid/ask/mean structure where mean is the average of bid and ask is well-formed), so no PDF fallback is needed.
+
+<FINAL_ANSWER>1.25</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

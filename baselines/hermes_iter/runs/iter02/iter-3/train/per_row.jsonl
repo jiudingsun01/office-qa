@@ -1,0 +1,80 @@
+{"uid": "UID0044", "gold": "1461", "predicted": "1,461", "score": 1.0, "rc": 0}
+{"uid": "UID0097", "gold": "[8.124, 12.852]", "predicted": "[8.124, 12.852]", "score": 1.0, "rc": 0}
+{"uid": "UID0193", "gold": "3.9970", "predicted": "3.9970", "score": 1.0, "rc": 0}
+{"uid": "UID0094", "gold": "-0.119", "predicted": "-0.119", "score": 1.0, "rc": 0}
+{"uid": "UID0211", "gold": "4965.8", "predicted": "4965.8", "score": 1.0, "rc": 0}
+{"uid": "UID0035", "gold": "104", "predicted": "81", "score": 0.0, "rc": 0}
+{"uid": "UID0003", "gold": "44,463", "predicted": "44463", "score": 1.0, "rc": 0}
+{"uid": "UID0204", "gold": "0.17", "predicted": "0.17", "score": 1.0, "rc": 0}
+{"uid": "UID0056", "gold": "1973", "predicted": "1973", "score": 1.0, "rc": 0}
+{"uid": "UID0136", "gold": "1.558", "predicted": "1.558", "score": 1.0, "rc": 0}
+{"uid": "UID0015", "gold": "6.1596", "predicted": "6.1596", "score": 1.0, "rc": 0}
+{"uid": "UID0028", "gold": "92000000", "predicted": "92000000", "score": 1.0, "rc": 0}
+{"uid": "UID0228", "gold": "57,615.04", "predicted": "57615.04", "score": 1.0, "rc": 0}
+{"uid": "UID0071", "gold": "0.900544", "predicted": "0.900544", "score": 1.0, "rc": 0}
+{"uid": "UID0174", "gold": "−3.524", "predicted": "-3.524", "score": 1.0, "rc": 0}
+{"uid": "UID0012", "gold": "36080 million", "predicted": "36080", "score": 1.0, "rc": 0}
+{"uid": "UID0179", "gold": "0.3719", "predicted": "0.4993", "score": 0.0, "rc": 0}
+{"uid": "UID0055", "gold": "0.0", "predicted": "0.0", "score": 1.0, "rc": 0}
+{"uid": "UID0120", "gold": "[44.00,231.52]", "predicted": "[44.00,231.52]", "score": 1.0, "rc": 0}
+{"uid": "UID0101", "gold": "[-0.153, 0.847, -1.162]", "predicted": "[-0.153, 0.847, -1.162]", "score": 1.0, "rc": 0}
+{"uid": "UID0110", "gold": "[2017, 0.69]", "predicted": "[2017, 0.69]", "score": 1.0, "rc": 0}
+{"uid": "UID0216", "gold": "0.6841", "predicted": "0.6841", "score": 1.0, "rc": 0}
+{"uid": "UID0100", "gold": "[2.81, 0.030, 8.706]", "predicted": "[2.81, 0.030, 8.706]", "score": 1.0, "rc": 0}
+{"uid": "UID0057", "gold": "[374,443, 381,327, 401,845, 433,432, 461,855, 478,957, 505,483, 595,307, 664,852, 731,821, 798,733, 854,741]", "predicted": "374,443, 381,327, 401,845, 433,432, 461,855, 479,782, 505,483, 595,307, 664,852, 731,821, 798,733, 854,741", "score": 0.0, "rc": 0}
+{"uid": "UID0201", "gold": "[0.012, surplus]", "predicted": "[0.012, surplus]", "score": 1.0, "rc": 0}
+{"uid": "UID0113", "gold": "17.69", "predicted": "17.69", "score": 1.0, "rc": 0}
+{"uid": "UID0109", "gold": "678077.00", "predicted": "732852.00", "score": 0.0, "rc": 0}
+{"uid": "UID0030", "gold": "18", "predicted": "18", "score": 1.0, "rc": 0}
+{"uid": "UID0245", "gold": "-0.113", "predicted": "-0.114", "score": 0.0, "rc": 0}
+{"uid": "UID0165", "gold": "4928", "predicted": "4928", "score": 1.0, "rc": 0}
+{"uid": "UID0147", "gold": "39.5", "predicted": "57.0", "score": 0.0, "rc": 0}
+{"uid": "UID0212", "gold": "0.063", "predicted": "0.063", "score": 1.0, "rc": 0}
+{"uid": "UID0065", "gold": "1.8", "predicted": "1.8", "score": 1.0, "rc": 0}
+{"uid": "UID0004", "gold": "1608.80%", "predicted": "1608.80%", "score": 1.0, "rc": 0}
+{"uid": "UID0124", "gold": "[7.1, 82]", "predicted": "[7.1,82]", "score": 1.0, "rc": 0}
+{"uid": "UID0214", "gold": "56117.5", "predicted": "49815.7", "score": 0.0, "rc": 0}
+{"uid": "UID0188", "gold": "2051.51", "predicted": "27889.43", "score": 0.0, "rc": 0}
+{"uid": "UID0025", "gold": "142", "predicted": "142", "score": 1.0, "rc": 0}
+{"uid": "UID0182", "gold": "0.005", "predicted": "0.005", "score": 1.0, "rc": 0}
+{"uid": "UID0102", "gold": "57.50", "predicted": "57.50", "score": 1.0, "rc": 0}
+{"uid": "UID0213", "gold": "-550.3", "predicted": "-550.3", "score": 1.0, "rc": 0}
+{"uid": "UID0117", "gold": "-1.063", "predicted": "-1.063", "score": 1.0, "rc": 0}
+{"uid": "UID0170", "gold": "[0.611, 1.635]", "predicted": "[0.611, 1.635]", "score": 1.0, "rc": 0}
+{"uid": "UID0168", "gold": "566840", "predicted": "566840", "score": 1.0, "rc": 0}
+{"uid": "UID0059", "gold": "108.01%", "predicted": "108.01", "score": 1.0, "rc": 0}
+{"uid": "UID0196", "gold": "−156.11", "predicted": "-156.11", "score": 1.0, "rc": 0}
+{"uid": "UID0114", "gold": "0.35", "predicted": "0.35", "score": 1.0, "rc": 0}
+{"uid": "UID0069", "gold": "-18.51%", "predicted": "-18.51", "score": 1.0, "rc": 0}
+{"uid": "UID0222", "gold": "339501.88", "predicted": "339501.88", "score": 1.0, "rc": 0}
+{"uid": "UID0077", "gold": "4.61%", "predicted": "4.61", "score": 1.0, "rc": 0}
+{"uid": "UID0187", "gold": "5423.58", "predicted": "5355.62", "score": 0.0, "rc": 0}
+{"uid": "UID0207", "gold": "0.058", "predicted": "0.058", "score": 1.0, "rc": 0}
+{"uid": "UID0243", "gold": "264.632", "predicted": "264.632", "score": 1.0, "rc": 0}
+{"uid": "UID0083", "gold": "$2,760.44", "predicted": "2760.44", "score": 1.0, "rc": 0}
+{"uid": "UID0175", "gold": "0.00137", "predicted": "0.00176", "score": 0.0, "rc": 0}
+{"uid": "UID0036", "gold": "9.89%", "predicted": "9.89", "score": 1.0, "rc": 0}
+{"uid": "UID0155", "gold": "29347.01", "predicted": "29347.01", "score": 1.0, "rc": 0}
+{"uid": "UID0123", "gold": "[34.4, 0.391]", "predicted": "[34.4, 0.391]", "score": 1.0, "rc": 0}
+{"uid": "UID0037", "gold": "202.333", "predicted": "202.333", "score": 1.0, "rc": 0}
+{"uid": "UID0203", "gold": "109625", "predicted": "109625", "score": 1.0, "rc": 0}
+{"uid": "UID0073", "gold": "6379.29", "predicted": "6379.29", "score": 1.0, "rc": 0}
+{"uid": "UID0122", "gold": "0.953", "predicted": "0.953", "score": 1.0, "rc": 0}
+{"uid": "UID0029", "gold": "0.88525", "predicted": "0.88525", "score": 1.0, "rc": 0}
+{"uid": "UID0149", "gold": "3", "predicted": "3", "score": 1.0, "rc": 0}
+{"uid": "UID0172", "gold": "372507.20", "predicted": "372135.06", "score": 0.0, "rc": 0}
+{"uid": "UID0154", "gold": "12", "predicted": "12", "score": 1.0, "rc": 0}
+{"uid": "UID0195", "gold": "2.916", "predicted": "2.916", "score": 1.0, "rc": 0}
+{"uid": "UID0140", "gold": "907,654", "predicted": "907654", "score": 1.0, "rc": 0}
+{"uid": "UID0218", "gold": "14.04%", "predicted": "14.04", "score": 1.0, "rc": 0}
+{"uid": "UID0161", "gold": "0.0003", "predicted": "0.0003", "score": 1.0, "rc": 0}
+{"uid": "UID0013", "gold": "[0.096, −184.143]", "predicted": "[0.096, -184.143]", "score": 1.0, "rc": 0}
+{"uid": "UID0039", "gold": "180681", "predicted": "180681", "score": 1.0, "rc": 0}
+{"uid": "UID0093", "gold": "90.83", "predicted": "90.83", "score": 1.0, "rc": 0}
+{"uid": "UID0068", "gold": "56", "predicted": "56", "score": 1.0, "rc": 0}
+{"uid": "UID0244", "gold": "504.12", "predicted": "504.12", "score": 1.0, "rc": 0}
+{"uid": "UID0017", "gold": "[10102000000, 4.73]", "predicted": "[10102000000, 4.73]", "score": 1.0, "rc": 0}
+{"uid": "UID0230", "gold": "6.16%", "predicted": "6.15", "score": 0.0, "rc": 0}
+{"uid": "UID0027", "gold": "3069", "predicted": "11069", "score": 0.0, "rc": 0}
+{"uid": "UID0130", "gold": "925132", "predicted": "925132", "score": 1.0, "rc": 0}
+{"uid": "UID0112", "gold": "0.8298", "predicted": "0.8298", "score": 1.0, "rc": 0}

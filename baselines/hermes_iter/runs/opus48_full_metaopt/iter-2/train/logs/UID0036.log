@@ -1,0 +1,12 @@
+=== rc=0 elapsed=197.4s ===
+=== stdout (448 chars) ===
+Determined the years (2001 dot-com/Amazon low, 2008 bank bailout), located Table IFS-2, and computed the U.S. liquidity ratio for foreign official institutions = (marketable Treasury bonds & notes + other readily marketable liabilities) / total official liabilities.
+
+- 2001: (479,340 + 158,460) / 923,501 = 69.0633%
+- 2008: (1,679,181 + 994,583) / 3,386,589 = 78.9515%
+- Absolute change = 9.89 percentage points
+
+<FINAL_ANSWER>9.89</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

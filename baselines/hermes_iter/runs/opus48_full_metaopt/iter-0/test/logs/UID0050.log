@@ -1,0 +1,14 @@
+=== rc=0 elapsed=46.3s ===
+=== stdout (412 chars) ===
+The PDF confirms the three Nat. Defense Series entries on the "first callable" (left) side:
+
+1. Bills (Nat. Defense Series) — 401 (in 1941)
+2. 3/4% Notes D (Nat. Defense Series) - 9/15/44-54 — 635 (in 1944)
+3. 3/4% Notes B (Nat. Defense Series) - 12/15/45 — 531 (in 1945)
+
+No other Nat. Defense Series entries appear on the first-callable side. Total = 401 + 635 + 531 = 1567.
+
+<FINAL_ANSWER>1567</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

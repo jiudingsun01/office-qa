@@ -1,0 +1,15 @@
+=== rc=0 elapsed=86.3s ===
+=== stdout (483 chars) ===
+Solved and skill updated.
+
+Work summary:
+- Mutual funds Treasury holdings (TABLE OFS-2, end-March, $B): 222.3, 225.3, 266.1, 296.6, 280.8
+- YoY changes (4): 3.0, 40.8, 30.5, −15.8; mu = 14.625, sigma (sample, ddof=1) = 25.8068
+- z = 2.326348 (1% one-tailed lower-tail VaR); loss_usd = z·sigma − mu = 45.4105 B USD
+- FX (FRED EXJPUS, monthly NSA, dated 2004-03-01) = 108.5157 JPY/USD
+- loss_jpy = 45.4105 × 108.5157 = 4927.75 → **4928** billion JPY
+
+<FINAL_ANSWER>4928</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

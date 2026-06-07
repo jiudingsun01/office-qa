@@ -1,0 +1,10 @@
+=== rc=0 elapsed=39.3s ===
+=== stdout (582 chars) ===
+The 12 months of calendar year 1940 (January–December 1940) National defense expenditures from the "Budget Expenditures Classified as General, by Major Functions" table sum to 2,602 million dollars. This is the calendar-year total derived from the monthly rows, which is exactly what the question asks (calendar year, not fiscal year).
+
+These are the monthly values that match line 723's row (125, 132, 129, 143, 159, 154, 153, 177, 200, 219, 287, 376, 473) — confirming the same data, with the 1940 calendar year being Jan(132) through Dec(473).
+
+<FINAL_ANSWER>2602</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=146.6s ===
+=== stdout (258 chars) ===
+Using signed total surplus/deficit values in millions, the cubic model predicts 2025 at about -2,785,303 million. Compared with Treasury’s reported 2025 estimate of -1,877,649 million, the rounded absolute difference is:
+
+<FINAL_ANSWER>907654</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

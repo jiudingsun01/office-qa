@@ -1,0 +1,10 @@
+=== rc=0 elapsed=44.5s ===
+=== stdout (238 chars) ===
+CY2018: California = 456,555,954 / US total 3,465,466,627 = 13.1744%
+CY2019: California = 472,027,235 / US total 3,564,583,961 = 13.2421%
+Change = 13.2421 − 13.1744 = +0.0677 → 0.068 percentage points.
+
+<FINAL_ANSWER>0.068</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

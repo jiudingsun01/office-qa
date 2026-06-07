@@ -1,0 +1,8 @@
+=== rc=0 elapsed=58.1s ===
+=== stdout (251 chars) ===
+The bureau was the Financial Management Service. Using table USCC-2 total currency in circulation by denomination and computing total value divided by total notes gives 32.703237..., rounded to nearest thousandth.
+
+<FINAL_ANSWER>32.703</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

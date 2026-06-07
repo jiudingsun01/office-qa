@@ -1,0 +1,18 @@
+=== rc=0 elapsed=150.7s ===
+=== stdout (597 chars) ===
+All five values confirmed from the authoritative PDF images:
+
+- 1972 (Feb 29, 1972 schedule): CY1972 total = 24,221
+- 1973 (Feb 28, 1973): CY1973 total = 24,292
+- 1974 (Feb 28, 1974): CY1974 total = 33,368
+- 1975 (Feb 28, 1975): CY1975 total = 31,653
+- 1976 (Feb 29, 1976): CY1976 total = 35,565
+
+Sample mean = 29,819.8; sample standard deviation (n−1) = 5,264.52. The 1972 value is (24,221 − 29,819.8)/5,264.52 = **−1.063** sample standard deviations below the mean.
+
+The answer is a single decimal value, so per the delimiter rule it's just the bare number.
+
+<FINAL_ANSWER>-1.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

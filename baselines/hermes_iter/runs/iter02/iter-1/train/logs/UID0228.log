@@ -1,0 +1,15 @@
+=== rc=0 elapsed=104.5s ===
+=== stdout (290 chars) ===
+From the Cash Income and Outgo table:
+January 1956 receipts from the public: 4,964
+February 1956 receipts from the public: 7,140
+Sum: 12,104 million USD
+
+1956 USD/INR yearly average exchange rate rounded to hundredths: 4.76
+
+12,104 × 4.76 = 57,615.04
+
+<FINAL_ANSWER>57615.04</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

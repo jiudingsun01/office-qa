@@ -1,0 +1,19 @@
+=== rc=0 elapsed=42.0s ===
+=== stdout (966 chars) ===
+I have both figures from tables sharing the same revised methodology (footnote 2/ in 1942_10 and footnote 7/ in 1947_08 describe identical scope: PWA, Federal Public Housing Authority, excludes wartime FWA spending).
+
+- 1934 Public Works = 549 (1942_10 table, line 579)
+- 1946 Public Works = 407 (1947_08 table, line 731)
+
+Both are "Public works" column values in the Analysis of General Expenditures tables. Let me verify the question's intent: "revised WWII-era figures that should account for PWA spending and housing and exclude certain wartime spending." This matches both tables' footnotes precisely.
+
+Absolute difference = |549 - 407| = 142.
+
+Let me double-check the 1934 value isn't a different revised figure. The 1942_10 table at line 579 shows 1934 = 549 under "Public Works 2/". The 1947_08 table only goes back to 1938, so 1934 must come from 1942_10. Both use the same scope definition.
+
+Difference = 549 - 407 = 142.
+
+<FINAL_ANSWER>142</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

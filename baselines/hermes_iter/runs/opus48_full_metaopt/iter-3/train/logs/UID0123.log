@@ -1,0 +1,14 @@
+=== rc=0 elapsed=53.0s ===
+=== stdout (785 chars) ===
+The question phrasing: "what percentage... was attributed to American vessels ... Return ... the first value as the single percentage point difference rounded to one decimal place."
+
+The "single percentage point difference" most naturally refers to the aggregate percentage value (34.4) expressed as a single number. The phrase "percentage point" indicates the unit. Given the question asks "what percentage of the total... was attributed to American vessels," the answer is the aggregate share = 34.4 percentage points.
+
+The correlation between the American vessels value series and grand total series (Jan, Feb, Mar) = 0.391.
+
+This is a decimal-only answer (both values have decimal points), so per MODE A formatting: bare comma, no space.
+
+<FINAL_ANSWER>[34.4,0.391]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

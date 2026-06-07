@@ -1,0 +1,12 @@
+=== rc=0 elapsed=82.5s ===
+=== stdout (607 chars) ===
+I can clearly see the table. Under the "1982" heading, the list of maturing notes ends with a "Total" row showing **80,686** in the Total column. This confirms the markdown value at line 2124.
+
+The question asks for "the total value of total amount of nominal maturities" for securities with date of final maturity in CY 1982. All 1982 maturities are in this section, and the subtotal "Total" row reads 80,686 (in millions of dollars). These are all nominal (non-indexed) notes — in 1982 there were no inflation-indexed securities.
+
+The answer is 80,686 million dollars.
+
+<FINAL_ANSWER>80686</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

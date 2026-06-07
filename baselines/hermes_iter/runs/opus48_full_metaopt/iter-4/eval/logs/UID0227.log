@@ -1,0 +1,15 @@
+=== rc=0 elapsed=35.9s ===
+=== stdout (440 chars) ===
+The "Amount outstanding (Interest-bearing debt)" column for the three months of Q3 1982:
+- July 1982: 67,132
+- August 1982: 67,148
+- September 1982: 67,274
+
+Average = (67,132 + 67,148 + 67,274) / 3 = 201,554 / 3 = 67,184.67 ≈ 67,185 million.
+
+This is from Table SB-2 "Sales and Redemptions by Periods, All Series Combined" — the amount outstanding (interest-bearing debt) of United States savings bonds.
+
+<FINAL_ANSWER>67185</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

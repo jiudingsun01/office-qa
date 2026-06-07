@@ -1,0 +1,8 @@
+=== rc=0 elapsed=98.3s ===
+=== stdout (162 chars) ===
+Using the Treasury Bulletin FD-1 “Public debt securities” values and CPI-U annual averages 1960=29.6, 1961=29.9, 1962=30.3:
+
+<FINAL_ANSWER>265.508</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

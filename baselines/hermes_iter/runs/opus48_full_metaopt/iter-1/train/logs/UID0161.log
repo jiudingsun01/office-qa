@@ -1,0 +1,13 @@
+=== rc=0 elapsed=84.8s ===
+=== stdout (353 chars) ===
+Both correlation coefficients are very high (~0.996), and the absolute difference is 0.0003.
+
+Data verified:
+- 1979 (from 1980_03 bulletin, "Treasury bonds" & "New Aa corporate bonds"): r = 0.9955
+- 1984 (from 1985_03 bulletin, "Treasury 20-yr. bonds" & "New Aa corporate bonds"): r = 0.9958
+- |difference| = 0.0003
+
+<FINAL_ANSWER>0.0003</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

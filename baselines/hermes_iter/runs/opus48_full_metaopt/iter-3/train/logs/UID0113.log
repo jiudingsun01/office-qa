@@ -1,0 +1,15 @@
+=== rc=0 elapsed=46.7s ===
+=== stdout (505 chars) ===
+The question specifies "average amount outstanding," which indicates using the average of beginning and ending outstanding amounts (the standard approach). 
+
+- 1980 redemption rate = 71 / ((352+300)/2) = 71/326 = 21.78%
+- 1981 redemption rate = 51 / ((300+269)/2) = 51/284.5 = 17.93%
+
+Relative difference in percentage points = 21.78 - 17.93 = 3.85 pp
+
+Both values contain decimal points, so per MODE A formatting, bare comma — but this is a single value answer (3.85).
+
+<FINAL_ANSWER>3.85</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

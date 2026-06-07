@@ -1,0 +1,16 @@
+=== rc=0 elapsed=247.1s ===
+=== stdout (345 chars) ===
+Used the end-of-February maturity-schedule totals for the same calendar year:
+
+1972: 24,221
+1973: 24,292
+1974: 33,368
+1975: 31,653
+1976: 35,565
+
+Sample mean = 29,819.8; sample standard deviation = 5,264.523. The 1972 value’s z-score is (24,221 - 29,819.8) / 5,264.523 = -1.063496, rounded to three decimals.
+
+<FINAL_ANSWER>-1.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

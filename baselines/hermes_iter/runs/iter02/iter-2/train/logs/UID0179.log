@@ -1,0 +1,13 @@
+=== rc=0 elapsed=76.9s ===
+=== stdout (374 chars) ===
+Used the nonbanking firms’ summary positions table values (millions of current foreign-currency units):
+
+Dec. 1975: Belgian francs 12,060; Canadian dollars 10,371
+Mar. 1976: Belgian francs 2,246; Canadian dollars 10,724
+June 1976: Belgian francs 16,408; Canadian dollars 11,175
+Sept. 1976: Belgian francs 13,327; Canadian dollars 10,806
+
+<FINAL_ANSWER>0.3719</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

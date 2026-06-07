@@ -1,0 +1,16 @@
+=== rc=0 elapsed=296.2s ===
+=== stdout (420 chars) ===
+Extracted Treasury values:
+1991 June: Europe 268166; Latin America & Caribbean 337565
+1996 June: Europe 426245; Latin America & Caribbean 443872
+
+Germany nominal GDP, billions current USD:
+World Bank: 1991 1875.79; 1996 2506.58
+IMF: 1991 1882.49; 1996 2507.45
+
+Using the average of the World Bank and IMF growth rates because both sources were requested, the final computed value is:
+
+<FINAL_ANSWER>13.55</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

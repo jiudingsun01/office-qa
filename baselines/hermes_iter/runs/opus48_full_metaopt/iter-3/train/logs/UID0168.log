@@ -1,0 +1,17 @@
+=== rc=0 elapsed=208.8s ===
+=== stdout (660 chars) ===
+With 4 points and a 2nd-degree polynomial, the fit is a least-squares fit (4 points, 3 params — overdetermined). Projected September value at t=5 = 566839.5. Germany invaded Poland on September 1, 1939, so day number = 1. 566839.5 / 1 = 566839.5 → rounded HALF_UP = 566840.
+
+The four data points (Short-Term Banking Funds grand totals, excluding brokerage balances and security transactions):
+- May 1939 = 25678
+- June 1939 = 16506
+- July 1939 = 34850
+- August 1939 = 264156
+
+Quadratic least-squares fit → September (t=5) projection = 566839.5
+Germany invaded Poland on September 1, 1939 → divide by 1 = 566839.5 → 566840.
+
+<FINAL_ANSWER>566840</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

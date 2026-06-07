@@ -1,0 +1,14 @@
+=== rc=0 elapsed=32.1s ===
+=== stdout (425 chars) ===
+The values are clear from Table ESF-1 (in thousands of dollars), Balances as of Mar. 31, 1989:
+
+- Total capital = 8,124,453 thousand = 8.124453 billion → 8.124
+- Total liabilities and capital = 20,976,061 thousand = 20.976061 billion
+- Absolute difference = |8.124453 − 20.976061| = 12.851608 billion → 12.852
+
+This is a MODE A answer (billions, decimals): bare comma, no space.
+
+<FINAL_ANSWER>[8.124, 12.852]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=773.1s ===
+=== stdout (287 chars) ===
+The relevant table is “Net Capital Movement between the United States and Foreign Countries, 1935 through January 1939.” For the week ended Jan. 25, 1939, the “Net capital movement” row for Latin America shows a positive value, i.e. an inflow.
+
+<FINAL_ANSWER>1,462 inflow</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

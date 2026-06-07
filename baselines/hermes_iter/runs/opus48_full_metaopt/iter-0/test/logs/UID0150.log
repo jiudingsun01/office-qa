@@ -1,0 +1,27 @@
+=== rc=0 elapsed=331.4s ===
+=== stdout (1519 chars) ===
+The computation is complete. Let me summarize the full chain of reasoning:
+
+Bid prices for the 3-1/2% U.S. Treasury Bond maturing 2/15/1990 (from Table MQ-3, prices in 32nds, all verified — 1973 and 1976 confirmed against the PDF images since the Markdown parse was mangled):
+- 1972: 76.18 → 76.5625 USD
+- 1973: 73.30 → 73.9375 USD
+- 1974: 70.16 → 70.5000 USD
+- 1975: 76.22 → 76.6875 USD
+- 1976 (actual): 82.04 → 82.1250 USD
+
+Official USD/DEM rate (FRED EXGEUS, German Marks per US Dollar, monthly, not seasonally adjusted, dated first day of March):
+- 1972: 3.1746, 1973: 2.8132, 1974: 2.6182, 1975: 2.3193
+
+DEM-denominated bid series (each year's USD bid × that year's March-1 rate):
+- 1972: 243.06, 1973: 208.00, 1974: 184.58, 1975: 177.86
+
+Simple exponential smoothing (α=0.3, level initialized to the first observation) over the 1972–1975 DEM series gives a one-step-ahead forecast for 1976 of **206.06** DEM.
+
+The 1976 actual bid (82.125 USD) converted to DEM using the latest specified (1975) rate = 190.47 DEM. Difference (forecast − actual) = 206.06 − 190.47 = **15.59**.
+
+Note on method/assumptions: the exchange rates are not contained in the source bulletins, so I used the authoritative Federal Reserve FRED EXGEUS series (monthly, NSA, dated the first of March) as the question describes. The question specified rates only for 1972–1975, so I applied the 1975 rate to the 1976 actual. SES level was initialized to the first observation (standard convention).
+
+<FINAL_ANSWER>[206.06, 15.59]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

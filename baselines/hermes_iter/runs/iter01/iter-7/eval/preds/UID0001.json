@@ -1,0 +1,1 @@
+{"uid": "UID0001", "question": "What were the total expenditures (in millions of nominal dollars) for U.S national defense in the calendar year of 1940?", "gold_answer": "2,602", "source_files": ["treasury_bulletin_1941_01.txt"], "rc": -1, "elapsed_sec": 1500.16, "raw_response": "", "stderr_tail": "TIMEOUT", "predicted": "", "score": 0.0, "reflect": null}

@@ -1,0 +1,12 @@
+=== rc=0 elapsed=114.3s ===
+=== stdout (318 chars) ===
+From Table FD-1, fiscal-year-end public debt securities were 286,331 for FY1960 and 288,971 for FY1961, in millions of dollars.
+
+Using annual average CPI-U values 1960=29.6, 1961=29.9, 1962=30.3:
+
+Absolute difference = |288971 × 30.3/29.9 − 286331 × 30.3/29.6| = 265.508 million.
+
+<FINAL_ANSWER>265.508</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

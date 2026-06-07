@@ -1,0 +1,14 @@
+=== rc=0 elapsed=162.9s ===
+=== stdout (806 chars) ===
+Summary of findings:
+
+- The "New Aa corporate bonds" column in Table MY-2 (March 2003 Bulletin, p.55) is the AA-rated new-corporate yield series. I collected all 48 monthly values from Jan 1999 through Dec 2002.
+- Linear regression on those 48 monthly averages gives a January 2003 predicted yield of 6.52 (6.5205) — robust to index convention.
+- Critically: Table MY-2 was **discontinued effective January 2003** (confirmed in the June 2003 Bulletin's Market Yields introduction: "Treasury no longer issues long-term bonds and no longer calculates or estimates long-term corporate rates"). So Treasury never published an actual Jan 2003 value; the actual (from the underlying Moody's new-issue Aa reoffering data) is ≈ 6.21.
+
+Absolute difference = |6.52 − 6.21| = 0.31.
+
+<FINAL_ANSWER>0.31</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

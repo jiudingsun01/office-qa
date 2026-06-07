@@ -1,0 +1,16 @@
+=== rc=0 elapsed=39.6s ===
+=== stdout (407 chars) ===
+The computation:
+
+Mid-March 2016 report date = 03/16/2016.
+
+Japanese yen: net options position = -74 (millions of yen). Rate = 114.0 yen per USD → -74/114.0 = -0.6491 million USD.
+
+British pound: net options position = 369 (millions of pounds). Rate = 1.41 USD per pound → 369 × 1.41 = 520.29 million USD.
+
+Absolute difference = |-0.6491 - 520.29| = 520.94 million USD.
+
+<FINAL_ANSWER>520.94</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

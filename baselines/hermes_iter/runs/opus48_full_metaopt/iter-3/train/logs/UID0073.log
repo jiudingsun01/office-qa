@@ -1,0 +1,10 @@
+=== rc=0 elapsed=50.8s ===
+=== stdout (456 chars) ===
+12 months (CY1981 Jan–Dec) from the "Net budget outlays" row of Table FFO-5. The population standard deviation is 6379.29 (in millions of nominal dollars).
+
+The values: 59099, 53969, 54216, 57198, 54608, 55619, 58486, 53095, 53698, 64216, 56838, 76875 — these are the "Net budget outlays" totals (net outlays summed across all functions) for each month, which is exactly "net U.S. Government net outlays by function."
+
+<FINAL_ANSWER>6379.29</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

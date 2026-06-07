@@ -1,0 +1,8 @@
+=== rc=0 elapsed=50.2s ===
+=== stdout (190 chars) ===
+The Zipf exponent, computed via OLS of ln(value) on ln(rank) across the 50 states (DC, territories, International, and Undistributed excluded), is 1.172.
+
+<FINAL_ANSWER>1.172</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

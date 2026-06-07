@@ -1,0 +1,11 @@
+=== rc=0 elapsed=43.5s ===
+=== stdout (246 chars) ===
+Used the “Customs duties — Net” monthly values for 1974:
+304, 239, 277, 286, 295, 301, 325, 355, 305, 347, 319, 307
+
+Population CV = population standard deviation / mean × 100 = 9.69017%, rounded to hundredths.
+
+<FINAL_ANSWER>9.69</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

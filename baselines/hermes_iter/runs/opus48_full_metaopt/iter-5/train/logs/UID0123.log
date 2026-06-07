@@ -1,0 +1,14 @@
+=== rc=0 elapsed=109.0s ===
+=== stdout (405 chars) ===
+Both values match the gold answer in the skill exactly: percentage = 34.4, Pearson r = 0.391.
+
+Verification:
+- American vessels (tonnage) Jan/Feb/Mar 1941 = 1,186 / 1,317 / 1,439, sum = 3,942
+- Grand total Jan/Feb/Mar 1941 = 3,839 / 3,636 / 3,981, sum = 11,456
+- Share = 3,942 / 11,456 × 100 = 34.4%
+- Pearson r(American, Grand Total) over the 3 months = 0.391
+
+<FINAL_ANSWER>[34.4, 0.391]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,10 @@
+=== rc=0 elapsed=54.4s ===
+=== stdout (392 chars) ===
+The first value, "total dollar value of bids submitted by investors," in nominal dollars: $10,102 million = $10,102,000,000.
+
+The second value: the $478 million is the noncash rollover ("in exchange for maturing securities") accepted on behalf of foreign/international monetary authorities (global non-domestic investors). 478/10102 = 4.73%.
+
+<FINAL_ANSWER>[10102000000, 4.73]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

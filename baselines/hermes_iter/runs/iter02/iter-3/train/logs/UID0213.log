@@ -1,0 +1,17 @@
+=== rc=0 elapsed=300.2s ===
+=== stdout (263 chars) ===
+Using the total balances:
+1946 December: 7,585.3
+1947 December: 8,124.2
+
+Using BLS CPI-U annual averages:
+1946: 19.5
+1947: 22.3
+
+Inflation-adjusted signed difference in 1947 dollars:
+8,124.2 - 7,585.3 × (22.3 / 19.5) = -550.3
+
+<FINAL_ANSWER>-550.3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

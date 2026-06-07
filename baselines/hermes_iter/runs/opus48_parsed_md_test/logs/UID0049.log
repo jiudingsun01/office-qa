@@ -1,0 +1,10 @@
+=== rc=0 elapsed=43.5s ===
+=== stdout (301 chars) ===
+The coefficient of variation of the year-to-year log growth rates is 1.56.
+
+The 1941 Total of 6301 already includes the U.S. Maritime Commission column (which per note 2/ includes emergency/urgent ship construction beginning March 1941), so no adjustment is needed.
+
+<FINAL_ANSWER>1.56</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

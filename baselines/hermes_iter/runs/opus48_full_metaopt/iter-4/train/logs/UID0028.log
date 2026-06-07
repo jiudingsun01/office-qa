@@ -1,0 +1,12 @@
+=== rc=0 elapsed=160.0s ===
+=== stdout (454 chars) ===
+Confirmed. The PDF shows for February 1964: Railroad Retirement Account = 92 (the third value in the row: FOASI=2,170, FDI=159, Railroad Retirement=92). Table is in millions of dollars.
+
+So:
+- Minimum Aa-corporate vs Treasury yield spread in 1960-1969: February 1964 (Aa 4.39 − Treasury 4.14 = 0.25)
+- Railroad Retirement Account trust receipts for February 1964: 92 million dollars = 92,000,000 in nominal dollars
+
+<FINAL_ANSWER>92000000</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,16 @@
+=== rc=0 elapsed=132.5s ===
+=== stdout (520 chars) ===
+The values are confirmed against the PDF:
+- "Expenditure transfers to the trust fund for Federal Old-Age and Survivors Insurance" = the "Transfers to F.O.A. and S.I. Trust Fund" column in Table 7's Expenditures section.
+- FY 1947 = 0.4 million
+- Korean War started June 25, 1950 → falls in FY 1951 = 3.7 million
+- Span = 4 years
+
+CAGR = (3.7/0.4)^(1/4) − 1 = 74.3956% ≈ 74.40%
+
+The answer is a percentage with a decimal point → MODE A: bare value, no delimiter issues (single value).
+
+<FINAL_ANSWER>74.40</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

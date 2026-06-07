@@ -1,0 +1,19 @@
+=== rc=0 elapsed=53.9s ===
+=== stdout (444 chars) ===
+Extracted June 30 total assets (thousands of nominal U.S. dollars):
+2004: 42479589
+2005: 42903228
+2006: 44392251
+2007: 46072261
+
+Year-over-year percentage changes:
+2005 vs 2004: 0.009972765979444858
+2006 vs 2005: 0.03470654935334935
+2007 vs 2006: 0.037844667980454515
+
+The linearly interpolated 5th percentile of these returns is 0.012446144316835307, so the 95% historical VaR rounded to four decimals is:
+
+<FINAL_ANSWER>0.0124</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

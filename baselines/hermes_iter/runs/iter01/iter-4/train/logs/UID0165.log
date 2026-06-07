@@ -1,0 +1,10 @@
+=== rc=0 elapsed=184.0s ===
+=== stdout (311 chars) ===
+Extracted mutual funds holdings (end of March, billions USD): 222.3, 225.3, 266.1, 296.6, 280.8.
+
+Annual changes gave a 1% lower-tail loss estimate of 45.4105 billion USD. Using the March 2004 monthly NSA USD→JPY rate of 108.5157 gives 4,927.75 billion JPY, rounded to 4,928.
+
+<FINAL_ANSWER>4928</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

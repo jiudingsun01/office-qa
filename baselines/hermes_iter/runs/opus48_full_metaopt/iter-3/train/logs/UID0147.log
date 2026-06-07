@@ -1,0 +1,16 @@
+=== rc=0 elapsed=336.0s ===
+=== stdout (894 chars) ===
+The result is robust at ~57.0 for precise inputs (both with and without Panama: 57.048 / 56.998, both round to 57.0). 
+
+The slope is identical (1.2677) since Panama is constant. With precise billions inputs, the projection is 57.0 in both cases. The tenth-rounded-inputs variant gives 57.1/56.9, but the standard approach is to fit on the actual values (precise billions) and round only the final projection — which my memory note on OLS rounding supports (fit once with float64).
+
+Both with/without Panama give 57.0 on precise inputs. The data points are firmly read. The answer is 57.0.
+
+Data used (fixed maturity issues, billions, summing all fixed-maturity column totals across each schedule incl. the $50M Panama Canal bond):
+- 1948: 55.427, 1949: 48.044, 1950: 54.565, 1951: 57.479
+- OLS slope = 1.2677 bn/yr, projecting to end-Jan 1952 → 57.048 → 57.0
+
+<FINAL_ANSWER>57.0</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

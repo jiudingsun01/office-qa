@@ -1,0 +1,24 @@
+=== rc=0 elapsed=670.0s ===
+=== stdout (1176 chars) ===
+I extracted the total gross U.S. federal debt (including agency securities like FHA) at the end of fiscal month January for each year 1969–1980, using Table FD-1 "Summary of Federal Debt", column "Total outstanding > Total" (= public debt securities + agency securities).
+
+Values (in millions of dollars), January 1969 → January 1980:
+- 1969: 374,443 (provided 1969_10 doc, also in 1970_01)
+- 1970: 381,327
+- 1971: 401,845 (vision-confirmed; OCR row was misaligned)
+- 1972: 433,432
+- 1973: 461,855
+- 1974: 478,957
+- 1975: 505,483
+- 1976: 595,329
+- 1977: 664,852
+- 1978: 731,821
+- 1979: 798,733
+- 1980: 854,741
+
+Note: through ~1973 the "Total" includes the IMF/international non-interest notes (~825M); from 1974 onward that is excluded per FD-1 footnote 1/. Each figure is reported as its own-era bulletin states it. Also, because bulletins report ~2 months in arrears, the literal January bulletins don't contain a same-year January row, so each value was taken from the FD-1 "January" monthly row in the nearest available bulletin that contains it.
+
+<FINAL_ANSWER>374443, 381327, 401845, 433432, 461855, 478957, 505483, 595329, 664852, 731821, 798733, 854741</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

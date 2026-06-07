@@ -1,0 +1,13 @@
+=== rc=0 elapsed=84.0s ===
+=== stdout (517 chars) ===
+The combined total is 236.7 billion pounds sterling.
+
+Calculation summary:
+- Subtotals (marketable + nonmarketable, Total outstanding, $millions): 1950 = 154764+66771 = 221535; 1951 = 151625+67824 = 219449; 1952 = 142701+79075 = 221776
+- GBP per USD: the pound was pegged at $2.80 throughout 1950–1952 (post-Sept-1949 devaluation), so the annual-average GBP/USD rate ≈ 1/2.80 = 0.357143 each year
+- Converted: 79119.6 + 78374.6 + 79205.7 = 236700 GBP millions = 236.7 GBP billions
+
+<FINAL_ANSWER>236.7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

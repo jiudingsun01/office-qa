@@ -1,0 +1,8 @@
+=== rc=0 elapsed=238.0s ===
+=== stdout (222 chars) ===
+Using Table MS-1, the November 1969 “Total currencies” value is 47,026 million. CPI-U Nov. 1969 / Nov. 1968 = 37.5 / 35.4, so adjusted value = 47,026 × (37.5/35.4) = 49,815.7 million.
+
+<FINAL_ANSWER>49815.7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

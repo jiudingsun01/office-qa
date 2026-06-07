@@ -1,0 +1,13 @@
+=== rc=0 elapsed=133.8s ===
+=== stdout (613 chars) ===
+The OLS regression on individual income tax (in billions of nominal dollars) vs. year (untransformed) for FY1929–1942 gives:
+
+- Slope: 0.096
+- Intercept: -184.143
+
+Data source: "Summary of Internal Revenue Collections" table, page 76 (printed pg. 66) of the July 1942 Treasury Bulletin — the Individual income column, which is the same series charted as "Collections of Internal Revenue – By Principal Sources – Individual Income, fiscal years 1929 to 1942" (in billions). Values converted from thousands to billions, regressed against the calendar year predictor.
+
+<FINAL_ANSWER>[0.096, -184.143]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

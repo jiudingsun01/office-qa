@@ -1,0 +1,8 @@
+=== rc=0 elapsed=51.5s ===
+=== stdout (358 chars) ===
+Used the mutual funds values for March 2000-2004: 222.3, 225.3, 266.1, 296.6, 280.8 (billions USD). The one-year losses are -3.0, -40.8, -30.5, 15.8. Using sample standard deviation and the 99th percentile normal loss cutoff, then converting with March 2004 USD/JPY = 108.5157 gives 4,927.75 billion JPY, rounded to 4,928.
+
+<FINAL_ANSWER>4928</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

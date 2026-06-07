@@ -1,0 +1,8 @@
+=== rc=0 elapsed=120.8s ===
+=== stdout (158 chars) ===
+Using Department of Labor total funds outlays of 135,030 in FY 2011 and 35,810 in FY 2019 over 8 years:
+
+<FINAL_ANSWER>[-0.153, 0.847, -1.162]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

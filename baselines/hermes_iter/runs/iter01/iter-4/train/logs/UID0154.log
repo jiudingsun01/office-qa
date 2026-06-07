@@ -1,0 +1,12 @@
+=== rc=0 elapsed=116.8s ===
+=== stdout (206 chars) ===
+I extracted the Treasury Bills rows from Table TSO-3 in both January 31 surveys.
+
+Months exceeding 20,000:
+1977 survey: Feb, Mar, Apr, May = 4
+1978 survey: Feb, Mar, Apr = 3
+
+<FINAL_ANSWER>7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

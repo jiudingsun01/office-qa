@@ -1,0 +1,8 @@
+=== rc=0 elapsed=142.0s ===
+=== stdout (178 chars) ===
+Using Table 7, the expenditure transfer values are 0.4 for FY 1947 and 3.6 for FY 1950. CAGR over 3 years = (3.6 / 0.4)^(1/3) - 1 = 108.01%.
+
+<FINAL_ANSWER>108.01</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

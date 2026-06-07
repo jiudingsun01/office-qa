@@ -1,0 +1,14 @@
+=== rc=0 elapsed=55.0s ===
+=== stdout (309 chars) ===
+Both 2011 variants give the same rounded YoY (2.806%). The slope rounds to 0.030 and intercept to 8.706.
+
+All three values are decimals with a decimal point → MODE A: bare comma, no space.
+
+- YoY growth rate %: 2.806
+- OLS slope: 0.030
+- OLS intercept: 8.706
+
+<FINAL_ANSWER>[2.806,0.030,8.706]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=105.9s ===
+=== stdout (612 chars) ===
+I can now read the full table clearly. In the bottom section "NET CAPITAL MOVEMENT:", under the "Week ended" subsection, the row for "1939-Jan. 25":
+- Latin America column = **1,461**
+- Grand total = -907
+
+This confirms my component-sum calculation (1323 + 155 − 229 + 212 = 1461).
+
+The third Thursday in Jan 1939 was Jan 19, and the fourth Wednesday was Jan 25 — this period corresponds to the "week ended Jan. 25" reporting date. The net capital movement between the US and Latin America for that week was +1,461 thousand dollars (a capital inflow, since positive = inflow).
+
+<FINAL_ANSWER>1461</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

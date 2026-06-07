@@ -1,0 +1,13 @@
+=== rc=0 elapsed=50.0s ===
+=== stdout (244 chars) ===
+The three percentages are:
+- FY 1962-63: range 4241, avg 5835.29 → 72.68%
+- FY 1963-64: range 5507, avg 4763.29 → 115.61%
+- FY 1964-65: range 4727, avg 5322.14 → 88.82%
+
+The highest is 115.61% (FY 1963-64).
+
+<FINAL_ANSWER>115.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

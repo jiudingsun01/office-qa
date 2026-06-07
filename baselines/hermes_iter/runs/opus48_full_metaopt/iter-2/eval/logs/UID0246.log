@@ -1,0 +1,21 @@
+=== rc=0 elapsed=62.1s ===
+=== stdout (719 chars) ===
+The 1975 sum check is exact: 116036 + 3507 = 119543 = "Total Treasury Bills" (the FFB Bills are separate/below the total). This strongly confirms the category sums are correct for 1975.
+
+For 1970, the sum was 81079 vs reported 81081 (a $2M rounding difference in the by-issue cells, which is normal). The category totals are:
+
+1970: RW = 71805, TA = 9274
+1975: RW = 116036, TA = 3507
+
+Absolute changes:
+- Regular weekly & annual: |116036 − 71805| = 44231
+- Tax anticipation: |3507 − 9274| = 5767
+
+Euclidean norm = √(44231² + 5767²) = 44605.38
+
+These are integer (whole-number) magnitudes, so MODE B delimiter — but the final answer is a single value. The norm rounds to 44605.38.
+
+<FINAL_ANSWER>44605.38</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

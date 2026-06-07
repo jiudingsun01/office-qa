@@ -1,0 +1,16 @@
+=== rc=0 elapsed=353.6s ===
+=== stdout (303 chars) ===
+Using the end-of-February maturity schedule totals for the matching calendar years:
+
+1972: 24,221
+1973: 24,292
+1974: 33,368
+1975: 31,653
+1976: 35,565
+
+Sample mean = 29,819.8; sample SD = 5,264.5228; standardized 1972 value = -1.063496..., rounded to three decimals.
+
+<FINAL_ANSWER>-1.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

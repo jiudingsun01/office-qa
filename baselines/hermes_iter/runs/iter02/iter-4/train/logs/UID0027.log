@@ -1,0 +1,8 @@
+=== rc=0 elapsed=313.7s ===
+=== stdout (266 chars) ===
+I read the June 1970 bulletin’s “Average Yields of Long-Term Bonds” table and compared Corporate Aa bond yields against Treasury bond yields for 1960-1969. The maximum spread occurs in November 1969, giving 11 * 100 + 1969 = 3069.
+
+<FINAL_ANSWER>3069</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

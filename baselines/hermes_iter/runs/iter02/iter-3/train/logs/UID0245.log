@@ -1,0 +1,10 @@
+=== rc=0 elapsed=245.5s ===
+=== stdout (216 chars) ===
+Extracted values: August 1982 = 12.15; August 1981 = 13.61.
+
+Fisher Ideal symmetric growth rate = (12.15 - 13.61) / sqrt(12.15 * 13.61) = -0.113536..., rounded to three decimals.
+
+<FINAL_ANSWER>-0.114</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

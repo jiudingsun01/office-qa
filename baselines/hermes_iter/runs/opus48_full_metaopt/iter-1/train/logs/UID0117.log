@@ -1,0 +1,14 @@
+=== rc=0 elapsed=194.5s ===
+=== stdout (402 chars) ===
+The 1972 maturity total (24,221) is the lowest of the five years, well below the 5-year mean of 29,819.8, giving a z-score of **-1.063** sample standard deviations.
+
+Calculation:
+- Values (millions): 1972=24,221; 1973=24,292; 1974=33,368; 1975=31,653; 1976=35,565
+- Mean = 29,819.8
+- Sample std dev (ddof=1) = 5,264.52
+- z = (24,221 − 29,819.8) / 5,264.52 = −1.063
+
+<FINAL_ANSWER>-1.063</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,26 @@
+=== rc=0 elapsed=301.9s ===
+=== stdout (953 chars) ===
+Confirmed: Jan 1977 = 664852. This matches the value I extracted from the 1978_01 January bulletin (664,852), consistent with our "January bulletin" requirement.
+
+All values confirmed. The "Total outstanding > Total" column is total gross federal debt = public debt securities + agency securities (which includes FHA-type agency securities). 
+
+Final list (Jan 1969 → Jan 1980):
+- 1969: 374443
+- 1970: 381327
+- 1971: 401845
+- 1972: 433432
+- 1973: 461855
+- 1974: 478957
+- 1975: 505483
+- 1976: 595307
+- 1977: 664852
+- 1978: 731821
+- 1979: 798733
+- 1980: 854741
+
+These are end-of-January gross federal debt (including agency securities), each sourced from the January bulletin reporting that year (the January-(Y+1) bulletin, which is the January bulletin covering the full preceding calendar year). Figures in millions of dollars.
+
+<FINAL_ANSWER>374443, 381327, 401845, 433432, 461855, 478957, 505483, 595307, 664852, 731821, 798733, 854741</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

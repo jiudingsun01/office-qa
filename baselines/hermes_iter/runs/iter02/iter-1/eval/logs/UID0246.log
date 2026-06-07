@@ -1,0 +1,22 @@
+=== rc=0 elapsed=283.9s ===
+=== stdout (389 chars) ===
+Using the January 31 Treasury Survey tables:
+
+1970:
+Regular weekly + annual maturing Treasury bills = 71,807
+Tax anticipation Treasury bills = 9,274
+
+1975:
+Regular weekly + annual maturing Treasury bills = 116,036
+Tax anticipation Treasury bills = 3,507
+
+Absolute changes:
+Regular/annual = 44,229
+Tax anticipation = 5,767
+
+Euclidean norm = 44,603.39
+
+<FINAL_ANSWER>44603.39</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

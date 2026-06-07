@@ -1,0 +1,8 @@
+=== rc=0 elapsed=245.8s ===
+=== stdout (111 chars) ===
+Using 26-week rates 2.825 and 2.801, the annualized realized volatility is:
+
+<FINAL_ANSWER>6.15</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

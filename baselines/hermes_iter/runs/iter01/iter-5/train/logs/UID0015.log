@@ -1,0 +1,10 @@
+=== rc=0 elapsed=51.9s ===
+=== stdout (152 chars) ===
+Used the net “Interest” total values from Table FFO-5:
+1981: 82.590 billion
+Comparable 1980 period: 64.564 billion
+
+<FINAL_ANSWER>6.1596</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,16 @@
+=== rc=0 elapsed=116.0s ===
+=== stdout (498 chars) ===
+The count is 28 bills that exceeded 2400 millions, issued Feb-Apr in each of 1972, 1973, 1974. 
+
+Note for 1974, the 1/31/74 bill (2507) is excluded because it's January, not Feb-Apr — correctly filtered out.
+
+Geometric mean of these 28 values = 2444.28.
+
+Let me verify the filtering: 1972=6, 1973=10, 1974=12 → 28 total. All values strictly > 2400.
+
+The answer format requested: bracketed CSV with count first, then geometric mean rounded to hundredths.
+
+<FINAL_ANSWER>[28, 2444.28]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

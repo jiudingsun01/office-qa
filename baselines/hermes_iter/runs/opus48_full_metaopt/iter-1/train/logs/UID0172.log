@@ -1,0 +1,15 @@
+=== rc=0 elapsed=79.1s ===
+=== stdout (421 chars) ===
+Values located in Table CM-I-3/CM-I-2 "Total Liabilities by Country" (capital movements), United Kingdom, June column of each year:
+- June 2000: 206,014 (2000_12 bulletin)
+- June 2001: 172,920 (2001_12 bulletin)
+- June 2002: 194,154 (2002_12 bulletin)
+
+Sum = 573,088 USD millions. USD→GBP rate on 2002-06-30 rounded to hundredths = 0.66.
+
+573,088 × 0.66 = 378,238.08 GBP millions.
+
+<FINAL_ANSWER>378238.08</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

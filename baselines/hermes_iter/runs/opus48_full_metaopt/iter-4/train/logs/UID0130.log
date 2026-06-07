@@ -1,0 +1,10 @@
+=== rc=0 elapsed=27.7s ===
+=== stdout (188 chars) ===
+Both confirmed. 1980 Feb = 861602.0, 1981 Feb = 956897.0.
+
+Weighted average = (861602 + 2×956897) / 3 = (861602 + 1913794) / 3 = 2775396 / 3 = 925132.
+
+<FINAL_ANSWER>925132</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,10 @@
+=== rc=0 elapsed=49.1s ===
+=== stdout (492 chars) ===
+The implied Macaulay duration (time to maturity of the zero, at the first observation) is ln(P₁)/y = 21.1833. This is the duration that makes the two observed values consistent with a constant continuous-compounding yield: P₁ = e^(-y·(-21.1833))... more precisely, P₁ corresponds to duration 21.1833 and P₂ to 22.1833, differing by exactly one period, consistent with constant yield y.
+
+The Macaulay duration at the first/earlier observation is 21.1833.
+
+<FINAL_ANSWER>21.1833</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

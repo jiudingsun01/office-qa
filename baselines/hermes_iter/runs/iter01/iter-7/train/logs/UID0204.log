@@ -1,0 +1,8 @@
+=== rc=0 elapsed=91.3s ===
+=== stdout (336 chars) ===
+The September 2010 bulletin reports the MSR projection for the FY 2010 deficit as 1.47 trillion. The September 2011 bulletin’s fiscal table gives the FY 2010 actual deficit as 1,294,236 million, which is 1.29 trillion rounded to the nearest hundredths place. The absolute difference is 0.18 trillion.
+
+<FINAL_ANSWER>0.18</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

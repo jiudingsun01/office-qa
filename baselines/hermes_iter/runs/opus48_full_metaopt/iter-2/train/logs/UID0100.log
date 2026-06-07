@@ -1,0 +1,14 @@
+=== rc=0 elapsed=54.4s ===
+=== stdout (763 chars) ===
+The two 2011 variants give identical rounded results. The slope is robust (0.030) regardless of index base; the intercept depends on index base (8.706 for index 1-7, 8.736 for index 0-6).
+
+The standard "fiscal year index" with OLS typically uses index starting at 1 (or could be the actual years, but "fiscal year index" implies 1..7). Let me check the intercept with index starting at 1 — that's 8.706. Index starting at 0 gives 8.736. The phrase "fiscal year index" most naturally means 1,2,...,7. I'll go with index 1-7.
+
+YoY average = 2.806%, slope = 0.030, intercept = 8.706.
+
+All three rounded to nearest thousandth. Since all values contain decimal points, use bare comma, no space (MODE A per my memory).
+
+<FINAL_ANSWER>[2.806,0.030,8.706]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

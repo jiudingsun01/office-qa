@@ -1,0 +1,18 @@
+=== rc=0 elapsed=37.4s ===
+=== stdout (620 chars) ===
+I have both values from the narrative text, both rounded to the nearest hundredths in trillions:
+
+- Sept 2010 bulletin (MSR projection for FY2010): **$1.47 trillion** (line 321)
+- Sept 2011 bulletin (actual FY2010 deficit): **$1.3 trillion** (line 305)
+
+The question explicitly says "reference the trillion dollar deficit projections rounded to the nearest hundredths place reported in the September 2010 and 2011 US Treasury Bulletin publications."
+
+- Projected (MSR estimate): 1.47 trillion
+- Actual: 1.3 trillion → 1.30 trillion
+
+Absolute difference = |1.47 − 1.30| = 0.17 trillion
+
+<FINAL_ANSWER>0.17</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,16 @@
+=== rc=0 elapsed=101.3s ===
+=== stdout (617 chars) ===
+The quadratic fit through the four points projects t=5 (September 1939) = 566839.5. Germany invaded Poland on September 1, 1939, so the day number is 1. Dividing by 1 gives 566839.5, rounding to 566840.
+
+Data verification:
+- May 1939 (Aug bulletin): Total May, SHORT-TERM BANKING FUNDS Grand total = 25678
+- June 1939 (Sep bulletin): Total June = 16506
+- July 1939 (Oct bulletin): Total July = 34850
+- August 1939 (Nov bulletin): Total August = 264156
+
+Quadratic projection for Sept (t=5) = 566839.5. Germany invaded Poland Sept 1, 1939 → day 1. 566839.5 / 1 = 566839.5 → 566840.
+
+<FINAL_ANSWER>566840</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

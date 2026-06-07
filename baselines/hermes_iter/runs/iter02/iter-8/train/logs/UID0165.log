@@ -1,0 +1,10 @@
+=== rc=0 elapsed=47.4s ===
+=== stdout (482 chars) ===
+Using the March 2010 Treasury Bulletin OFS-2 row for Mutual funds, the March values for 2000-2004 are 222.3, 225.3, 266.1, 296.6, and 280.8 billion USD.
+
+The annual losses from consecutive March values are -3.0, -40.8, -30.5, and 15.8 billion USD. Using a 1% normal lower-tail cutoff with sample standard deviation gives 45.4105 billion USD. Converted at the March 2004 USD→JPY monthly rate of 108.5157 gives 4927.75 billion JPY, rounded to 4928.
+
+<FINAL_ANSWER>4928</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

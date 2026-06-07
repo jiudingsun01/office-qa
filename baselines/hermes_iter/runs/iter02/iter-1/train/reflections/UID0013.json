@@ -1,0 +1,1 @@
+{"rc": 0, "elapsed_sec": 56.95, "skills_before": 120, "skills_after": 120, "skills_delta": 0, "verdict": "WRONG", "raw_response": "Updated the Treasury Bulletin receipts skill with an OLS/regression pattern and saved a compact memory note: for TB receipts OLS, use full source precision and round final coefficients only.\n", "stderr_tail": ""}

@@ -1,0 +1,14 @@
+=== rc=0 elapsed=77.4s ===
+=== stdout (509 chars) ===
+The result is stable around 0.372. Using the primary-source values (Dec1975: 12060/10371 from March bulletin; Mar1976: 2245/10724; Jun1976: 16408/11176; Sep1976: 13327/10806), the Pearson correlation is 0.3723.
+
+Data sources (FCP-I-1 "Nonbanking Firms' Positions", in millions of foreign currency units):
+- Dec 1975: Belgian 12060, Canadian 10371
+- Mar 1976: Belgian 2245, Canadian 10724
+- Jun 1976: Belgian 16408, Canadian 11176
+- Sep 1976: Belgian 13327, Canadian 10806
+
+<FINAL_ANSWER>0.3723</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

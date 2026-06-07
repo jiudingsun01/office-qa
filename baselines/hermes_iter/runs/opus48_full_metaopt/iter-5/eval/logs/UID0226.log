@@ -1,0 +1,14 @@
+=== rc=0 elapsed=54.2s ===
+=== stdout (318 chars) ===
+"the entire set for this computation" signals population standard deviation (the three values constitute the entire population, not a sample), so ÷N.
+
+- Jan 31, 1953: 266,837.0
+- Jan 31, 1954: 274,362.0
+- Jan 31, 1955: 277,949.0
+
+Population std dev = 4630.4 (millions of dollars).
+
+<FINAL_ANSWER>4630.4</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

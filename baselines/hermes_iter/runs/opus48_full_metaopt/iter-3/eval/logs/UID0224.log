@@ -1,0 +1,17 @@
+=== rc=0 elapsed=83.7s ===
+=== stdout (794 chars) ===
+Confirmed in the PDF. The 1944 monthly column (rightmost panel): Jan 2.65, Feb 2.65, Mar 2.64, Apr 2.61, May 2.58, June 2.58, July 2.59, Aug 2.57, Sept 2.55, then the row "1.90 2.1(8 2.61 U/" which is November 1944 = 2.61 (with footnote 4/ noting the revision). The Oct value is just above (2.55).
+
+So the monthly-series Nov 1944 high-grade corporate = **2.61** (the value reported in the regular monthly series table, footnoted because the average was revised effective Nov 1, 1944). The question asks for "the average yields ... reported ... for the calendar months," which corresponds to the monthly series figures.
+
+Three values:
+- Dec 1942 = 2.72
+- Dec 1943 = 2.63
+- Nov 1944 = 2.61
+
+Average = (2.72 + 2.63 + 2.61) / 3 = 7.96 / 3 = 2.65333... → **2.65**
+
+<FINAL_ANSWER>2.65</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

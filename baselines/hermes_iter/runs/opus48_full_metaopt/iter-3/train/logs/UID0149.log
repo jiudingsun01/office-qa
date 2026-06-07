@@ -1,0 +1,55 @@
+=== rc=0 elapsed=135.6s ===
+=== stdout (2169 chars) ===
+Now I can read the 1963 table clearly. For the Survey of Ownership Jan 31, 1963, the "Tax anticipation" subsection has only **one** row:
+
+**Mar. 1963**: 3,005 | 446 | 2 | 58 | 23 | 1 | 1,317 | 11 | - | 19 | 1,128
+
+Columns in order:
+- Total: 3,005
+- commercial banks: 446
+- mutual savings banks: 2
+- insurance life: 58
+- insurance fire/casualty/marine: 23
+- savings and loan associations: 1
+- corporations: 1,317
+- state/local general funds: 11
+- state/local pension and retirement funds: -
+- U.S. Govt investment accounts & Fed Reserve Banks: 19
+- held by all other investors: 1,128
+
+Now mapping to the 7 question categories for 1963 (total Treasury TABs = just Mar 1963, since it's the only TAB issue):
+
+- U.S. Govt accounts & Fed Reserve banks: 19
+- Commercial banks: 446
+- Mutual savings banks: 2
+- Insurance companies (life + fire/cas/marine): 58 + 23 = 81
+- Savings and loan associations: 1
+- Corporations: 1,317
+- State and local governments (general + pension): 11 + 0 = 11
+
+Categories with > 500 million in 1963: **Corporations (1,317)** only. That's **1 category** for 1963.
+
+Let me reconsider the 1962 count carefully. The question says "total Treasury TABs as recorded in March of each corresponding year." In March 1962 bulletin, the Tax anticipation subsection has TWO issues (Mar. 1962 and June 1962). "Total Treasury TABs" means sum across both TAB issues for each category.
+
+1962 totals (Mar 1962 + June 1962):
+- U.S. Govt & Fed Reserve: 136 + 0 = 136
+- Commercial banks: 804 + 993 = 1,797 ✓ >500
+- Mutual savings banks: 4 + 6 = 10
+- Insurance (life+fire): (60+20)+(31+14) = 80+45 = 125
+- Savings and loan: 2 + 6 = 8
+- Corporations: 1,191 + 624 = 1,815 ✓ >500
+- State/local (gen+pension): (31+16)+(56+0) = 47+56 = 103
+
+1962 count: **2** (commercial banks, corporations)
+1963 count: **1** (corporations)
+
+Total sum = 2 + 1 = **3**
+
+Let me double check whether the question intends each TAB issue separately or the "Total Treasury bills" — no, it specifically says "Treasury TABs" (Tax Anticipation Bills). My reading of the Tax anticipation subsection is correct.
+
+The sum of category counts across 1962-1963 = 2 + 1 = 3.
+
+<FINAL_ANSWER>3</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=299.0s ===
+=== stdout (251 chars) ===
+Using the latest available figures for overlapping years (1965 bulletin for FY 1950-1964, 1960 bulletin for FY 1948-1949), converted USD to GBP by annual average GBP-per-USD rates, the Pearson correlation rounds to:
+
+<FINAL_ANSWER>0.98</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

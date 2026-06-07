@@ -1,0 +1,19 @@
+=== rc=0 elapsed=68.1s ===
+=== stdout (423 chars) ===
+Extracted the 9-month/one-year Treasury bill rows for issue dates Nov. 1969 through Feb. 1970 and used the “Amount maturing on issue date of new offering” column. Aggregating all relevant cases by month:
+
+Nov 1969: 1501.0
+Dec 1969: 1499.8
+Jan 1970: 1000.2
+Feb 1970: 1500.9
+
+2-month moving average:
+Jan 1970: (Dec + Jan) / 2 = 1250.00
+Feb 1970: (Jan + Feb) / 2 = 1250.55
+
+Difference: 0.55
+
+<FINAL_ANSWER>0.55</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

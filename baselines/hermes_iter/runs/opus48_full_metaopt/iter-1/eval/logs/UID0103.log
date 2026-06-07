@@ -1,0 +1,14 @@
+=== rc=0 elapsed=85.1s ===
+=== stdout (652 chars) ===
+Both values computed:
+- Pearson correlation coefficient: 0.997
+- Partial correlation controlling for time: 0.977
+
+Data: 25 years (1942-1966), Treasury bonds vs Moody's Aaa corporate bonds annual averages. 1942 sourced from the 1960 bulletin (page 71, line 3566); 1943-1966 from the 1967 bulletin (page 83, lines 4463-4470). Overlapping years verified consistent across both documents.
+
+This matches the MODE A format from my notes (decimals/rates → bare comma, no thousands separators), but the question explicitly requests square brackets and comma-separation. Following the question's instruction format:
+
+<FINAL_ANSWER>[0.997, 0.977]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

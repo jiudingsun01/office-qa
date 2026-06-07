@@ -1,0 +1,15 @@
+=== rc=0 elapsed=35.5s ===
+=== stdout (411 chars) ===
+The standard Gini coefficient formula (mean absolute difference normalized) gives 0.006.
+
+The standard Gini coefficient is:
+Gini = (Σᵢ Σⱼ |xᵢ - xⱼ|) / (2n²μ)
+
+For values [753, 735]: |753-735| appears twice = 36, total = 36, denominator = 2·4·744 = 5952, Gini = 36/5952 = 0.006048 ≈ 0.006.
+
+The fund: receipts (753) > expenditures (735), net increase +18 → surplus.
+
+<FINAL_ANSWER>[0.006,surplus]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=94.3s ===
+=== stdout (232 chars) ===
+Used the “Computed annual interest charge — Public debt” values from Debt Outstanding Table 2 for FY 1961–1968, fit OLS on FY 1961–1967, and computed actual minus FY 1968 forecast in billions.
+
+<FINAL_ANSWER>1.667857</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+
