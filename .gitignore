@@ -37,6 +37,10 @@ baselines/runs/
 # Excluded: the redundant ~19 MB-per-iter skill-library copies, and plots.
 baselines/hermes_iter/runs/**/snapshot/
 
+# Raw session-trace tarballs (verbatim sessions incl. base64 page images, large).
+# The readable per-uid traces under runs/**/traces/*.md ARE committed.
+baselines/hermes_iter/runs/**/traces_raw.tar.gz
+
 # Generated split prompts embed gold answers (gated) + absolute paths.
 # Regenerate deterministically with build_splits.py (seed 42). Manifests are kept.
 baselines/hermes_iter/splits/*.jsonl
