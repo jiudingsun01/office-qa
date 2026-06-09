@@ -43,6 +43,5 @@ baselines/hermes_iter/runs/**/traces_raw.tar.gz
 
 # Generated split prompts embed gold answers (gated) + absolute paths.
 # Regenerate deterministically with build_splits.py (seed 42). Manifests are kept.
-baselines/hermes_iter/splits/*.jsonl
-baselines/hermes_iter/splits_parsed_md/*.jsonl
-baselines/hermes_iter/splits_parsed_md_plus_pdf/*.jsonl
+# Covers splits/, splits_parsed_md/, splits_parsed_md_plus_pdf/, splits_pdf_nooracle/, ...
+baselines/hermes_iter/splits*/*.jsonl

@@ -1,0 +1,13 @@
+=== rc=0 elapsed=104.0s ===
+=== stdout (514 chars) ===
+The values:
+- Subtotals (USD M): 221,535 / 219,449 / 221,776
+- Converted to GBP at the 1950–52 peg average of $2.80/£ (i.e. ÷2.80): 79,119.6 / 78,374.6 / 79,205.7 M
+- Combined total: 236,700 M = **236.7 billion pounds sterling**
+
+The three calendar years (1950, 1951, 1952) all sat at the fixed post-devaluation rate of $2.80 per pound, which is the annual average USD/GBP from official sources (FRED/BoE) for those years. Converting USD millions to GBP means dividing by 2.80.
+
+<FINAL_ANSWER>236.7</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

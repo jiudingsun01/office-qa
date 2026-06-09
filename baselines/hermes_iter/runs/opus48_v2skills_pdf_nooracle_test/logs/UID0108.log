@@ -1,0 +1,10 @@
+=== rc=0 elapsed=58.8s ===
+=== stdout (288 chars) ===
+The 12 monthly Net excise taxes values sum to 94,987, which matches the FY2018 total in the table — confirming I have the correct rows.
+
+Mean Absolute Deviation of nominal monthly net excise tax receipts for FY2018 = 1400.306 (millions of dollars).
+
+<FINAL_ANSWER>1400.306</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

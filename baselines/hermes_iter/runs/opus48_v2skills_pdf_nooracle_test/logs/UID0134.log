@@ -1,0 +1,17 @@
+=== rc=0 elapsed=83.5s ===
+=== stdout (607 chars) ===
+The three spans:
+- FY 1962-1963: range 4,241; avg 5,835.29; pct = 72.68%
+- FY 1963-1964: range 5,507; avg 4,763.29; pct = 115.61%
+- FY 1964-1965: range 4,727; avg 5,322.14; pct = 88.82%
+
+The highest is FY 1963-1964 at 115.61%.
+
+Let me verify the tax and loan figures I read against the cross-check (Table 2 "End of period" column matches Table 1 for the FY1964-65 span which I confirmed earlier: Jul 4,505, Aug 5,085, Sep 8,339, Oct 4,155, Nov 6,182, Dec 5,377, Jan 3,612 — all match). The data is consistent.
+
+The highest percentage is **115.61%** (FY 1963-1964 span).
+
+<FINAL_ANSWER>115.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

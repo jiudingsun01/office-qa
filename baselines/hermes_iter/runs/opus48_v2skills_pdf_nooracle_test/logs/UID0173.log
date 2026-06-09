@@ -1,0 +1,21 @@
+=== rc=0 elapsed=741.1s ===
+=== stdout (934 chars) ===
+The inflation-adjusted normalized values (in Feb-1980 constant dollars, millions):
+- Feb: 861,603.00
+- Mar: 857,403.64
+- Apr: 854,179.19
+- May: 853,420.21
+- June: 843,744.39
+
+Average = **854,070.09** million.
+
+Summary of work:
+- Source: Table FD-1 "Summary of Federal Debt" — first column "Total amount outstanding" = Total Federal Securities Outstanding (public debt + agency securities), in millions of dollars. Read cleanly from the April 1981 Bulletin (which republishes the 1980 monthly rows; cross-checked against TSO-1 "Total Federal securities" in the 1980 Apr/May/June issues: Feb 861,602–603, Mar 870,444, Apr 876,914 all match).
+- Nominal Feb–Jun 1980: 861,603 / 870,444 / 876,914 / 884,788 / 884,381.
+- CPI-U (BLS, all items, NSA, 1982-84=100): Feb 78.9 (base=100), Mar 80.1, Apr 81.0, May 81.8, Jun 82.7.
+- Real = nominal × (CPI_Feb / CPI_month); average of the five = 854,070.09.
+
+<FINAL_ANSWER>854070.09</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

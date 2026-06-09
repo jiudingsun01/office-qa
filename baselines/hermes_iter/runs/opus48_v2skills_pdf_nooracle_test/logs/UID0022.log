@@ -1,0 +1,14 @@
+=== rc=0 elapsed=129.8s ===
+=== stdout (324 chars) ===
+Department of Agriculture total outlays (FFO-3, on+off budget, nominal $ millions), FY1990-1998:
+46011, 54119, 56436, 63143, 60812, 56667, 54338, 52558, 53949
+
+Linear regression with 1990 = year 0:
+- Slope ≈ 273.28
+- Y-intercept ≈ 54244
+- Predicted 1999 (year 9) ≈ 56703
+
+<FINAL_ANSWER>[273.28, 54244, 56703]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

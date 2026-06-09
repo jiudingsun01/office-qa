@@ -95,6 +95,30 @@ OUTPUT FORMAT (mandatory):
 - For a list of numbers, comma-separate them inside the tags."""
 
 
+PDF_NOORACLE_INSTRUCTIONS = """You are an analyst answering questions about U.S. Treasury Bulletins.
+
+You are given ONLY a question. You must FIND the relevant Treasury Bulletin issue(s) yourself from the full corpus, then extract the data and answer. You are NOT told which file or page to use.
+
+Corpus:
+- All Treasury Bulletin PDFs live in a single directory (path given below): U.S. Treasury Bulletins, monthly issues 1939-2025.
+- Filename convention: `treasury_bulletin_{YEAR}_{MONTH_NUM}.pdf`, e.g. `treasury_bulletin_1953_07.pdf` for July 1953.
+  Month mapping: january=01 february=02 march=03 april=04 may=05 june=06 july=07 august=08 september=09 october=10 november=11 december=12.
+- Note: a given statistic is usually published in the issue for (or shortly after) the period it covers; annual/fiscal-year tables often appear in a later issue. You may need to reason about WHICH issue reports the figure, not just match a date.
+
+Environment available to you:
+- `ls <dir>` to see which issues exist; `pdftotext -layout -f <start> -l <end> <pdf> -` to read a page range; `pdftoppm -r 200 -f <s> -l <e> <pdf> /tmp/page` to rasterize.
+- You can run shell commands (e.g. via `terminal`) and Python (`execute_code`).
+- `poppler-utils` is installed. Do NOT install packages or use apt/sudo.
+
+Approach: figure out which issue(s) the question needs, locate them in the corpus directory, find the right table/page, extract, and compute.
+
+OUTPUT FORMAT (mandatory):
+- End your reply with the final answer wrapped in <FINAL_ANSWER>...</FINAL_ANSWER> tags.
+- Inside the tags, output only the value: a number, a date, a short phrase. No commentary, no units unless the question requires them.
+- Match the scale implied by the question (e.g. "in millions of dollars" -> just the number in millions; do not write "$" or "million").
+- For a list of numbers, comma-separate them inside the tags."""
+
+
 def page_from_url(url: str) -> str:
     m = re.search(r"[?&]page=(\d+)", url)
     return m.group(1) if m else ""
@@ -113,7 +137,20 @@ def _corpus_paths(corpus: str, source_file: str) -> list[Path]:
     raise ValueError(f"unknown corpus: {corpus}")
 
 
-def make_prompt(row: dict, corpus: str) -> str:
+def make_prompt(row: dict, corpus: str, no_oracle: bool = False) -> str:
+    if no_oracle:
+        # Retrieval setting: hand the agent only the corpus directory, not the
+        # gold source file(s) or page hint. (PDF corpus only.)
+        if corpus != "pdf":
+            raise ValueError("--no-oracle is only supported with --corpus pdf")
+        return (
+            f"{PDF_NOORACLE_INSTRUCTIONS}\n\n"
+            f"Question: {row['question']}\n\n"
+            f"Treasury Bulletin corpus directory: {PDFS}\n\n"
+            f"Identify the relevant issue(s) and page(s) yourself, read them, then "
+            f"provide your final answer wrapped in <FINAL_ANSWER>...</FINAL_ANSWER>."
+        )
+
     files = [s.strip() for s in row["source_files"].splitlines() if s.strip()]
     docs = [s.strip() for s in row["source_docs"].splitlines() if s.strip()]
     lines = []
@@ -155,16 +192,21 @@ def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("--corpus", choices=["pdf", "parsed-md", "parsed-md+pdf"], default="pdf",
                    help="which corpus to point Hermes at when building prompts")
+    p.add_argument("--no-oracle", action="store_true",
+                   help="retrieval setting: omit gold source file + page hint; agent must "
+                        "find the right bulletin(s) itself (pdf corpus only)")
     p.add_argument("--out-dir", default="",
                    help="splits output directory (default: splits/ for pdf, splits_<corpus>/ otherwise)")
     args = p.parse_args()
 
     if args.out_dir:
         out_dir = Path(args.out_dir)
-    elif args.corpus == "pdf":
+    elif args.corpus == "pdf" and not args.no_oracle:
         out_dir = DEFAULT_OUT
     else:
         slug = args.corpus.replace("-", "_").replace("+", "_plus_")
+        if args.no_oracle:
+            slug += "_nooracle"
         out_dir = DEFAULT_OUT.parent / f"splits_{slug}"
 
     # Validate the corpus roots exist so we fail fast.
@@ -195,7 +237,7 @@ def main() -> None:
             for r in rs:
                 rec = {
                     "uid": r["uid"],
-                    "prompt": make_prompt(r, args.corpus),
+                    "prompt": make_prompt(r, args.corpus, no_oracle=args.no_oracle),
                     "gold_answer": r["answer"],
                     "question": r["question"],
                     "source_files": [s.strip() for s in r["source_files"].splitlines() if s.strip()],

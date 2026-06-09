@@ -1,0 +1,20 @@
+=== rc=0 elapsed=148.7s ===
+=== stdout (579 chars) ===
+All values are consistent and verified across multiple issues (1996_03, 1997_03, 1998_06 confirm the same annual year-end figures). 
+
+The "Total Liabilities (all types combined) of Foreign Countries" = Official institutions Total (col 2) + Banks and other foreigners Total (col 5), excluding International/regional organizations (which are not foreign countries).
+
+Year-end values (in millions of nominal dollars):
+- 1991: 821,943
+- 1992: 873,202
+- 1993: 993,609
+- 1994: 1,095,112
+- 1995: 1,197,085
+- 1996: 1,249,919
+
+Mean = 1,038,478.33
+
+<FINAL_ANSWER>1038478.33</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,8 @@
+=== rc=0 elapsed=127.6s ===
+=== stdout (333 chars) ===
+The FFO-5 table "Internal Revenue Receipts by State, 2020" (December 2020 Treasury Bulletin, pages 20-23), column (6) "Unemployment insurance taxes," in thousands of dollars, gives the 50-state distribution. Fitting log(value) vs log(rank) via OLS gives a Zipf exponent (negative slope) of 1.172.
+
+<FINAL_ANSWER>1.172</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,12 @@
+=== rc=0 elapsed=65.5s ===
+=== stdout (286 chars) ===
+Logarithmic growth rate = ln(4,543,437 / 1,899,670) = 0.872004, or 87.20%.
+
+Dec 2002: 1,899,670 (from March 2003 issue, Table CM-I-1, Dec. p)
+Dec 2012: 4,543,437 (from March 2013 issue, Table CM-I-1, Dec. p)
+ln(4,543,437/1,899,670) = 0.8720 → 87.20%
+
+<FINAL_ANSWER>87.20</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

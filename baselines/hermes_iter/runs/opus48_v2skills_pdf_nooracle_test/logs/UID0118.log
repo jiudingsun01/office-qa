@@ -1,0 +1,17 @@
+=== rc=0 elapsed=127.5s ===
+=== stdout (641 chars) ===
+Both parts confirmed:
+
+Part (a): FRED series IRLTLT01GBM156N (UK 10-year government Gilt yield), observation dated 1968-06-01 = 7.61%.
+
+Part (b): June U.S. Treasury bond yields 1957–1968 from the Treasury Bulletin's "Average Yields of Long-Term Bonds" monthly series (read from the July 1968 issue, p.71, since August 1968 is absent from the corpus but the table covers June 1968 through historical Junes identically):
+3.58, 3.20, 4.09, 3.98, 3.88, 3.90, 4.00, 4.13, 4.14, 4.63, 4.86, 5.23
+- Median = 4.045
+- MAD = median of absolute deviations = 0.155
+
+Absolute difference = |7.61 − 0.155| = 7.455 → 7.46
+
+<FINAL_ANSWER>7.46</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

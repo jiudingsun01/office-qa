@@ -1,0 +1,13 @@
+=== rc=0 elapsed=118.4s ===
+=== stdout (342 chars) ===
+The Federal Intermediate Credit Bank debentures table (March 1948 Treasury Bulletin, Market Quotations January 30, 1948) has 11 entries. Using the Mean (average) yields:
+
+Left block: 1.18, 1.18, 1.20, 1.20, 1.20, 1.25
+Right block: 1.25, 1.28, 1.30, 1.35, 1.40
+
+Sum = 13.79, divided by 11 = 1.2536... → 1.25
+
+<FINAL_ANSWER>1.25</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

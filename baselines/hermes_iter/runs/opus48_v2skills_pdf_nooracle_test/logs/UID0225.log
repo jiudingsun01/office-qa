@@ -1,0 +1,14 @@
+=== rc=0 elapsed=112.1s ===
+=== stdout (513 chars) ===
+The exact average is 12.595, which rounds half-up to **12.60**.
+
+Summary:
+- Source: March 1982 Treasury Bulletin, Table MQ-1 "Treasury Bills," market quotations as of February 26, 1982 (the last trading day / last week of February 1982).
+- Bills maturing in the 2nd week of June 1982 (6/10/82): bid bank discount rate = 12.57%
+- Bills maturing in the 3rd week of June 1982 (6/17/82): bid bank discount rate = 12.62%
+- Average = 12.595, rounded to the nearest hundredth = 12.60
+
+<FINAL_ANSWER>12.60</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

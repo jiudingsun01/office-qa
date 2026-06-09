@@ -1,0 +1,20 @@
+=== rc=0 elapsed=141.1s ===
+=== stdout (767 chars) ===
+The computation is complete.
+
+Using the FD-1 "Summary of Federal Debt" table in the Sept 2000 Bulletin (page 22/23), I used the "Public debt securities" amounts (in millions):
+
+- Held by Government accounts (col 5): 1,320,784 / 1,447,001 / 1,598,459 / 1,765,580 / 1,989,072
+- Held by the public (col 8): 3,653,199 / 3,777,810 / 3,814,687 / 3,760,613 / 3,667,199
+
+For each series I computed year-to-year log growth rates (FY95→99 gives 4 rates), then the coefficient of variation = population SD / mean of those log growth rates.
+
+- Government accounts: CV ≈ 0.10043
+- Public: CV ≈ 23.68767 (the public's holdings barely grew on net, so the mean log growth ≈ 0.000956 is near zero, inflating the CV)
+
+Absolute difference ≈ 23.587.
+
+<FINAL_ANSWER>23.587</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

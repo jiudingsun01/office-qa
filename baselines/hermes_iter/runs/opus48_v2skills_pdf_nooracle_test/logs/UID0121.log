@@ -1,0 +1,20 @@
+=== rc=0 elapsed=173.4s ===
+=== stdout (749 chars) ===
+The analysis is solid.
+
+I located the **March 1980 Treasury Bulletin**, Table TSO-3 (Treasury Survey of Ownership as of January 31, 1980), "Treasury Bills: Regular weekly and annual maturing" section. The "Jan. 1981" maturity row gives holdings (par values, $ millions) by investor category:
+
+- U.S. Govt accounts & FR banks: 756 → exceeds 200 ✓
+- Commercial banks: 558 → exceeds 200 ✓
+- Mutual savings banks: 1
+- Insurance companies (life + fire/casualty/marine): ~0
+- Savings and loan associations: 7
+- Corporations: 148
+- States and local governments (general + pension): 76
+
+Only **2** of the 7 categories had holdings exceeding $200 million for the regular-weekly/annual-maturing bills maturing in January 1981.
+
+<FINAL_ANSWER>2</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

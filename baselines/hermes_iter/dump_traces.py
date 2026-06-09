@@ -94,6 +94,10 @@ def main() -> int:
     p.add_argument("--until", default="", help="filename ts upper bound YYYYMMDD_HHMMSS")
     p.add_argument("--out-traces", default="")
     p.add_argument("--raw-tar", default="")
+    p.add_argument("--model", default="", help="only sessions with this exact model id")
+    p.add_argument("--prompt-contains", default="",
+                   help="only sessions whose first message contains this marker "
+                        "(e.g. a corpus-mode string), to disambiguate runs that share questions")
     args = p.parse_args()
 
     run_phase = Path(args.run_phase)
@@ -132,11 +136,19 @@ def main() -> int:
             d = json.loads(f.read_text())
         except Exception:
             continue
+        if args.model and d.get("model") != args.model:
+            continue
         msgs = d.get("messages") or []
         if not msgs:
             continue
-        q = extract_question(msgs[0].get("content", "") if isinstance(msgs[0].get("content"), str) else "")
-        uid = q_index.get(norm(q))
+        prompt = msgs[0].get("content", "")
+        if not isinstance(prompt, str):
+            prompt = ""
+        if args.prompt_contains and args.prompt_contains not in prompt:
+            continue
+        # robust match: a uid's (long, distinctive) question appears in the prompt
+        nprompt = norm(prompt)
+        uid = next((u for u, m in preds.items() if m["question"] and m["question"] in nprompt), None)
         if not uid:
             continue
         fa = norm(final_answer(json.dumps(d)))

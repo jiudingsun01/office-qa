@@ -1,0 +1,16 @@
+=== rc=0 elapsed=160.9s ===
+=== stdout (550 chars) ===
+Let me confirm the CPI-U values. The official BLS CUUR0000SA0 series: Nov 1949 = 23.8, Dec 1949 = 23.6. These are correct (1949 annual avg was ~23.8, with values dipping at year end). 
+
+Computation:
+- Nov real = 155,205 × 23.6/23.8 = 153,900.76
+- Dec real = 154,962 (base month, unchanged)
+- Absolute difference = 1,061
+- Absolute % difference = |154,962 − 153,900.76| / 153,900.76 × 100 = 0.690%
+
+The percentage difference relative to the November (earlier) value is 0.690. Rounded to thousandths: 0.690.
+
+<FINAL_ANSWER>[0.690, 1061]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

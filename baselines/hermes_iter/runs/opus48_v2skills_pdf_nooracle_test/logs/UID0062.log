@@ -1,0 +1,14 @@
+=== rc=0 elapsed=108.5s ===
+=== stdout (285 chars) ===
+Confirmed visually. Department of the Army column:
+- FY1940: 667
+- FY1947: 7,425
+
+Increase = 7,425 − 667 = 6,758 million dollars.
+
+This uses the reporting structure (footnote 8) where Air Force expenditures were still charged to Army appropriations.
+
+<FINAL_ANSWER>6758</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

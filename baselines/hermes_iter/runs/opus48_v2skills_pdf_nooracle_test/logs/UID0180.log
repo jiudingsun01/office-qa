@@ -1,0 +1,10 @@
+=== rc=0 elapsed=47.3s ===
+=== stdout (283 chars) ===
+The values are consistent across both FD-1 and OFS-1 tables for the public debt securities held by U.S. Government accounts at end of fiscal years 2005-2009.
+
+Sum: 3,331,333 + 3,663,773 + 3,958,417 + 4,210,491 + 4,355,292 = 19,519,306 million.
+
+<FINAL_ANSWER>19519306</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,12 @@
+=== rc=0 elapsed=54.4s ===
+=== stdout (651 chars) ===
+The foreign holdings CAGR is ~16.77% and nominal GDP CAGR is ~3.96%, giving a ratio of ~4.23, rounding to 4.2.
+
+Let me double check BEA GDP figures. BEA current-dollar GDP: 2003 = 11,456.5, 2012 = 16,254.0 (these are standard BEA annual nominal GDP values in billions). The result is robust — even with slight revisions the ratio stays near 4.2.
+
+The CAGR of foreign holdings of total estimated U.S. Treasury securities (Mar 2003 → Mar 2012, from the December 2013 / FY 2013 issue OFS-2 table: 1,275.2 → 5,145.1) is ~16.8%/yr. Nominal U.S. GDP (BEA, current dollars: 11,456.5 → 16,254.0) grew ~3.96%/yr. Ratio ≈ 4.2.
+
+<FINAL_ANSWER>4.2</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,10 @@
+=== rc=0 elapsed=118.7s ===
+=== stdout (421 chars) ===
+80 values (Mar 1942 → Oct 1948), all within the CY 1940-1949 table. Geometric mean = 4945.47 million dollars.
+
+Verification: count is correct (10 + 60 + 10 = 80 months), values read from the "Budget expenditures" panel of Table 6 "Summary by Months and Calendar Years" in the May 1950 Treasury Bulletin, which covers CY 1938-1950 — and I used only data within 1940-1949 as required.
+
+<FINAL_ANSWER>4945.47</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

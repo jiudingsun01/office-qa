@@ -1,0 +1,14 @@
+=== rc=0 elapsed=165.5s ===
+=== stdout (534 chars) ===
+Total count = 28 qualifying 13-week bills, geometric mean = 2444.28.
+
+Let me double check the 1972 reading — verify the values from my first detailed read. The 13-week issue dates 2/3, 2/10 had 2301, 2301 (don't exceed 2400). 2/17=2405, 2/25=2401, 3/2=2401, 3/9=2401, 3/16=2402, 3/23=2401, 3/30=2300, 4/6=2301, 4/13=2301, 4/20=2301, 4/27=2300. So >2400 from Feb-Apr: 2405, 2401, 2401, 2401, 2402, 2401 = 6. Correct.
+
+All three years verified. 
+
+Final: count = 28, geometric mean = 2444.28.
+
+<FINAL_ANSWER>[28, 2444.28]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

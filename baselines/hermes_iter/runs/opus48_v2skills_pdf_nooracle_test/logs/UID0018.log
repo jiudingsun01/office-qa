@@ -1,0 +1,10 @@
+=== rc=0 elapsed=289.0s ===
+=== stdout (277 chars) ===
+39 monthly values (Jan 1984 – Mar 1987), all read from Table FFO-3 "Budget Outlays by Agency", The judiciary column, in millions of dollars across four bulletin issues (1985_03, 1986_03, 1987_03, 1987_12).
+
+Geometric mean = 81.335 million.
+
+<FINAL_ANSWER>81.335</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+
