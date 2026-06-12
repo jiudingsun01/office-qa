@@ -1,0 +1,11 @@
+=== rc=0 elapsed=160.1s ===
+=== stdout (585 chars) ===
+The data comes from TABLE FFO-5 "Internal Revenue Receipts by State, 2020" (December 2020 Treasury Bulletin), column "Unemployment insurance taxes (6)", in thousands of dollars. I extracted all 50 states (excluding DC, territories, armed services overseas, international, and undistributed), ranked them by size, and fit the Zipf law size ∝ rank^(−s) via OLS of ln(value) on ln(rank):
+
+- 50 states, top: California 735,828; Texas 536,530; Florida 417,974; bottom: Wyoming 7,638
+- Slope of ln(size) vs ln(rank) = −1.17199, so Zipf exponent s ≈ 1.172
+
+<FINAL_ANSWER>1.172</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

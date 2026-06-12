@@ -1,0 +1,15 @@
+=== rc=0 elapsed=153.3s ===
+=== stdout (928 chars) ===
+Summary of the work:
+
+- Source: Table MQ-1 (Treasury Bills) in the "Market Quotations on Treasury Securities" sections — quotations dated April 28, 1972 / April 30, 1973 / April 30, 1974, published in the May 1972, May 1973, and May 1974 Bulletins (released covering the last week of April).
+- Selected 13-week bills with issue dates in Feb–Apr of each year, keeping those with amount outstanding strictly greater than 2400 $M:
+  - 1972: 6 issues (2405, 2401, 2401, 2401, 2402, 2401) — the 2/3, 2/10, 3/30, 4/6–4/27 rows are 2300/2301, excluded
+  - 1973: 10 issues (2402, 2402, 2403, 2401, 2401, 2401, 2402, 2401, 2401, 2402) — 3/8 (2391), 3/22 (2400, equal not exceeding), 4/26 (2399) excluded
+  - 1974: 12 issues (2505, 2505, 2503, 2503, 2501, 2502, 2501, 2501, 2501, 2501, 2503, 2501) — 1/31 row excluded (January)
+- Count = 28; geometric mean of the 28 exceeding values = 2444.28
+
+<FINAL_ANSWER>[28, 2444.28]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

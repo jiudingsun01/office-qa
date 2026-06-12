@@ -1,0 +1,13 @@
+=== rc=0 elapsed=107.5s ===
+=== stdout (627 chars) ===
+Using Table OFS-1 (Ownership of Federal Securities) from the September 2007 Treasury Bulletin:
+
+- Total public debt securities held by private investors, end of June 2007: 4,156,876 million = 4,156.876 billion
+- End of June 2006: 4,034,853 million = 4,034.853 billion
+
+Mid-point normalized difference = (V07 − V06) / [(V07 + V06)/2] = 122.023 / 4,095.8645 ≈ 0.0298, which rounds to 0.03 at the hundredths place. (This matches the 2Δ/sum "mid-point normalization" convention used by this question family; the "billions of nominal dollars" clause describes the scale of the underlying values.)
+
+<FINAL_ANSWER>0.03</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

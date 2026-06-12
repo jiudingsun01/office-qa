@@ -1,0 +1,15 @@
+=== rc=0 elapsed=421.2s ===
+=== stdout (654 chars) ===
+Verified all twelve June Treasury bond yields (1957-1968) against the Oct 1968 and Aug 1969 bulletins, since the Aug 1968 table parse had shifted columns. The Aug 1968 daily series confirms June 1968 averaged ~5.23 (daily values 5.30, 5.27, 5.18, 5.15).
+
+Computation:
+(a) FRED 10-year UK Gilt yield (IRLTLT01GBM156N), observation dated 1968-06-01: 7.61%
+(b) June U.S. Treasury bond yields 1957-1968: 3.58, 3.20, 4.09, 3.98, 3.88, 3.90, 4.00, 4.13, 4.14, 4.63, 4.86, 5.23
+ - median = 4.045
+ - absolute deviations' median (MAD) = 0.155
+Absolute difference: |7.61 − 0.155| = 7.455 → 7.46 (rounded half-up to two decimals)
+
+<FINAL_ANSWER>7.46</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

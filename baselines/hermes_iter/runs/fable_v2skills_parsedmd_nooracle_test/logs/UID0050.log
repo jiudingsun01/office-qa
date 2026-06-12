@@ -1,0 +1,14 @@
+=== rc=0 elapsed=58.8s ===
+=== stdout (388 chars) ===
+The left panel of the April 30, 1941 maturity schedule is "Classified by year in which issues are first callable." The National Defense Series entries there are:
+
+- 1941: Bills (Nat. Defense Series) = 401
+- 1944: 3/4% Notes D (Nat. Defense Series) = 635
+- 1945: 3/4% Notes B (Nat. Defense Series) = 531
+
+Total = 401 + 635 + 531 = 1,567 million dollars.
+
+<FINAL_ANSWER>1567</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

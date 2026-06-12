@@ -1,0 +1,13 @@
+=== rc=0 elapsed=148.7s ===
+=== stdout (450 chars) ===
+Found in Table CM-I-2 "Total Liabilities by Country" (positions at end of period, millions of dollars, reported by banks in the U.S., TIC system):
+
+- End of CY2002 Grand total: 2,066,131 (stabilized final value, June 2004 issue onward)
+- End of CY2012 Grand total: 4,526,138 (last revised value, December 2013 issue — the final issue carrying this table)
+
+Log growth = ln(4,526,138 / 2,066,131) = 0.78419 → 78.42%
+
+<FINAL_ANSWER>78.42</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

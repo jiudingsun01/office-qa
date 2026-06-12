@@ -1,0 +1,13 @@
+=== rc=0 elapsed=70.2s ===
+=== stdout (404 chars) ===
+The April 1948 Table 3 (Expenditures for National Defense and Related Activities, in millions of dollars) shows Department of the Army, with footnote 8 explicitly noting Air Force expenditures were still being made from Army appropriations pending transfer under the Act of July 26, 1947:
+
+- FY 1940: 667
+- FY 1947: 7,425
+
+Increase = 7425 − 667 = 6758 million dollars.
+
+<FINAL_ANSWER>6758</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

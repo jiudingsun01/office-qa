@@ -1,0 +1,34 @@
+run_dir: baselines/hermes_iter/runs/fable_v2skills_parsedmd_nooracle_test
+split: baselines/hermes_iter/splits_parsed_md_nooracle/test.jsonl  rows: 28  concurrency: 4
+profile_cmd: officeqa-iter-v2  extra_args: ['-m', 'claude-fable-5', '--provider', 'anthropic']
+reflect: False  reflect_timeout: 600
+[1/28] UID0169  cached  elapsed=0.0s  wallclock=0s
+[2/28] UID0180  ok  elapsed=96.7s  wallclock=97s
+[3/28] UID0177  ok  elapsed=134.9s  wallclock=135s
+[4/28] UID0042  ok  elapsed=160.1s  wallclock=160s
+[5/28] UID0221  ok  elapsed=93.0s  wallclock=190s
+[6/28] UID0121  ok  elapsed=81.6s  wallclock=242s
+[7/28] UID0053  ok  elapsed=54.2s  wallclock=244s
+[8/28] UID0135  ok  elapsed=269.6s  wallclock=270s
+[9/28] UID0225  ok  elapsed=106.9s  wallclock=351s
+[10/28] UID0049  ok  elapsed=142.9s  wallclock=385s
+[11/28] UID0150  ok  elapsed=267.4s  wallclock=402s
+[12/28] UID0005  ok  elapsed=140.5s  wallclock=410s
+[13/28] UID0108  ok  elapsed=75.5s  wallclock=460s
+[14/28] UID0007  ok  elapsed=186.7s  wallclock=537s
+[15/28] UID0148  ok  elapsed=153.3s  wallclock=556s
+[16/28] UID0018  ok  elapsed=162.0s  wallclock=572s
+[17/28] UID0133  ok  elapsed=148.7s  wallclock=609s
+[18/28] UID0237  ok  elapsed=107.5s  wallclock=663s
+[19/28] UID0173  ok  elapsed=91.1s  wallclock=663s
+[20/28] UID0022  ok  elapsed=65.2s  wallclock=674s
+[21/28] UID0184  ok  elapsed=54.7s  wallclock=718s
+[22/28] UID0062  ok  elapsed=70.2s  wallclock=733s
+[23/28] UID0111  ok  elapsed=107.3s  wallclock=781s
+[24/28] UID0134  ok  elapsed=135.5s  wallclock=869s
+[25/28] UID0219  ok  elapsed=384.0s  wallclock=921s
+[26/28] UID0050  ok  elapsed=58.8s  wallclock=928s
+[27/28] UID0010  ok  elapsed=215.8s  wallclock=997s
+[28/28] UID0118  ok  elapsed=421.2s  wallclock=1139s
+
+DONE. 28 rows in 1139s

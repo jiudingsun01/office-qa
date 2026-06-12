@@ -1,0 +1,14 @@
+=== rc=0 elapsed=93.0s ===
+=== stdout (462 chars) ===
+Calculation:
+- Nov 30, 1949 total marketable subject to statutory debt limitation: 155,205 $M (Jan 1950 Bulletin)
+- Dec 31, 1949: 154,962 $M (Feb 1950 Bulletin)
+- CPI-U NSA: Nov 1949 = 23.8, Dec 1949 = 23.6
+- Nov in constant Dec 1949 dollars: 155,205 × 23.6/23.8 = 153,900.76
+- Absolute difference: |154,962 − 153,900.76| = 1,061.24 → 1061
+- Absolute percentage difference: 1,061.24/153,900.76 × 100 = 0.6896% → 0.690
+
+<FINAL_ANSWER>[0.690, 1061]</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

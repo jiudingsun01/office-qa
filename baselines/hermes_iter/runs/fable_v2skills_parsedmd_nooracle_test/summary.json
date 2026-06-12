@@ -1,0 +1,10 @@
+{
+  "run_dir": "baselines/hermes_iter/runs/fable_v2skills_parsedmd_nooracle_test",
+  "split": "baselines/hermes_iter/splits_parsed_md_nooracle/test.jsonl",
+  "n_total": 28,
+  "n_pred": 28,
+  "n_correct": 23,
+  "n_extract_fail": 0,
+  "accuracy_all": 0.8214285714285714,
+  "accuracy_predicted": 0.8214285714285714
+}

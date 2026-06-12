@@ -1,0 +1,18 @@
+=== rc=0 elapsed=81.6s ===
+=== stdout (933 chars) ===
+I found the relevant table. The end-of-January-1980 Treasury Survey of Ownership is published in the March 1980 Treasury Bulletin, Table TSO-3 (Interest-Bearing Marketable Public Debt Securities by Issue), under "Treasury Bills: Regular weekly and annual maturing". The row for bills maturing in Jan. 1981 (par values in millions of dollars) shows holdings by the 7 surveyed investor categories:
+
+- U.S. Government accounts and Federal Reserve banks: 756 ✓ (>200)
+- Commercial banks: 558 ✓ (>200)
+- Mutual savings banks: 1 ✗
+- Insurance companies (life * + fire/casualty/marine *): ~0 ✗
+- Savings and loan associations: 7 ✗
+- Corporations: 148 ✗
+- State and local governments (general funds 76 + pension/retirement *): 76 ✗
+
+Only one bill issue matures in Jan. 1981 in this survey, so the average level of holdings equals the printed value for each category. Exactly 2 categories exceed $200 million.
+
+<FINAL_ANSWER>2</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

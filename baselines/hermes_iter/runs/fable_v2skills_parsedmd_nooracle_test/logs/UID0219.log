@@ -1,0 +1,8 @@
+=== rc=0 elapsed=384.0s ===
+=== stdout (291 chars) ===
+Using foreign holdings from the OFS-2 table in the FY-2013-end (Sept 2013) bulletin: Mar 2003 = 1,275.2B, Mar 2012 = 5,147.6B → CAGR over 9 years = 16.77%. BEA nominal GDP: 2003 = 11,456.5B, 2012 = 16,254.0B → CAGR = 3.96%. Ratio = 16.77/3.96 ≈ 4.23 → 4.2.
+
+<FINAL_ANSWER>4.2</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,13 @@
+=== rc=0 elapsed=106.9s ===
+=== stdout (472 chars) ===
+The March 1982 Bulletin's Table MQ-1 gives Treasury bill market quotations as of the last trading day of February 1982 (Feb. 26, 1982). In the regular weekly (13-week/26-week) bill schedule, the bills maturing in the 2nd and 3rd weeks of June 1982 are:
+
+- Maturity 6/10/82 — bank discount bid rate 12.57%
+- Maturity 6/17/82 — bank discount bid rate 12.62%
+
+Average = (12.57 + 12.62) / 2 = 12.595 → 12.60 (rounded to nearest hundredth).
+
+<FINAL_ANSWER>12.60</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

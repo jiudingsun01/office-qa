@@ -1,0 +1,17 @@
+=== rc=0 elapsed=269.6s ===
+=== stdout (482 chars) ===
+Found the answer in the Capital Movements section, table CM-I-3 "Total Liabilities by Country" — "Total foreign countries" row (positions at end of calendar year, in millions of dollars). Using the final revised year-end values published across the 1993-1998 issues:
+
+- 1991: 821,943
+- 1992: 873,202
+- 1993: 993,609
+- 1994: 1,095,112
+- 1995: 1,197,085
+- 1996: 1,249,919
+
+Sum = 6,230,870; mean = 6,230,870 / 6 = 1,038,478.33 million dollars.
+
+<FINAL_ANSWER>1038478.33</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -1,0 +1,13 @@
+=== rc=0 elapsed=89.8s ===
+=== stdout (447 chars) ===
+The March 1982 issue (header "TREASURY SURVEY OF OWNERSHIP, JANUARY 31, 1982") Table TSO-5 gives:
+
+- Total FHLB (Federal Home Loan Banks group): 80,579 million
+- Total FNMA (Federal National Mortgage Association): 58,860 million
+
+Combined: 80,579 + 58,860 = 139,439 million dollars. (The April issue's analogous table for Feb. 28, 1982 confirms the same row structure: Total FHLB and Total FNMA group totals.)
+
+<FINAL_ANSWER>139439</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

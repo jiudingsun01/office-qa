@@ -1,0 +1,15 @@
+=== rc=0 elapsed=135.5s ===
+=== stdout (448 chars) ===
+Confirmed: Oct 1963 = 2839 (the "2339" was an OCR artifact). All values used are correct.
+
+Results (range as % of average, end-of-period tax and loan balances, Jul–Jan):
+- FY 1962–63 (Jul 1962–Jan 1963): range 4241, avg 5835.29 → 72.68%
+- FY 1963–64 (Jul 1963–Jan 1964): range 5507, avg 4763.29 → 115.61%
+- FY 1964–65 (Jul 1964–Jan 1965): range 4727, avg 5322.14 → 88.82%
+
+Highest: the 1963–64 span at 115.61%.
+
+<FINAL_ANSWER>115.61</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

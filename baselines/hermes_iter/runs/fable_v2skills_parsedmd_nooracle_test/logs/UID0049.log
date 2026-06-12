@@ -1,0 +1,12 @@
+=== rc=0 elapsed=142.9s ===
+=== stdout (556 chars) ===
+Answer derivation:
+- Source: Treasury Bulletin Table 4 "Analysis of National Defense Expenditures" (in millions of dollars), e.g. October 1941 / January 1942 issues. The footnote "Includes emergency ship construction, beginning in March 1941" (Maritime Commission column) matches the question's 1941 ship-construction stipulation.
+- FY totals 1933–1941: 680, 531, 689, 900, 929, 1029, 1206, 1657, 6080
+- 8 log growth rates ln(v_t/v_{t-1}); mean = 0.27383, population SD = 0.42251
+- CV = 0.42251 / 0.27383 = 1.5429 → 1.54
+
+<FINAL_ANSWER>1.54</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

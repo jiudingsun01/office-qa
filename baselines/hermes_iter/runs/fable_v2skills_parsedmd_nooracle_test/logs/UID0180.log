@@ -1,0 +1,16 @@
+=== rc=0 elapsed=96.7s ===
+=== stdout (709 chars) ===
+Found it. The OFS-1 table ("Distribution of Federal Securities by Class of Investors and Type of Issues", in millions of dollars) in the December 2009 / March 2010 bulletins lists "Public debt securities Held by U.S. Government accounts > Total" at end of fiscal years:
+
+- 2005: 3,331,333
+- 2006: 3,663,773
+- 2007: 3,958,417
+- 2008: 4,210,491
+- 2009: 4,355,292
+
+Sum = 19,519,306 million dollars. (The FD-1 table's "Government accounts > Public debt securities" column differs trivially by a few units per year — 19,519,285 — but the question's wording "total Public debt securities outstanding held by US Government accounts" matches the OFS-1 column header exactly.)
+
+<FINAL_ANSWER>19,519,306</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+

@@ -119,6 +119,31 @@ OUTPUT FORMAT (mandatory):
 - For a list of numbers, comma-separate them inside the tags."""
 
 
+PARSED_MD_NOORACLE_INSTRUCTIONS = """You are an analyst answering questions about U.S. Treasury Bulletins.
+
+You are given ONLY a question. You must FIND the relevant Treasury Bulletin issue(s) yourself from the full corpus of pre-parsed Markdown files, then extract the data and answer. You are NOT told which file or page to use.
+
+Corpus:
+- All bulletins are pre-parsed to Markdown in a single directory (path given below): extracted text + Markdown tables + appended chart/figure descriptions, monthly issues 1939-2025.
+- Filename convention: `treasury_bulletin_{YEAR}_{MONTH_NUM}.sonnet46.md`, e.g. `treasury_bulletin_1953_07.sonnet46.md` for July 1953.
+  Month mapping: january=01 february=02 march=03 april=04 may=05 june=06 july=07 august=08 september=09 october=10 november=11 december=12.
+- Note: a statistic is usually published in the issue for (or shortly after) the period it covers; annual/fiscal-year tables often appear in a later issue. You may need to reason about WHICH issue reports the figure, not just match a date.
+
+Environment available to you (these files are PLAIN TEXT — grep is instant, no PDF parsing needed):
+- `grep -rn "<table title or keyword>" <dir>` to find which issue/line has the data across the whole corpus at once; `grep -l` to list matching files.
+- `read_file` (or `sed -n '<a>,<b>p' <file>`) to read a focused line range once you've located it.
+- Tables are Markdown pipe tables; multi-level headers are flattened with `>` separators. Numeric cells may include footnote markers (`(r)`, `*`, `1/`) — strip before arithmetic. Charts/figures are described under a trailing `# Chart Descriptions` heading.
+- You can run shell commands (`terminal`) and Python (`execute_code`). Do NOT install packages.
+
+Be economical: a single `grep -rn` over the corpus directory usually locates the right issue(s) and line(s) immediately — prefer that over opening files one by one. Then read a narrow window and compute.
+
+OUTPUT FORMAT (mandatory):
+- End your reply with the final answer wrapped in <FINAL_ANSWER>...</FINAL_ANSWER> tags.
+- Inside the tags, output only the value: a number, a date, a short phrase. No commentary, no units unless the question requires them.
+- Match the scale implied by the question (e.g. "in millions of dollars" -> just the number in millions; do not write "$" or "million").
+- For a list of numbers, comma-separate them inside the tags."""
+
+
 def page_from_url(url: str) -> str:
     m = re.search(r"[?&]page=(\d+)", url)
     return m.group(1) if m else ""
@@ -140,16 +165,24 @@ def _corpus_paths(corpus: str, source_file: str) -> list[Path]:
 def make_prompt(row: dict, corpus: str, no_oracle: bool = False) -> str:
     if no_oracle:
         # Retrieval setting: hand the agent only the corpus directory, not the
-        # gold source file(s) or page hint. (PDF corpus only.)
-        if corpus != "pdf":
-            raise ValueError("--no-oracle is only supported with --corpus pdf")
-        return (
-            f"{PDF_NOORACLE_INSTRUCTIONS}\n\n"
-            f"Question: {row['question']}\n\n"
-            f"Treasury Bulletin corpus directory: {PDFS}\n\n"
-            f"Identify the relevant issue(s) and page(s) yourself, read them, then "
-            f"provide your final answer wrapped in <FINAL_ANSWER>...</FINAL_ANSWER>."
-        )
+        # gold source file(s) or page hint.
+        if corpus == "pdf":
+            return (
+                f"{PDF_NOORACLE_INSTRUCTIONS}\n\n"
+                f"Question: {row['question']}\n\n"
+                f"Treasury Bulletin corpus directory: {PDFS}\n\n"
+                f"Identify the relevant issue(s) and page(s) yourself, read them, then "
+                f"provide your final answer wrapped in <FINAL_ANSWER>...</FINAL_ANSWER>."
+            )
+        if corpus == "parsed-md":
+            return (
+                f"{PARSED_MD_NOORACLE_INSTRUCTIONS}\n\n"
+                f"Question: {row['question']}\n\n"
+                f"Treasury Bulletin corpus directory: {PARSED_MD}\n\n"
+                f"Identify the relevant issue(s) and section(s) yourself (grep the corpus), "
+                f"read them, then provide your final answer wrapped in <FINAL_ANSWER>...</FINAL_ANSWER>."
+            )
+        raise ValueError("--no-oracle supports --corpus pdf or parsed-md")
 
     files = [s.strip() for s in row["source_files"].splitlines() if s.strip()]
     docs = [s.strip() for s in row["source_docs"].splitlines() if s.strip()]

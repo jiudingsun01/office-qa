@@ -1,0 +1,20 @@
+=== rc=0 elapsed=91.1s ===
+=== stdout (496 chars) ===
+Found in Table FD-1 (Summary of Federal Debt), September 1980 Treasury Bulletin — total federal securities outstanding (public debt + agency securities), in millions:
+
+Feb 1980: 861,603 | Mar: 870,444 | Apr: 876,914 | May: 884,788 | Jun: 884,381
+
+Deflating each by monthly CPI-U (Feb 1980 = 78.9 rebased to 100; Mar 80.1, Apr 81.0, May 81.8, Jun 82.7):
+
+Feb: 861,603.00
+Mar: 857,403.64
+Apr: 854,179.19
+May: 853,420.21
+Jun: 843,744.39
+
+Average = 854,070.09
+
+<FINAL_ANSWER>854070.09</FINAL_ANSWER>
+
+=== stderr (0 chars) ===
+
