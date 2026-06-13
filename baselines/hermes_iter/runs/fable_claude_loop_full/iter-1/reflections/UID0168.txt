@@ -1,0 +1,7 @@
+The answer graded correct, and I recorded two generalizable learnings by patching existing skills (no new skill files created):
+
+1. **`tb-capital-movements-weekly`** — added a section decoding the paraphrase "liquid banking funds (excluding brokerage balances and security transactions)" → the grand total of the early-era "movement of banking funds" tables, noting that monthly grand-total rows exist alongside weekly rows, values stay in printed thousands of dollars, and a single later issue covering all requested months is preferable to stitching vintages.
+
+2. **`tb-math-transform-wrappers`** — added a quadratic/polynomial regression projection recipe: `numpy.polyfit(t, y, 2)` + `polyval` at t=N+1, use the question's stated (1-based) t-coding, remember 4 points at degree 2 is least squares rather than exact interpolation, keep full precision until the final rounding, and resolve any history-fact rider (like an invasion date used as a divisor) carefully. Also updated the skill's frontmatter description so the trigger matches polynomial-projection questions.
+
+I deliberately left out per-question trivia (the specific May–Aug 1939 values and the final 566840).

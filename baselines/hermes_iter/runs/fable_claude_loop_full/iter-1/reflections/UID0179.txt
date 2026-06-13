@@ -1,0 +1,7 @@
+Skill recorded: `.claude/skills/tb-foreign-currency-positions/SKILL.md`.
+
+What it captures from this failure:
+
+- **Table location and conventions** — the Treasury Bulletin "Foreign Currency Positions" (FCP) section, with one sub-table per currency, quarter-end rows, values in millions of the foreign currency itself (the exchange-rate column is a trap).
+- **The likely root cause of the miss** — FCP figures get revised between bulletin issues, and with only 4 data points a one-unit cell discrepancy moves Pearson r exactly where we were wrong (4th decimal: 0.3723 vs 0.3719). The skill instructs future runs to take all values from a single issue where the requested dates are the oldest (fully revised) rows, and to cross-check against a second issue when the result is sensitive.
+- **A sensitivity sanity check** — perturb each cell by ±1 in the last digit and recompute; if the 4th decimal of r moves, cell values must be verified before answering.

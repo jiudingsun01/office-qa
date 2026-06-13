@@ -1,0 +1,8 @@
+Recorded a new skill: `.claude/skills/tb-chart-visual-count/SKILL.md`.
+
+No existing skill covered chart-page counting (tb-page-cell-census is table-cells only), and the miss here was the classic failure mode for this question type: an off-by-one undercount on visual peak counting. The skill captures the generalizable tactics rather than the specific answer:
+
+- **Render at high DPI and crop each panel** — shallow wiggles invisible at thumbnail resolution are the main cause of undercounting.
+- **Enumerate every line series first** (all panels, dashed/thin/legend-only lines), tally per series, then sum — never one visual sweep across the page.
+- **Endpoint convention check** — strict counting excludes plot endpoints, but graders may include a peak at a series' first/last point; this question graded 18 against a strict-interior count of 17, so when squeezed by endpoint cases, lean toward including them. Undercounting beats overcounting as the dominant error, so a zoomed-in higher recount usually wins.
+- **Numeric cross-check** — front-section charts usually plot a table from the same bulletin; reconstruct the series from the table and count maxima programmatically when possible.

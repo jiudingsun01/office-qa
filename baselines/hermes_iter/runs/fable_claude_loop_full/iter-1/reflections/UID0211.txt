@@ -1,0 +1,6 @@
+Skill recorded. I created `.claude/skills/tb-savings-bonds-sales/SKILL.md` — a new skill (no existing one covered savings bonds) capturing what generalizes from this question:
+
+- **Table location**: the "Sales and redemptions by series" table in the Bulletin's "United States Savings Bonds" section, with the "All series combined" panel to use directly rather than summing per-series panels.
+- **Issue selection**: to cover calendar year Y you need an issue from Y+1 or later; pick a single issue spanning all requested years.
+- **Pitfalls**: calendar-year vs fiscal-year rows are mixed in the same table; "total sales" means the Sales column, not "Sales plus accrued discount"; units are already millions of nominal dollars.
+- **Arithmetic**: sum annual values, divide by year count, round only the final result.

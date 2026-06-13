@@ -1,0 +1,9 @@
+I diagnosed the failure and recorded a skill at `.claude/skills/tb-quota-imports/SKILL.md`.
+
+**What went wrong (from the trajectory in `../iter-1/train/UID0193.json` and the parsed corpus):**
+
+1. **Cumulative vs monthly trap.** The "Commodities Imported under Quota Provisions" table changed format between years: 1939 issues print true per-month columns ("In January", "In February"…), but 1940 issues print a single **cumulative year-to-date** column ("Quantity imported under quotas to March 30, 1940"). My run took the cumulative 1,762,853 lb as the *monthly* March 1940 figure. The actual March-only quantity would be ~771,926 lb (to-Mar-30 minus to-Mar-2 from the prior issue).
+
+2. **Data-vintage trap.** The Jan/Feb 1939 fish figures were revised across issues (Feb: 1,118,244 in the April 1939 issue → 1,173,728 in May → 1,187,589 in June). Reverse-engineering the gold (3.9970): the combination using the **first-publication April 1939 figures** (Jan 1,064,796 / Feb 1,118,244 → forecast 1,171,692) with an actual near 981,974 and rate ≈4.03–4.05 reproduces ~3.998–4.02, while my revised-vintage + cumulative reading gave 9.29. No combination of corpus values reproduces 3.9970 to the last digit, but the gold is clearly anchored to the earliest-issue values, not the revised ones I used.
+
+The new skill captures both generalizable lessons — the monthly→cumulative format shift in quota tables (with the differencing procedure), the prefer-first-publication-vintage rule for revised monthly series — plus reference $/£ rates for 1940–41 and the forecast-arithmetic conventions (F = 2×Feb − Jan; percentage denominator = forecast).

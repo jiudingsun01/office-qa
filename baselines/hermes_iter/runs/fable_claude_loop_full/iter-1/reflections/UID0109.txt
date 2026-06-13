@@ -1,0 +1,7 @@
+Skill recorded. I patched the existing `tb-math-transform-wrappers` skill (rather than creating a new one) with a Hazen-percentile section covering the generalizable parts of this question:
+
+- The Hazen plotting position formula p_i = (i − 0.5)/n and its inversion to a rank r = P/100 × n + 0.5 with linear interpolation between order statistics.
+- That this equals `np.percentile(..., method='hazen')` (R type 5) and explicitly differs from numpy's default linear method — the key pitfall.
+- The convenient special case that a 10-value fiscal-year window at P=85 lands exactly on the 2nd-largest value, so the answer is a single printed cell and "rounded to hundredths" just appends `.00`.
+
+I also added "percentiles (Hazen plotting position)" to the skill's trigger description so future percentile questions route to it. The retrieval side (DoD on-budget + off-budget agency totals) was already covered by `tb-budget-monthly-expenditures`, so no changes were needed there.

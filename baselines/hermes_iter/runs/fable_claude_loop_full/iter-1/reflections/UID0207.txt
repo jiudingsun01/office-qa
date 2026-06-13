@@ -1,0 +1,5 @@
+The answer was correct (0.058), and I recorded two generalizable lessons by patching existing skills rather than creating new ones:
+
+1. **`tb-bill-auction-rates`** — added a section on cash management bills: they live in the "Treasury Financing Operations" narrative section near the front of each Bulletin (not the weekly "Offerings of Treasury Bills" table), are matched by tender-opening date, and their short-tenor annualized rates should be used as printed even when they look unusual. Updated the skill's description so future runs trigger on cash-management-bill questions.
+
+2. **`tb-math-transform-wrappers`** — added the one-step realized variance recipe: with two successive observations, RV = (ln r₂ − ln r₁)², a single squared log-return (not divided by n, not demeaned, not ×100), scale-invariant to percent-vs-decimal input, with this question's 0.058 result as the verified example. Added the keyword to the description for triggering.

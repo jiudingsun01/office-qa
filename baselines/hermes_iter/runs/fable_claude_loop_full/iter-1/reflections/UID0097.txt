@@ -1,0 +1,8 @@
+Recorded a new skill at `.claude/skills/tb-esf-balance-sheet/SKILL.md` (the existing `tb-capital-movements-weekly` skill covers a different table, so patching it would have muddled its scope).
+
+The generalizable points it captures for future Treasury-Bulletin ESF questions:
+
+- **Table location**: the ESF balance sheet is a recurring quarterly Treasury Bulletin section, published with a one-to-two-quarter lag, so "as of March 31" data lives in a later issue.
+- **Units**: figures are printed in thousands of dollars; converting to billions rounded to the thousandth means dividing by 1,000,000.
+- **Line-item precision**: "total nominal capital" (Capital section total) vs. "total capital and liabilities" (the grand total, equal to total assets) are distinct lines that are easy to conflate.
+- **Question pattern**: the "value + absolute difference" two-part format, including subtracting before rounding and the `[x, y]` bracketed output convention.

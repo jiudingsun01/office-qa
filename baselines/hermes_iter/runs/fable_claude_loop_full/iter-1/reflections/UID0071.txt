@@ -1,0 +1,10 @@
+Recorded a new skill, since none of the 13 existing skills covered per-security market quotations or volatility statistics.
+
+**Created `.claude/skills/tb-security-price-volatility/SKILL.md`** capturing the generalizable pieces from this correct run:
+
+- **Where the data lives**: the Bulletin's market-quotations table listing each outstanding issue with coupon, maturity, end-of-period bid price, and (for TIPS) an index ratio — usually requiring quotes pulled from several consecutive Bulletin issues to cover a multi-month window.
+- **The key TIPS formula**: adjusted price = quoted price × that same period's index ratio, applied per-observation before any statistics.
+- **Window convention**: "between Jan 1 and Aug 1" with month-end quotes means month-ends Jan–Jul (7 observations).
+- **Arithmetic pitfalls**: population std dev means `statistics.pstdev` (÷N), not `stdev` (÷N−1); watch for 32nds price notation; round only at the end.
+
+I deliberately kept it separate from `tb-math-transform-wrappers`, which covers transforms applied on top of retrieved values — this skill is about a different retrieval surface (per-security quote tables) plus the TIPS-specific adjustment.

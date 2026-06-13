@@ -1,0 +1,8 @@
+Skill recorded. Here's what I found:
+
+**Root cause of the wrong answer:** an OCR digit error in the parsed source, not a method error. The June 1960 bulletin's parsed text shows March 1960 unemployment insurance contributions as 20,174, but the true value is **20,774** — confirmed by the same cell in the July 1960, December 1960, and March 1961 bulletins (the September 1960 parse has yet another corruption, "20974"). With 20,774, the midpoint arc elasticity computes to exactly −3.524, the gold answer. The totals (4,807,819 and 11,893,553) and the formula were correct.
+
+**Skill written:** `.claude/skills/tb-irs-collections/SKILL.md`, covering three generalizable points:
+1. Where and how the recurring "Internal Revenue Collections — Table 1, Summary by Principal Sources" appears, including that monthly "budget receipts" equals "total collections reported by IRS" while fiscal-year rows differ.
+2. A column-shift pitfall: old-age insurance has no monthly figure in print, so parsers misalign the employment-tax columns inconsistently across issues — identify unemployment insurance by position/magnitude, not header.
+3. The key tactic: any monthly figure appears in ~12 consecutive bulletin issues, so before using a value in a sensitive computation (small denominators, elasticities, differences), grep the same cell in 2–4 other issues and take the majority value.

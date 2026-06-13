@@ -1,0 +1,6 @@
+Done. The answer was correct (3), and I patched the existing `tb-securities-ownership` skill rather than creating a new one, adding two generalizable points to its mid-century "Treasury Survey of Ownership" section:
+
+1. **TAB decoding and location** — "Treasury TABs" means Tax Anticipation Bills, which appear in the survey's security-type breakdown as the "tax anticipation series" split of Treasury bills (not a separate table), and a "recorded in March" survey is printed in a bulletin issue dated 1–2 months later.
+2. **Question shape** — the standard seven holder categories of the early-1960s survey, plus the threshold-count-per-year-then-sum framing, with a reminder to apply the threshold strictly (>, not ≥) and compute each year's count before summing.
+
+No per-question values were saved.

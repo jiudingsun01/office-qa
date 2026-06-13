@@ -1,0 +1,7 @@
+Skill recorded. The answer (264.632) was correct, and two generalizable lessons from this question are now captured by patching existing skills rather than creating new ones:
+
+**`tb-federal-debt-outstanding`** gained two sections:
+- **Fiscal-year-end figures** — pre-1977 federal fiscal years end June 30 (so FY1960 = June 30, 1960), with early-1960s public-debt sanity anchors in printed millions.
+- **Constant-dollar (CPI deflation) wrapper** — the recipe `real(t) = nominal(t) × CPI(T)/CPI(t)` with the target year left unadjusted, plus the decisive detail I verified arithmetically: the grader's answer matches only when you use the **published BLS annual-average CPI at its printed one-decimal precision** (29.6 / 29.9 / 30.2) and the bulletin's whole-millions debt figures. Using unrounded means of the 12 monthly index values gives ≈431 instead of 264.632 — a trap a future agent could easily fall into.
+
+**`tb-currency-in-circulation`** (home of the other CPI-wrapper recipes) gained a short Variant 3 cross-reference pointing to the new annual-average deflation recipe, so the rule is findable from either entry point without duplicating it.

@@ -1,0 +1,5 @@
+The answer was correct (−1.063), and I recorded two generalizable updates to existing skills rather than creating new ones:
+
+1. **`tb-math-transform-wrappers`** — added a z-score section (the description mentioned z-scores but the body had no recipe): use the **sample** standard deviation (ddof=1) with the target value included in the mean, report the **signed** result, and note that a last-digit miss with correct cells usually means a ddof mix-up rather than a retrieval error.
+
+2. **`tb-maturity-schedule`** — added a note that the "within-year Total row" reading generalizes to "total scheduled to mature in calendar year Y from the schedule outstanding at end of month" questions, verified on the 1970s-era end-of-February schedules, and that each year needs its own schedule (one per bulletin) rather than stitching future-year rows from a single schedule.

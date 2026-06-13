@@ -1,0 +1,7 @@
+Skill recorded. The generalizable lesson from this failure: my retrieval and per-year rates were evidently right (the absolute gap was 3.85 pp), but the grader wanted the **relative** difference — 3.85 divided by the base-year rate (~21.76%) gives the accepted 17.69. The phrase "relative difference in percentage points" means Δrate/base × 100, not plain subtraction, despite the "percentage points" wording.
+
+I patched two existing skills rather than creating a new one:
+
+1. **`tb-math-transform-wrappers`** — added a "Relative difference in percentage points between two rates" section: compute (r_A − r_B)/r_base × 100; only treat "difference in percentage points" as absolute subtraction when "relative" is absent; plus a sanity check (if your candidate answer ≈ the other reading × base rate / 100, you picked the wrong convention).
+
+2. **`tb-savings-bonds-sales`** — added a "Savings NOTES (not bonds)" section noting that savings notes have their own adjacent table, gave the redemption-rate recipe (Redemptions / average Amount outstanding × 100), cross-referenced the relative-difference rule, and widened the skill's description so savings-note questions route to it.

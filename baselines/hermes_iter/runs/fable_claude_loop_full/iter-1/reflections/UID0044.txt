@@ -1,0 +1,7 @@
+Skill recorded. The generalizable lessons from this question, now saved in `.claude/skills/tb-capital-movements-weekly/SKILL.md`:
+
+- Treasury Bulletin capital-movements data lives in the recurring "Movement of Capital Between the United States and Foreign Countries" section, with regional columns and figures in thousands of dollars.
+- Weekly tables report Thursday→Wednesday weeks ending on Wednesdays, so a phrasing like "between the third Thursday and fourth Wednesday" refers to exactly one weekly row (week ended the fourth Wednesday) — not a multi-week sum.
+- "Net" means inflow minus outflow, positive = inflow to the US, reported as printed in thousands.
+
+No per-question trivia was stored.

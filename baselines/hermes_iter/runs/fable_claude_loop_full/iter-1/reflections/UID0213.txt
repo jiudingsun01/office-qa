@@ -1,0 +1,7 @@
+Recorded two generalizable lessons by patching existing skills (no new skill created):
+
+1. **`tb-math-transform-wrappers`** — added a "Real difference in millions of YYYY dollars" section: when a question says "adjusted using CPI-U **for those years**", use **annual-average** CPI for each year (1946 = 19.5, 1947 = 22.3 on the 1982-84=100 base), even though the retrieved values are December month-end balances. Rescale the non-target-year value by CPI(target)/CPI(source), then subtract. Included the verified worked example (−550.3).
+
+2. **`tb-trust-account-receipts`** — noted that the trust-fund tables report month-end **total balances** in addition to receipt/expenditure flows, that 1940s-era values print in millions with one decimal, and that a December balance is found in the bulletin issued ~2-3 months later (with a pointer to the CPI recipe).
+
+Per-question trivia (the specific UID and fund amounts beyond their role as a verified example) was kept out of the skill descriptions' scope.

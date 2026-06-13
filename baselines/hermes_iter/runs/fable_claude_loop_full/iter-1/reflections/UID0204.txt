@@ -1,0 +1,7 @@
+Recorded a new skill at `.claude/skills/tb-msr-budget-projections/SKILL.md`. It captures the generalizable parts of this question, none of which overlapped with the seven existing skills:
+
+- **Location/vintage rule**: the "Federal Fiscal Operations" section at the front of each Bulletin carries deficit estimates whose source rotates with the budget cycle — March issues use the President's Budget, September issues use the Mid-Session Review — so the MSR projection for FY Y is in September of year Y and the actual is in September of year Y+1.
+- **Interpretation**: "projected federal budget" in these questions means the total deficit/surplus, stated in trillions in the narrative but in millions in the tables.
+- **Arithmetic pitfall**: round each value to hundredths of a trillion *first*, then take the absolute difference (1.47 − 1.30 = 0.17), rather than subtracting raw millions and rounding the result.
+
+Per-question specifics (the FY 2010 values themselves) were deliberately left out.

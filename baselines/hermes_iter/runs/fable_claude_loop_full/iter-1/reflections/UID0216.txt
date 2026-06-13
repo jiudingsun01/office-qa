@@ -1,0 +1,5 @@
+Patched the existing `tb-budget-monthly-expenditures` skill (no new skill created, since this question falls squarely in its scope). Two new sections capture what this failure taught:
+
+1. **WWII era (1941–1945) specifics** — the defense category is renamed "National defense" → "War activities" mid-war; "net budget receipts" means the line net of the old-age trust fund appropriation; the side-by-side monthly vs. fiscal-year-cumulative columns in 1940s issues make a single misplaced cell a 2x error when spending grows 5–15% per month; plus magnitude anchors (CY1941 ratio should be **above 1**, CY1943 around 0.3 — my wrong answer of 0.4825 vs the correct 0.6841 is consistent with an inflated 1941 defense figure).
+
+2. **Multi-year ratio/mean questions** — "mean of the ratios for each year" means averaging per-year ratios, not sum(A)/sum(B); with WWII's exploding denominator the two methods give 0.68 vs 0.36, so the distinction alone can produce exactly this class of wrong answer. The skill now tells future runs to write out each year's numerator, denominator, and ratio before averaging.

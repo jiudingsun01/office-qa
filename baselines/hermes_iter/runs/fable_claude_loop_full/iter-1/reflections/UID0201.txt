@@ -1,0 +1,7 @@
+Skill updated. The generalizable lesson from this failure:
+
+**What went wrong:** My answer (0.006) was exactly half the accepted answer (0.012). The retrieval and the surplus call were both right — the error was the Gini convention. I used the population formula Σ|xᵢ−xⱼ|/(2n²μ), which for two values gives |a−b|/(2(a+b)); the grader expects the bias-corrected sample form Σ|xᵢ−xⱼ|/(2n(n−1)μ), which for two values is simply **|a−b|/(a+b)**.
+
+**What I recorded:**
+- Added a "Gini coefficient of a small set of retrieved values" section to `tb-math-transform-wrappers/SKILL.md` with the correct formula, the two-value collapse G = |a−b|/(a+b), and a diagnostic: if your Gini is exactly half or double a plausible answer, you used the wrong n²-vs-n(n−1) convention — switch formulas rather than re-retrieving data.
+- Added a one-line cross-reference in `tb-trust-account-receipts/SKILL.md`, since trust-fund questions will hit that skill first.

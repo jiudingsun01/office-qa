@@ -1,0 +1,8 @@
+Recorded a new skill at `.claude/skills/tb-page-cell-census/SKILL.md`.
+
+This question was answered correctly (104), and it represents a recurring OfficeQA pattern not covered by the existing five Treasury Bulletin skills: page-level counting/census questions over all table datapoints ("how many times does digit N appear as leading digit on page X"). The skill captures the generalizable mechanics rather than per-question trivia:
+
+- **Navigation**: trust the given PDF page number; the printed report page is only a cross-check (the offset varies by issue).
+- **Scope rules**: "excluding row and column headers" means exclude the stub column, heading rows, titles, and footnotes — but include totals/subtotals and all tables on the page.
+- **Leading-digit edge cases**: ignore minus signs/parentheses/commas, and especially distinguish numeric footnote markers (superscripts, "1/" prefixes) from the value's actual first digit — the main source of miscounts.
+- **Procedure**: full cell-by-cell transcription with per-row tallies, verified by a second per-column pass.

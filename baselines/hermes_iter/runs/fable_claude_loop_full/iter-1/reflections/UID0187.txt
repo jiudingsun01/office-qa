@@ -1,0 +1,8 @@
+Recorded one generalizable lesson by patching the existing `tb-monetary-gold-silver-stock` skill rather than creating a new one, since silver *production* lives in the same gold/silver section of the Bulletin as the monetary-stock tables it already covers.
+
+What was added:
+
+- A new **"Gold/silver PRODUCTION (distinct from monetary stock)"** section noting that early bulletins carry a monthly "Production of Gold and Silver in the United States" table in **thousands of fine ounces** — a flow (~5,000–6,000 thousand oz/month of silver in 1940), not to be confused with the cumulative dollar-valued stock tables.
+- The retrieval tactic: with the usual ~2–3 month publication lag, a window ending in month M is best read from a single issue around M+2 (e.g. Apr–Aug 1940 → the Oct/Nov 1940 issue holds all five rows), avoiding cross-issue revision inconsistencies.
+- The aggregation convention: "geometric mean of production" means geomean of the **levels**, (∏xᵢ)^(1/n), not of growth rates, rounding only at the end — with this run's verified result (5423.58) as the worked example.
+- Updated the skill's frontmatter description so production questions trigger it.

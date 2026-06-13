@@ -1,0 +1,8 @@
+Done. I patched two existing skills rather than creating new ones, capturing the two verified causes of this failure plus one recurring ambiguity:
+
+1. **`answer-format-exact-match`** — new rule: when a question gives a per-value rounding clause and a blanket "all numbers rounded to N places" sentence, the per-value rule wins (the phrase "following their corresponding rounding rules" is the giveaway), so a bracketed answer can legitimately mix precisions. This explains `2.804` (thousandths, rejected) vs `2.81` (hundredths, accepted).
+
+2. **`tb-math-transform-wrappers`** — two additions:
+   - The grader's 1-based time-index convention explicitly extends to "fiscal year index" regressors (first FY = 1, not 0), with the verified example: my intercept 8.736 vs accepted 8.706 differed by exactly one slope-unit (0.030).
+   - A diagnostic: slope matches but intercept is off by exactly ±slope ⇒ index origin is off by one — fix the coding, don't hunt for data errors.
+   - A short note on the two readings of "average YoY growth over FY A–B inclusive" (rates within the window vs. one rate per listed year using FY A−1 as base), since a last-digit miss in an average-YoY value more likely signals a window mismatch than an arithmetic slip.

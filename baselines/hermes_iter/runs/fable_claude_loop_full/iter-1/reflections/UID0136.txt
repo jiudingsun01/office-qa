@@ -1,0 +1,7 @@
+Created a new skill at `.claude/skills/tb-bill-auction-rates/SKILL.md` — no existing skill covered Treasury bill auction-rate tables, so this isn't a duplicate.
+
+It captures the generalizable pieces from this question:
+- **Table location**: the recurring "Offerings of Treasury Bills" table (one row per weekly auction, with an "average rate of discount" column), and the fact that each issue only covers ~3 months back, so multi-year questions need one Bulletin issue per year.
+- **Date convention**: 1950s regular 91-day bills are issued on Thursdays; "Thursday of each week" means matching rows by issue date, and the number of Thursdays in a month varies (4 or 5) — a wrong count corrupts both the product and the 1/k exponent of a geometric mean.
+- **Aggregation recipe**: geometric mean computed as exp(mean(ln r)) on the rates as printed in percent, rounding only the final result.
+- **Pitfalls**: not confusing new-issue auction rates with secondary-market quotations, and excluding tax-anticipation/special bills.

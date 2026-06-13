@@ -1,0 +1,7 @@
+Skill recorded. I patched the existing `tb-math-transform-wrappers` skill (rather than creating a new one) with two generalizable lessons from this failure:
+
+1. **"Fisher Ideal symmetric growth rate" section** — for two scalar observations the Fisher index degenerates to x_new/x_old, so the growth rate is simply x_new/x_old − 1, and it must be reported as a **decimal fraction, not ×100**. My answer of -11.354 was the percent form of the accepted -0.113; the ~100× magnitude gap is the diagnostic. I also added the related hints: "rounded to three decimal places" signals a small-decimal answer, and a miss only in the 3rd decimal means a cell-retrieval error, not a formula error.
+
+2. **"As of reported values on the end of FY X" vintage note** — this phrase pins which bulletin issue to read (the first issue covering through the Sept 30 FY-end), since monthly figures get revised across issues and a vintage mismatch can flip the last decimal.
+
+I also added "Fisher Ideal symmetric growth rate" to the skill's frontmatter description so future runs route these questions to it.

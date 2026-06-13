@@ -1,0 +1,7 @@
+The answer was correct (0.0), and I patched the existing `tb-bond-yields` skill with three generalizable lessons from this run rather than creating a new skill:
+
+1. **Phrasing → series mapping**: "highest quality corporate bonds (Moody)" means the Moody's **Aaa** column ("high-grade" tier = Aa) — resolve the quality phrase to a column header before reading numbers.
+2. **Event-anchored years**: questions may reference years via historical events (end of WWII = 1945, Korean War began = 1950); resolve the event to a calendar year explicitly before doing the lookup.
+3. **Annual averages and zero deltas**: prefer the table's printed annual-average row over hand-averaging monthly values; "absolute change in percentage points" is a raw |difference|, and **0.0 is a legitimate answer** since Aaa yields were nearly flat across some spans — don't second-guess a zero.
+
+No new skill file was needed; the additions slot into the existing bond-yields skill where future runs on similar questions will find them.

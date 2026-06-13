@@ -1,0 +1,7 @@
+The answer was correct ([7.1, 82]), and I patched the existing `tb-savings-bonds-sales` skill with three generalizable lessons from this run:
+
+1. **Modern table naming** — 1990s–2000s bulletins use SBN-prefixed tables in the "U.S. Savings Bonds and Notes" section, with Series I appearing as its own series from late 1998.
+2. **Cross-year monthly lookups need two issues** — each bulletin's monthly rows only cover about a year, so comparing March 2000 to March 2005 requires pulling from two separate issues.
+3. **Absolute share-of-total recipe** — "change in share accounted for by series X" is a plain subtraction of the two years' percentage shares (computed within one table per year), explicitly contrasted with the "relative difference in percentage points" trap already documented in the skill.
+
+No new skill file was created; this slots cleanly into the existing savings-bonds skill.

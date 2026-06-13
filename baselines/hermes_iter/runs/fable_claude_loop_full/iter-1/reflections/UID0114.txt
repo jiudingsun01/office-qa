@@ -1,0 +1,7 @@
+Skill updated. I patched `tb-bond-yields` (rather than creating a new skill) with three generalizable lessons from this miss:
+
+1. **"New" Aa disambiguation** — "AA-rated corporate bond yields that are new" refers to the Bulletin's **New Aa corporate** (newly issued) column, distinct from Moody's seasoned Aa; FRED's seasoned Aa series is not a valid substitute. The new-issue series can have missing months.
+2. **Multi-bulletin stitching** — modern issues print only ~13 months of monthly data, so a 48-month window requires ~4 bulletins, with overlap months cross-checked.
+3. **Regression-projection recipe + known failure** — 1-based t-coding (t=1…48, predict t=49), and an explicit warning that this exact question shape was answered 0.59 vs the accepted 0.35, with a checklist (column choice, missing-month handling, actual-value sourcing, overlap verification) since a 0.2+ gap signals a data-assembly error rather than a rounding one.
+
+I also broadened the skill's `description` so future regression-on-yields questions route to it.
