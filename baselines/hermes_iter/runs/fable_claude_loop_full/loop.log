@@ -1,8 +1,0 @@
-[23:38:31] start. model=--model claude-fable-5  train=80 eval=25  seed_skills=0  max_iters=5 patience=3
-[23:46:52] iter-0 baseline eval: 17/25 = 0.680   skills=0
-[00:19:19] iter-1 train: 48/80 = 0.600
-[02:47:32] iter-1 reflect: skills 0 -> 28 (+28)
-[02:50:39] iter-1 curate: skills now 28 (rc=1)
-[03:12:27] iter-1 eval: 0/25 = 0.000   skills=28
-[03:12:27]   NEW BEST eval 0.000
-[04:14:49] iter-2 train: 0/80 = 0.000

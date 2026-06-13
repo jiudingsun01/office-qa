@@ -1,7 +1,0 @@
-Skill recorded. The answer was correct (1.8), and I extracted three generalizable lessons from the trajectory into a new skill, `.claude/skills/tb-macro-narrative-indicators/SKILL.md`:
-
-1. **Location**: Quarterly macro indicators (nonfarm productivity, GDP, CPI, employment) are quoted in the narrative economic-review prose at the front of each Bulletin, not in a statistical table.
-2. **Quarter→issue mapping**: Q1→June issue, Q2→September, Q3→December, Q4→March of the next year.
-3. **Vintage pitfall**: gold answers use the *first-reported* figure from the issue covering that quarter — revisions in later issues differ substantially (Q3-1995 productivity: 2.0% first vs 1.4% revised; Q1-1998: 0.2% first vs 3.5% revised), so each quarter must be pulled from its own covering issue.
-
-I created a new skill rather than patching an existing one because no current skill covers narrative-section (non-table) indicators or the data-vintage issue.

@@ -1,7 +1,0 @@
-Created a new skill at `.claude/skills/tb-vessel-tonnage-cleared/SKILL.md`. The answer was correct, and three generalizable lessons were worth recording for this previously-uncovered table family:
-
-1. **Table location**: early-era (1939–1942) bulletins have a monthly "net registered tonnage of vessels cleared from the U.S. for foreign ports" table in thousands of tons, split American vs. foreign vessels vs. total, sitting among the trade-statistics tables.
-2. **Computation recipe**: multi-month shares are computed as sum-over-months of American ÷ sum of total (not an average of monthly percentages), and the Pearson correlation is taken over the paired monthly values (sample/population normalization is irrelevant to r).
-3. **Wording traps**: "(calendar months, nominal dollars)" is injected noise for a tonnage series, and "single percentage point difference" with only one percentage computed just means report that percentage at the stated rounding.
-
-No existing skill overlapped (the closest, `tb-quota-imports`, covers commodity quotas, not shipping), so a new skill was appropriate rather than a patch.

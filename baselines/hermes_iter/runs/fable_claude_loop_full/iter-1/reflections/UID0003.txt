@@ -1,9 +1,0 @@
-Recorded a new skill: `.claude/skills/tb-budget-monthly-expenditures/SKILL.md`.
-
-The generalizable lessons from this question (answered correctly, 44,463):
-
-- **Table location**: monthly budget expenditure categories like "National defense and related activities" live in the "Summary of Fiscal Operations" / "Budget Receipts and Expenditures" tables at the front of each issue, in millions of dollars.
-- **Key structural trap**: the Bulletin organizes data by July–June fiscal years, so a calendar-year total requires summing 12 individual monthly cells spanning two fiscal years — never the fiscal-year total row. Best practice is to pull all 12 months from a single late-vintage issue (~Feb–Apr of the following year).
-- **Verification tactic**: nearby fiscal-year and cumulative rows can cross-check partial sums; subtotal rows between June and July must be excluded.
-
-No existing skill covered the budget receipts/expenditures section, so this was created fresh rather than patched into one of the six existing Treasury Bulletin skills.

@@ -1,7 +1,0 @@
-Skill updated. The answer was correct, and I patched the existing `tb-budget-monthly-expenditures` skill (rather than creating a new one) with three generalizable lessons from this run:
-
-1. **Fiscal-year month windows differ by era** — modern (post-1976) Treasury Bulletin fiscal years run Oct–Sep, while the skill previously only documented the 1950s July–June convention. Using the wrong window silently swaps 3 months.
-2. **Single-vintage sourcing** — "use the latest table to include all monthly values in one place" means picking one issue late enough that its monthly table covers all 12 fiscal months, instead of stitching two vintages.
-3. **Interpreting "std dev of monthly net outlays by function"** — it's the dispersion across the 12 monthly *total* net outlays (population std dev, divide by N=12 via `statistics.pstdev`), with a cross-reference to the existing pstdev-vs-stdev pitfall in `tb-security-price-volatility` to avoid duplication.
-
-Population-stdev mechanics themselves were already covered elsewhere, so I didn't duplicate them — just the table-location and interpretation guidance new to this question type.

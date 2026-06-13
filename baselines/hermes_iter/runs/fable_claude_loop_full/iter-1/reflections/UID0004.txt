@@ -1,6 +1,0 @@
-Done. The answer was correct (1608.80%), and rather than creating a new skill I patched the existing `tb-budget-monthly-expenditures/SKILL.md` with the two generalizable lessons from this run:
-
-1. **Pre-war category naming and cross-era sourcing** — 1940 issues print plain "National defense" (vs "War activities" mid-war, "National defense and related activities" in the 1950s), and a comparison spanning eras like CY1940 vs CY1953 requires two independent 12-month extractions from issues of each year's own era, since no single issue covers both.
-2. **"Absolute percent change" convention** — |later − earlier| / earlier × 100 with the earlier year as base, reported as a positive percent, rounding only the final result rather than the intermediate sums.
-
-Per-question trivia (the specific monthly values and the 1608.80% result) was deliberately left out.

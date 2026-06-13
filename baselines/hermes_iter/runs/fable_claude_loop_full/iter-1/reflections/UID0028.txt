@@ -1,6 +1,0 @@
-Recorded two new skills from this correct run:
-
-- **`tb-bond-yields`** — locates the recurring "Average Yields of Long-Term Treasury and Corporate (Aaa/Aa) Bonds" table near the back of each Bulletin, notes that a single issue carries a decade-plus of monthly history (so one bulletin covers a multi-year spread question), and adds the chained-question rule: lock down the argmin/argmax month before doing the second lookup. It defers the extremum mechanics to the existing `series-peak-argmax` skill rather than duplicating them.
-- **`tb-trust-account-receipts`** — covers the "Trust Accounts and Other Funds" section (railroad retirement, FOASI, unemployment, etc.), the "in millions of dollars" scaling (printed `92` → answer `92000000`), using total receipts when no component is named, and not grabbing FY-total rows when a month is asked.
-
-I skipped per-question trivia (the specific month/value) and left `series-peak-argmax` untouched since its procedure already applied cleanly.

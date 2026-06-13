@@ -1,5 +1,0 @@
-Recorded two generalizable lessons from this correct answer by patching existing skills (no new skill created):
-
-1. **`tb-math-transform-wrappers`** — added an HHI / effective-number section: shares are decimal fractions summing to 1 (so HHI ∈ (0,1], not the antitrust 0–10,000 scale), the market participants are the *groups* the question enumerates (not the individual banks inside them, despite quoted member counts like "16 NY / 14 Chicago"), and effective number = 1/HHI computed from the unrounded HHI, each output rounded independently. Included the verified anchor `[0.611, 1.635]` as a worked two-group example.
-
-2. **`tb-securities-ownership`** — extended its description and body to cover the mid-century "Treasury Survey of Ownership" tables (distinct from the modern OFS-1/OFS-2 tables it already documented): holdings by security type with commercial banks split into fixed New York City and Chicago reporting groups, units in millions, group totals only (no per-bank detail), and a pointer to the new HHI section for concentration wrappers.

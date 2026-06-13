@@ -1,9 +1,0 @@
-Saved a new skill: `.claude/skills/tb-federal-debt-outstanding/SKILL.md`.
-
-The answer was correct, and three generalizable lessons from this run are now recorded for future Treasury-Bulletin questions:
-
-1. **Table/row location** — total gross federal debt lives in the "Summary of Federal Securities" (FS-1) table, and "including agency securities (FHA)" means the **Total federal securities** row, not the public-debt-only row (a ~$10–12B difference in the 1970s).
-2. **Bulletin-lag rule** — when a question restricts sourcing to bulletins of a given month (here, January bulletins), the end-of-January YYYY figure appears in the January **YYYY+1** bulletin's trailing-12-months column, since bulletins lag ~2 months. This mapping generalizes to any "exclusively from month-X bulletins" constraint.
-3. **Units and revisions** — figures are in millions of dollars, and the same month can differ slightly across later bulletins due to revisions, so pull one figure per bulletin as the constraint demands.
-
-No existing skill covered debt-outstanding tables, so this was created fresh rather than patched into a neighbor.

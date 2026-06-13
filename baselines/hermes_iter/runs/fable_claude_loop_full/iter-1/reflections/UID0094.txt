@@ -1,7 +1,0 @@
-Skill recorded. The answer was verified correct (-0.119), and I saved one new skill, `.claude/skills/tb-general-fund-balance/SKILL.md`, capturing the generalizable parts of this run:
-
-- **Table location**: the recurring "General Fund of the Treasury" table near the front of each Bulletin issue, reported as of month-end dates in millions of dollars, with the advice to read both comparison dates from a single issue so data vintages match.
-- **Line-item semantics**: "working balance" is a specific printed line (don't derive it), distinct from the grand-total "total balance"; ratio questions divide the two from the same date column at full precision.
-- **Geometric annual rate recipe** (generic, reusable across Bulletin questions): rate = (V_end/V_start)^(1/n) − 1 with n = years between dates (Dec 1938 → Dec 1940 means n = 2), keep the negative sign for declining series, and "nearest thousandths as a decimal" means a 3-decimal value like -0.119, not a percentage.
-
-I didn't patch the three existing skills since none covers the General Fund table or this arithmetic pattern.

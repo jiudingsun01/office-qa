@@ -1,7 +1,0 @@
-Skill updated. I patched the existing `tb-currency-in-circulation` skill (rather than creating a new one) with a "Variant 2" subsection under its CPI wrapper section, capturing what was generalizable from this question:
-
-- **The real month-over-month change recipe**: `answer = value(B) − value(A) × CPI-U(B)/CPI-U(A)` — the adjacent-month CPI *level ratio* converts month A into month-B dollars, while month B itself is left unadjusted. This is distinct from the YoY-rate multiplication variant already documented.
-- **Precision handling**: carry the CPI ratio at full precision and round only the final difference.
-- **Sign expectation**: the result is often negative (monthly inflation outpaces the nominal rise), so a negative value like −156.11 is expected rather than a sign error.
-
-Per-question specifics (the exact 1979 values) were kept only as a one-line verified example anchoring the recipe.

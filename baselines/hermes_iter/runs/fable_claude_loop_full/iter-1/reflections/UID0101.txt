@@ -1,9 +1,0 @@
-I patched two existing skills rather than creating a new one, since the lesson splits cleanly into a math layer and a retrieval layer:
-
-**What went wrong:** My three answers (-0.150, 0.850, -1.146) were internally consistent — CAGR, decay factor, and arc elasticity are all functions of the single ratio r = V2019/V2011. My values implied r ≈ 0.2725 while the correct answers imply r ≈ 0.2649, so the failure was a ~3% error in one retrieved endpoint cell (wrong column or wrong vintage), not the arithmetic.
-
-**Skills updated:**
-
-1. `tb-math-transform-wrappers/SKILL.md` — added a "CAGR / annual decay factor / arc elasticity (chained triple)" section: the three formulas (CAGR = r^(1/n) − 1 with n = year difference; decay factor = r^(1/n); arc elasticity with two points = midpoint % change = 2(r−1)/(r+1)), plus the diagnostic that a triple that's wrong only in the third decimal signals a retrieval error and both endpoint cells should be cross-verified before computing.
-
-2. `tb-budget-monthly-expenditures/SKILL.md` — added a "Modern era (2000s+) agency outlays including budgetary and trust-fund flows" section: this wording means the agency's grand-total outlays (on-budget + trust), which for DOL is dominated by the Unemployment Trust Fund (~$133B in FY2011 falling to ~$35B by FY2019); pull both fiscal-year endpoints from the same kind of final/year-end statement, since mixing vintages or using a budget-only column produces exactly this kind of near-miss.

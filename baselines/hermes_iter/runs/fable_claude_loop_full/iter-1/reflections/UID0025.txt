@@ -1,5 +1,0 @@
-Done. The answer (142) was correct, and I patched the existing `tb-budget-monthly-expenditures` skill with a new "Historical cross-decade category comparisons" section rather than creating a duplicate skill. It captures three generalizable lessons from this question:
-
-1. Cross-decade fiscal-year comparisons (e.g. 1934 vs 1946) come from a single historical-classification table in a postwar issue — both endpoints from one vintage, no monthly summing.
-2. "Revised figures" in the prompt is a vintage instruction: use the later issue's restated series, not the contemporaneous numbers.
-3. Include/exclude clauses ("account for PWA and housing, exclude wartime spending") are footnote-matching keys for choosing among multiple same-named category variants — plus the standard absolute-difference convention.

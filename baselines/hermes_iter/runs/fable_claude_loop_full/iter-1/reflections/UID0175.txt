@@ -1,6 +1,0 @@
-Skill updated. I patched `.claude/skills/tb-bond-yields/SKILL.md` with a new "Early-era (1938–1950s) high-grade corporate bonds" section recording the generalizable lessons from this failure:
-
-- **Diagnosis**: My 0.00089 matches the sample variance of the seasoned Moody's Aaa series for Jan–Jun 1938 (≈3.17–3.26) almost exactly, while the accepted 0.00137 implies different monthly values — so the error was sourcing the wrong series, not the variance divisor (the n vs n−1 factor of 1.2 can't explain a 1.54× gap).
-- **Recorded guidance**: the early Bulletins' "high-grade corporate bonds" column is the Bulletin's own published series and must be transcribed from the actual table, never substituted from FRED/Moody's Aaa memory; with ~6 two-decimal values the variance is ~1e-3, so a single ±0.01 cell misread corrupts the 4th–5th decimal — cross-check cells against the next issue's reprint; and compute both population and sample variance, suspecting a misread cell (not the divisor) when neither matches.
-
-I added this to the existing `tb-bond-yields` skill rather than creating a new one, since it parallels the seasoned-vs-new-Aa data-sourcing trap already documented there.

@@ -1,7 +1,0 @@
-Created `.claude/skills/tb-math-transform-wrappers/SKILL.md`. It captures the generalizable lessons from this question, which decomposed into routine retrieval plus a math wrapper:
-
-- **Box-Cox formula** ((x^λ − 1)/λ, with the λ=0 log case) and a slot for similar transform wrappers (log, sqrt, z-score).
-- **The two real pitfalls**: transform each value *before* differencing (BC(A) − BC(B), never BC(A−B)), and convert to the question's stated units (billions vs. printed millions) *before* applying the nonlinear transform.
-- A retrieval note that "net interest" outlays sit in the Federal Fiscal Operations summary tables with current-FY and prior-FY columns side by side, so one issue covers both years.
-
-I left existing skills untouched since none covered transform arithmetic.

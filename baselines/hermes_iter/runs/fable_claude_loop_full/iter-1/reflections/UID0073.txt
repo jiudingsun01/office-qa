@@ -1,4 +1,0 @@
-Patched the existing `tb-budget-monthly-expenditures` skill rather than creating a new one. The dispersion-stats section already documented the FFO "outlays by function" table, the total-net-outlays column, and the `statistics.pstdev` (÷N) requirement from a prior FY1981 run, so the only new generalizable lesson here was the calendar-year variant:
-
-- CY months span two modern fiscal years (Jan–Sep in FY Y, Oct–Dec in FY Y+1), so they can appear in two separate fiscal-year panels of the same table — select months by label from one late-enough issue.
-- FY vs CY wording matters a lot for dispersion stats: the verified anchors now show FY1981 → 2760.44 vs CY1981 → 6379.29, flagging that a misread window produces a wildly different (but plausible-looking) answer.

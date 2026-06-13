@@ -1,7 +1,0 @@
-Recorded a new skill: `.claude/skills/tb-ifs-official-liabilities/SKILL.md`.
-
-No existing skill covered the Treasury Bulletin's International Financial Statistics section (the closest, tb-capital-movements-weekly, only covers the separate CM tables), so I created one rather than patching. It captures three generalizable lessons from this miss:
-
-1. **Table map**: IFS-1 (U.S. reserve assets) and IFS-2 (liabilities to foreign official institutions, split into liquid / other readily marketable / nonmarketable columns), both in $ millions with multiple year-end rows per issue.
-2. **Liquidity-ratio recipe and the near-miss pitfall**: my answer (9.98) was only 0.09 pp off the correct 9.89, which points to vintage revisions or column choice, not arithmetic — so the skill mandates pulling both year-end rows from one later bulletin, computing the denominator both with and without the nonmarketable column, and verifying column headers against the table image when two readings differ by ~0.1 pp.
-3. **Event-riddle year decoding**: questions recurringly hide years behind events (Amazon's 2000–2005 low → CY 2001; the bank bailout / TARP → CY 2008), so resolve the year before any lookup.

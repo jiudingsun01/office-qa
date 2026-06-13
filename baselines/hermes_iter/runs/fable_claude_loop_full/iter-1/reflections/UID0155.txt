@@ -1,5 +1,0 @@
-Done. I patched the existing `tb-ifs-official-liabilities` skill (rather than creating a new one) with a new "IFS-1 component lookups" section capturing what generalized from this question:
-
-- **Phrase mapping**: "the 4 U.S. reserve asset values" means the four IFS-1 component columns (gold stock, SDRs, foreign currencies, reserve position in IMF), not the total column.
-- **Sourcing tactic**: IFS-1 only carries the most recent ~6–12 month-end rows, so a multi-year series of the same calendar month (e.g. July 2010–2013) requires one bulletin issue per year — the December issue of each year is a safe pick.
-- **Arithmetic recipe**: pool all 16 raw values into a single geometric mean via exp(mean(ln x)); don't average per-year means, and round only at the end.

@@ -1,7 +1,0 @@
-Done. The answer was correct (0.005), and I recorded the generalizable learning by patching the existing `tb-capital-movements-weekly` skill rather than creating a near-duplicate:
-
-- **Broadened its trigger description** to cover modern-era CM-I/CM-II tables (U.S. liabilities to / claims on foreigners, including by-currency shares), not just the early weekly capital-flow tables.
-- **Added a "Modern-era CM-I/CM-II tables" section** with the concrete facts from this run: Table CM-I-1 ("Total Liabilities by Type and Holder") holds both the total liabilities to foreigners and the by-currency breakdown, all in millions of dollars with calendar year-end rows; one bulletin issue spans several year-ends, so max/min-over-years questions should pull all years from a single issue for vintage consistency.
-- **Captured two pitfalls**: the denominator ambiguity ("foreign countries" vs. "all foreigners incl. international organizations" — compute both, they almost always round the same since currency shares are tiny ~0.3–0.5%), and the percent-vs-decimal output convention (report 0.005, not 0.5).
-
-Per-question values (17,694 / 4,479,544 etc.) were deliberately left out as non-generalizable trivia.

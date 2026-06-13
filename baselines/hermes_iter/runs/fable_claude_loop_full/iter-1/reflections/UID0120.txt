@@ -1,7 +1,0 @@
-The computation was entirely correct — the answer was rejected solely because of a space after the comma (`[44.00, 231.52]` vs the expected `[44.00,231.52]`). That's a highly generalizable lesson, so I recorded three skill updates:
-
-1. **Created `.claude/skills/answer-format-exact-match/SKILL.md`** — graders do exact string matching: no spaces after commas in bracketed answers, keep trailing zeros to the requested decimal places, correct value order, no thousands separators or units when "without commas or words" is asked, plus a final string-diff check before answering.
-
-2. **Fixed `tb-esf-balance-sheet/SKILL.md`** — its example output `[8.124, 12.852]` contained the exact space-after-comma mistake that caused this failure, so it would have propagated the error. Now shows `[8.124,12.852]` with an explicit warning.
-
-3. **Extended `tb-math-transform-wrappers/SKILL.md`** with the verified CPI-deflation + linear-regression recipe: deflate via `nominal × CPI_target/CPI_month`, code months 1-based chronologically (the intercept depends on this choice and 1-based matched the grader), and round only at the end.

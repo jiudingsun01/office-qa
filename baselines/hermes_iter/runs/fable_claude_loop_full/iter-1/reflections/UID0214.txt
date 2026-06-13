@@ -1,5 +1,0 @@
-Skill recorded. Two changes:
-
-1. **New skill `tb-currency-in-circulation`** — the root cause of this miss was a table-line error, not arithmetic: "total currency in circulation" is the grand-total line of the Bulletin's currency statement (all kinds including coin, ~$53.0B in Nov 1969), but I used the Federal Reserve notes component (~$46.4B). The skill documents where the table lives, the total-vs-FR-notes trap with a magnitude anchor, the diagnostic ("answer ~12-14% low → you grabbed FR notes"), and the CPI-YoY wrapper recipe (rate from CPI-U index levels via FRED, then `value × (1 + r)` — multiply, don't deflate), with this question as the verified example.
-
-2. **Patched `tb-math-transform-wrappers`** with a short "apply CPI-U YoY inflation" section cross-referencing the new skill, since that wrapper can attach to any retrieved value, not just currency figures.

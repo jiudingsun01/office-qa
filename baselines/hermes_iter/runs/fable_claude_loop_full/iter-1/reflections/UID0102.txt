@@ -1,6 +1,0 @@
-Skill recorded. I added an "H spread (interquartile range) with Type 7 quartiles + intermediate rounding" section to the existing `tb-math-transform-wrappers` skill rather than creating a new one, since that skill already collects exactly this class of deterministic-math-layer pitfalls.
-
-The generalizable lessons captured:
-1. When a question says "Type 7 / standard linear-interpolation percentile method," that overrides the classical Tukey-hinges definition of H spread — use `np.percentile(..., method='linear')`.
-2. "Use intermediate values rounded to the tenths" means rounding at every intermediate step — the unit-converted monthly values *and* Q1/Q3 — before subtracting, which forces the final answer to end in 0 at the hundredths place.
-3. A concrete self-check: a nonzero hundredths digit (like my wrong 57.53 vs the accepted 57.50) is a direct signal that the intermediate rounding was skipped, so the fix is to re-round, not re-retrieve.

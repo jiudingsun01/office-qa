@@ -1,5 +1,0 @@
-Recorded two generalizable lessons by patching existing skills (no new skill created):
-
-1. **`tb-math-transform-wrappers`** — added a "Constant compound-rate projection" section: for "if X continued to grow at the same annualized compound rate from A to B, project to C", the equal-span case collapses to `projection = V_B² / V_A` exactly, avoiding any rate-rounding error; the general form is `V_B × (V_B/V_A)^(m/n)`. Included the verified example (339501.88).
-
-2. **`tb-savings-bonds-sales`** — noted that the wording "interest-bearing debt for Series I savings bonds" is still a per-series month-end amount-outstanding lookup (one Bulletin issue per distant month), with a cross-reference to the projection recipe.

@@ -1,9 +1,0 @@
-Skills updated. Summary of what happened and what I recorded:
-
-**Root cause of the miss:** Retrieval was perfect — I had all six ESF balance sheets (June/Sept 2000–2002) and the correct line items. The error was methodological: I computed each set's average share as sum(CPI-deflated FX) ÷ sum(CPI-deflated total assets), reasoning that otherwise the CPI instruction would be meaningless. The grader wanted the plain arithmetic mean of per-date shares — under which the CPI deflation cancels exactly and is a pure red herring. My own trace even noted the alternative method gives 0.953, the gold answer.
-
-**Skills written (two patches, no new skill):**
-
-1. `tb-math-transform-wrappers` — new section "Average SHARE of total + CPI-adjustment wrapper": compute per-date shares and arithmetic-mean them; never switch to aggregate-of-deflated to make a no-op transform bind. Includes the general principle that question writers add boilerplate adjustments without checking whether they matter, with this verified 0.981-vs-0.953 failure as the example.
-
-2. `tb-esf-balance-sheet` — added the modern-era asset breakdown ("foreign exchange and securities" = euro + yen lines, excluding SDRs), the verified issue mapping (June 30 sheets → December issue; Sept 30 sheets → following March issue), the six verified cell values as cross-check anchors, and a pointer to the new averaging-convention section.

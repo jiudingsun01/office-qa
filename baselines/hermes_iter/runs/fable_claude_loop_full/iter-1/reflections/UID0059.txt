@@ -1,7 +1,0 @@
-The answer (108.01) was correct, and I recorded the generalizable parts by patching the existing `tb-trust-account-receipts` skill rather than creating a new one. The new section covers three things future runs can reuse:
-
-1. **Event-dated fiscal-year resolution** — when a question names a year via a historical event, resolve the event date and apply the pre-1977 July–June fiscal-year convention (Korean War began June 25, 1950 ⇒ FY 1950, since June 1950 is the final week of FY 1950).
-2. **FY-to-FY CAGR on trust tables** — use the fiscal-year-total rows with n = difference in FY numbers, and a note that early trust-fund transfer series grew so fast that a CAGR above 100%/yr is plausible, not a sign of a retrieval error.
-3. **Terminology mapping** — "expenditure transfers to the trust fund" refers to the transfers/appropriations-from-the-general-fund inflow line, not the fund's own expenditures column.
-
-I skipped duplicating the CAGR formula and the July–June convention itself, since those are already documented in `tb-general-fund-balance` and elsewhere.

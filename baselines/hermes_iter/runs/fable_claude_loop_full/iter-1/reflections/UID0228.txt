@@ -1,7 +1,0 @@
-The answer was correct, and I recorded two generalizable learnings by patching existing skills rather than creating new ones:
-
-1. **`tb-math-transform-wrappers`** — added a "Currency-conversion wrappers" section: aggregate in USD first, round the exchange rate to the stated precision *before* multiplying (using the unrounded rate gives a near-miss), and note that mid-century pegged currencies make the "yearly average" trivially the peg (INR ≈ 4.76/USD, 1949–1966).
-
-2. **`tb-budget-monthly-expenditures`** — added a note that "receipts from/payments to the public" are **cash-basis** rows in the summary-of-cash-transactions tables, distinct from budget-basis "net budget receipts", so future runs match the exact phrase rather than substituting bases.
-
-Per-question trivia (the specific 12,104 → 57,615.04 figures) appears only as a verified worked example inside the conversion recipe, not as a standalone fact.

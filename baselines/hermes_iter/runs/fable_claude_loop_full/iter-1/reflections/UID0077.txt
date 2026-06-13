@@ -1,8 +1,0 @@
-Done. The answer was correct, and I recorded the generalizable parts by patching the existing `tb-budget-monthly-expenditures` skill (rather than creating a near-duplicate):
-
-- **Receipts-by-source table location**: modern bulletins' "Budget Receipts by Source" table with individual/corporation/social-insurance/etc. lines plus total receipts, and that "net individual income taxes" is the standard printed (refund-net) figure.
-- **Share computation**: percent contribution for a calendar year = CY 12-month sum of the source ÷ CY 12-month sum of total receipts × 100, both from the same vintage — never paired with a fiscal-year total.
-- **"Change in percent contribution"** = signed difference of the two shares in percentage points, not a percent change of the share (the common arithmetic trap).
-- **Rounding discipline**: keep full precision through the shares and round only the final difference.
-
-I also extended the skill's frontmatter description so future percent-contribution questions trigger it.
