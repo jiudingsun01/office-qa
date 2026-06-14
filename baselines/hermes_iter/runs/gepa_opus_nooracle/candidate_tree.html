@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GEPA Candidate Tree</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; width: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f8f9fa; display: flex; flex-direction: column; }
+  #header { background: #fff; border-bottom: 1px solid #dee2e6; padding: 12px 20px; display: flex; align-items: center; gap: 16px; flex-shrink: 0; }
+  #header h1 { font-size: 18px; font-weight: 600; color: #212529; }
+  .legend { display: flex; gap: 14px; font-size: 13px; color: #495057; }
+  .legend-item { display: flex; align-items: center; gap: 4px; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; border: 1px solid #adb5bd; }
+  #graph-container { flex: 1 1 auto; width: 100%; overflow: auto; padding: 20px; text-align: center; }
+  #graph-container svg { width: 100%; height: 100%; }
+  #tooltip {
+    display: none; position: fixed; background: #fff; border: 1px solid #dee2e6;
+    border-radius: 8px; padding: 14px 16px; max-width: 560px; max-height: 70vh; overflow-y: auto;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18); z-index: 1000; font-size: 13px; line-height: 1.5;
+  }
+  #tooltip .tt-header { font-weight: 700; font-size: 15px; margin-bottom: 6px; color: #212529; }
+  #tooltip .tt-meta { color: #6c757d; margin-bottom: 4px; }
+  #tooltip .tt-hint { color: #adb5bd; font-size: 11px; font-style: italic; margin-bottom: 10px; }
+  #tooltip .tt-comp-name { font-weight: 600; color: #495057; margin-top: 10px; border-bottom: 1px solid #e9ecef; padding-bottom: 2px; }
+  #tooltip .tt-comp-text {
+    white-space: pre-wrap; word-break: break-word; background: #f8f9fa;
+    border: 1px solid #e9ecef; border-radius: 4px; padding: 8px 10px; margin-top: 4px;
+    font-family: "SF Mono", SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px;
+    max-height: 200px; overflow-y: auto;
+  }
+  .role-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; margin-left: 6px; }
+  .role-best { background: #00e5ff33; color: #006064; }
+  .role-pareto { background: #ff980033; color: #e65100; }
+  .role-seed { background: #e0e0e0; color: #424242; }
+</style>
+</head>
+<body>
+<div id="header">
+  <h1>GEPA Candidate Tree</h1>
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:cyan"></div> Best</div>
+    <div class="legend-item"><div class="legend-dot" style="background:orange"></div> Pareto Front</div>
+    <div class="legend-item"><div class="legend-dot" style="background:lightgray"></div> Other</div>
+  </div>
+</div>
+<div id="graph-container"><p>Loading graph&hellip;</p></div>
+<div id="tooltip"></div>
+
+<script type="module">
+const NODES = [{"idx": 0, "score": 0.5, "parents": "seed", "role": "Seed", "components": {"instructions": "You are an analyst answering questions about U.S. Treasury Bulletins. You are given ONLY a question and the path to a corpus of pre-parsed Bulletin Markdown files (treasury_bulletin_{YEAR}_{MM}.sonnet46.md, monthly 1939-2025). Find the relevant issue(s) yourself.\n\n- grep -rn the corpus for likely table titles/keywords to locate the issue and lines; a statistic usually appears in the issue for (or shortly after) its period \u2014 annual/fiscal tables often appear in a later issue.\n- Tables are Markdown pipe tables; strip footnote markers ((r), *, 1/) before arithmetic; mind units (thousands vs millions vs billions), calendar vs fiscal year, and which dated column.\n- Use python (execute_code) for computation; web-search for external constants the Bulletin does not print (e.g. CPI-U, FX rates) when a question requires them.\n\nOUTPUT FORMAT (mandatory): end with the final answer wrapped in <FINAL_ANSWER>...</FINAL_ANSWER>. Inside, output only the value at the scale asked; no thousands separators; no units/'$' unless required; for a list, comma-separate exactly as the question prescribes (graders do exact-string matching)."}},
+{"idx": 1, "score": 0.5, "parents": "0", "role": "", "components": {"instructions": "You are an analyst answering questions about U.S. Treasury Bulletins. You are given ONLY a question and the path to a corpus of pre-parsed Bulletin Markdown files (treasury_bulletin_{YEAR}_{MM}.sonnet46.md, monthly 1939-2025). You must find the relevant issue(s) yourself.\n\n=== CORE WORKFLOW ===\n1. LOCATE: grep -rn the corpus for likely table titles, table codes, and keywords to find the issue and exact lines. A statistic usually appears in the issue for (or shortly after) its reporting period. Annual/fiscal-year totals and full-year tables often appear in a LATER issue (e.g., a January figure may be most reliably read from a mid-year or year-end issue that prints the complete series). If a question names a specific issue (month/year) or a specific PDF/report page, go directly to that file/page.\n2. VERIFY THE SOURCE CAREFULLY: This is the most common failure point. Before computing, confirm ALL of:\n   - Correct issue (month/year). The same data may appear in multiple issues with revisions; prefer the issue the question points to, or the one whose period matches.\n   - Correct table (match by table code like FFO-5, MS-1, and by full title).\n   - Correct row AND correct dated column. Many tables have monthly rows plus cumulative/fiscal-year rows; calendar-month figures differ from fiscal-year-to-date figures. Read the exact month/period the question asks for, not a cumulative or averaged line.\n   - Correct unit/scale (thousands vs millions vs billions). Convert explicitly and consciously.\n   Mis-picking the issue, table, row, column, or unit is the dominant cause of wrong answers \u2014 double-check each before doing arithmetic.\n3. CLEAN: Tables are Markdown pipe tables. Strip footnote markers ((r), *, 1/, etc.) and thousands separators before arithmetic. Mind calendar vs fiscal year.\n4. COMPUTE with python (execute_code). Do not do arithmetic by hand.\n5. EXTERNAL CONSTANTS: web-search for constants the Bulletin does not print (e.g., CPI-U, FX rates) when required.\n\n=== DOMAIN / TABLE NOTES ===\n- Table FFO-5 contains federal budget outlays by function. \"Net interest outlays\" = the \"Interest\" budget function Total line (after proprietary receipts and intrabudgetary transactions). Fiscal-year cumulative and comparable prior-fiscal-period columns both appear; pick the column the question names.\n- \"Internal Revenue Collections \u2014 Summary by Principal Sources\" gives collections in thousands of dollars, broken out by source (e.g., total collections, unemployment insurance contributions). These monthly tables typically appear in a later issue (e.g., a mid-year issue printing the full series).\n- Table MS-1 is \"Currency and Coin in Circulation.\"\n- For page-specific questions, distinguish PDF page from report page (the question may give both); the markdown may render one printed table as multiple sub-tables.\n\n=== FORMULA REFERENCE ===\n- Box-Cox transform with lambda \u03bb: y = (x^\u03bb \u2212 1)/\u03bb. Apply to each value (at the stated scale, e.g., billions), then combine as the question asks. Round only at the final step to the requested decimals.\n- Arc elasticity = (\u0394Q / Q_avg) / (\u0394P / P_avg), where Q_avg = (Q1+Q2)/2 and P_avg = (P1+P2)/2, and \u0394 is (later \u2212 earlier). Identify the dependent (Q) and independent (P) variables exactly as named. Use the precise periods/rows requested; verifying the right rows/columns is critical here.\n\n=== ROUNDING / OUTPUT ===\n- Round exactly to the number of decimal places requested, at the final step only.\n- Preserve the sign (including negatives; the grader may use a Unicode minus, but output a plain ASCII '-').\n\nOUTPUT FORMAT (mandatory): end with the final answer wrapped in <FINAL_ANSWER>...</FINAL_ANSWER>. Inside, output only the value at the scale asked; no thousands separators; no units/'$' unless required; for a list, comma-separate exactly as the question prescribes (graders do exact-string matching)."}},
+{"idx": 2, "score": 0.6, "parents": "0", "role": "Best", "components": {"instructions": "You are an analyst answering questions about U.S. Treasury Bulletins. You are given ONLY a question and the path to a corpus of pre-parsed Bulletin Markdown files (treasury_bulletin_{YEAR}_{MM}.sonnet46.md, monthly 1939-2025). You must locate the relevant issue(s) yourself and compute the answer.\n\nWORKFLOW\n- grep -rn the corpus for likely table titles/keywords to locate the issue and the exact lines. A statistic usually appears in the issue for (or shortly after) its period; annual/fiscal-year totals and full-year monthly series often appear in a LATER issue (e.g., a complete prior-calendar-year table appears in a Jan\u2013Mar issue of the following year).\n- Tables are Markdown pipe tables. Identify the correct table, the correct row, and the correct dated column before extracting numbers.\n- Use python (execute_code) for ALL arithmetic. Do not sum or subtract by hand.\n- Use web-search ONLY for external constants the Bulletin does not print (e.g., CPI-U, FX rates).\n\nCRITICAL ACCURACY RULES (these caused past errors \u2014 follow strictly)\n1. PREFER THE MOST FINAL/REVISED FIGURES. The same monthly or annual series is reprinted across multiple issues, and values get revised. When a question asks for a full year (e.g., all 12 calendar months of a year), prefer a single consistent table that already contains the full year with its latest revisions \u2014 typically published a few months AFTER the year ends, not the issues published month-by-month during that year. Cross-check at least two issues; if a later issue shows revised values, use the revised ones. Strip footnote/revision markers ((r), p, *, 1/, e) before arithmetic, but be aware that an (r)-flagged value IS the revised value you usually want.\n2. VERIFY EVERY MONTHLY VALUE against the source, and re-sum with python. A single mis-read month (e.g., transposed digits, picking the wrong column, or reading a \"Total\"/subtotal row) will fail exact-string grading. Re-read each cell carefully; do not trust a quick scan.\n3. DISTINGUISH ROWS/COLUMNS THAT LOOK SIMILAR: total vs. subtotal, fiscal year vs. calendar year, gross vs. net, \"this month\" vs. \"fiscal year to date,\" nominal vs. adjusted. Confirm units (thousands vs millions vs billions) and convert explicitly.\n4. CHARTS: when reading a chart/figure, do not infer the peak/trough from a tick label alone. Look for accompanying text, data tables, or surrounding-issue tables that give the exact underlying numbers, and prefer those numeric sources over visual estimation. A visible spike near a tick can correspond to an adjacent year \u2014 verify with numbers.\n\nOUTPUT FORMAT (mandatory): End with the final answer wrapped in <FINAL_ANSWER>...</FINAL_ANSWER>. Inside, output ONLY the value at the scale asked.\n- No units or '$' unless the question explicitly requires them.\n- Match the thousands-separator convention the question/grader expects: if the question's figures or examples use comma separators (e.g., 44,463), include them; otherwise omit them. When in doubt for a large integer answer, provide it with standard comma separators.\n- Round exactly to the decimal place requested.\n- For a list, comma-separate exactly as the question prescribes (graders do exact-string matching)."}}];
+const DOT = `digraph G {
+    rankdir=TB;
+    node [style=filled, shape=circle, fontsize=14, width=0.6, height=0.6];
+    0 [label="0\\n(0.50)", fillcolor=lightgray, tooltip=" "];
+    1 [label="1\\n(0.50)", fillcolor=lightgray, tooltip=" "];
+    2 [label="2\\n(0.60)", fillcolor=cyan, tooltip=" "];
+    0 -> 1;
+    0 -> 2;
+}`;
+
+const nodeMap = {};
+NODES.forEach(n => { nodeMap[n.idx] = n; });
+
+let pinnedIdx = null;   // non-null when tooltip is click-pinned (scrollable)
+let hoverIdx = null;    // non-null when hovering over a node
+
+function renderTooltip(idx) {
+  const n = nodeMap[idx];
+  if (!n) return "";
+  let roleBadge = "";
+  if (n.role === "Best") roleBadge = '<span class="role-badge role-best">BEST</span>';
+  else if (n.role === "Pareto Front") roleBadge = '<span class="role-badge role-pareto">PARETO</span>';
+  else if (n.role === "Seed") roleBadge = '<span class="role-badge role-seed">SEED</span>';
+
+  let comps = "";
+  for (const [name, text] of Object.entries(n.components)) {
+    const escaped = text.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+    comps += '<div class="tt-comp-name">' + name + '</div><div class="tt-comp-text">' + escaped + '</div>';
+  }
+
+  return '<div class="tt-header">Candidate ' + n.idx + roleBadge + '</div>' +
+    '<div class="tt-meta">Score: <strong>' + n.score + '</strong>&nbsp;&nbsp;|&nbsp;&nbsp;Parent(s): ' + n.parents +
+    '</div><div class="tt-hint">' + (pinnedIdx === idx ? 'Click node again to dismiss' : 'Click to pin &amp; scroll') + '</div>' +
+    comps;
+}
+
+function positionTooltip(x, y) {
+  const tt = document.getElementById("tooltip");
+  let tx = x + 16, ty = y + 16;
+  const r = tt.getBoundingClientRect();
+  if (tx + r.width > window.innerWidth - 8) tx = x - r.width - 16;
+  if (ty + r.height > window.innerHeight - 8) ty = y - r.height - 16;
+  if (tx < 8) tx = 8;
+  if (ty < 8) ty = 8;
+  tt.style.left = tx + "px";
+  tt.style.top = ty + "px";
+}
+
+function showTooltip(idx, x, y) {
+  const tt = document.getElementById("tooltip");
+  tt.innerHTML = renderTooltip(idx);
+  tt.style.display = "block";
+  positionTooltip(x, y);
+}
+
+function hideTooltip() {
+  pinnedIdx = null;
+  hoverIdx = null;
+  document.getElementById("tooltip").style.display = "none";
+}
+
+// Click outside tooltip and outside nodes dismisses pinned tooltip
+document.addEventListener("mousedown", function(e) {
+  const tt = document.getElementById("tooltip");
+  if (pinnedIdx !== null && tt.style.display === "block"
+      && !tt.contains(e.target) && !e.target.closest(".node")) {
+    hideTooltip();
+  }
+});
+
+async function render() {
+  const { instance } = await import("https://cdn.jsdelivr.net/npm/@viz-js/viz@3.11.0/lib/viz-standalone.mjs");
+  const viz = await instance();
+  const svg = viz.renderSVGElement(DOT);
+  const container = document.getElementById("graph-container");
+  container.innerHTML = "";
+  container.appendChild(svg);
+
+  // Attach hover listeners and strip native <title> tooltips to avoid double tooltips
+  svg.querySelectorAll(".node").forEach(node => {
+    const title = node.querySelector("title");
+    if (!title) return;
+    const idx = parseInt(title.textContent, 10);
+    if (isNaN(idx)) return;
+    title.remove();  // remove native SVG tooltip
+    node.style.cursor = "pointer";
+    // Hover: show tooltip following the mouse (non-interactive)
+    node.addEventListener("mouseenter", e => {
+      if (pinnedIdx !== null) return;  // don't override a pinned tooltip
+      hoverIdx = idx;
+      showTooltip(idx, e.clientX, e.clientY);
+    });
+    node.addEventListener("mousemove", e => {
+      if (pinnedIdx !== null || hoverIdx !== idx) return;
+      positionTooltip(e.clientX, e.clientY);
+    });
+    node.addEventListener("mouseleave", () => {
+      if (pinnedIdx !== null) return;
+      hoverIdx = null;
+      document.getElementById("tooltip").style.display = "none";
+    });
+    // Click: pin the tooltip so user can scroll it
+    node.addEventListener("click", e => {
+      e.stopPropagation();
+      if (pinnedIdx === idx) { hideTooltip(); return; }
+      pinnedIdx = idx;
+      showTooltip(idx, e.clientX, e.clientY);
+    });
+  });
+  // Also strip <title> from edges and the graph itself
+  svg.querySelectorAll(".edge title").forEach(t => t.remove());
+  const graphTitle = svg.querySelector(":scope > title");
+  if (graphTitle) graphTitle.remove();
+}
+
+render().catch(err => {
+  document.getElementById("graph-container").innerHTML =
+    "<p style='color:red'>Failed to render graph: " + err.message + "</p>" +
+    "<pre>" + DOT.replace(/</g,"&lt;") + "</pre>";
+});
+</script>
+</body>
+</html>
