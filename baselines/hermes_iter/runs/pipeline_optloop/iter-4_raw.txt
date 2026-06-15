@@ -1,0 +1,318 @@
+The dominant failure is retrieval: the grep keyword/window approach rarely surfaces the actual table rows (7/12 abstentions, "data not present in excerpts"). The fix: read much larger, full-table windows and provide whole relevant table sections rather than tiny grep windows, plus better file resolution and removing the abstention-friendly "Cannot answer" escape hatch.
+
+```python
+#!/usr/bin/env python3
+"""An agentic pipeline for OfficeQA (no-oracle parsed-md).
+
+Key change vs prior version: retrieval now reads FULL tables (large windows,
+table-continuation following, and whole-file fallback) instead of tiny grep
+windows, because the dominant failure was the SOLVE stage abstaining ("data not
+present in excerpts") when the relevant rows were just outside the narrow window.
+"""
+from __future__ import annotations
+import argparse, json, os, re, subprocess, sys, urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+
+def _find_root(start: Path) -> Path:
+    for d in [start, *start.parents]:
+        if (d / "baselines" / "reward.py").exists():
+            return d
+    return start.parent.parent.parent
+
+ROOT = Path(os.environ.get("OFFICEQA_ROOT") or _find_root(Path(__file__).resolve()))
+sys.path.insert(0, str(ROOT / "baselines"))
+from reward import extract_final_answer, score_answer  # noqa: E402
+
+CORPUS = Path(os.environ.get("OFFICEQA_CORPUS") or (ROOT / "data" / "final_parsed_db_augmented"))
+API = "https://api.anthropic.com/v1/messages"
+KEY = os.environ["ANTHROPIC_API_KEY"]
+MODEL = "claude-opus-4-8"
+_MONTHS = {"january":1,"february":2,"march":3,"april":4,"may":5,"june":6,"july":7,
+           "august":8,"september":9,"october":10,"november":11,"december":12}
+
+
+def llm(system: str, user: str, max_tokens: int = 4000) -> str:
+    body = json.dumps({"model": MODEL, "max_tokens": max_tokens, "system": system,
+                       "messages": [{"role": "user", "content": user}]}).encode()
+    req = urllib.request.Request(API, data=body, headers={
+        "x-api-key": KEY, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                d = json.loads(r.read())
+            return "".join(b.get("text", "") for b in d.get("content", []) if b.get("type") == "text")
+        except Exception:
+            if attempt == 3:
+                return ""
+            import time; time.sleep(15 * (attempt + 1))
+    return ""
+
+
+# ---------- Stage 1: LOCATE ----------
+LOCATE_SYS = """You route an OfficeQA question to U.S. Treasury Bulletin issues. The corpus has one Markdown file per monthly issue named treasury_bulletin_{YEAR}_{MM}.sonnet46.md (1939-2025). A statistic usually appears in the issue covering its period or, for annual/fiscal-year or end-of-period tables, in a LATER issue (often 2-4 months after the period close; e.g. a "December 31, 1959" survey is often in the following March issue; a full prior-calendar-year table in a Jan-Apr issue of the next year; weekly Treasury bill data for a given month appears in the next month's issue).
+
+Output ONLY a JSON object: {"files": ["treasury_bulletin_YYYY_MM", ...], "keywords": ["exact table title or distinctive row/section name", ...]}. List 2-5 candidate files (most likely first; ALWAYS include both the period-month issue and publish-later candidates) and 3-8 specific grep keywords (table titles, section headers, row labels — choose DISTINCTIVE multi-word phrases, not generic words)."""
+
+
+def stage_locate(q: str, feedback: str = "") -> tuple[list[str], list[str]]:
+    user = f"Question: {q}"
+    if feedback:
+        user += (f"\n\nA PREVIOUS attempt failed: {feedback}\nPropose DIFFERENT candidate files "
+                 f"(try earlier/later issue months) and/or different table titles/keywords.")
+    out = llm(LOCATE_SYS, user, 1000)
+    m = re.search(r"\{.*\}", out, re.DOTALL)
+    if not m:
+        return [], []
+    try:
+        d = json.loads(m.group(0))
+        files = [re.sub(r"\.(txt|pdf|sonnet46\.md|md)$", "", f) for f in d.get("files", [])]
+        return files[:5], [k for k in d.get("keywords", []) if k][:8]
+    except Exception:
+        return [], []
+
+
+# ---------- Stage 2: RETRIEVE (full-table windows) ----------
+def _adjacent(stem: str) -> list[str]:
+    m = re.match(r"treasury_bulletin_(\d{4})_(\d{2})", stem)
+    if not m:
+        return [stem]
+    y, mo = int(m.group(1)), int(m.group(2))
+    out = []
+    for dm in (0, 1, 2, 3, 4, -1, -2):
+        ny, nmo = y, mo + dm
+        while nmo > 12: nmo -= 12; ny += 1
+        while nmo < 1: nmo += 12; ny -= 1
+        out.append(f"treasury_bulletin_{ny}_{nmo:02d}")
+    return list(dict.fromkeys(out))
+
+
+def _table_bounds(lines: list[str], hit: int) -> tuple[int, int]:
+    """Find a generous window around a hit that captures the whole table.
+    Walk back to a likely table header (ALL-CAPS title, table code, or blank gap),
+    and forward through table rows and any continuation, until two consecutive
+    blank/non-table lines after the table body."""
+    n = len(lines)
+    # walk back up to 80 lines to find a header-ish boundary
+    lo = hit
+    back = 0
+    while lo > 0 and back < 80:
+        ln = lines[lo - 1]
+        # stop just after an obvious section header / table title above
+        lo -= 1; back += 1
+        if re.match(r"\s*#{1,6}\s", ln):  # markdown heading marks a boundary
+            break
+    lo = max(0, min(lo, hit - 5))
+    # walk forward generously through the table
+    hi = hit
+    fwd = 0
+    blanks = 0
+    while hi < n and fwd < 260:
+        ln = lines[hi]
+        if ln.strip() == "":
+            blanks += 1
+        else:
+            blanks = 0
+        # stop if we hit a new markdown heading well past the hit
+        if hi > hit + 12 and re.match(r"\s*#{1,6}\s", ln):
+            break
+        hi += 1; fwd += 1
+    return lo, min(n, hi + 5)
+
+
+def stage_retrieve(files: list[str], keywords: list[str], q: str, cap: int = 60000) -> str:
+    if not files:
+        for mo, n in _MONTHS.items():
+            for y in re.findall(rf"{mo}\s+(\d{{4}})", q.lower()):
+                files.append(f"treasury_bulletin_{y}_{n:02d}")
+    cands = []
+    for f in files:
+        cands += _adjacent(f)
+    cands = list(dict.fromkeys(cands))[:12]
+    pats = [re.escape(k) for k in keywords] or [re.escape(w) for w in re.findall(r"[A-Z][a-zA-Z]{4,}", q)[:6]]
+
+    blocks = []
+    total = 0
+    for stem in cands:
+        if total >= cap:
+            break
+        path = CORPUS / f"{stem}.sonnet46.md"
+        if not path.exists():
+            continue
+        lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
+        hits = sorted({i for i, ln in enumerate(lines)
+                       for p in pats if re.search(p, ln, re.IGNORECASE)})
+        if not hits:
+            continue
+        # cluster hits then expand each cluster to full-table bounds
+        clusters, cur = [], [hits[0]]
+        for h in hits[1:]:
+            if h - cur[-1] <= 120: cur.append(h)
+            else: clusters.append(cur); cur = [h]
+        clusters.append(cur)
+        emitted = []  # (lo,hi)
+        for cl in clusters[:5]:
+            lo, hi = _table_bounds(lines, cl[0])
+            hi = max(hi, _table_bounds(lines, cl[-1])[1])
+            # merge with previous overlapping window
+            if emitted and lo <= emitted[-1][1] + 5:
+                emitted[-1] = (emitted[-1][0], max(emitted[-1][1], hi))
+            else:
+                emitted.append((lo, hi))
+        for lo, hi in emitted:
+            chunk = "\n".join(lines[lo:hi])
+            block = f"=== {stem}  (lines {lo}-{hi}) ===\n{chunk}"
+            blocks.append(block)
+            total += len(block)
+            if total >= cap:
+                break
+    return ("\n\n".join(blocks))[:cap] or "(no matching excerpts found)"
+
+
+# ---------- Stage 3: SOLVE (emit python) ----------
+SOLVE_SYS = """You answer an OfficeQA Treasury-Bulletin question from the provided excerpts. The excerpts contain FULL tables — the needed row is almost always present somewhere in them, possibly far from the table title or in a continuation. READ CAREFULLY and DO NOT give up.
+
+Steps:
+1. Identify the exact table, row, and dated column. Scan ALL provided lines, including rows distant from the header and continuation chunks. Prefer the most FINAL/REVISED figures ((r) = revised, usually preferred). Mind units (thousands vs millions vs billions), calendar vs fiscal year, gross vs net, total vs subtotal. Strip footnote markers (letters/asterisks/parentheses superscripts) before using numbers.
+2. Write a single self-contained python3 program that hard-codes the extracted values, performs the computation, and PRINTS the final numeric/text answer (and only that on the last line). For external constants the excerpts cannot contain (e.g. BLS CPI-U index values, FX rates), inline your best-known values with a comment.
+
+CRITICAL: You MUST produce a numeric/text answer. Do NOT print "Cannot answer", "INSUFFICIENT DATA", or similar. If a value is hard to find, look again — re-scan every line. If truly ambiguous, make your single best estimate from the data present and print it. Never abstain.
+
+Output the program in one ```python ... ``` block. No prose outside the code block."""
+
+_BAD = re.compile(r"\b(os\.system|subprocess|shutil|rmtree|socket|requests|urllib|open\s*\([^)]*['\"][wa])", re.I)
+
+
+def stage_solve(q: str, windows: str, feedback: str = "") -> str:
+    user = f"Question: {q}\n\nExcerpts (full tables):\n{windows}"
+    if feedback:
+        user += (f"\n\nA PREVIOUS attempt was judged INCORRECT: {feedback}\nDiagnose and FIX this "
+                 f"specific issue — re-read EVERY line of the excerpts; re-check the table/row/dated "
+                 f"column, units, and arithmetic. Produce a concrete numeric answer; do not abstain.")
+    out = llm(SOLVE_SYS, user, 4000)
+    m = re.search(r"```(?:python)?\s*(.*?)```", out, re.DOTALL)
+    return m.group(1).strip() if m else out.strip()
+
+
+# ---------- Stage 4b: VERIFY ----------
+VERIFY_SYS = """You verify a candidate answer to an OfficeQA Treasury-Bulletin question. Given the question, the source excerpts (full tables), the python program used, and its printed result, check RIGOROUSLY:
+(a) was the correct table, row, and dated column used?
+(b) correct units/scale (thousands vs millions vs billions) and calendar vs fiscal year, gross vs net, total vs subtotal?
+(c) are the extracted source values ACTUALLY present in the excerpts (re-read and confirm each one — search the WHOLE excerpt, including rows far from the title)?
+(d) is the arithmetic correct, and does the result match the scale/precision the question asks for?
+Output ONLY JSON: {"ok": true|false, "issue": "<if not ok: the specific error to fix; else empty>"}. Be strict on values/units/columns. BUT if the program abstained or refused (e.g. printed "Cannot answer"), always set ok=false and instruct it to extract the value and compute a concrete answer."""
+
+
+def stage_verify(q: str, windows: str, code: str, result: str) -> tuple[bool, str]:
+    if re.search(r"cannot|insufficient|not present|cannot be determined|n/?a\b|unable", result, re.I):
+        return False, "The program abstained. Re-scan the full excerpts, extract the value, and print a concrete numeric answer."
+    out = llm(VERIFY_SYS, f"Question: {q}\n\nExcerpts:\n{windows[:40000]}\n\nProgram:\n{code}\n\nPrinted result: {result}", 900)
+    m = re.search(r"\{.*\}", out, re.DOTALL)
+    if not m:
+        return True, ""
+    try:
+        d = json.loads(m.group(0))
+        return bool(d.get("ok", True)), str(d.get("issue", ""))
+    except Exception:
+        return True, ""
+
+
+def stage_run(code: str) -> str:
+    if not code or _BAD.search(code):
+        return ""
+    try:
+        p = subprocess.run([sys.executable, "-c", code], capture_output=True, text=True,
+                           timeout=30, cwd="/tmp", env={"PATH": "/usr/bin:/bin"})
+        out = (p.stdout or "").strip()
+        return out.splitlines()[-1].strip() if out else ""
+    except Exception:
+        return ""
+
+
+# ---------- Stage 5: FORMAT ----------
+FORMAT_SYS = """You produce the FINAL answer string for an OfficeQA question, which is graded by EXACT string match. Given the question and a computed result, output ONLY <FINAL_ANSWER>...</FINAL_ANSWER>. Inside: only the value at the scale asked; no units/'$' unless required; round to exactly the requested decimal places (keep trailing zeros); for a list use the exact bracket/separator format the question prescribes; thousands separators (commas) ONLY if the question's own figures use them. Never output an abstention phrase."""
+
+
+def stage_format(q: str, result: str) -> str:
+    out = llm(FORMAT_SYS, f"Question: {q}\n\nComputed result: {result}", 600)
+    try:
+        return extract_final_answer(out)
+    except Exception:
+        return result
+
+
+def pipeline(rec: dict, max_outer: int = 3, max_solve: int = 2) -> dict:
+    q = rec["question"]
+    feedback, result, code, windows, files, kws = "", "", "", "", [], []
+    best_result, best_code = "", ""
+    attempts = []
+    solved = False
+    for outer in range(max_outer):
+        files, kws = stage_locate(q, feedback)
+        windows = stage_retrieve(list(files), kws, q)
+        if windows.startswith("(no matching"):
+            feedback = (f"No excerpts matched keywords {kws} in files {files}. The data is likely in a "
+                        f"different issue month (often a LATER issue) or under a different table title.")
+            attempts.append({"outer": outer, "retrieval": "empty", "files": files, "keywords": kws})
+            continue
+        for inner in range(max_solve):
+            code = stage_solve(q, windows, feedback if (outer or inner) else "")
+            result = stage_run(code)
+            if not result:
+                feedback = "The program printed no final answer; ensure it prints the computed numeric answer."
+                attempts.append({"outer": outer, "inner": inner, "run": "empty"})
+                continue
+            # keep a non-abstaining result as fallback
+            if not re.search(r"cannot|insufficient|not present|determined|unable|n/?a\b", result, re.I):
+                best_result, best_code = result, code
+            ok, issue = stage_verify(q, windows, code, result)
+            attempts.append({"outer": outer, "inner": inner, "result": result,
+                             "verify_ok": ok, "issue": issue[:200]})
+            if ok:
+                solved = True
+                break
+            feedback = issue or "the answer was judged incorrect; re-extract and recompute"
+        if solved:
+            break
+    final_result = result if result and not re.search(
+        r"cannot|insufficient|not present|determined|unable", result, re.I) else (best_result or result)
+    final_code = code if final_result == result else best_code
+    pred = stage_format(q, final_result) if final_result else ""
+    try:
+        sc = score_answer(rec["gold_answer"], pred) if pred else 0.0
+    except Exception:
+        sc = 0.0
+    return {"uid": rec["uid"], "predicted": pred, "score": sc, "result": final_result,
+            "files": files, "keywords": kws, "code": final_code, "gold": rec["gold_answer"],
+            "attempts": attempts, "n_attempts": len(attempts)}
+
+
+def main() -> int:
+    p = argparse.ArgumentParser()
+    p.add_argument("--split", default="baselines/hermes_iter/splits_parsed_md_nooracle/test.jsonl")
+    p.add_argument("--run-dir", default="baselines/hermes_iter/runs/fixed_pipeline_test")
+    p.add_argument("--limit", type=int, default=0)
+    p.add_argument("--concurrency", type=int, default=4)
+    args = p.parse_args()
+    rows = [json.loads(l) for l in open(args.split) if l.strip()]
+    if args.limit > 0: rows = rows[:args.limit]
+    run = Path(args.run_dir); (run / "preds").mkdir(parents=True, exist_ok=True)
+    print(f"fixed pipeline: {len(rows)} questions  model={MODEL}", flush=True)
+    res = {}
+    with ThreadPoolExecutor(max_workers=args.concurrency) as ex:
+        futs = {ex.submit(pipeline, r): r["uid"] for r in rows}
+        done = 0
+        for fut in as_completed(futs):
+            d = fut.result(); res[d["uid"]] = d; done += 1
+            (run / "preds" / f"{d['uid']}.json").write_text(json.dumps(d, ensure_ascii=False))
+            print(f"[{done}/{len(rows)}] {d['uid']}  pred={d['predicted']!r} score={d['score']}", flush=True)
+    n_corr = sum(1 for d in res.values() if d["score"] >= 1.0)
+    summ = {"n_total": len(res), "n_correct": n_corr, "accuracy": n_corr / len(res) if res else 0.0}
+    (run / "summary.json").write_text(json.dumps(summ, indent=2))
+    print(f"\nDONE  {n_corr}/{len(res)} = {summ['accuracy']:.3f}", flush=True)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+```

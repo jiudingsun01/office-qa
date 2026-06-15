@@ -1,0 +1,15 @@
+iter-0 (seed) dev: 1/12 = 0.083
+=== iter-1: meta-agent proposing a fix ===
+  iter-1 dev: 1/12 = 0.083  (best 1/12)
+  iter-1: no dev improvement — kept previous best
+=== iter-2: meta-agent proposing a fix ===
+  iter-2 dev: 0/12 = 0.000  (best 1/12)
+  iter-2: no dev improvement — kept previous best
+=== iter-3: meta-agent proposing a fix ===
+  iter-3 dev: 0/12 = 0.000  (best 1/12)
+  iter-3: no dev improvement — kept previous best
+=== iter-4: meta-agent proposing a fix ===
+  iter-4 dev: 1/12 = 0.083  (best 1/12)
+  iter-4: no dev improvement — kept previous best
+=== final: best pipeline on held-out TEST-28 ===
+  best pipeline test-28: 1/28 = 0.036  (basic pipeline was 1/28=0.036; free agent ~0.64)
