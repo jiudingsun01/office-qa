@@ -73,13 +73,13 @@ For the June 1970 Treasury Bulletin question class:
 
 - The yield-spread source is the printed monthly bond-yield table containing columns for corporate Aa bonds and U.S. Treasury bonds.
 - The minimum spread over 1960-1969 is obtained by subtracting the U.S. Treasury bond yield column from the corporate Aa column for each month.
-- The follow-up Railroad Retirement Account trust receipts value is printed in millions of dollars, so a table value like `92` must be returned as `92000000`.
+- The follow-up Railroad Retirement Account trust receipts value is printed in millions of dollars, so a table value like `92` must be returned as `[redacted]`.
 
 This note is a pattern check, not a replacement for re-reading the source table in future questions.
 
 ## Annual Average Moody Corporate Yield Questions
 
-Some historical Treasury Bulletin questions ask for the absolute change in the average annual yield of the "highest quality" corporate bonds over event-defined calendar years. Treat "highest quality corporate bonds (as determined by Moody)" as Moody's `Aaa` corporate bond yield, not Aa/Baa. Use the annual average rows/columns for the exact calendar years implied by the events; compute `abs(Aaa_later_year - Aaa_earlier_year)` in percentage points and round only the final result to the requested precision. Do not divide by 100 when the answer is requested in percentage points.
+Some historical Treasury Bulletin questions ask for the absolute change in the average annual yield of the "highest quality" corporate bonds over event-defined calendar years. Treat "highest quality corporate bonds (as determined by Moody)" as Moody's `Aaa` corporate bond yield, not Aa/Baa. Use the annual average rows/columns for the exact calendar years implied by the events; compute `abs(Aaa_later_year - Aaa_earlier_year)` in percentage points and round only the final result to the requested precision. Do not divide by [redacted] when the answer is requested in percentage points.
 
 Event-year mappings that recur in OfficeQA wording:
 
@@ -100,10 +100,10 @@ Procedure:
 3. Include every monthly observation in the inclusive calendar-year range. For 1960-1969, that is 120 observations (Jan 1960 through Dec 1969), not 10 annual-average rows.
 4. If asked for an average, average the monthly percentage-point spreads directly. Do not divide by 100 unless the prompt explicitly asks for a decimal fraction; Treasury Bulletin yield columns are printed as percentages and spread answers are normally in percentage points.
 5. If asked for the maximum or minimum spread, scan all monthly spreads and retain the associated calendar month and year. Do not average by year first, do not use annual-average rows, and do not let the largest annual spread override a larger monthly observation.
-6. For OfficeQA prompts that encode a selected month/year into a value with the month in front, use the benchmark convention `answer = month * 1000 + (year % 100)`. This applies even if the wording says "multiply the month by 100 and add the calendar year"; do not compute `month*100 + full_year` (e.g. November 1969 -> `3069`-style formatting is expected, not `11069`). Example: March 1969 -> `3*1000 + 69 = 3069`.
+6. For OfficeQA prompts that encode a selected month/year into a value with the month in front, use the benchmark convention `answer = month * 1000 + (year % 100)`. This applies even if the wording says "multiply the month by 100 and add the calendar year"; do not compute `month*100 + full_year` (e.g. November 1969 -> `[redacted]`-style formatting is expected, not `11069`). Example: March 1969 -> `3*1000 + 69 = [redacted]`.
 7. Round only final numeric spread answers to the requested significant digits. Sanity checks for the June 1970 / 1960-1969 Corporate Aa minus Treasury-bond monthly spread pattern:
-   - Maximum monthly spread occurs in March 1969, so the encoded date answer is `3069`.
-   - The monthly average spread over all 120 months is `0.88525`.
+   - Maximum monthly spread occurs in March 1969, so the encoded date answer is `[redacted]`.
+   - The monthly average spread over all 120 months is `[redacted]`.
 
 ## New Long-Term Treasury Bond Yield Questions
 
@@ -117,27 +117,27 @@ For prompts asking for a `Fisher Ideal symmetric growth rate` between two yield 
    This is not simple growth `(new/old - 1)` and not the geometric-mean-denominator formula `(new-old)/sqrt(new*old)`. The geometric formula can change the third decimal on these yield questions.
 3. If the prompt lists the later calendar observation first (e.g. August 1982 and August 1981), still assign `old_value` chronologically to the earlier year/month and `new_value` to the later year/month. The sign should be negative when the later printed yield is lower than the earlier printed yield.
 4. Compute `g_F` directly from the printed monthly values with full precision; do not round an intermediate percent, square root/product, or displayed magnitude by eye. Use a calculator/script and format the signed decimal directly (e.g. Python `format(g, '.3f')`).
-5. Report `g_F` as a decimal fraction, not as percentage points or a percent. If the formula produces about `-11.33%`, the OfficeQA answer should be about `-0.113` when rounded to three decimals, not `-11.33`.
+5. Report `g_F` as a decimal fraction, not as percentage points or a percent. If the formula produces about `-11.33%`, the OfficeQA answer should be about `[redacted]` when rounded to three decimals, not `-11.33`.
 6. Round only the final unitless growth value to the requested decimals.
 
-Sanity check for the recurring FY-end 1982 prompt: in the November 1982 Bulletin, Table AY-1 monthly series, `Treasury bonds 1/` August 1982 is `12.15` (printed with footnote marker `5/12.15`) and August 1981 is `13.61`; the Fisher/arc growth is `2*(12.15-13.61)/(12.15+13.61) = -0.113354...`, so three decimals is `-0.113`. Do not use the geometric-denominator result `-0.114`.
+Sanity check for the recurring FY-end 1982 prompt: in the November 1982 Bulletin, Table AY-1 monthly series, `Treasury bonds 1/` August 1982 is `12.15` (printed with footnote marker `5/12.15`) and August 1981 is `13.61`; the Fisher/arc growth is `2*(12.15-13.61)/(12.15+13.61) = -0.113354...`, so three decimals is `[redacted]`. Do not use the geometric-denominator result `-0.114`.
 
-This differs from questions that ask for an absolute yield change/spread, where the answer is usually in percentage points and should not be divided by 100.
+This differs from questions that ask for an absolute yield change/spread, where the answer is usually in percentage points and should not be divided by [redacted].
 
 ## Historical Expected Shortfall on Bond-Yield Returns
 
-Some OfficeQA prompts ask for expected shortfall (ES) at a confidence level using the "historical portfolio return approach" for reported yield percentage values, e.g. January observations for `New Aa corporate bonds` over 1990-1999.
+Some OfficeQA prompts ask for expected shortfall (ES) at a confidence level using the "historical portfolio return approach" for reported yield percentage values, e.g. January observations for `New Aa corporate bonds` over [redacted]-1999.
 
 Use the yield table values as a price-like time series and first convert levels to period returns. Do not compute ES directly on raw yield levels.
 
 Procedure:
 
-1. Extract exactly the requested month from each calendar year in the inclusive interval. For "January for each year from 1990 to 1999 inclusive," use the ten January printed values for 1990, 1991, ..., 1999.
+1. Extract exactly the requested month from each calendar year in the inclusive interval. For "January for each year from [redacted] to 1999 inclusive," use the ten January printed values for [redacted], 1991, ..., 1999.
 2. Compute consecutive historical returns between adjacent observations:
    `return_t = (yield_t - yield_{t-1}) / yield_{t-1} * 100`
    This gives 9 returns for 10 yearly January observations.
-3. Sort returns from worst to best (most negative first). Expected shortfall at 95% is the average of the worst 5% tail. For small OfficeQA samples, use at least one observation in the tail (`ceil((1-confidence) * n_returns)`, minimum 1); with 9 returns from 10 annual January levels, this means the single worst return. Preserve the negative sign. If the worst return is `-18.51%`, the ES answer is `-18.51%`, not `+18.51` and not the raw yield such as `6.14`.
-4. Round only the final ES to the requested precision. Because these returns were computed as `* 100` from reported yield percentage values, format the final answer as a percentage when the prompt asks for yield percentage values (e.g. `-18.51%`).
+3. Sort returns from worst to best (most negative first). Expected shortfall at 95% is the average of the worst 5% tail. For small OfficeQA samples, use at least one observation in the tail (`ceil((1-confidence) * n_returns)`, minimum 1); with 9 returns from 10 annual January levels, this means the single worst return. Preserve the negative sign. If the worst return is `[redacted]`, the ES answer is `[redacted]`, not `+18.51` and not the raw yield such as `6.14`.
+4. Round only the final ES to the requested precision. Because these returns were computed as `* 100` from reported yield percentage values, format the final answer as a percentage when the prompt asks for yield percentage values (e.g. `[redacted]`).
 
 Pitfalls for ES questions:
 
@@ -162,8 +162,8 @@ General procedure:
 
 Sanity checks/patterns:
 
-- For `New Aa corporate bonds`, Jan 1999-Dec 2002 (48 months) fit with Jan 2003 holdout, the rounded absolute prediction error is about `0.35`.
-- For taxable Treasury bonds due/callable in 20 years or after, July 1953-June 1956 (36 months) fit and July 1956 one-step forecast, the rounded forecast is `2.916`.
+- For `New Aa corporate bonds`, Jan 1999-Dec 2002 (48 months) fit with Jan 2003 holdout, the rounded absolute prediction error is about `[redacted]`.
+- For taxable Treasury bonds due/callable in 20 years or after, July 1953-June 1956 (36 months) fit and July 1956 one-step forecast, the rounded forecast is `[redacted]`.
 
 Pitfalls specific to regression patterns:
 
@@ -188,7 +188,7 @@ Pitfalls for variance questions:
 - Do not compute the variance of month-to-month changes or returns unless the prompt asks for changes/returns.
 - Do not use `statistics.variance`, pandas/numpy defaults with `ddof=1`, or spreadsheet `VAR.S` unless the prompt explicitly requests sample variance. Use `statistics.pvariance`, `np.var(ddof=0)`, or spreadsheet `VAR.P`.
 - "High-grade corporate bond yields" in older Treasury Bulletin/H.15-style tables may be a specific printed column distinct from Moody's Aaa/Aa/New Aa columns; match the exact heading from the bulletin.
-- If a short-window variance result is close but wrong, re-check the extracted monthly levels before changing the denominator. For the recurring Jan-Jun 1938 high-grade corporate-bond-yield case, the OfficeQA population variance sanity check is `0.00137` rounded to five decimals; a result around `0.00176` indicates the wrong observations/column/source, not merely `ddof=1`.
+- If a short-window variance result is close but wrong, re-check the extracted monthly levels before changing the denominator. For the recurring Jan-Jun 1938 high-grade corporate-bond-yield case, the OfficeQA population variance sanity check is `[redacted]` rounded to five decimals; a result around `0.00176` indicates the wrong observations/column/source, not merely `ddof=1`.
 
 ## Monthly Pearson Correlation of Bond-Yield Levels
 
@@ -207,7 +207,7 @@ Pitfalls for correlation questions:
 - Compute each calendar year's correlation independently on that year's 12 paired monthly levels, then subtract the two full-precision correlations. Do not round either year's `r` before subtraction; small differences can collapse to only a few ten-thousandths.
 - Do not use `Aaa`, old `Aa`, or all-corporate columns when the prompt says `New Aa corporate bonds`.
 - Do not use real/inflation-adjusted yields for nominal-yield prompts.
-- Sanity check for the recurring `Treasury bonds` versus `New Aa corporate bonds` monthly-level correlation comparison in calendar years 1979 and 1984: the absolute difference is tiny and rounds to about `0.0003` at four decimals. A result around `0.0385` indicates a wrong column/source/year sample or rounded/intermediate calculation, not a plausible final answer.
+- Sanity check for the recurring `Treasury bonds` versus `New Aa corporate bonds` monthly-level correlation comparison in calendar years 1979 and 1984: the absolute difference is tiny and rounds to about `[redacted]` at four decimals. A result around `0.0385` indicates a wrong column/source/year sample or rounded/intermediate calculation, not a plausible final answer.
 
 ## Common Pitfalls
 

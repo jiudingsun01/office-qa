@@ -22,7 +22,7 @@ def cc_growth(v_start, v_end, n_years):
 # round(cc_growth(V1945, V1955, 10), 3)
 ```
 
-## Worked example (CORRECT, gold 0.063)
+## Worked example (CORRECT, gold [redacted])
 Seigniorage on coins (silver+minor), end CY1945 -> 1955, n=10.
 Answer 0.063. The CC rate and CAGR are close for small rates but diverge enough
 to flip the thousandths digit — always use ln(ratio)/n when the word
@@ -30,7 +30,7 @@ to flip the thousandths digit — always use ln(ratio)/n when the word
 
 ## Output convention
 "reported as a decimal value (12.34% -> 0.1234)": report the bare rate, NOT
-times 100. 0.063 means 6.3%. Single decimal value -> MODE A bare format, no
+times 100. [redacted] means 6.3%. Single decimal value -> MODE A bare format, no
 brackets-with-comma issue (single number). Round to requested place (thousandths).
 
 ## Quick decision

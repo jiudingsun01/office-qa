@@ -34,7 +34,7 @@ For quarter-to-quarter average monthly change, the calculation is based on quart
 - Repeat independently for each requested year, then take the requested mean/statistic.
 - Keep values in thousands if the chart/source is already in thousands.
 
-Example exposed by the September 2007 Bulletin payroll employment chart: for 2004-2006, compute the Q1-to-Q2 monthly average for each year using March-to-June changes, then average those three annual results. The final answer was 202.333, confirming the `/3 months` convention and no additional scaling.
+Example exposed by the September 2007 Bulletin payroll employment chart: for 2004-2006, compute the Q1-to-Q2 monthly average for each year using March-to-June changes, then average those three annual results. The final answer was [redacted], confirming the `/3 months` convention and no additional scaling.
 
 ## Procedure
 

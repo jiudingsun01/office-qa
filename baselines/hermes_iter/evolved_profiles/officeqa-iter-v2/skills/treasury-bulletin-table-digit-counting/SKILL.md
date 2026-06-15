@@ -76,4 +76,4 @@ Use this skill when an OfficeQA question asks to count occurrences of a numeral 
 - [ ] Every table/table continuation visible on that page was included.
 - [ ] Row headers, column headers, captions, notes, and source text were excluded.
 - [ ] Numeric body cells were normalized consistently before checking the leading digit.
-- [ ] Count was recorded by table/section and independently verified against the rendered page.
+- [redacted] Count was recorded by table/section and independently verified against the rendered page.

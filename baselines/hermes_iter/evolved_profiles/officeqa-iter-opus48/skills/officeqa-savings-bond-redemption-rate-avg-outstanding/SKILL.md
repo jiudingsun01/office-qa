@@ -39,10 +39,10 @@ When asked for "the relative difference ... of the rate for year A and year B":
     relative_difference = (rate_B - rate_A) / rate_A * 100
 
 Base = the EARLIER year (A). This is a PERCENT-OF-A-PERCENT figure, so it can be
-large (e.g. 17.69) even when the two underlying rates differ by only a few raw
+large (e.g. [redacted]) even when the two underlying rates differ by only a few raw
 percentage points. DO NOT report the bare absolute gap (rate_B - rate_A); that
 undershoots by roughly a factor of 4-5 and is the recorded failure mode here
-(emitted 3.85 — the absolute gap — vs GOLD 17.69 — the relative difference).
+(emitted 3.85 — the absolute gap — vs GOLD [redacted] — the relative difference).
 
 Decode "relative difference in percentage points": "relative" = divide by the
 base rate; the result is itself reported in percentage points. See memory note

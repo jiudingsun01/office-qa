@@ -26,7 +26,7 @@ FY2021 Corporate income taxes (billions, as printed):
 Oct 9.2, Nov -3.2, Dec 62.9, Jan 16.5, Feb 3.8, Mar 15.3,
 Apr 72.8, May 13.8, Jun 74.2, Jul 16.9, Aug 3.0, Sep 86.7
 
-## THE ROUNDING TRAP THAT COST THE POINT (57.60 vs gold 57.50)
+## THE ROUNDING TRAP THAT COST THE POINT (57.60 vs gold [redacted])
 sorted = [-3.2,3.0,3.8,9.2,13.8,15.3,16.5,16.9,62.9,72.8,74.2,86.7], n=12
 Type-7 positions (0-indexed h=(n-1)p):
   Q1 p=.25 -> h=2.75 -> between s[2]=3.8 and s[3]=9.2, frac .75 -> 7.85
@@ -35,7 +35,7 @@ Type-7 positions (0-indexed h=(n-1)p):
 "Round the intermediate (Q1,Q3) values to tenths" then subtract:
   Q1 7.85  -> 7.9   (round-half-UP)
   Q3 65.375-> 65.4
-  H-spread = 65.4 - 7.9 = 57.50  == GOLD
+  H-spread = 65.4 - 7.9 = [redacted]  == GOLD
 
 If you use Python's built-in round() / numpy rounding (round-half-to-EVEN /
 banker's), 7.85 -> 7.8, giving 65.4 - 7.8 = 57.60 = WRONG (my fail).

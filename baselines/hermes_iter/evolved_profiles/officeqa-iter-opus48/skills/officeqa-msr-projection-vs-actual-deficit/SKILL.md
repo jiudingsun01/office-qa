@@ -44,7 +44,7 @@ Grep `deficit` and `trillion` in the front pages; cross-check against FFO-1.
    rounded to hundredths.
 
 ## Verified instance
-FY2010: projection (Sept 2010) and actual (Sept 2011) differ by **0.17**
+FY2010: projection (Sept 2010) and actual (Sept 2011) differ by **[redacted]**
 trillion. PASSED.
 
 ## Pitfalls

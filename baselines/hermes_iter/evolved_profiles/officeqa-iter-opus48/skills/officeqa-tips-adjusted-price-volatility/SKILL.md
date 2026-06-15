@@ -50,7 +50,7 @@ the question wants. No further multiplication needed.
      - 2-3/8% TIPS—01/15/17-A, 04/16/07 → 101.434007
      - 2-3/8% TIPS—01/15/27,   07/31/07 → 99.570169
 5. Population standard deviation (statistics.pstdev, divide by N not N-1):
-     pstdev([99.342280, 99.213485, 101.434007, 99.570169]) = 0.900544
+     pstdev([99.342280, 99.213485, 101.434007, 99.570169]) = [redacted]
    Round to the requested decimals (here 6).
 
 ## Pitfalls

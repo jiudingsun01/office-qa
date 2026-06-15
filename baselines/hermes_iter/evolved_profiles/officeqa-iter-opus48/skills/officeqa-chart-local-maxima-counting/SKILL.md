@@ -15,7 +15,7 @@ These are NOT arithmetic or table-lookup questions. There is no text extraction
 that helps — you must RENDER the page and look at it.
 
 ## Pipeline (proven)
-1. Resolve the PDF for the given bulletin (e.g. September 1990 Monthly Treasury
+1. Resolve the PDF for the given bulletin (e.g. September [redacted] Monthly Treasury
    Bulletin). The "page N" in the question is the PRINTED/visual page; chart
    pages in early-1990s bulletins are usually near the front (charts precede the
    tabular sections). If page N is ambiguous, render a few candidate pages and
@@ -52,7 +52,7 @@ thin lines you may have skipped, (c) tiny bumps riding on a larger trend.
 - Is your count biased toward the higher side when uncertain?
 
 ## Track record
-- PASSED: Sep 1990 bulletin, pdf page 5, answer = 18 (sum of peaks across all
+- PASSED: Sep [redacted] bulletin, pdf page 5, answer = 18 (sum of peaks across all
   line series on the page).
 
 ## Output format

@@ -30,7 +30,7 @@ Then:
 - These are EXTERNAL constants (not in the Bulletin). Annual-avg CPI-U:
   1960 = 29.6, 1961 = 29.9, 1962 = 30.2, 1963 = 30.6, 1964 = 31.0,
   1965 = 31.5, 1966 = 32.4, 1967 = 33.4, 1968 = 34.8, 1969 = 36.7,
-  1970 = 38.8, 1971 = 40.5, 1972 = 41.8, 1973 = 44.4, 1974 = 49.3,
+  1970 = 38.8, 1971 = 40.5, 1972 = 41.8, [redacted] = 44.4, 1974 = 49.3,
   1975 = 53.8, 1976 = 56.9, 1977 = 60.6, 1978 = 65.2, 1979 = 72.6.
   (Cross-check against `external-historical-constants.md` if present.)
 
@@ -53,7 +53,7 @@ Nominal end-of-FY public debt (June 30, $millions):
   FY1960 = 286,331  FY1961 = 288,971  (FY1962 not needed in the diff)
 real_1960 = 286,331 * 30.2/29.6
 real_1961 = 288,971 * 30.2/29.9
-answer = |real_1961 - real_1960| = 264.632  (gold = 264.632, CORRECT)
+answer = |real_1961 - real_1960| = [redacted]  (gold = [redacted], CORRECT)
 
 ## SIGNED variant + target-is-one-of-the-compared-years (IMPORTANT sub-case)
 Some Qs ask for the SIGNED difference in a stated order, e.g. "signed difference
@@ -75,7 +75,7 @@ Some Qs ask for the SIGNED difference in a stated order, e.g. "signed difference
 ## Worked CORRECT (Unemployment Trust Fund, signed 1947-1946, 1947 dollars)
 Total balance ($millions, from the Trust-fund statement): Dec1946 nominal and
 Dec1947 nominal. Deflate Dec1946 to 1947 $: real_1946 = nom_1946 * 22.3/19.5.
-answer = nom_1947 - real_1946 = -550.3  (gold = -550.3, CORRECT).
+answer = nom_1947 - real_1946 = [redacted]  (gold = [redacted], CORRECT).
 Negative because the 1946 balance, inflated into 1947 dollars, exceeds 1947.
 
 ## Takeaway

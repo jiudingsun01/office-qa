@@ -59,7 +59,7 @@ Keep the sign. If total collections fall while unemployment-insurance contributi
 2. Do not convert thousands to dollars; both numerator and denominator are in the same unit, so scaling cancels.
 3. Compute with floating-point or decimal arithmetic; do not round intermediate percentage changes.
 4. Round only the final elasticity to the requested precision, commonly three decimal places.
-5. Use a true minus sign or hyphen-minus consistently; benchmark grading is numeric, so `-3.524` and `−3.524` are equivalent.
+5. Use a true minus sign or hyphen-minus consistently; benchmark grading is numeric, so `-3.524` and `[redacted]` are equivalent.
 
 ## Verification Checklist
 

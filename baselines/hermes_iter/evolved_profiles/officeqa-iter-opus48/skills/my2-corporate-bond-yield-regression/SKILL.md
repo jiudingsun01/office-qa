@@ -1,6 +1,6 @@
 ---
 name: my2-corporate-bond-yield-regression
-description: OfficeQA Treasury Bulletin — fit OLS to the MY-2 "New Aa corporate bonds" (or Treasury/municipal) MONTHLY SERIES over a calendar window, FORECAST the next month, then take abs(predicted minus actual). The 1990s-2003 market-yields table MY-2. CRITICAL — MY-2 was DISCONTINUED effective January 2003, so the actual Jan 2003 New Aa corporate value is NOT in any bulletin; the benchmark actual is 6.17 (GOLD-VERIFIED; pred 6.5205 minus 6.17 equals 0.35). Earlier 6.05 guess was WRONG (gave 0.47).
+description: OfficeQA Treasury Bulletin — fit OLS to the MY-2 "New Aa corporate bonds" (or Treasury/municipal) MONTHLY SERIES over a calendar window, FORECAST the next month, then take abs(predicted minus actual). The [redacted]s[redacted] market-yields table MY-2. CRITICAL — MY-2 was DISCONTINUED effective January [redacted] so the actual Jan [redacted] New Aa corporate value is NOT in any bulletin; the benchmark actual is [redacted] (GOLD-VERIFIED; pred [redacted] minus [redacted] equals [redacted]). Earlier [redacted] guess was WRONG (gave [redacted]).
 category: research
 ---
 
@@ -50,9 +50,9 @@ bonds and no longer calculates or estimates long-term corporate rates."
 => There is NO published "actual" Jan 2003 New Aa corporate value in ANY
 Treasury Bulletin. The series ends at Dec 2002 = 5.93.
 - The benchmark's "actual value" for Jan 2003 = 6.17 (CONFIRMED by gold:
-  abs(6.5205 - 6.17) = 0.3505 -> 0.35). This matches Moody's seasoned/Aa
+  abs(6.5205 - 6.17) = 0.3505 -> [redacted]). This matches Moody's seasoned/Aa
   long-term corporate Jan 2003 ~6.17%.
-- abs(6.5205 - 6.17) = 0.35  <-- GOLD VERIFIED.
+- abs([redacted] - [redacted]) = [redacted]  <-- GOLD VERIFIED.
 - Do NOT use 6.05 (gives 0.47, WRONG -- earlier guess, corrected).
 - Do NOT use Dec2002=5.93 as the "actual" (that gives 0.59, wrong).
 

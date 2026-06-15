@@ -74,7 +74,7 @@ For calendar-year ratio questions such as `mean of the ratios of total net budge
    - Denominator row: the budget expenditure row for `National defense`/`national defense and associated activities` (not broader payments-to-public or non-budget defense-like rows).
 2. For each calendar year, collect or compute the annual value for each row from calendar-year columns or by summing the twelve monthly cells if only months are printed. Do not use fiscal-year columns for `calendar years`.
 3. Compute each year's ratio as `total_net_budget_receipts / total_national_defense_budget_expenditures`.
-4. Take the arithmetic mean of the per-year ratios; do not divide the sum of all receipts by the sum of all defense expenditures unless the prompt asks for an aggregate ratio. An answer near `0.49` for 1941-1943 is a red flag that an aggregate ratio, fiscal-year values, or the wrong receipts/defense table may have been used; the benchmark-style per-year mean is near `0.6841`.
+4. Take the arithmetic mean of the per-year ratios; do not divide the sum of all receipts by the sum of all defense expenditures unless the prompt asks for an aggregate ratio. An answer near `0.49` for 1941-1943 is a red flag that an aggregate ratio, fiscal-year values, or the wrong receipts/defense table may have been used; the benchmark-style per-year mean is near `[redacted]`.
 5. Round only the final mean to the requested decimals.
 
 Recommended scratch pattern for multi-year ratio means:
@@ -100,8 +100,8 @@ Round only the final percentage. Do not round or convert the monthly values befo
 
 Known extraction checks from the monthly `National defense and associated activities` row:
 
-- Calendar 1940 (Jan-Dec reported monthly cells) sums to `2,602` million dollars.
-- Calendar 1953 (Jan-Dec reported monthly cells) sums to `44,463` million dollars.
+- Calendar 1940 (Jan-Dec reported monthly cells) sums to `[redacted]` million dollars.
+- Calendar 1953 (Jan-Dec reported monthly cells) sums to `[redacted]` million dollars.
 
 Use these only as checks on extraction/arithmetic, not as replacements for reading the source in future variants.
 
@@ -115,7 +115,7 @@ Use these only as checks on extraction/arithmetic, not as replacements for readi
 
 4. Using derived or revised totals instead of the requested reported monthly values: if the prompt says `reported values for all individual calendar months`, sum the monthly cells exactly as printed. Do not recompute from an annual total or choose a later revised table unless the question asks for revised values.
 
-5. Unit conversion mistakes: if the table and question both use millions of dollars, the final number is a count of millions (for example `44,463`), not dollars and not billions.
+5. Unit conversion mistakes: if the table and question both use millions of dollars, the final number is a count of millions (for example `[redacted]`), not dollars and not billions.
 
 6. Row-label drift across pages: when a table wraps, verify that the row continuation still corresponds to `national defense and associated activities` and not the next expenditure category.
 

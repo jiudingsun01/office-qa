@@ -39,9 +39,9 @@ q3 = round(np.percentile(data, 75), 1)
 hspread = round(q3 - q1, 2)              # then final hundredths
 ```
 Because q1 and q3 are each at 0.1 resolution, the difference lands on a clean 0.1
-boundary -> a hundredths answer ending in 0 (e.g. 57.50, NOT 57.52).
+boundary -> a hundredths answer ending in 0 (e.g. [redacted], NOT 57.52).
 
-FAIL CASE: FY2021 Corporate income tax H Spread. GOLD = **57.50**. SOLVED path
+FAIL CASE: FY2021 Corporate income tax H Spread. GOLD = **[redacted]**. SOLVED path
 (verified from FFO-2 Corporation>Net col, FY21 = Oct'20..Sep'21 millions:
 9152,-3192,62920,16463,3780,15255,72769,13808,74189,16942,3033,86713):
   1. Convert to billions and ROUND EACH of the 12 values to tenths FIRST.

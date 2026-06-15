@@ -9,7 +9,7 @@ bulletin, e.g.:
 And asks for a stat (mean / change / average) over a span of years/quarters.
 
 PASSED: Sep 2007 bulletin, "payroll employment chart", mean of the average
-monthly change (thousands) from end of Q1 to end of Q2, 2004-2006 = **202.333**.
+monthly change (thousands) from end of Q1 to end of Q2, 2004-2006 = **[redacted]**.
 
 ## Where it lives
 - "Profile of the Economy" is a narrative section near the FRONT of modern
@@ -39,8 +39,8 @@ END of Q1 to END of Q2":
 
 Worked (payroll employment, levels in thousands, Sep 2007 chart, 2004-2006):
   year Y: avg monthly chg = (Jun_Y - Mar_Y)/3
-  mean over 2004,2005,2006 = ( c2004 + c2005 + c2006 ) / 3 = **202.333**.
-(The three per-year averages averaged to 202.333; report to nearest thousandth.)
+  mean over 2004,2005,2006 = ( c2004 + c2005 + c2006 ) / 3 = **[redacted]**.
+(The three per-year averages averaged to [redacted]; report to nearest thousandth.)
 
 ### Generalize the divisor
 - "end of Qa to end of Qb" spans (b-a)*3 months -> divide the level change by

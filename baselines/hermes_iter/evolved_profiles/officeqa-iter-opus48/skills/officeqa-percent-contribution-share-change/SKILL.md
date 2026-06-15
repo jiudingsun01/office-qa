@@ -1,6 +1,6 @@
 ---
 name: officeqa-percent-contribution-share-change
-description: OfficeQA Treasury Bulletin — compute the "change in percent contribution" (or "share", "proportion", "percentage of") of one line item to a TOTAL between two periods (e.g. net individual income taxes as a % of total budget receipts, CY2010 vs CY2011). The answer is the change in PERCENTAGE POINTS of the share, NOT a growth rate and NOT a ratio of differences. Covers the per-period-share-then-subtract method, the calendar-year (CY) vs fiscal-year (FY) sourcing twist, and the dominant failure of computing the wrong quantity. FAILED net individual income tax share CY2010->CY2011 by emitting 0.53 vs GOLD 4.61.
+description: OfficeQA Treasury Bulletin — compute the "change in percent contribution" (or "share", "proportion", "percentage of") of one line item to a TOTAL between two periods (e.g. net individual income taxes as a % of total budget receipts, CY[redacted] vs CY[redacted]). The answer is the change in PERCENTAGE POINTS of the share, NOT a growth rate and NOT a ratio of differences. Covers the per-period-share-then-subtract method, the calendar-year (CY) vs fiscal-year (FY) sourcing twist, and the dominant failure of computing the wrong quantity. FAILED net individual income tax share CY[redacted]->CY[redacted] by emitting [redacted] vs GOLD [redacted].
 ---
 
 # OfficeQA — Change in Percent Contribution / Share-of-Total

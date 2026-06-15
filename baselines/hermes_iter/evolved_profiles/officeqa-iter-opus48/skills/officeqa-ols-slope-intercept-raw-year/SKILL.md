@@ -67,7 +67,7 @@ print([round(m, 3), round(b, 3)])      # [0.096, -184.143]
 - Order of outputs: SLOPE first, then INTERCEPT, as the prompt states.
 - OUTPUT FORMAT IS WHITESPACE-SENSITIVE. The grader does a near-exact string
   match on bracketed CSV. A real run computed the CORRECT values but emitted
-  `[44.00, 231.52]` (space after comma) while GOLD was `[44.00,231.52]` (no
+  `[44.00, 231.52]` (space after comma) while GOLD was `[redacted]` (no
   space) -> graded WRONG despite identical numbers. ALWAYS emit the bracketed
   answer with a comma and NO surrounding spaces: `[slope,intercept]`. This
   applies to every [a,b] / square-bracket CSV answer in this benchmark.
@@ -83,10 +83,10 @@ Outstanding sec, ~1969 vintage): the markdown parse DROPS the "Computed annual
 interest charge - Public debt" sub-column, keeping only the "Public debt &
 guaranteed securities" sub-col. The two charge sub-cols are nearly identical
 (differ by ~3-20). For Qs about interest charged on PUBLIC DEBT use the PDF
-4th numeric column (pdftoppm 300dpi + vision read). Verified FY1961-1967
+4th numeric column (pdftoppm [redacted]dpi + vision read). Verified FY[redacted][redacted]
 charge (millions, public debt): 8761,9519,10119,10900,11467,12516,12953;
 FY1968 actual=15404. /1000 -> billions. Forecast68=13.736143,
-err(actual-forecast)=1.667857 B.
+err(actual-forecast)=[redacted] B.
 
 ## Distinct from neighbours
 - vs officeqa-treasury-yield-ols-forecast-maturity-bucket: that forecasts the

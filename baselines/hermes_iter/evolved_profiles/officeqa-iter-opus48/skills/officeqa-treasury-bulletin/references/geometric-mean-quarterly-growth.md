@@ -41,11 +41,11 @@ ALWAYS report the per-quarter value via the formula above.
 as an integer. Report the geometric mean rounded to the requested place
 (hundredths here -> 0.69). Delimiter: both have/are numbers; the value has a
 decimal -> MODE A bare comma, BUT the year is a bare integer, so format is
-[2017, 0.69] — note the gold uses ", " here (year is integer, not decimal).
+[redacted] — note the gold uses ", " here (year is integer, not decimal).
 
 ## FAIL LOG
 - 2013-2019 highest-GM Q: returned [2017, 2.74] (geomean of raw annualized values),
-  gold [2017, 0.69] (per-quarter de-annualized geomean). Year correct, value wrong.
+  gold [redacted] (per-quarter de-annualized geomean). Year correct, value wrong.
 - SAME Q FAILED AGAIN [2017,2.74] vs [2017,0.69]. This reference was already
   complete & correct at the time — the run did NOT load it and fell into the
   documented trap. ROOT CAUSE = routing, not knowledge. Mitigation: the trap is

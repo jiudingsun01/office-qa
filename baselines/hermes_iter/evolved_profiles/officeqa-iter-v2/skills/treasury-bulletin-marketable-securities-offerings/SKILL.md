@@ -45,7 +45,7 @@ Example pattern from the 2-year note maturing July 31, 1984: total bids submitte
 
 1. Convert printed millions to nominal dollars only at the final answer if requested.
 2. Percent values should be computed from unrounded printed amounts and rounded only at the final step to the requested precision, usually nearest hundredth.
-3. For bracketed comma-separated benchmark answers, do not include thousands separators inside numeric values unless explicitly requested; e.g. `[10102000000, 4.73]`.
+3. For bracketed comma-separated benchmark answers, do not include thousands separators inside numeric values unless explicitly requested; e.g. `[redacted]`.
 
 ## Verification checklist
 

@@ -50,7 +50,7 @@ Q: "Geometric mean (rounded to two decimal places) of Silver production (in
 thousands of nominal fine ounces) in the United States from April 1940 to
 August 1940."
 - 5 monthly values, plain geometric mean of the raw thousands-of-ounces numbers.
-- Answer: 5423.58  (CORRECT)
+- Answer: [redacted]  (CORRECT)
 No factor conversion, no rounding of intermediates, full-precision product then
 round final to 2dp.
 
@@ -75,7 +75,7 @@ to verify you collected the right cells. Answer there: 29347.01.
   right column).
 
 ## Output format
-Bare number to the stated precision, e.g. `5423.58`. (Single-value answer; no
+Bare number to the stated precision, e.g. `[redacted]`. (Single-value answer; no
 brackets unless the question asks for multiple values.)
 
 ## Checklist

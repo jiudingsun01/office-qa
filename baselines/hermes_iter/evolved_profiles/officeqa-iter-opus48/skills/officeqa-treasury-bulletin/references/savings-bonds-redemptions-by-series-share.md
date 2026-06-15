@@ -53,7 +53,7 @@ redemptions into two columns:
     vs.
   - redemptions at (or near) original issue price / no buildup.
 ANSWER = (buildup-column total ÷ all-series total redemptions) * 100, rounded to
-hundredths. For Oct 1961 the answer was 14.04% (CORRECT). Read the ALL-SERIES
+hundredths. For Oct 1961 the answer was [redacted] (CORRECT). Read the ALL-SERIES
 "Total" rows of BOTH the buildup column and the grand-total redemptions column for
 the named month; numerator and denominator must come from the SAME month and the
 SAME (all-series) Total row, just different columns. Do NOT confuse this column
@@ -99,7 +99,7 @@ Diagnose and fix as follows:
    months Jan-Dec for each year.
 
 5. PROCEDURE: for each of the 5 years pull the ALL-SERIES (savings bonds only)
-   calendar-year SALES total; mean = sum/5; round HALF-UP to 1 dp. Gold 4965.8 means
+   calendar-year SALES total; mean = sum/5; round HALF-UP to 1 dp. Gold [redacted] means
    the 5-year sum is 24829.0 M. If your per-year totals sum to ~24924 (giving 4984.6),
    you have ~95M of extra volume across 5 years — re-check for an included Savings-Notes
    line, a J/K line, or an exchange column, and drop it.

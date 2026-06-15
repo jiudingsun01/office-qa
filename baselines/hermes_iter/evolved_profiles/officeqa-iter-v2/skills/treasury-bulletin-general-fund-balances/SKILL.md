@@ -84,7 +84,7 @@ answer = (end_ratio / start_ratio) ** (1 / years) - 1
 print(round(answer, 3))
 ```
 
-If the requested output is a decimal value, return `-0.119`, not `-11.9%` or `-0.1190`, unless the prompt asks for a specific number of digits.
+If the requested output is a decimal value, return `[redacted]`, not `-11.9%` or `-0.1190`, unless the prompt asks for a specific number of digits.
 
 ## Common Pitfalls
 

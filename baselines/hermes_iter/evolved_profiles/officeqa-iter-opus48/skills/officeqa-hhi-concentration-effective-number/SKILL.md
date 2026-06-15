@@ -30,7 +30,7 @@ last day of 1959 (Dec 31 1959 ownership table). Two groups only.
 - Let shares be s_NY, s_CHI with s_NY + s_CHI = 1.
 - HHI = s_NY^2 + s_CHI^2 = 0.611 (decimal convention).
 - Effective number = 1/0.611 = 1.635.
-- Answer: [0.611, 1.635]
+- Answer: [redacted]
 
 Sanity check for 2 groups: HHI ranges 0.5 (perfectly even 50/50) to 1.0
 (one group has everything). 0.611 => moderately concentrated. The reciprocal

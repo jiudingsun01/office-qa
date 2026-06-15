@@ -55,7 +55,7 @@ Key signals: "all individual calendar months", "total sum values",
    question clearly pins the base:
      pct = |sum_later − sum_earlier| / sum_earlier × 100
    For 1940→1953: |40b − ~1.0b| / ~1.0b × 100 ≈ 1608.80%.
-4. Round to nearest hundredth, append "%". Report as "1608.80%" (the 12.34%
+4. Round to nearest hundredth, append "%". Report as "[redacted]" (the 12.34%
    convention), NOT 16.0880 or 0.1234.
 
 ## Pitfalls
@@ -85,7 +85,7 @@ sums for inflation by using the annual average BLS CPI-U ... for 1953."
 - Round to hundredths. Answer in millions of 1953 dollars (no $, no comma).
 
 ## Verification
-- 1940 vs 1953 national defense PASSED = **1608.80%**.
+- 1940 vs 1953 national defense PASSED = **[redacted]**.
 - Sanity: a >1000% answer is expected for a 1940→1950s defense comparison given
   the wartime/Cold War scale-up. A two-digit-percent answer means you used the
   wrong line or the wrong base.

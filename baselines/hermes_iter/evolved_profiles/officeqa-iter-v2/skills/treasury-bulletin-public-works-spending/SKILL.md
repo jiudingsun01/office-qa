@@ -55,7 +55,7 @@ The tables are typically in `millions of dollars` and values may carry footnote 
 - [ ] The table/notes match any prompt language about revised figures, PWA, housing, and wartime exclusions.
 - [ ] Both comparison years come from the same revised series/table.
 - [ ] Units are millions if the prompt asks for millions of nominal dollars.
-- [ ] The final comparison is an absolute difference, so the answer is nonnegative.
+- [redacted] The final comparison is an absolute difference, so the answer is nonnegative.
 - [ ] Sanity anchor: on the revised WWII-era public-works series matching the PWA/housing/wartime-exclusion wording, the absolute difference between 1934 and 1946 is 142 million nominal dollars. If your extraction does not reproduce 142 for that benchmark comparison, re-check that you did not use an unrevised table, a department table, or raw-dollar scaling.
 
 ## Pitfalls

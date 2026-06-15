@@ -1,6 +1,6 @@
 # Silver monetary stock -> implied physical oz -> real silver price
 
-Q pattern (FAILED once, Sep1938/1948/1958, emitted 3584.40 vs GOLD 2051.51,
+Q pattern (FAILED once, Sep1938/1948/1958, emitted 3584.40 vs GOLD [redacted],
 ratio ~1.747): "Using the total silver MONETARY stock values (millions $,
 nominal) held by Treasury in Sep YYYY... determine the implied PHYSICAL
 quantities using the defined FIXED STATUTORY conversion rate per fine troy
@@ -28,7 +28,7 @@ From the three nominal values return the MEDIAN, rounded to hundredths."
    nominal_value_year = physical_oz * real_silver_price_year
    then MEDIAN of the three years -> round to hundredths.
 
-3. My 3584.40 / gold 2051.51 = 1.747 ~= 1.2929 / 0.740. That strongly implies
+3. My 3584.40 / gold [redacted] = 1.747 ~= 1.2929 / 0.740. That strongly implies
    the ounce conversion or the price basis was off by the statutory-vs-market
    gap. Lesson: keep the STATUTORY rate ($1.2929) ONLY for step-1 (stock->oz),
    and the MARKET/real price ONLY for step-3 (oz->value). Mixing them (using

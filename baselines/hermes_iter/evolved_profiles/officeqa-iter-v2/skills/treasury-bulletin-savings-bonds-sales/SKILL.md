@@ -70,7 +70,7 @@ answer = sum(values.values()) / len(values)
 print(round(answer, 1))
 ```
 
-For the OfficeQA pattern asking for the arithmetic mean of `total sales (in millions of nominal dollars) of all series combined` for calendar years 1949-1953, the validated result is `4965.8` million dollars. Use this as a sanity check only; still re-extract when the question or years differ.
+For the OfficeQA pattern asking for the arithmetic mean of `total sales (in millions of nominal dollars) of all series combined` for calendar years 1949-1953, the validated result is `[redacted]` million dollars. Use this as a sanity check only; still re-extract when the question or years differ.
 
 ## Monthly Unmatured Redemptions + CPI Inflation Adjustment Pattern
 
@@ -130,7 +130,7 @@ rate_year = 100 * redemptions_year / average_amount_outstanding_year
 diff_pp = abs(rate_1981 - rate_1980)  # or signed if the prompt asks for direction
 ```
 
-Treat `percentage points` as a subtraction of percentages, not as a percent change. Do not compute percent change of the dollar redemption amounts, and do not compute `(redemptions_1981 - redemptions_1980) / average_outstanding`. The OfficeQA gold-check for the 1980 vs 1981 savings-note redemption-rate question is around `17.69` percentage points; a result near `3.85` indicates the wrong denominator or difference formula was used.
+Treat `percentage points` as a subtraction of percentages, not as a percent change. Do not compute percent change of the dollar redemption amounts, and do not compute `(redemptions_1981 - redemptions_1980) / average_outstanding`. The OfficeQA gold-check for the 1980 vs 1981 savings-note redemption-rate question is around `[redacted]` percentage points; a result near `3.85` indicates the wrong denominator or difference formula was used.
 
 ## Series I Share of Total Redemptions Pattern
 
@@ -193,7 +193,7 @@ projected = end * (end / start)
 print(f"{projected:.2f}")
 ```
 
-Do not compound for the whole 10-year span from 2001 to 2011 after already starting from the 2006 value; that squares the 2001->2006 growth ratio and overstates the projection. Validated OfficeQA sanity check for the March 2001 -> March 2006 -> March 2011 Series I interest-bearing-debt question: `339501.88` million nominal dollars.
+Do not compound for the whole 10-year span from 2001 to 2011 after already starting from the 2006 value; that squares the 2001->2006 growth ratio and overstates the projection. Validated OfficeQA sanity check for the March 2001 -> March 2006 -> March 2011 Series I interest-bearing-debt question: `[redacted]` million nominal dollars.
 
 ## Original Price Markdown / Elapsed Value Buildup Redemption Share Pattern
 
@@ -211,13 +211,13 @@ share_pct = 100 * elapsed_value_buildup / total_redemptions_all_series
 print(f"{share_pct:.2f}%")
 ```
 
-5. If the prompt says `Answer as a percent value`, compute `100 * component / total` and round to the requested decimal places. Include a percent sign in the final answer when the prompt/gold style uses one (e.g. `14.04%`); OfficeQA may also accept the bare numeric percent (`14.04`), but do not return the raw decimal (`0.1404`).
+5. If the prompt says `Answer as a percent value`, compute `100 * component / total` and round to the requested decimal places. Include a percent sign in the final answer when the prompt/gold style uses one (e.g. `[redacted]`); OfficeQA may also accept the bare numeric percent (`14.04`), but do not return the raw decimal (`0.1404`).
 
-Validated OfficeQA sanity check: for October 1961, `elapsed value buildup from original price markdown` divided by total redemptions, all series combined, rounds to `14.04%`.
+Validated OfficeQA sanity check: for October 1961, `elapsed value buildup from original price markdown` divided by total redemptions, all series combined, rounds to `[redacted]`.
 
 ## Common Pitfalls
 
-- Exact output formatting matters in OfficeQA. If asked for comma-separated values in square brackets, output like `[44.00,231.52]` with no extra spaces unless the requested format includes spaces.
+- Exact output formatting matters in OfficeQA. If asked for comma-separated values in square brackets, output like `[redacted]` with no extra spaces unless the requested format includes spaces.
 - Mixing sales with redemptions or debt/outstanding. The prompt says `sales`; ignore redemption/debt columns. If the prompt says `redemptions`, use the appropriate redemption field. If it says `interest-bearing debt` or `amount outstanding`, use the debt/outstanding table, not sales or redemptions.
 - Mixing savings notes with savings bonds/Series E. `Savings notes` is a distinct category in later tables; do not substitute all-series savings bond totals or Series E/EE values.
 - For redemption rates, divide each year's redemptions by that year's average amount outstanding, then compare the resulting percentage rates in percentage points.

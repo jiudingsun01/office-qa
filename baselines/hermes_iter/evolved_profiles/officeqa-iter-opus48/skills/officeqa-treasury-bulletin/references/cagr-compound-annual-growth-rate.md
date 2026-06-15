@@ -12,7 +12,7 @@ Do NOT confuse the three — gold treats them differently.
 - "reported in percent per year" / "%" example -> *100, percent.
 - "outputted as a decimal value (e.g. 0.1234, not 12.34%)" -> BARE DECIMAL, do
   NOT multiply by 100. Formula = (V_end/V_start)**(1/N) - 1, round at given dp.
-  Sign is kept (decline -> negative, e.g. gold -0.119). Single value -> period
+  Sign is kept (decline -> negative, e.g. gold [redacted]). Single value -> period
   decimal, no comma delimiter.
 
 ## RATIO metrics: form the ratio at EACH endpoint FIRST, then CAGR over ratios
@@ -21,7 +21,7 @@ you want (e.g. "General Fund working balance to total balance ratio").
   1. ratio_start = X_start / Y_start ; ratio_end = X_end / Y_end
   2. CAGR = (ratio_end / ratio_start)**(1/N) - 1
 Do NOT CAGR X and Y separately. Read both X and Y cells from the SAME table at
-each period. WORKED SUCCESS (CORRECT, gold = -0.119): "geometric annual rate of
+each period. WORKED SUCCESS (CORRECT, gold = [redacted]): "geometric annual rate of
 change in General Fund working balance to total balance ratio, Dec 1938 -> Dec
 1940, decimal, thousandths." N = 1940-1938 = 2; ratio fell -> negative -0.119.
 
@@ -36,7 +36,7 @@ where N = NUMBER OF YEARS ELAPSED = end_year - start_year.
   fiscal years are named/touched). Using N=4 gives a too-low rate.
 - General rule: count the GAPS between the endpoints, not the endpoints.
 
-## Worked success (CORRECT, gold = 108.01%)
+## Worked success (CORRECT, gold = [redacted])
 "CAGR for expenditure transfers to the OASI trust fund from FY 1947 to the FY in
 which the Korean War started, in percent per year, round to hundredth, nominal $."
 - Korean War began calendar 1950 -> FY 1950 (event->year map: see
@@ -46,7 +46,7 @@ which the Korean War started, in percent per year, round to hundredth, nominal $
 - Such a high CAGR (>100%/yr) is legitimate when the start value is tiny relative
   to the end value (a young, fast-growing trust fund). Do NOT distrust a triple-
   digit CAGR — verify the cells and report it.
-- TARGET RATIO CHECK: gold 108.01% over N=3 => (V_1950/V_1947) = 1.0801**? no:
+- TARGET RATIO CHECK: gold [redacted] over N=3 => (V_1950/V_1947) = 1.0801**? no:
   2.0801**3 = 9.00. So V_1950 / V_1947 MUST equal ~9.0. If your ratio is not ~9,
   you read a wrong cell — re-extract before answering.
 
@@ -93,7 +93,7 @@ Two-step, keep full precision, round ONCE at the end:
 Equivalent one-liner (no intermediate r): V_target = V_end * (V_end/V_start)**(N_proj/N_obs).
 SHORTCUT when N_proj == N_obs: V_target = V_end**2 / V_start (the geometric continuation).
 
-Worked success (CORRECT, gold = 339501.88):
+Worked success (CORRECT, gold = [redacted]):
   "Series I savings bonds interest-bearing debt, same annualized compound rate
    March 2001 -> March 2006, projected level March 2011, millions nominal $, 2 dp."
   - N_obs = 2006-2001 = 5;  N_proj = 2011-2006 = 5  (equal -> shortcut applies)

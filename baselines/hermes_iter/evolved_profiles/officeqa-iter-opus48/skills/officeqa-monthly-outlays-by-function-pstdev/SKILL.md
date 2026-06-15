@@ -11,7 +11,7 @@ Question asks for the population standard deviation (or mean, variance, range) o
 function/source) over a stated FISCAL YEAR **or CALENDAR YEAR (CYxxxx)**, returning
 $ millions. READ THE YEAR FRAMING CAREFULLY — "CY1981" means the 12 months
 Jan–Dec 1981; "FY1981" means Oct 1980 – Sep 1981. Same table, DIFFERENT 12 months,
-substantially different answers (CY1981 pstdev = 6379.29 vs FY1981 = 2760.44).
+substantially different answers (CY1981 pstdev = [redacted] vs FY1981 = 2760.44).
 Often phrased
 "include all of these monthly values in one place" — a hint to use the single
 bulletin table that lists all 12 months in columns.
@@ -56,4 +56,4 @@ You need ONE total-net-outlays number per month (12 values), then take the stat.
 ## Verified
 - FY1981 monthly nominal federal net outlays, population std dev = 2760.44 (PASSED).
 - CY1981 (Jan–Dec 1981) monthly nominal federal net outlays, population std dev
-  = 6379.29 (PASSED).
+  = [redacted] (PASSED).

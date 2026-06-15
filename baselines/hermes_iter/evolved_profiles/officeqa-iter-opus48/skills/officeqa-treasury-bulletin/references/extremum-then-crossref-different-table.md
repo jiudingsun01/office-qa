@@ -27,9 +27,9 @@ The final answer is the STAGE-2 number, not the date. The date is just an index.
 
 ## Units / format gotchas
 - Older bulletins (1960s-70s) report many trust-fund and account figures in WHOLE
-  NOMINAL DOLLARS, already exact (e.g. railroad retirement receipts = 92000000 =
+  NOMINAL DOLLARS, already exact (e.g. railroad retirement receipts = [redacted] =
   $92 million written out fully). The Q here said "nominal dollars ... full number
-  without commas" -> output the raw integer 92000000, NO scaling, NO rounding.
+  without commas" -> output the raw integer [redacted], NO scaling, NO rounding.
 - Do NOT assume "millions" scaling. Check the column header: if the cell literally
   reads a full-dollar figure, copy it verbatim (strip commas only).
 - "without commas or words" = bare integer, single value (not bracketed list when

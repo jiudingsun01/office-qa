@@ -64,7 +64,7 @@ Do not use this for nominal GDP levels, annual real GDP growth already reported 
 5. Format exactly as requested. For OfficeQA answers, if the prompt asks for square brackets and comma-separated values, return for example:
 
    ```text
-   [2017, 0.69]
+   [redacted]
    ```
 
 ## Worked Sanity Check

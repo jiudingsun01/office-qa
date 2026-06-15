@@ -50,7 +50,7 @@ Rules for "total currency in circulation" / "currency outstanding":
 - "currency in circulation" usually = (currency outstanding) − (amount held by Treasury and
   Federal Reserve Banks). If the table gives both "outstanding" and "in circulation"
   columns, the question's "in circulation" wording means the **in-circulation** column.
-- Nov 1969 correct base ≈ **53,227 $ million** (53227 * 1.054348 ≈ 56117.5 = GOLD).
+- Nov 1969 correct base ≈ **53,227 $ million** (53227 * 1.054348 ≈ [redacted] = GOLD).
 
 ### DEBUG trick when verdict is wrong
 Compute GOLD / your_answer.
@@ -96,7 +96,7 @@ PASSED: Unemployment Trust Fund total balance, Dec1946 vs Dec1947, in 1947 dolla
 
 ### Variant B sub-case — ABSOLUTE difference, FY-end public debt, 3 years named
 PASSED FY1960/1961/1962 public debt outstanding, adjust FY1960 & FY1961 to constant 1962$,
-ABSOLUTE difference |real_1961 - real_1960| → 264.632 (GOLD 264.632).
+ABSOLUTE difference |real_1961 - real_1960| → [redacted] (GOLD [redacted]).
 - "absolute difference" → report |·| (non-negative), unlike the SIGNED Dec1946/47 case.
 - The question may NAME three fiscal years but only adjust TWO and difference TWO; FY1962 is
   just the base year (its figure is read only to confirm base, not differenced here).
@@ -175,8 +175,8 @@ May=81.8, Jun=82.7. Real (Feb$): 861603/857403.64/854179.19/853420.21/843744.39 
 average 854070.09.
 
 ## Track record
-- PASSED Variant B — Unemployment Trust Fund Dec1946 vs Dec1947 in 1947$ → -550.3 (GOLD -550.3).
+- PASSED Variant B — Unemployment Trust Fund Dec1946 vs Dec1947 in 1947$ → [redacted] (GOLD [redacted]).
 - FAILED Nov1969 total currency in circulation — emitted 48954.4 (base ~46433, rate 5.43%)
-  vs GOLD 56117.5 (base ~53227, rate 5.43%). Rate correct, BASE row wrong.
+  vs GOLD [redacted] (base ~53227, rate 5.43%). Rate correct, BASE row wrong.
 - FAILED Variant C Jun79 FRN MoM real change TWICE — emitted +247.53 (raw nominal MoM, NO
   deflation) and earlier -362; GOLD -156.11. Fix: change = nom_Jun - nom_May*(69.5/68.9).

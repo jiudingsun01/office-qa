@@ -31,7 +31,7 @@ Then:
 ## THE FAILURE (why this ref exists)
 Q: 85th Hazen percentile of total nominal on-budget+off-budget DoD outlays,
 FY2011-2020 (n=10). I answered **732852.00** (the MAX of the series). GOLD =
-**678077.00**. For n=10, P=85:  r = 0.85*10 + 0.5 = **9.0** — exactly rank 9 of
+**[redacted]**. For n=10, P=85:  r = 0.85*10 + 0.5 = **9.0** — exactly rank 9 of
 10, i.e. the **2nd-LARGEST** value, NOT the max (rank 10). The max is the 100th
 percentile-ish tail; the 85th lands one rank below it.
 

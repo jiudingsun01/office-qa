@@ -29,7 +29,7 @@ Steps (rates r1, r2 read directly as percentages, e.g. 2.33, 2.35):
 - rates 2.33% and 2.35%.
 - ln(2.35/2.33) = 0.00854706 (carry ALL digits).
 - sqrt(52) = 7.211103 (NOT 7.2, NOT 7.21).
-- vol = 7.211103 * 0.00854706 * 100 = 6.1634% -> 6.16%  (GOLD).
+- vol = 7.211103 * 0.00854706 * 100 = 6.1634% -> [redacted]  (GOLD).
 
 ### THE FAILURE THAT COST THE LAST DIGIT
 - Using sqrt(52) ≈ 7.2 gave 6.15% (WRONG, gold 6.16). Truncating the
@@ -70,7 +70,7 @@ with THREE differences that change the final number — read the question wordin
    variance (ln r2-ln r1)^2/2 = RV/2 are BOTH wrong here — do not divide.)
 2. NO annualization. The weekly-vol recipe multiplies by 52; this one does NOT.
    "one step realized variance" = the raw squared return, period count = 1.
-3. Output is the RAW DECIMAL of the variance (e.g. 0.058), NOT a percent and NOT
+3. Output is the RAW DECIMAL of the variance (e.g. [redacted]), NOT a percent and NOT
    a volatility. Do NOT take sqrt (that would be volatility), do NOT *100.
    The "(12.34% -> 0.1234)" hint refers to how OTHER answers are formatted; the
    variance itself is just round((ln(r2/r1))^2, 3).
@@ -89,7 +89,7 @@ and sometimes "low"/"coupon-equivalent"; use AVERAGE when the Q says average). T
 two observations are quoted in the SAME monthly Bulletin's Financing tables.
 
 Worked success (6/1980 Bulletin): 19-day CMB opened 5/27/1980 ~6.00%, 2-day CMB
-opened 6/2/1980 ~7.63% -> RV = (ln(7.63/6.00))^2 = 0.0578 -> round 0.058 ✓ (3 dp).
+opened 6/2/1980 ~7.63% -> RV = (ln(7.63/6.00))^2 = 0.0578 -> round [redacted] ✓ (3 dp).
 
 ## Variant: BOX-COX transform of two annual values, then DIFFERENCE
 Question form: "difference between Box-Cox transformed values of <metric> in
@@ -135,7 +135,7 @@ PITFALLS:
 - λ != 0 always uses (x**λ - 1)/λ; the bare x**λ (forgetting the "-1" and "/λ")
   is a common slip and gives a wrong magnitude.
 Worked success: Box-Cox(FY1981 net interest, billions) - Box-Cox(FY1980),
-λ=0.75, Nov-1981 Bulletin -> 6.1596 ✓ (4 dp).
+λ=0.75, Nov-1981 Bulletin -> [redacted] ✓ (4 dp).
 
 ## Variant: TIPS "adjusted price" volatility (population std) over a date range
 Question form: "price volatility (population standard deviation) for securities
@@ -170,7 +170,7 @@ PITFALLS:
 - Each month is a SEPARATE Bulletin issue — pull the same TIPS row from each
   monthly PDF, don't try to find all months in one issue.
 - Carry full precision on price*ratio; round only the final sigma.
-Worked success: 2⅜% TIPS adjusted-price pop-std, Jan–Aug 2007 -> 0.900544 ✓ (6dp).
+Worked success: 2⅜% TIPS adjusted-price pop-std, Jan–Aug 2007 -> [redacted] ✓ (6dp).
 
 ## Variant: FISHER IDEAL SYMMETRIC growth rate between two values
 Question form: "find <metric> for period B and period A ... Calculate the Fisher
@@ -194,7 +194,7 @@ added to the average"). The monthly-series block has a CONFUSING multi-block
 layout: 4 column-groups across, each group = (Treasury, corporate, municipal),
 and group HEADERS are years printed ABOVE blocks, advancing across rows of blocks
 (e.g. top row of blocks = 1971/1974/1977/1980; next = 1972/1975/1978/1981; next =
-1973/1976/1979/1982). Read the YEAR HEADER directly above each block — easy to be
+[redacted]/1976/1979/1982). Read the YEAR HEADER directly above each block — easy to be
 off-by-one on which column = which year. Rasterize the page (pdftoppm -r 200) and
 read visually; the pdftotext layer for AY-1 is badly collapsed.
 

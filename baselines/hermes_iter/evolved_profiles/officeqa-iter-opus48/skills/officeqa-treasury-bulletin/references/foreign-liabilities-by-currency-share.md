@@ -5,7 +5,7 @@ Q asks for the "share of <CURRENCY> dollar/denominated liabilities out of TOTAL
 liabilities to foreign countries by the U.S." over a span of CALENDAR-YEAR-END
 reported values (e.g. 2009-2011 inclusive), then asks for the MAX (or min) of
 those per-year shares, as a DECIMAL (0.1234 form, not percent). Worked: max CAD
-share of total foreign liabilities, CY-ends 2009/2010/2011 -> 0.005 (gold 0.005).
+share of total foreign liabilities, CY-ends 2009/2010/2011 -> [redacted] (gold [redacted]).
 
 This is the CURRENCY-DENOMINATION breakdown — NOT the by-COUNTRY breakdown
 (see capital-movements-liabilities-by-country-fx-convert.md for that, which is a
@@ -28,17 +28,17 @@ euro, yen, pound, Swiss franc, "other") and the denominator is the grand TOTAL.
 For each year-end Y in the inclusive span:
   share_Y = (Canadian-dollar liabilities cell) / (Total liabilities cell)
 Then answer = MAX(share_2009, share_2010, share_2011), as a DECIMAL.
-Round to the requested places (here nearest thousandths -> 0.005).
+Round to the requested places (here nearest thousandths -> [redacted]).
 
-The non-USD currency shares are TINY (CAD ~0.5% = 0.005). At thousandths
+The non-USD currency shares are TINY (CAD ~0.5% = [redacted]). At thousandths
 rounding the answer can be a very small decimal; do NOT report as a percent
 (0.5 would be wrong — the Q's own example maps 12.34% -> 0.1234, so a 0.5% share
-is 0.005). Keep numerator/denominator both in the SAME currency-of-report (USD
+is [redacted]). Keep numerator/denominator both in the SAME currency-of-report (USD
 millions) — these tables report all currency-denominated liabilities CONVERTED
 to USD already, so no FX conversion is needed.
 
 ## Pitfalls
-- DECIMAL vs percent: the share is a ratio in [0,1]. 0.005 NOT 0.5. The Q always
+- DECIMAL vs percent: the share is a ratio in [0,1]. [redacted] NOT 0.5. The Q always
   restates "if 12.34 is percent, 0.1234 is decimal" — obey it.
 - Denominator = the GRAND "Total" liabilities row, not a regional/country
   subtotal and not the USD-denominated subtotal.

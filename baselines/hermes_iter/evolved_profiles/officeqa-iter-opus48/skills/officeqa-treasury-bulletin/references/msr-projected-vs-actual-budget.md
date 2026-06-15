@@ -32,7 +32,7 @@ answer = | projection_T(rounded 2dp) − actual_T(rounded 2dp) |
 Worked example (FY2010): |1.47 − 1.30| = 0.17. Gold = 0.17.
 
 ## Delimiter / format
-Single scalar with a decimal point → MODE A bare number (e.g. 0.17). No sign
+Single scalar with a decimal point → MODE A bare number (e.g. [redacted]). No sign
 needed (absolute difference). No thousands separators at this magnitude.
 
 ## Pitfalls

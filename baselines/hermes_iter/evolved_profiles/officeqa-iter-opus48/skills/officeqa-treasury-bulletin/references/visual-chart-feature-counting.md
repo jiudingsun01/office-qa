@@ -40,7 +40,7 @@ and look at the pixels.
   as local maxima if the line genuinely reverses direction.
 
 ## Worked example
-Sep 1990 Bulletin, page 5: counted local maxima across all line plots on the
+Sep [redacted] Bulletin, page 5: counted local maxima across all line plots on the
 page = 18. CORRECT. (Multiple charts on the page; summed peaks across all of
 their plotted series.)
 

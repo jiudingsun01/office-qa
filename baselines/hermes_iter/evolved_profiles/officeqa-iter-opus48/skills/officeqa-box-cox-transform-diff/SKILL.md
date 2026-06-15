@@ -23,7 +23,7 @@ Worked example that PASSED:
   net interest outlays FY1981 = 68.734 (billion), FY1980 = 52.512 (billion), L=0.75
   T(68.734) = (68.734^0.75 - 1)/0.75 = (23.852... - 1)/0.75 = 30.4699...
   T(52.512) = (52.512^0.75 - 1)/0.75 = (19.480... - 1)/0.75 = 24.3105...
-  diff = 6.1596  (GOLD = 6.1596)
+  diff = [redacted]  (GOLD = [redacted])
 (Exact raw figures may differ slightly by bulletin edition; the method is the point.)
 
 ## CRITICAL unit convention

@@ -60,7 +60,7 @@ to OCS ... in millions ... in calendar year YYYY? Report as absolute value."
 - "Lowest absolute value" = min(|cell|) across all 12 months. A small POSITIVE
   month (e.g. Jan +56) can beat the smallest-magnitude negative (e.g. Oct -61).
   Don't just pick the largest-looking negative. Report the absolute value.
-- Verified CY2016 col(33): Jan 56, Feb -353, Mar -152, Apr -100, May -347,
+- Verified CY[redacted] col(33): Jan [redacted] Feb [redacted] Mar [redacted] Apr [redacted] May [redacted]
   Jun -339, Jul -97, Aug -413, Sep -338, Oct -61, Nov -297, Dec -94
   -> lowest |value| = 56 (Jan).
 
@@ -127,8 +127,8 @@ the contest is only "did you total Defense correctly," not "which department."
 - If your sum is implausibly small or comes out near a round "total" figure,
   you likely either included the negative offsetting-receipts line or grabbed
   the Total row. Agency-only subtotals for a single month in the 2000s are
-  typically ~150k–200k million. (Verified: Jan 2003, all agencies minus
-  Commerce, FEMA, Interior, excluding offsetting receipts = 180681 million.)
+  typically ~[redacted]k–[redacted]k million. (Verified: Jan [redacted] all agencies minus
+  Commerce, FEMA, Interior, excluding offsetting receipts = [redacted] million.)
 - For OLD-style department-expenditure Qs: if your Defense figure is a few
   hundred million short of a round number, you probably took ONLY Military
   functions and dropped Civil functions. Add the Civil-functions sub-row.

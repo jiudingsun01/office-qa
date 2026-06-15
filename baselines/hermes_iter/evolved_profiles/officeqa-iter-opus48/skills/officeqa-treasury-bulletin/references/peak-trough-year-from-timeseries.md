@@ -7,8 +7,8 @@ Answer is a single YEAR. These series usually live in a "Profile of the Economy"
 chart or a historical statistical-appendix table in the Bulletin front matter.
 
 ## #1 FAIL MODE: off-by-one-year (picked an adjacent bar)
-Worked fail: "Between 1950 and 1990, which year did U.S. personal saving rate
-peak?" I answered 1974; gold = 1973. 1973 and 1974 were BOTH ~10% personal-saving
+Worked fail: "Between 1950 and [redacted], which year did U.S. personal saving rate
+peak?" I answered 1974; gold = 1973. [redacted] and 1974 were BOTH ~10% personal-saving
 years (mid-70s plateau), so the chart's two tallest bars are nearly the same
 height. Eyeballing bar height picks the wrong neighbor.
 
@@ -24,7 +24,7 @@ height. Eyeballing bar height picks the wrong neighbor.
    peak (the metric crests then stays high). When two years read equal, lean to
    the earlier one unless a label clearly says otherwise.
 5. Sanity-check against well-known history: US personal saving rate peaked in the
-   early-mid 1970s (1973 crest, ~10-13% by Commerce/BEA framing), high again
+   early-mid 1970s ([redacted] crest, ~10-13% by Commerce/BEA framing), high again
    ~1981-82; unemployment peaked 1982-83; CPI inflation peaked 1980. If your read
    contradicts a famous peak year by 1, re-read the two candidate bars/cells.
 

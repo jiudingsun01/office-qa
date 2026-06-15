@@ -38,7 +38,7 @@ column, by month.
 Jan/Feb/Mar 1941, CLEARED for foreign ports, thousands of net reg tons:
 - share of American vessels of grand total = **34.4%**
 - Pearson r(American, grand total) over the 3 months = **0.391**
-- Answer: [34.4, 0.391]  (spacing after comma does NOT matter to the grader)
+- Answer: [redacted]  (spacing after comma does NOT matter to the grader)
 
 ## Pitfalls
 - ENTERED vs CLEARED are different tables — pick the one named.

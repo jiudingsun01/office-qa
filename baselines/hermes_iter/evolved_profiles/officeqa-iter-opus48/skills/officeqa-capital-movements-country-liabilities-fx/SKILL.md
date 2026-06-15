@@ -25,7 +25,7 @@ Liabilities" (and "Total Claims") line for each.
 ## Method that PASSED (worked example)
 Q: sum of Total Liabilities for United Kingdom in June 2000, June 2001, June
 2002, then convert to millions GBP using USD->GBP rate from June 30 2002 rounded
-to hundredths. Final answer 372507.20 — CORRECT.
+to hundredths. Final answer [redacted] — CORRECT.
 
 Procedure:
 1. Find the Capital Movements country-detail "Liabilities to Foreigners reported
@@ -38,19 +38,19 @@ Procedure:
    place from June 30, 2002": the GBP per USD rate on 2002-06-30 rounds to
    ~0.66 (1 USD ≈ 0.66 GBP; equivalently GBP/USD cable ≈ 1.52, USD/GBP ≈ 0.657 →
    0.66). Multiply the USD-millions sum by 0.66 to get GBP millions.
-   (Sum_USD × 0.66 = 372507.20 GBP-millions for this item.)
+   (Sum_USD × 0.66 = [redacted] GBP-millions for this item.)
 4. Round final to two decimals.
 
 ## FX-conversion rules (modern era, 1990s–2000s)
 - "USD to GBP rate rounded to hundredths" means GBP-per-USD ≈ 0.66 on
   2002-06-30 (NOT the cable GBP/USD ≈ 1.52). Read the direction literally:
   "USD to X" = units of X per 1 USD, so you MULTIPLY a USD amount by it.
-- !!! RATE-ROUNDING TRAP (FAILED here, gave 384510.06 vs GOLD 372507.20) !!!
+- !!! RATE-ROUNDING TRAP (FAILED here, gave 384510.06 vs GOLD [redacted]) !!!
   The prompt says "rate ... rounded to its hundredths place". You MUST snap the
   rate to exactly 2 decimals BEFORE multiplying. On 2002-06-30 USD->GBP ≈ 0.6813
   unrounded; rounded to hundredths = 0.66. Using the unrounded 0.6813 inflates
   the answer by ~3.2% (×1.0322). For UK-Junes item: Sum_USD ≈ 564405.6 millions;
-  564405.6 × 0.66 = 372507.20 (GOLD). 564405.6 × 0.6813 = 384510.06 (WRONG).
+  564405.6 × 0.66 = [redacted] (GOLD). 564405.6 × 0.6813 = 384510.06 (WRONG).
   ALWAYS use the 2-decimal rate (0.66), never a 3-4 decimal spot rate.
 - Round the RATE to hundredths FIRST (as the prompt says), THEN multiply, THEN
   round the final answer to two decimals. Do not carry the unrounded rate.
@@ -64,9 +64,9 @@ Procedure:
 ## Plain-USD variant (no FX) — PASSED
 Some questions skip the FX step entirely, e.g. "total amount of liabilities owed
 by the U.S. Treasury to the United Kingdom in CY1986 in BILLIONS of dollars
-rounded to hundredths" -> answer 90.83 (CORRECT). Notes:
+rounded to hundredths" -> answer [redacted] (CORRECT). Notes:
 - "in billions" means the source "Total Liabilities" value (in $ MILLIONS) must
-  be scaled /1000: 90,830 millions -> 90.83 billions. The default table unit is
+  be scaled /1000: 90,830 millions -> [redacted] billions. The default table unit is
   $ millions; only scale when the question's requested unit differs.
 - "CY1986" with no month listed -> use the December (year-end) column for that
   calendar year. (When months ARE listed, one column per listed month/year.)
@@ -81,7 +81,7 @@ etc.) rather than per-country, and columns dated by the week-ending day.
 
 Q pattern: "Between the third Thursday and fourth Wednesday in Jan 1939, what was
 the net total capital inflow or outflow ... between the US and Latin America?"
--> answer 1461 (thousands of dollars) — CORRECT.
+-> answer [redacted] (thousands of dollars) — CORRECT.
 
 Method:
 1. Resolve the two ordinal weekday dates literally. For Jan 1939: weeks start
@@ -96,7 +96,7 @@ Method:
    is daily, or take the single weekly column if weekly.
 3. Unit is already THOUSANDS of dollars in these 1930s tables — no scaling.
 4. Sign convention: a NET INFLOW to the US is reported positive; outflow negative.
-   The answer here was +1461 (net inflow). State inflow vs outflow per the sign.
+   The answer here was +[redacted] (net inflow). State inflow vs outflow per the sign.
 
 Pitfalls (weekly variant):
 - "third Thursday"/"fourth Wednesday" = the Nth occurrence of that weekday in the
@@ -111,7 +111,7 @@ FOREIGN CURRENCY out of total liabilities to foreign countries, NOT a per-countr
 sum and NOT an FX conversion. Example:
 Q: "maximum share of Canadian dollar liabilities out of total liabilities to
    foreign countries by the U.S. on calendar year end reported values from
-   2009-2011 inclusive, rounded to nearest thousandths, as a decimal" -> 0.005 (CORRECT).
+   2009-2011 inclusive, rounded to nearest thousandths, as a decimal" -> [redacted] (CORRECT).
 
 Method:
 1. This is the FOREIGN-CURRENCY-DENOMINATED liabilities table (Capital Movements /

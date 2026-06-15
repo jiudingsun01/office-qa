@@ -26,7 +26,7 @@ OfficeQA freely mixes two near-identical phrasings that mean DIFFERENT math:
 If you report the absolute difference when the question said RELATIVE, your
 digits look plausible but you're off by a factor of ~1/base. Concrete fail:
 saving-note "redemption rate out of average amount outstanding" for 1980 vs
-1981. I reported |r1980 - r1981| = 3.85 (absolute pp gap). Gold = 17.69 =
+1981. I reported |r1980 - r1981| = 3.85 (absolute pp gap). Gold = [redacted] =
 relative difference = |r1980 - r1981| / r_base * 100. (Here base ≈ 21.8%, so
 3.85/21.8 ≈ 0.1769.) Factor ~4.6x off, all digits otherwise fine.
 
@@ -42,7 +42,7 @@ Scan the question for the literal word:
 BASE = the EARLIER / FIRST-listed period (the chronological starting point).
 For "X for the 1980 and 1981 calendar years" => base = 1980 (the earlier year).
 CONFIRMED by the gold: 1980/1981 case, |r1980 - r1981| = 3.85, base r1980 ≈ 21.8,
-3.85 / 21.8 * 100 = 17.69 = gold. So the SMALLER/earlier-year rate was the
+3.85 / 21.8 * 100 = [redacted] = gold. So the SMALLER/earlier-year rate was the
 denominator. Rule: divide by the rate of the year you are measuring change FROM
 (the earlier year), exactly like a percent-change. Only fall back to "try both
 years as denominator" if the earlier-year base does NOT land on a clean value

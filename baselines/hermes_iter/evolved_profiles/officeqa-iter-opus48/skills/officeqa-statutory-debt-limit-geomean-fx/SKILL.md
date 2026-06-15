@@ -1,6 +1,6 @@
 ---
 name: officeqa-statutory-debt-limit-geomean-fx
-description: OfficeQA Treasury Bulletin — questions over the "Statutory Debt Limitation" table that compute, for several fiscal-year-end dates, the RATIO of total interest-bearing securities subject to the limit to total public debt subject to the limit, take the GEOMETRIC MEAN of those ratios, multiply by a specific debt-limit line item (e.g. "U.S. Government securities issued under the Second Liberty Bond Act, as amended, subject to the limitation") as of the last date, then convert USD-millions to GBP/foreign currency via an ANNUAL-AVERAGE FX rate. Covers the table location, the exact ratio/geomean/FX chain, the 1964 GBP divisor, and the FULL-PRECISION rule (never round intermediates). FAILED 4x; closest fail 109523 vs GOLD 109625 (off 0.093% = rounded-geomean signature).
+description: OfficeQA Treasury Bulletin — questions over the "Statutory Debt Limitation" table that compute, for several fiscal-year-end dates, the RATIO of total interest-bearing securities subject to the limit to total public debt subject to the limit, take the GEOMETRIC MEAN of those ratios, multiply by a specific debt-limit line item (e.g. "U.S. Government securities issued under the Second Liberty Bond Act, as amended, subject to the limitation") as of the last date, then convert USD-millions to GBP/foreign currency via an ANNUAL-AVERAGE FX rate. Covers the table location, the exact ratio/geomean/FX chain, the 1964 GBP divisor, and the FULL-PRECISION rule (never round intermediates). FAILED 4x; closest fail 109523 vs GOLD [redacted] (off 0.093% = rounded-geomean signature).
 ---
 
 # Statutory Debt Limitation: ratio → geometric mean → FX conversion
@@ -36,11 +36,11 @@ All in $ millions, nominal. Use the bulletin reporting each fiscal-year-end; "fi
 ## Worked anchor (GOLD-verified)
 Feb29-1960, Feb28-1961, Mar31-1962, Mar31-1963, Mar31-1964 ratios -> geomean ->
 * Second Liberty Bond Act amount as of Mar31-1964 -> usd_product = 306138.775 (millions USD) ->
-/ 2.7926 = 109625 (millions GBP). GOLD = 109625.
+/ 2.7926 = [redacted] (millions GBP). GOLD = 109625.
 
 ## Failure modes (this question has failed 4x)
 - ROUNDING THE GEOMEAN OR THE RATIOS mid-stream. The dominant fail. 109523 (off -102, -0.093%)
-  vs GOLD 109625 is the exact signature of carrying too few digits in the geomean/ratios.
+  vs GOLD [redacted] is the exact signature of carrying too few digits in the geomean/ratios.
   RULE: store every ratio and the geomean as full-precision floats; the ONLY round() is the final integer.
 - Wrong FX divisor: use 2.7926 for 1964 GBP, not 2.7912.
 - Using grand total public debt instead of the "subject to statutory debt limitation" total

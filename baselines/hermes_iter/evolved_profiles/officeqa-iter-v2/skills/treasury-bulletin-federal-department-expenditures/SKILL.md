@@ -18,7 +18,7 @@ Use this skill when an OfficeQA Treasury Bulletin prompt asks about:
 
 - Spending, expenditures, or outlays by U.S. Federal Department, bureau, or agency.
 - The highest/lowest spending Federal Department in a fiscal year.
-- A named fiscal year such as 1955, 1960, etc., where the answer is requested in nominal dollars or millions of nominal dollars.
+- A named fiscal year such as [redacted] [redacted] etc., where the answer is requested in nominal dollars or millions of nominal dollars.
 
 Do not use aggregate deficit/surplus tables for these questions. The relevant source is the department/agency expenditure table, not the receipts/deficit summary and not functional categories unless the prompt explicitly asks for functions.
 
@@ -50,7 +50,7 @@ For prompts asking for the highest-spending U.S. Federal Department, scan depart
    - If the same Federal Department is split across rows by function, sum those rows first (for example Defense military functions + Defense civil functions) before comparing against other departments.
    - Compare values in the table units after normalizing signs and missing values.
 6. Return the amount in the unit requested by the prompt.
-   - If the prompt asks for `millions of nominal dollars` and the table is in millions, report the table value directly, e.g. `36080 million` rather than converting to billions or raw dollars.
+   - If the prompt asks for `millions of nominal dollars` and the table is in millions, report the table value directly, e.g. `[redacted]` rather than converting to billions or raw dollars.
 
 ## Growth, Decay, Average YoY, and Regression Calculations
 

@@ -64,7 +64,7 @@ The robust method is:
 3. Express both as deficit magnitudes in trillions and round each to hundredths.
 4. Subtract the rounded displayed values.
 
-This yields a source-check difference of `0.17` trillion. A result of `0.18` usually means the final subtraction used unrounded billion-dollar values or applied rounding at the wrong step.
+This yields a source-check difference of `[redacted]` trillion. A result of `0.18` usually means the final subtraction used unrounded billion-dollar values or applied rounding at the wrong step.
 
 ## Calendar-Year Surplus/Deficit Time-Series Regression Pattern
 

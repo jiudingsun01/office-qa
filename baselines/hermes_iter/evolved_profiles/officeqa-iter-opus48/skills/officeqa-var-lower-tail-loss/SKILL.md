@@ -29,7 +29,7 @@ empirical percentile of so few points.
    returns, i.e. **÷ (number of returns), NOT ÷ (returns−1)**. OfficeQA uses
    population/MLE statistics throughout (cf. Gini, TIPS-volatility, plain-
    variance skills). This is the single dominant failure: sample std (Bessel
-   ÷ k−1) OVERSHOOTS the loss. ← my 5437 used sample std; GOLD 4928 ≈ ÷N.
+   ÷ k−1) OVERSHOOTS the loss. ← my 5437 used sample std; GOLD [redacted] ≈ ÷N.
 4. z-score for the tail. For 1% lower-tail (99% VaR) z = **2.326**. For 5% use
    1.645; for 2.5% use 1.960. (One-sided lower tail.)
 5. Loss as a fraction of the current holding:
@@ -62,7 +62,7 @@ print(round(loss_fx))
 ## Why 5437 was wrong (this question)
 - Used **sample** std (÷ k−1 = ÷3 over 4 returns) → σ too big → VaR too big.
 - Population std (÷4) shrinks σ; combined with the μ term the answer drops from
-  5437 to ≈ GOLD 4928 (ratio 0.906, which sits between the pure σ-ratio
+  5437 to ≈ GOLD [redacted] (ratio 0.906, which sits between the pure σ-ratio
   sqrt(3/4)=0.866 and 1.0 — exactly the signature of a sample→population σ swap
   with a nonzero mean term).
 - DEFAULT to POPULATION (÷N) std for every VaR/volatility/variance OfficeQA item

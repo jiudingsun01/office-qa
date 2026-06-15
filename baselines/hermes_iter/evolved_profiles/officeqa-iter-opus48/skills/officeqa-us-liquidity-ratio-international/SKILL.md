@@ -33,7 +33,7 @@ difference in percentage points between the two years.
 
 WORKED (PASSED): "absolute %-point change in U.S. liquidity ratio (marketable
 liabilities, foreign official institutions) from 2001 to 2008" → answer 9.89
-(reported as 9.89%). The verdict was CORRECT.
+(reported as [redacted]). The verdict was CORRECT.
 
 ## Decoding cryptic calendar-year clues
 OfficeQA loves to hide the year behind a real-world event. Translate FIRST, then

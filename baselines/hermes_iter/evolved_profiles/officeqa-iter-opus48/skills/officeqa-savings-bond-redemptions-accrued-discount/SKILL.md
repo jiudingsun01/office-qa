@@ -56,7 +56,7 @@ Answer = accrued_discount / total_redemptions × 100.
 4. pct = numerator / denominator × 100; round to nearest hundredth.
 
 ## Verified example
-- Oct 1961, all-series total redemptions → accrued-discount share = **14.04%**.
+- Oct 1961, all-series total redemptions → accrued-discount share = **[redacted]**.
   (matched gold exactly).
 
 ## Pitfalls

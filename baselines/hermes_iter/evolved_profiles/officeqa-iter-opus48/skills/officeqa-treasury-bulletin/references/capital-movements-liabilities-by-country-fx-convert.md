@@ -30,7 +30,7 @@ rounded to hundredths.
 3. FX rate: retrieve the GBP per USD (or USD->GBP) rate on the NAMED date
    (June 30, 2002), ROUND IT to two decimals FIRST, then apply.
 4. GBP total = USD_sum * rate_rounded.  Answer rounded to 2 decimals.
-   Result: 372507.20 (gold 372507.20).
+   Result: [redacted] (gold [redacted]).
 
 ## FX-conversion rules (the part that breaks future runs)
 - "USD to GBP exchange rate ... rounded to its hundredths place" = the multiplier
@@ -41,7 +41,7 @@ rounded to hundredths.
   not an average. This is an EXTERNAL constant the docs do not contain.
 - PINNED EXACT CONSTANT for the UK Jun2000+Jun2001+Jun2002 case:
   USD_sum = 573088 (millions). USD->GBP rate on 2002-06-30 = 0.6547 GBP per USD,
-  which ROUNDS TO 0.65. 573088 * 0.65 = 372507.20 = gold. USE 0.65, NOT 0.67.
+  which ROUNDS TO 0.65. 573088 * 0.65 = [redacted] = gold. USE 0.65, NOT 0.67.
   RECURRING FAIL: a run used 0.67 (GBP/USD from an EARLIER 2001/early-2002 date
   when GBP was weaker) -> 384510.06, WRONG by +3.2%. The USD extraction was
   correct; ONLY the FX rate was wrong. The 2002-06-30 spot is ~0.6547 (1 GBP =
@@ -60,7 +60,7 @@ to <country> in CY<year> in BILLIONS rounded to hundredths."
   year (all from the same year's bulletins). It is NOT a single Dec-31 snapshot.
 - Values are in MILLIONS; "in billions" => divide the millions sum by 1000.
 - Worked: CY1986 UK total liabilities, sum of 4 quarter-end Total rows (millions),
-  /1000 -> 90.83 billions (gold 90.83). MODE A delimiter, 2 dp, bare value.
+  /1000 -> [redacted] billions (gold [redacted]). MODE A delimiter, 2 dp, bare value.
 - If a run gets a value ~1/4 of gold, you read ONE quarter not the 4-quarter sum;
   if ~4x or off by 1000x, you mishandled millions vs billions.
 

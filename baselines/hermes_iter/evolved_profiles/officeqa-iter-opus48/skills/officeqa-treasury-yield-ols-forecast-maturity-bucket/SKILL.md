@@ -18,7 +18,7 @@ after", "...5 to 10 years", etc. — pick the column whose maturity/callable
 wording matches the question EXACTLY.
 
 PASSED: Jul 1953 through Jun 1956, "due or callable in 20 years or after",
-forecast Jul 1956 = **2.916** (3 dp). GOLD.
+forecast Jul 1956 = **[redacted]** (3 dp). GOLD.
 
 ## CRITICAL: this is PURE forecast — output the prediction, do NOT subtract
 Unlike the MY-2 corporate-bond regression (my2-corporate-bond-yield-regression),
@@ -57,7 +57,7 @@ y = [...]                      # 36 monthly yields, chronological
 x = np.arange(1, len(y)+1)     # 1..36
 m, b = np.polyfit(x, y, 1)     # OLS slope, intercept
 pred = m*(len(y)+1) + b        # x=37 -> Jul 1956
-print(round(pred, 3))          # 2.916
+print(round(pred, 3))          # [redacted]
 ```
 numpy not importable in execute_code sandbox -> run via
 `cd /home/azureuser/office-qa && python3 script.py`.

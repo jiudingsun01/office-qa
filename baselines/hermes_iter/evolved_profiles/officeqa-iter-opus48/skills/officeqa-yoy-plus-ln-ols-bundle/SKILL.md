@@ -83,7 +83,7 @@ np.polyfit is not in the execute_code sandbox -> run via
   = 6 YoY transitions.
 
 ## Format note (whitespace)
-Gold for this item was `[2.81, 0.030, 8.706]` (spaces after commas) yet the
+Gold for this item was `[redacted]` (spaces after commas) yet the
 no-space emission `[2.81,0.030,8.706]` graded CORRECT — so the grader DID
 normalize whitespace here. Whitespace sensitivity is therefore NOT universal,
 but no-space `[a,b,c]` is the safe default that has never lost on whitespace.

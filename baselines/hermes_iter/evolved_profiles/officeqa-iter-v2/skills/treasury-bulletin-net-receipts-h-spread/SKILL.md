@@ -67,8 +67,8 @@ For prompts like `Using U.S. federal individual income tax receipts, net of refu
    - H spread in these OfficeQA prompts is `Q3 - Q1`.
    - If the prompt says `use the intermediate values rounded to the tenths of billions before computing the H spread value`, round the interpolated Q1 and Q3 values to one decimal place in billions first, then subtract.
    - This rounding applies to the quartile intermediate values, not to each monthly observation before interpolation, unless the prompt explicitly says to round the monthly inputs.
-   - Example pattern: `h_spread = round(Q3_billions, 1) - round(Q1_billions, 1)`, then format the final result to the requested places, commonly nearest hundredths (`57.50`, not `57.5`).
-   - Required sanity check: after rounding Q1 and Q3 to tenths, the H-spread must be a multiple of `0.10` in billions, so a hundredths-formatted answer should normally end in `0` (e.g. `57.50`). If your computed result changes in the hundredths place after final rounding, you probably subtracted unrounded quartiles or rounded the wrong intermediate.
+   - Example pattern: `h_spread = round(Q3_billions, 1) - round(Q1_billions, 1)`, then format the final result to the requested places, commonly nearest hundredths (`[redacted]`, not `57.5`).
+   - Required sanity check: after rounding Q1 and Q3 to tenths, the H-spread must be a multiple of `0.10` in billions, so a hundredths-formatted answer should normally end in `0` (e.g. `[redacted]`). If your computed result changes in the hundredths place after final rounding, you probably subtracted unrounded quartiles or rounded the wrong intermediate.
    - Do not compute `Q3 - Q1` from unrounded quartiles if the prompt requires rounded intermediate values; doing so can shift the hundredths place.
 
 ## Verification Checklist
@@ -83,7 +83,7 @@ For prompts like `Using U.S. federal individual income tax receipts, net of refu
 
 ## Common Pitfalls
 
-- Using unrounded Q1/Q3 to compute H spread when the prompt explicitly requires intermediate quartiles rounded to tenths; this can produce answers like `57.53` instead of the expected `57.50`.
+- Using unrounded Q1/Q3 to compute H spread when the prompt explicitly requires intermediate quartiles rounded to tenths; this can produce answers like `57.53` instead of the expected `[redacted]`.
 - Accidentally using calendar-year months for a fiscal-year prompt.
 - Forgetting to divide monthly values in millions by 1,000 when the answer asks for billions.
 - Mixing `net budget receipts` with `receipts from the public`; they are different Treasury Bulletin concepts and appear in different tables.

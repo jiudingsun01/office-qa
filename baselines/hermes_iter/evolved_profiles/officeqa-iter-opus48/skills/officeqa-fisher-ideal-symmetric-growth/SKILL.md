@@ -25,7 +25,7 @@ are negatives of each other — that symmetry is the defining property and a goo
 
 WORKED (PASSED): Aug 1982 new long-term bond yield = 12.81; Aug 1981 = 12.96 (illustrative
 magnitudes). g = ln(V_Aug1982 / V_Aug1981). With Aug1982 the LATER month as end and Aug1981
-as start, ln(later/earlier) yielded -0.113 (a slight decline). GOLD = -0.113. CORRECT.
+as start, ln(later/earlier) yielded [redacted] (a slight decline). GOLD = -0.113. CORRECT.
 
 ### Start vs end ordering trap
 "growth rate ... for August 1982 and for August 1981" — the EARLIER date (Aug 1981) is the

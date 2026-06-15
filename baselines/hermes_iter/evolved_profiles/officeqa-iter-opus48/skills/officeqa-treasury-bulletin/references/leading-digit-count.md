@@ -6,7 +6,7 @@ page M) of the <Month Year> edition ... how many times does the numeral '<D>'
 appear as the leading digit within the table datapoints?"
 
 This is a Benford-style COUNTING task, not a numeric-extraction task. The answer
-is a plain integer (no brackets, no units, no rounding). VERIFIED: May 1980,
+is a plain integer (no brackets, no units, no rounding). VERIFIED: May [redacted]
 pdf p.41 (report p.23), leading digit '1' -> 104 (CORRECT).
 
 ## What counts as a "datapoint"

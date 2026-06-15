@@ -25,7 +25,7 @@ references "U.S. reserve assets" and its components.
   "end of calendar month July" -> read the July (or the period-end) column /
   row for each year.
 - DO NOT scale to billions unless the Q explicitly says billions. The
-  example Q wanted raw millions; gold answer 29347.01 is a millions-scale
+  example Q wanted raw millions; gold answer [redacted] is a millions-scale
   geometric mean.
 
 ## The computation: geometric mean
@@ -50,7 +50,7 @@ end-of-month, 4 components each -> 16 values -> 29347.01.
   reporting). If the table is monthly, pick the July row; if quarterly, July
   falls in the same period as the Q2/Q3 boundary — prefer the explicit July
   monthly figure if present.
-- Decimal-output convention: answer has a decimal point (29347.01) -> MODE A
+- Decimal-output convention: answer has a decimal point ([redacted]) -> MODE A
   delimiter rules (bare comma, no space) if ever bracketed with siblings.
 - Do NOT confuse this in-bulletin reserve-assets table with external IMF/IFS
   web data; the bulletin prints its own monthly figures.

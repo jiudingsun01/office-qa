@@ -1,6 +1,6 @@
 ---
 name: officeqa-rsquare-two-series-correlation
-description: OfficeQA Treasury Bulletin — compute the "R-square value of the relationship between" two nominal series (e.g. on-budget receipts vs off-budget receipts) across a fiscal-year range. R-square of a bivariate relationship = Pearson correlation SQUARED; no regression fit / no slope/intercept needed. Covers where on-budget vs off-budget receipts/outlays live and the "use bulletins from Sept YYYY at 5-yr intervals" data-sourcing pattern. ALSO covers variants: plain Pearson r (not squared), partial correlation controlling for time, and the ABS DIFFERENCE between two per-year within-year monthly Pearson r's (e.g. Treasury vs New Aa corporate monthly yields, CY1979 vs CY1984 = 0.0003). PASSED on-budget vs off-budget receipts FY1991-2010 = 0.8298.
+description: OfficeQA Treasury Bulletin — compute the "R-square value of the relationship between" two nominal series (e.g. on-budget receipts vs off-budget receipts) across a fiscal-year range. R-square of a bivariate relationship = Pearson correlation SQUARED; no regression fit / no slope/intercept needed. Covers where on-budget vs off-budget receipts/outlays live and the "use bulletins from Sept YYYY at 5-yr intervals" data-sourcing pattern. ALSO covers variants: plain Pearson r (not squared), partial correlation controlling for time, and the ABS DIFFERENCE between two per-year within-year monthly Pearson r's (e.g. Treasury vs New Aa corporate monthly yields, CY1979 vs CY1984 = [redacted]). PASSED on-budget vs off-budget receipts FY1991-2010 = 0.8298.
 category: research
 ---
 
@@ -17,7 +17,7 @@ Key signals that select THIS recipe:
   - Two data columns, one per fiscal year, over a year range.
 
 PASSED: U.S. Treasury nominal **on-budget receipts** vs nominal **off-budget
-receipts**, FY1991-2010 -> **0.8298**. GOLD.
+receipts**, FY1991-2010 -> **[redacted]**. GOLD.
 
 ## THE RULE: R² = (Pearson r)², nothing more
 For the relationship between exactly TWO variables, the coefficient of
@@ -30,11 +30,11 @@ import numpy as np
 a = [ ... ]   # series A, one value per fiscal year, chronological
 b = [ ... ]   # series B, same fiscal years, same order
 r = np.corrcoef(a, b)[0, 1]
-print(round(r**2, 4))          # 0.8298
+print(round(r**2, 4))          # [redacted]
 ```
 - Equivalent: `from scipy.stats import linregress; linregress(a,b).rvalue**2`.
 - Keep FULL precision through corrcoef; round ONLY the final R² to the
-  requested decimals (here 4 -> 0.8298).
+  requested decimals (here 4 -> [redacted]).
 - np.corrcoef is fine in execute_code; if scipy/np missing there, run via
   `cd /home/azureuser/office-qa && python3 script.py`.
 

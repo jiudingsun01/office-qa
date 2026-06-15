@@ -19,12 +19,12 @@ For small N (5) the gap is large: n-1 gives the right magnitude.
 numpy: np.std(vals, ddof=1)   (default ddof=0 is WRONG here — must pass ddof=1)
 Or statistics.stdev(vals) (sample, n-1) NOT statistics.pstdev (population).
 
-## Worked example (PASSED, gold -1.063)
+## Worked example (PASSED, gold [redacted])
 CY1972–1976 interest-bearing marketable public debt scheduled to mature that
 calendar year, from the maturity schedule at end of Feb each year (5 values).
 - mean of the 5 totals
 - s = sample SD (ddof=1)
-- z = (1972 total - mean) / s = -1.063  (1972 was below the 5-yr average)
+- z = (1972 total - mean) / s = [redacted]  (1972 was below the 5-yr average)
 
 ## Data sourcing for this question family
 - Maturity totals come from the "Maturity Schedule of Interest-Bearing Public
@@ -46,7 +46,7 @@ The question word picks the denominator. Do NOT reflexively use ddof=1.
 - "**sample** standard deviation" → ddof=1, denominator = N-1 (see above).
 Both families appear in OfficeQA. Grep the prompt for population/sample first.
 
-### Worked population example (PASSED, gold $2,760.44)
+### Worked population example (PASSED, gold [redacted])
 Q: "FY1981, population standard deviation of MONTHLY nominal federal net
 outlays by function, in millions of dollars, nearest hundredths. Use the
 latest treasury bulletin table to include all of these monthly values in one

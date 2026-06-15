@@ -61,7 +61,7 @@ For N printed rates `r_i` expressed as percentage points, compute:
 geometric_mean = (prod(r_i)) ** (1 / N)
 ```
 
-Keep the rates in the same units as the prompt/table (usually percent). For example, rates around 1.5 are entered as `1.5`, not `0.015`, when the answer is expected as a Treasury Bulletin rate.
+Keep the rates in the same units as the prompt/table (usually percent). For example, rates around [redacted] are entered as `[redacted]`, not `[redacted]`, when the answer is expected as a Treasury Bulletin rate.
 
 Recommended Python pattern:
 
@@ -120,7 +120,7 @@ Older Bulletin tables can label the relevant field `average rate of discount` ra
 ## Common Pitfalls
 
 1. **Using an arithmetic mean.** If the prompt says geometric mean, multiply/log-average the rate values; do not sum and divide.
-2. **Decimal conversion error.** Treasury Bulletin discount rates are printed as percentages. If the table shows `1.558`, the answer in rate units is `1.558`, not `0.01558`; however, if the prompt explicitly says output a decimal value for a log-rate calculation, use `0.01558` inside the log calculation.
+2. **Decimal conversion error.** Treasury Bulletin discount rates are printed as percentages. If the table shows `[redacted]`, the answer in rate units is `[redacted]`, not `0.01558`; however, if the prompt explicitly says output a decimal value for a log-rate calculation, use `0.01558` inside the log calculation.
 3. **Dropping a fifth Thursday.** Calendar months can contain five Thursday issue/report dates. Count dates, not rows per month by assumption.
 4. **Mixing tenors.** The table may put 91-day, 182-day, Cash Management, and other bill types near each other. Select only the requested bill type/tenor/date rows.
 5. **Using the wrong date column.** Cash Management bill prompts may specify `tenders opened`; do not substitute maturity date, issue date, or the bulletin publication date.

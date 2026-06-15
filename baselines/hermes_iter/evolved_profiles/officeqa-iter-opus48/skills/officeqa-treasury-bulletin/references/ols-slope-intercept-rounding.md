@@ -15,7 +15,7 @@ nominal, OLS on untransformed year.
 ## Root cause — INTERCEPT IS ~mean_x TIMES MORE SENSITIVE THAN SLOPE
 With untransformed year, intercept = mean_y - slope*mean_x, and mean_x ~= 1935.
 So a slope error of just 5e-7 becomes a 5e-7 * 1935 ~= 0.001 intercept error —
-exactly one unit in the thousandths place. Verified: 1935.5 * 5e-7 = 9.7e-4.
+exactly one unit in the thousandths place. Verified: [redacted] * 5e-7 = [redacted]e-4.
 
 Therefore: ANY use of a rounded/truncated slope, or fitting with float32, or
 a centered-then-uncentered hand computation, can shift the intercept's last

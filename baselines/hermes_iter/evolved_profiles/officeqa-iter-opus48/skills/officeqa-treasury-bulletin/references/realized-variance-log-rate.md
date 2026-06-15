@@ -64,6 +64,6 @@ percent value ... rounded to nearest hundredths."
 - Order: r2/r1 with r1 the chronologically earlier tender date. (Squaring
   makes the variance order-independent anyway, but get g's sign right if a
   later Q asks for the log-return itself.)
-- Decimal-output convention: this answer (0.058) has a decimal point ->
+- Decimal-output convention: this answer ([redacted]) has a decimal point ->
   MODE A delimiter rules apply if bracketed with other values (bare comma,
   no space).

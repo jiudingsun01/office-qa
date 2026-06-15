@@ -27,7 +27,7 @@ import math
 rate = math.log(E / S) / (Y1 - Y0)
 ```
 
-Report as a decimal, not a percent. For example, 6.3% should be `0.063`, not `6.3`.
+Report as a decimal, not a percent. For example, 6.3% should be `[redacted]`, not `6.3`.
 
 ## Rounding
 

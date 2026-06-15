@@ -45,7 +45,7 @@ Use this skill for OfficeQA/Treasury Bulletin questions that ask for:
 5. Compute the change.
    - For wording like `change in percent contribution ... from CY2010 to CY2011`, compute the percentage-point difference:
      `change = contribution_pct_2011 - contribution_pct_2010`.
-   - Report with a percent sign if the benchmark/gold format includes one. Example formatting: `4.61%`.
+   - Report with a percent sign if the benchmark/gold format includes one. Example formatting: `[redacted]`.
 
 6. For OLS regression questions over annual receipt series:
    - Use the named annual period exactly (`FY` means fiscal year; do not substitute CY or monthly receipt-from-the-public series).

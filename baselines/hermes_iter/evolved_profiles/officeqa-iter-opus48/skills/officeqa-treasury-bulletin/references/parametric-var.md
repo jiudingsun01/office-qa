@@ -7,7 +7,7 @@ LOSS = parametric (Gaussian) Value-at-Risk.
 
 - "loss ... exceeded with 1% probability" = the 1% VaR, z_0.99 = 2.326348
   (scipy.stats.norm.ppf(0.99); for 5% use 1.644854).
-- Z-SCORE TRAP (CONFIRMED FAILURE, answer 5483 vs gold 4928, factor 1.1126):
+- Z-SCORE TRAP (CONFIRMED FAILURE, answer 5483 vs gold [redacted], factor 1.1126):
   "exceeded with 1% probability" is a ONE-TAILED 1st-percentile quantile -> z =
   2.326. Do NOT use 2.576 (= norm.ppf(0.995), the TWO-TAILED 99% CONFIDENCE
   INTERVAL critical value). 2.576/2.326 = 1.1075; with the drift term present,
@@ -24,7 +24,7 @@ LOSS = parametric (Gaussian) Value-at-Risk.
   a GROWING series (holdings rose 2000->2004) mu > 0 and CANCELS most of the
   z*sigma band, making the true loss MUCH smaller. Omitting mu (reporting z*sigma
   alone) inflates the answer several-fold.
-  DIAGNOSTIC: answer 20602 vs gold 4928 = factor 4.18 too big. That factor =
+  DIAGNOSTIC: answer 20602 vs gold [redacted] = factor 4.18 too big. That factor =
   z*sigma/(z*sigma - mu), i.e. drift was ~76% of the z*sigma band. A clean
   3-5x overshoot on a VaR question almost always means you DROPPED THE DRIFT
   TERM (or computed z*sigma on raw LEVELS instead of on year-over-year changes
@@ -51,7 +51,7 @@ LOSS = parametric (Gaussian) Value-at-Risk.
 - SANITY: a lower-tail loss should be POSITIVE and, for a strongly trending
   series, NOTICEABLY SMALLER than z*sigma because drift eats into it.
 
-## CONFIRMED SUCCESS — the canonical 4928 question (pin these inputs)
+## CONFIRMED SUCCESS — the canonical [redacted] question (pin these inputs)
 Q: mutual-fund Treasury ownership end-Mar 2000-2004, 1% lower-tail loss in
 billions JPY via March-2004 monthly NSA USD->JPY first-of-month rate.
 - Data (TABLE OFS-2, Mutual funds col (9), $B): 222.3, 225.3, 266.1, 296.6, 280.8.

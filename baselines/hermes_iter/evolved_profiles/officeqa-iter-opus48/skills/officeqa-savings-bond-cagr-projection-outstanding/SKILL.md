@@ -15,7 +15,7 @@ be in calendar <MonthC YearC>?" Answer = single $-millions value, 2 dp.
 Series I launched Sept 1998, Series EE 1980 — so these are late-1990s/2000s
 bulletins. Same family also asks the question for Series EE, HH, E, H.
 
-## DATA SOURCE — the dominant trap (this question FAILED: 560682.94 vs GOLD 339501.88)
+## DATA SOURCE — the dominant trap (this question FAILED: 560682.94 vs GOLD [redacted])
 "**Interest-bearing debt for Series I**" = the **AMOUNT OUTSTANDING** of the
 Series I line at that month-end. It is NOT redemptions, NOT sales, NOT
 accrued discount, NOT the combined Series EE/I line, NOT the all-savings-bonds
@@ -79,4 +79,4 @@ V0 from the wrong (too-large) line — recheck the early endpoint.
 2. Isolate the single series; never use the EE/I combined block subtotal or the
    savings-bonds grand total.
 3. n = END - START for the CAGR window; project the stated horizon explicitly.
-4. Output: bare numeric, 2 dp, period decimal, no commas (e.g. 339501.88).
+4. Output: bare numeric, 2 dp, period decimal, no commas (e.g. [redacted]).

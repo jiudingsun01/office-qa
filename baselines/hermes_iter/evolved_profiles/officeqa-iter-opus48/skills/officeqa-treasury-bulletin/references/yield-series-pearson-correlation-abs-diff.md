@@ -32,7 +32,7 @@ regression.
 
 ## Worked example (THIS question — verified CORRECT)
 1979 vs 1984, Treasury bonds vs New Aa corporate, monthly. Both years have very
-high r (~0.99x); |r1979 − r1984| = **0.0003**. GOLD. Note: these two series are
+high r (~0.99x); |r1979 − r1984| = **[redacted]**. GOLD. Note: these two series are
 near-perfectly correlated within any single year, so the abs diff of two yearly
 correlations is TINY (a few ten-thousandths). A large answer (>0.01) means you
 grabbed the wrong column or a wrong/missing month.
@@ -42,7 +42,7 @@ grabbed the wrong column or a wrong/missing month.
   Wrong column (Aaa, seasoned, or a different maturity) shifts r noticeably.
 - COMPLETE 12 months per year; a missing month changes r and the abs diff.
 - "Sample" Pearson is just the ordinary Pearson r — no special divisor needed.
-- DELIMITER: single scalar like 0.0003 -> bare number, no brackets/comma.
+- DELIMITER: single scalar like [redacted] -> bare number, no brackets/comma.
   Decimal value, so if ever multiple are requested it's MODE A (bare comma, no space).
 - Round the FINAL abs diff to 4 dp; don't pre-round the two correlations to 4 dp
   first unless the Q says so (intermediate rounding can flip the last digit).

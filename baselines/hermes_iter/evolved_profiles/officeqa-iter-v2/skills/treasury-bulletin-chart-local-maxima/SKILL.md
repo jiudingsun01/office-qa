@@ -14,9 +14,9 @@ metadata:
 
 ## Overview
 
-Some OfficeQA Treasury Bulletin questions are visual chart questions, not table-extraction questions. A typical prompt asks: `On page X of the September 1990 US Treasury Monthly Bulletin, how many local maxima are there on the line plots on that page?`
+Some OfficeQA Treasury Bulletin questions are visual chart questions, not table-extraction questions. A typical prompt asks: `On page X of the September [redacted] US Treasury Monthly Bulletin, how many local maxima are there on the line plots on that page?`
 
-For these, text extraction will not answer the question. Render the exact PDF page, identify every line plot and every separate plotted line/series on the page, then count visible interior peaks. The September 1990 Monthly Treasury Bulletin page 5 case exposed the main pitfall: an eyeballed count can miss several peaks when a page has dense front-matter chart panels and multiple visible line styles/series; a count that only follows the most obvious black lines can undercount by several peaks. Do a visual inventory first, crop/zoom each panel, trace each plotted polyline separately (including faint/dashed/secondary series inside the plot area), then peak-count from left to right.
+For these, text extraction will not answer the question. Render the exact PDF page, identify every line plot and every separate plotted line/series on the page, then count visible interior peaks. The September [redacted] Monthly Treasury Bulletin page 5 case exposed the main pitfall: an eyeballed count can miss several peaks when a page has dense front-matter chart panels and multiple visible line styles/series; a count that only follows the most obvious black lines can undercount by several peaks. Do a visual inventory first, crop/zoom each panel, trace each plotted polyline separately (including faint/dashed/secondary series inside the plot area), then peak-count from left to right.
 
 ## When to Use
 

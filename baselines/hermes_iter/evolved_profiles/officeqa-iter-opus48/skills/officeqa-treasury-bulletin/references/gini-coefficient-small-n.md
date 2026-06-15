@@ -50,7 +50,7 @@ Compare the two net totals used for the Gini:
 line; positive net increase = surplus. Cross-check sign.)
 
 ## Output format
-Two answers, Gini first then word: `[0.012, surplus]`
+Two answers, Gini first then word: `[redacted]`
 Gini has a decimal point so by the delimiter rule the value side is a decimal,
-but here the second element is a WORD, so a comma-space `[0.012, surplus]` is
+but here the second element is a WORD, so a comma-space `[redacted]` is
 correct (mixed value+word brackets take ", ").

@@ -19,7 +19,7 @@ Sanity: if you list the years 1947,1948,1949,1950 you have 4 LABELS but only
 
 Worked example (this exact question): expenditure transfers to the Federal
 Old-Age & Survivors Insurance trust fund. value_end / value_start was ~9.0
-(end ≈ 9x start). 9.0^(1/3)-1 = 1.0801 = **108.01%**. 9.0^(1/4)-1 = 73.3%.
+(end ≈ 9x start). 9.0^(1/3)-1 = 1.0801 = **[redacted]**. 9.0^(1/4)-1 = 73.3%.
 
 ## Quick reverse-check trick
 If your computed CAGR seems off, recompute the implied ratio (1+CAGR)^n and see

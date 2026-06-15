@@ -10,7 +10,7 @@ Trigger phrasing: "average yield spread between [series A] and [series B] across
 the months in calendar years YYYY-YYYY", "spread between US Corporate Aa bonds
 and US treasury bonds", "average difference in yields", reported to N significant
 digits. PASSED: June 1970 bulletin, Corporate Aa vs Treasury bonds, CY1960-1969,
-answer 0.88525 (5 sig figs).
+answer [redacted] (5 sig figs).
 
 ## Where the data lives
 The interest-rate / yield tables sit in the **"Capital Markets" / "Interest
@@ -42,11 +42,11 @@ the literal way to avoid an alignment bug:
 2. For each month: spread_m = yield_A_m − yield_B_m.
 3. Answer = mean of spread_m over all months.
 Yields are in percent (e.g. 4.41), so the spread is in percentage points
-(0.88525 ≈ 0.885 pp). Do NOT convert to basis points unless asked.
+([redacted] ≈ 0.885 pp). Do NOT convert to basis points unless asked.
 
 ## Significant digits, not decimals
 These questions ask "N significant digits" (here 5), NOT N decimal places.
-0.88525 is 5 sig figs. A value like 1.2345 is also 5 sig figs. Format
+[redacted] is 5 sig figs. A value like 1.2345 is also 5 sig figs. Format
 accordingly — don't pad or truncate to a fixed decimal count.
 
 ## Pitfalls
@@ -70,10 +70,10 @@ simple historical spread-then-mean, no regression, no forecast.
 ## Same table also serves ARGMAX (which month maximized the spread?) questions
 A sibling variant asks NOT for the average but for the month/year where the
 spread is MAXIMIZED (or minimized), then encodes the answer. PASSED: June 1970
-bulletin, Corporate Aa vs Treasury bonds, CY1960-1969, "find the month/year of\nmax spread, month as int 1-12, multiply by 100, add the calendar year" =\nanswer 3069 (= 11*100 + 1969 = NOVEMBER 1969; Nov has the widest gap:
+bulletin, Corporate Aa vs Treasury bonds, CY1960-1969, "find the month/year of\nmax spread, month as int 1-12, multiply by 100, add the calendar year" =\nanswer [redacted] (= 11*100 + 1969 = NOVEMBER 1969; Nov has the widest gap:
 Aa 8.94 - Treasury 6.52 = 2.42). NOTE: month=11 (November), NOT March —
 11*100+1969 = 3069. (An earlier version of this note mislabeled it "March";
-the verified argmax is November 1969, confirmed by full per-month computation.)
+the verified argmax is November [redacted] confirmed by full per-month computation.)
 TABLE LAYOUT: AY-1 is 4 side-by-side blocks of 3 years each. Block1=1959/60/61,
 Block2=1962/63/64, Block3=1965/66/67, Block4=1968/69/70. Each block col1=Treasury,
 col2=Aa new corporate, col3=municipal. 1969 is block4 middle sub-block.
@@ -111,7 +111,7 @@ Procedure:
    different part of the bulletin from the yield table.
 4. Report it as-is in NOMINAL dollars. These trust tables are usually printed in
    THOUSANDS or MILLIONS — scale back to full dollars (e.g. 92 in a "millions"
-   column -> 92000000) since the answer wants "the final full number without
+   column -> [redacted]) since the answer wants "the final full number without
    commas". Confirm the column unit header before scaling.
 Pitfall: the extremum month comes from the YIELD table but the reported number
 comes from a SEPARATE table — two lookups in two different table sections of the
@@ -143,7 +143,7 @@ sibling question type: "absolute difference between the sample Pearson
 correlation coefficients of monthly yields for [Treasury bonds] and
 [New Aa corporate bonds] during calendar years YYYY and ZZZZ."
 Procedure (PASSED: CY1979 vs CY1984, Treasury bonds vs New Aa corporate,
-answer 0.0003 to 4 dp):
+answer [redacted] to 4 dp):
 1. Pull the two named series for ALL 12 months of each calendar year. "New Aa
    corporate bonds" is its own column — match the word "New" (new-issue) vs a
    seasoned/outstanding Aa column if both appear; pick the exact label.
@@ -153,7 +153,7 @@ answer 0.0003 to 4 dp):
 3. For year 2: r2 = Pearson corr over that year's 12 months.
 4. Answer = round(abs(r1 - r2), 4). Yields are percent values (10.25), no %.
 5. These nominal-yield series are strongly co-moving, so r1 and r2 are both
-   ~0.9+; their absolute difference is often tiny (e.g. 0.0003). A near-zero
+   ~0.9+; their absolute difference is often tiny (e.g. [redacted]). A near-zero
    answer is plausible, NOT an error — do not "correct" it upward.
 Pitfall: each calendar year is its OWN correlation over its OWN 12 months; do
 NOT pool both years into one 24-point correlation. And it is |r1 - r2|, the

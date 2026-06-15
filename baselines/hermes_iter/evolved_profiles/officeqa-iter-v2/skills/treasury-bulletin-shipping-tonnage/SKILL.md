@@ -52,7 +52,7 @@ The unit header "thousands of tons" applies to the numeric entries. Keep all ser
    `corr = pearsonr([American Jan, American Feb, ...], [Grand total Jan, Grand total Feb, ...])`
 
    Multiplying both series by 1,000 to convert from thousands of tons to tons is unnecessary and will not change the correlation.
-5. Round only at the end. If the requested format is one decimal for the share and nearest thousandth for correlation, compute with full precision and output e.g. `[34.4, 0.391]`.
+5. Round only at the end. If the requested format is one decimal for the share and nearest thousandth for correlation, compute with full precision and output e.g. `[redacted]`.
 
 ## Common Pitfalls
 

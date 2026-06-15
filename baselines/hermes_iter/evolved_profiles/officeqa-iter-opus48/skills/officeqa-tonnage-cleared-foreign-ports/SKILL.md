@@ -59,7 +59,7 @@ from the three pairs — do not assume ~1.0.
 
 ## Output format
 Two values, comma-separated, in square brackets, first = percentage (1 dp),
-second = correlation (3 dp): `[34.4, 0.391]`.
+second = correlation (3 dp): `[redacted]`.
 
 ## Pitfalls
 - ENTERED vs CLEARED: wrong sub-table = wrong numbers entirely.

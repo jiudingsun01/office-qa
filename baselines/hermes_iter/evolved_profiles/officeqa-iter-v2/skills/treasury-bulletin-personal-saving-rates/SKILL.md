@@ -43,7 +43,7 @@ Do not use it for savings bonds, Treasury securities, or General Fund cash balan
    ```
    Inspect the PNG/PPM directly or use image/OCR tools to locate:
    - chart title: `Personal Saving`
-   - x-axis year labels (e.g. 1950, 1955, …, 1990)
+   - x-axis year labels (e.g. 1950, 1955, …, [redacted])
    - y-axis saving-rate scale
    - the highest/lowest point of the plotted line in the requested year range
 

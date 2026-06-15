@@ -45,7 +45,7 @@ likely (a) used market price WITHOUT deflating (nominal not real), or (b) deflat
 wrong direction, or (c) used the wrong base CPI — all reorder/rescale the trio.
 
 ## Worked failure (for calibration)
-Sep1938/1948/1958 silver stock question: my answer 3584.40, gold 2051.51 (ratio 1.747).
+Sep1938/1948/1958 silver stock question: my answer 3584.40, gold [redacted] (ratio 1.747).
 The 1.747x overshoot is consistent with skipping/inverting the CPI deflation step (i.e.
 returning a NOMINAL-price product where the real-price product was wanted), or picking
 the wrong year as median. Next time: (1) confirm $1.2929 statutory rate; (2) explicitly

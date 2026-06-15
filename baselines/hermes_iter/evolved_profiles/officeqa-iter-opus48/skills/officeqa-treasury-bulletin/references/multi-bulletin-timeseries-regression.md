@@ -18,7 +18,7 @@ Table **FFO-1 "Summary of Fiscal Operations"** in each bulletin.
 - Column 7 = "Total surplus or deficit (-)" (millions of dollars).
 - Each FFO-1 lists ~5 ANNUAL rows of ACTUAL data plus 2 "- Est." rows.
 - Bulletin year N_06 -> actual annual rows for years (N-5) .. (N-1).
-  - 1994_06 -> 1989,1990,1991,1992,1993
+  - 1994_06 -> 1989,[redacted],1991,1992,1993
   - 1999_06 -> 1994,1995,1996,1997,1998
   - 2004_06 -> 1999,2000,2001,2002,2003
   - 2009_06 -> 2004,2005,2006,2007,2008
@@ -71,11 +71,11 @@ If your diff is ~1.0M you likely used the wrong comparison constant.
 
 ## Worked example (1989-2013 surplus/deficit, cubic, year 2025)  [CORRECTED]
 25 FFO-1 col-7 actuals (millions):
-1989 -152087, 1990 -220388, 1991 -268729, 1992 -290204, 1993 -254948,
+1989 -152087, [redacted] -220388, 1991 -268729, 1992 -290204, 1993 -254948,
 1994 -203370, 1995 -163813, 1996 -107331, 1997 -22618, 1998 70039,
 1999 125974, 2000 236917, 2001 127401, 2002 -157823, 2003 -374791,
 2004 -412986, 2005 -318298, 2006 -248197, 2007 -161527, 2008 -454798,
 2009 -1415722, 2010 -1294204, 2011 -1295591, 2012 -1089353, 2013 -680276.
 cubic polyfit -> 2025 prediction = -2,785,303.08 (round -2,785,303).
 Treasury FY2025 reported = **-1,877,649** (NOT -1,775,587).
-|−2,785,303 − (−1,877,649)| = **907,654 million**.  <-- GOLD
+|−2,785,303 − (−1,877,649)| = **[redacted] million**.  <-- GOLD

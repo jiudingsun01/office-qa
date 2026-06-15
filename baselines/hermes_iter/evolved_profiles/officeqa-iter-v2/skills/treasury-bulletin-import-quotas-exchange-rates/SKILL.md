@@ -53,7 +53,7 @@ Use this skill for OfficeQA questions that mention:
 6. Round and format exactly as requested.
    - Use high precision for intermediate arithmetic.
    - Round the final quotient to the requested number of decimal places, commonly 4.
-   - If the answer must be a single number with no commas, output only that number (e.g. `3.9970`).
+   - If the answer must be a single number with no commas, output only that number (e.g. `[redacted]`).
 
 ## Common Pitfalls
 

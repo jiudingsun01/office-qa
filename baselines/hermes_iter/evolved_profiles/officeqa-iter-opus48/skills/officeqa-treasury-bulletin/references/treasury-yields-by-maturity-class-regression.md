@@ -41,12 +41,12 @@ Jul-1953 through Jun-1956 inclusive = **36 monthly observations**.
 - numpy NOT importable in execute_code sandbox -> run via
   `cd /home/azureuser/office-qa && python3 script.py`.
 
-## Worked example (VERIFIED CORRECT — gold 2.916)
-"20 years or after", Jul-1953 … Jun-1956, predict Jul-1956 -> **2.916** (3dp). ✓
+## Worked example (VERIFIED CORRECT — gold [redacted])
+"20 years or after", Jul-1953 … Jun-1956, predict Jul-1956 -> **[redacted]** (3dp). ✓
 36 monthly yields, x=1..36, OLS, predict x=37 -> 2.916.
 
 ## Delimiter
-Single decimal scalar -> "2.916" (MODE A: has a decimal point; lone scalar needs
+Single decimal scalar -> "[redacted]" (MODE A: has a decimal point; lone scalar needs
 no delimiter anyway).
 
 ## Reading method

@@ -10,7 +10,7 @@ This is DIFFERENT from references/arc-elasticity.md (that one is elasticity of o
 variable Y w.r.t. a SECOND variable X across two periods). Here all three metrics
 describe ONE series over time.
 
-## The three formulas (verified CORRECT, gold [-0.153, 0.847, -1.162])
+## The three formulas (verified CORRECT, gold [redacted])
 Let Vs = start value (FY2011), Ve = end value (FY2019).
 n = number of YEARS ELAPSED between the two fiscal years = end_FY - start_FY.
   For FY2011 -> FY2019, n = 8 (NOT 9; it is the span, not the inclusive count).
@@ -43,5 +43,5 @@ budgetary-only subtotal.
 
 ## Delimiter
 All three values are decimals -> MODE A. Bare comma. Both `[-0.153,0.847,-1.162]`
-(no space) and `[-0.153, 0.847, -1.162]` (with space) scored CORRECT here, but
+(no space) and `[redacted]` (with space) scored CORRECT here, but
 prefer MODE A (no space) per standing rule.

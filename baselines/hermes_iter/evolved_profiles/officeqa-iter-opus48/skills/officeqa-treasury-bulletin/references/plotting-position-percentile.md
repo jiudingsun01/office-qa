@@ -29,8 +29,8 @@ To get the value at percentile P (e.g. P = 85 => target probability q = 0.85):
        x = x_(k) + (q - p_k)/(p_{k+1} - p_k) * (x_(k+1) - x_(k))
 
 ## HAZEN with N=10 (FY2011..FY2020 = 10 fiscal years) — the common case
-Hazen p_i = (i - 0.5)/10 = {0.05, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75,
-0.85, 0.95} for i = 1..10. So q = 0.85 lands EXACTLY on i = 9 => the answer is
+Hazen p_i = (i - 0.5)/10 = {0.05, 0.15, 0.25, [redacted], 0.45, 0.55, 0.65, 0.75,
+[redacted], [redacted]} for i = 1..10. So q = [redacted] lands EXACTLY on i = 9 => the answer is
 the 9th-smallest value, no interpolation. (q = 0.95 -> 10th = max; q = 0.05 ->
 min.) This clean alignment is why a 10-year Hazen percentile at a multiple of 10
 + 5 (15th, 25th, ..., 85th, 95th) is just the k-th order statistic.
@@ -68,7 +68,7 @@ fiscal years); prefer the latest/revised figure for any given FY.
   the (N+1-i) order statistic.
 - Count the years: "FY2011 to FY2020" inclusive = 10 values. An off-by-one in
   the window changes N, hence every p_i, hence the interpolation.
-- Rounding: keep trailing zeros to the requested place (678077.00 not 678077.0).
+- Rounding: keep trailing zeros to the requested place ([redacted] not 678077.0).
   The answer here is a single value equal to one data point (no interp), so it's
   a whole number with .00 appended. Decimal point present but it's a plain count-
   of-dollars value -> emit as Mode A bare number (no thousands separators).
@@ -76,5 +76,5 @@ fiscal years); prefer the latest/revised figure for any given FY.
 ## Worked success
 Q: 85th Hazen Percentile of total on+off-budget DoD outlays, FY2011-FY2020,
 nearest hundredths, millions. N=10, Hazen p_9 = 0.85 exactly => answer = 9th-
-smallest annual DoD outlay = 678077.00 ✓ (gold 678077.00). No interpolation
+smallest annual DoD outlay = [redacted] ✓ (gold [redacted]). No interpolation
 needed because 0.85 hit a plotting position exactly.

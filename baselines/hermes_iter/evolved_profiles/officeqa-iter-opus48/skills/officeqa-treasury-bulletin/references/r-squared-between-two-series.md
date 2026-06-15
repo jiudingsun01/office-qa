@@ -41,7 +41,7 @@ on  = [...20 on-budget receipts in FY order...]
 off = [...20 off-budget receipts, same FY order...]
 r  = np.corrcoef(on, off)[0,1]   # Pearson r
 r2 = r**2
-print(round(r2, 4))              # e.g. 0.8298
+print(round(r2, 4))              # e.g. [redacted]
 ```
 Equivalent: r2 = (np.cov pearson)²; or numpy.polyfit deg=1 then 1 - SSres/SStot
 gives the same r² for a single predictor. All three agree.
@@ -50,11 +50,11 @@ numpy not importable in execute_code sandbox; run via project python:
 
 ## Answer formatting
 Single scalar, decimal in [0,1], rounded to 4 places -> Mode A bare-bracket,
-e.g. [0.8298]. Keep trailing zeros to 4 dp if rounding produces them.
+e.g. [[redacted]]. Keep trailing zeros to 4 dp if rounding produces them.
 
 ## Worked example (CORRECT)
 On-budget vs off-budget NOMINAL RECEIPTS, FY1991-2010, bulletins Sep
-1996/2001/2006/2011 -> R-square = **0.8298**. (Verified gold.)
+[redacted]/[redacted]/[redacted]/[redacted] -> R-square = **[redacted]**. (Verified gold.)
 
 ## VARIANT — Pearson r (NOT squared) from foreign-currency positions table
 Trigger: "calculate the Pearson correlation coefficient between [currency A]
@@ -70,7 +70,7 @@ month-ends (Dec, Mar, Jun, Sep). Values in MILLIONS of the foreign currency
 unit, not USD. Read the requested two currency columns at the requested 4
 month-end rows -> 4 (x,y) pairs.
 
-## PRECISION near-miss pitfall (cost a WRONG: my 0.3723 vs gold 0.3719)
+## PRECISION near-miss pitfall (cost a WRONG: my 0.3723 vs gold [redacted])
 With only ~4 data points, a Pearson r near-miss at the 4th decimal
 (|delta| ~ 0.0004) means the METHOD was right and ONE extracted cell value is
 slightly off (a misread digit, transposed digits, or wrong row/quarter). It is
@@ -109,6 +109,6 @@ The two computations use the SAME 3 months but DIFFERENT aggregation:
   (e.g. 0.391). Feed raw values, round only final r.
 
 Answer formatting: both values have decimals -> MODE A. Worked-correct example
-submitted [34.4,0.391] (bare comma, no space) and gold was [34.4, 0.391] — grader
+submitted [34.4,0.391] (bare comma, no space) and gold was [redacted] — grader
 accepted the no-space form, so MODE A bare-comma is safe even when gold prints a
 space.

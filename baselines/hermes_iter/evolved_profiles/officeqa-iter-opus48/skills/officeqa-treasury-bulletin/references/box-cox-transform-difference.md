@@ -8,7 +8,7 @@ transformed, then subtracted. Rounding usually 4 dp.
 
 WORKED: "difference between Box-Cox transformed values of net interest outlays
 ... FY1981 ... and the comparable 1980 fiscal period reported in November 1981,
-λ=0.75" → gold 6.1596 CORRECT.
+λ=0.75" → gold [redacted] CORRECT.
 
 ## The formula (memorize — do NOT call scipy and let it estimate λ)
 λ is GIVEN. Apply the standard Box-Cox power transform to EACH raw value

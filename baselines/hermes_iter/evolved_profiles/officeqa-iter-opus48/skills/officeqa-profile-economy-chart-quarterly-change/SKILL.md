@@ -35,12 +35,12 @@ answer = mean(amc over all years)
 
 ### Worked PASS — Sep 2007, payroll employment, end-Q1 -> end-Q2, 2004-2006
 - Compute (June − March)/3 for 2004, 2005, 2006 (payroll employment in thousands).
-- Mean of the three per-year average monthly changes = **202.333** (GOLD-VERIFIED). Report to nearest thousandth.
+- Mean of the three per-year average monthly changes = **[redacted]** (GOLD-VERIFIED). Report to nearest thousandth.
 
 ## Pitfalls
 - **Divide by the right number of months.** End-Q1 to end-Q2 = 3 months. End-Q1 to end-Q3 = 6 months, end-Q2 to end-Q4 = 6, etc. The divisor is the count of monthly steps between the two quarter-end months, NOT the number of quarters and NOT the number of years.
 - **"Average monthly change" then "mean across years" is a two-stage average.** First divide each year's quarter delta by months (stage 1), THEN average those per-year numbers across the year range (stage 2). Do not lump all months together into one big mean unless the question literally says so.
 - **Inclusive year range.** "2004 - 2006" = three years {2004, 2005, 2006}.
-- **Units are thousands.** Payroll employment is reported in thousands of jobs; keep the answer in thousands (e.g. 202.333 thousand). If the chart axis is in millions, scale to thousands before reporting.
+- **Units are thousands.** Payroll employment is reported in thousands of jobs; keep the answer in thousands (e.g. [redacted] thousand). If the chart axis is in millions, scale to thousands before reporting.
 - This is a CHART question but the values are precise levels — extract the actual monthly numbers (chart data / nearby table), don't eyeball off pixels if exact values are available.
 - Report to the precision the question asks (here, nearest thousandth).

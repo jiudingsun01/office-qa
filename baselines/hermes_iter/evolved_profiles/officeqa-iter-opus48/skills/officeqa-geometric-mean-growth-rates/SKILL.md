@@ -37,7 +37,7 @@ That is wrong and inflates the answer by a large factor.
 Q: "highest Geometric mean of U.S. real GDP growth, quarterly percent change at an
 annual rate ... from CY 2013-2019 ... that geometric mean rounded to hundredths."
 - WRONG (raw-percent geomean): [2017, 2.74]
-- GOLD: [2017, 0.69]
+- GOLD: [redacted]
 The 4x gap is the signature of the raw-vs-factor mistake compounded with the fact
 that GDP quarterly rates can be small or mixed-sign within a year, which crushes
 the factor-based mean toward a small number. When the quarters include a very

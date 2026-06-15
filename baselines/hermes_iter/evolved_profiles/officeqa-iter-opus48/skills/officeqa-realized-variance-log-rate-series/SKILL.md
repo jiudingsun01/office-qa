@@ -23,7 +23,7 @@ NO "realized", NO "successive observations / log returns"), it is ordinary
 **POPULATION variance: Σ(x−x̄)²/N** (divide by N, NOT N−1). This is a DIFFERENT
 question from this skill. Confirmed PASS: "variance of High-grade corporate bond
 yields for the sample calendar months Jan–Jun 1938" → 6 monthly values,
-population variance (÷N) = **0.00137** (gold). Using ÷(N−1) sample variance would
+population variance (÷N) = **[redacted]** (gold). Using ÷(N−1) sample variance would
 overshoot. So: plain "variance" → ÷N population; "realized variance of log" →
 sum of squared log returns (rest of this skill).
 
@@ -45,7 +45,7 @@ give the SAME answer, so don't agonize over it. The square then rounds to 3 dp.
 ### Worked example (this question, PASSED)
 19-day CM bill tendered 1980-05-27 and 2-day CM bill tendered 1980-06-02,
 average bank discount rates r_1≈6.9, r_2≈8.78 (mid-1980 rates were high, 7–10%).
-RV = (ln 8.78 − ln 6.9)² = (0.2408)² = **0.058**. Gold = 0.058. ✓
+RV = (ln 8.78 − ln 6.9)² = (0.2408)² = **[redacted]**. Gold = 0.058. ✓
 
 ```python
 import math
@@ -70,14 +70,14 @@ answer ~0.01 pp too LOW and fails the to-the-hundredth check.
 10/1960: 26-week bills Sept 1 (2.825%) & Sept 8 (2.801%):
   g=−0.0085319, RV=7.2793e-5.
   ×52      → sqrt=0.061524 → 6.15%  ← WRONG (what we submitted)
-  ×365/7   → sqrt=0.061609 → **6.16%**  ← GOLD ✓
-(365.25/7 also rounds to 6.16%, so day-count fineness doesn't matter; the point
+  ×365/7   → sqrt=0.061609 → **[redacted]**  ← GOLD ✓
+(365.25/7 also rounds to [redacted], so day-count fineness doesn't matter; the point
 is DON'T round 365/7 down to 52.) Default to W=365/7 for any weekly→annual
 Brownian volatility scaling. Analogously: daily→annual uses 365 (or 252 only if
 the question explicitly says trading days); monthly→annual uses 12.
 PITFALL: the 1960_10 markdown table garbled the 26-week dates AND dropped the
 Sept-1 row. The 26-week column is correctly (PDF p14, vision): Sept 1=2.825,
-8=2.801, 15=2.916, 22=2.743, 29=2.729. "first day of Sept"=Sept 1, "a week
+8=2.801, 15=[redacted], 22=2.743, 29=2.729. "first day of Sept"=Sept 1, "a week
 later"=Sept 8. ALWAYS verify this little discount-rate table against the PDF.
 
 ## Order matters only by sign-free luck
@@ -110,7 +110,7 @@ Operations" / bill-offering area of 1950s bulletins.
   year's bulletin, pool them all, then GM = (Π x_i)^(1/n) over the full pooled
   set (n = total count across all years, NOT per-year then averaged).
 - Use the rates as quoted in percentage points; round final to thousandths.
-- PASSED: GM of Sept weekly 91-day bill discount rates 1953-1955 = **1.558**.
+- PASSED: GM of Sept weekly 91-day bill discount rates 1953-1955 = **[redacted]**.
 ```python
 import math
 rates = [...]                    # all weekly Thursday values, all years pooled

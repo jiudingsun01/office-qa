@@ -7,7 +7,7 @@ the **Maturity Schedule** published "last day of January" of each year, then fit
 OLS linear regression to project the next January (1952). Answer in BILLIONS,
 rounded to tenths. GOLD = 39.5.
 
-## ★★★ SOLVED — verified gold answer 39.5 ★★★
+## ★★★ SOLVED — verified gold answer [redacted] ★★★
 This exact question was attempted and FAILED 3 TIMES (answers 50.0, 50.0, 57.0)
 by SUMMING the fixed column across the whole schedule. THAT IS WRONG.
 
@@ -25,13 +25,13 @@ across out-year groups, NO Panama Canal bond, NO callable issues.
 
 ### Regression
 Convert to billions [46.615, 36.068, 44.467, 40.537], x=[1948,1949,1950,1951],
-OLS, project x=1952 -> **39.463 -> 39.5**. ✓ MATCHES GOLD.
+OLS, project x=1952 -> **39.463 -> [redacted]**. ✓ MATCHES GOLD.
 ```python
 def ols(ys,xs,xt):
     n=len(xs);xb=sum(xs)/n;yb=sum(ys)/n
     m=sum((xs[i]-xb)*(ys[i]-yb) for i in range(n))/sum((xs[i]-xb)**2 for i in range(n))
     return m*xt+(yb-m*xb)
-ols([46.615,36.068,44.467,40.537],[1948,1949,1950,1951],1952)  # 39.463 -> 39.5
+ols([46.615,36.068,44.467,40.537],[1948,1949,1950,1951],1952)  # 39.463 -> [redacted]
 ```
 
 ## WHY the first group, not the sum
@@ -60,7 +60,7 @@ Render the page image and read with vision:
 year-group's "Total" row, Fixed-maturity-issues (leftmost numeric) column.
 
 ## Delimiter
-Single decimal value -> "39.5" (MODE A: has a decimal point).
+Single decimal value -> "[redacted]" (MODE A: has a decimal point).
 
 ## Reference: the WRONG grand-total sums (do NOT use — kept as a warning)
 Summing all year-group fixed Totals + the 3% Panama Canal 6/1/61 bond (=50) gives

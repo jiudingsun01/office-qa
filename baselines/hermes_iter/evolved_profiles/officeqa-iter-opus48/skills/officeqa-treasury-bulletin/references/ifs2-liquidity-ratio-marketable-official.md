@@ -43,7 +43,7 @@ abs change = |78.9515 - 69.0633| = 9.888 -> round to hundredths = 9.89
   "- June 8" benchmark lines.
 - Strip commas before arithmetic.
 - Single decimal answer -> MODE A delimiter rules don't bite (one value).
-- ANSWER FORMAT: gold for this Q is "9.89%" WITH a percent sign. When the Q asks
+- ANSWER FORMAT: gold for this Q is "[redacted]" WITH a percent sign. When the Q asks
   "by how many absolute percentage points ... change", append "%" to the value
-  (gold = "9.89%", not bare "9.89"). Both were accepted here, but match the "%"
+  (gold = "[redacted]", not bare "9.89"). Both were accepted here, but match the "%"
   framing to be safe.

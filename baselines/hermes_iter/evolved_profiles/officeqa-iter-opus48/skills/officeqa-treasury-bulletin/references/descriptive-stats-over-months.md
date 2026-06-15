@@ -24,7 +24,7 @@ get right IF you nail three choices; each has a distinct failure signature.
      a-month-window questions uses POPULATION (ddof=0). VERIFIED: "Calculate the
      variance of the High-grade corporate bond yields ... Jan to Jun 1938"
      (6 monthly values, no pop/sample word) -> population variance ddof=0 =
-     0.00137 ✓ (sample/ddof=1 would give 0.00164, ~20% high for N=6). So the
+     [redacted] ✓ (sample/ddof=1 would give 0.00164, ~20% high for N=6). So the
      hierarchy is: word "sample" => ddof=1; word "population" => ddof=0; NEITHER
      word => DEFAULT ddof=0 (population) for these month-window descriptive stats.
      (Caveat: the SEPARATE z-score family "how many sample standard deviations
@@ -66,7 +66,7 @@ get right IF you nail three choices; each has a distinct failure signature.
 Q: population std dev of federal net outlays by function for the months in
 CY1981, in millions, nearest hundredths.
 - Read all 12 monthly net-outlays totals for Jan..Dec 1981 (millions).
-- np.std(values, ddof=0) -> 6379.29  ✓ (gold 6379.29).
+- np.std(values, ddof=0) -> [redacted]  ✓ (gold [redacted]).
 - Had I used ddof=1 (sample, numpy/pandas default in some paths) I'd have gotten
   ~6660, a ~4.5% overshoot — the canonical "wrong ddof" signature for N=12.
 
@@ -80,19 +80,19 @@ rounded to five decimal places."
 - TABLE: yields live in the interest-rate / bond-yield section ("Yields of
   ...Corporate and Government Bonds" / "High-grade corporate bond yields"), NOT
   the outlays tables. Values are percents (e.g. ~3.2-3.4), so the variance is a
-  TINY number like 0.00137 — a small answer is EXPECTED, not a red flag.
+  TINY number like [redacted] — a small answer is EXPECTED, not a red flag.
 - STAT: bare "variance" (no "population"/"sample" qualifier on the stat itself)
-  => POPULATION variance ddof=0. np.var(x, ddof=0) -> 0.00137 ✓ (5 dp).
+  => POPULATION variance ddof=0. np.var(x, ddof=0) -> [redacted] ✓ (5 dp).
   (ddof=1 would give ~0.00164, ~20% high for N=6 — the wrong-ddof signature for
   small N is a LARGE overshoot.)
-- Mode A output: 0.00137 (decimal => bare value, no commas/percent sign).
+- Mode A output: [redacted] (decimal => bare value, no commas/percent sign).
 
 ## Worked success (FY variant, same row)
 Q: population std dev of monthly nominal federal net outlays by function for
 FY1981, in millions, nearest hundredths. "Use the LATEST treasury bulletin table
 to include all of these monthly values in one place."
 - FY1981 = Oct 1980 .. Sep 1981 (12 single-month cells, net-outlays-by-function
-  GRAND total line). np.std(x, ddof=0) -> 2760.44 ✓ (gold $2,760.44).
+  GRAND total line). np.std(x, ddof=0) -> 2760.44 ✓ (gold [redacted]).
 - "use the latest bulletin / all values in ONE PLACE" = pick the SINGLE most
   recent issue whose monthly outlays-by-function table prints ALL 12 FY months
   together, and read every month from THAT one table. This is the OPPOSITE of the
@@ -100,7 +100,7 @@ to include all of these monthly values in one place."
   revised cell from a later edition — one table, one issue. By FY1981 the full
   fiscal year is closed, so a later (e.g. early-FY1982) Bulletin reproduces all 12
   months in one outlays-by-function table. (Note this FY answer 2760.44 differs
-  from the CY1981 answer 6379.29 above — different 12-month window, same row.)
+  from the CY1981 answer [redacted] above — different 12-month window, same row.)
 
 ## Quick diagnostics
 - Answer ~4-5% too HIGH on a std/variance => you used sample (ddof=1) when the
@@ -142,7 +142,7 @@ Method:
   spreads = [a - t for (a, t) in pairs]
   ans = round(mean(spreads), <5 sig figs>)           # plain arithmetic mean
 Worked success: avg Corporate Aa minus Treasury-bond yield, months CY1960-1969,
-June 1970 Bulletin -> 0.88525 ✓. Plain mean of monthly spreads, 5 sig figs.
+June 1970 Bulletin -> [redacted] ✓. Plain mean of monthly spreads, 5 sig figs.
 
 Diagnostics for this variant:
 - Off by a roughly constant ~0.1-0.3 => wrong corporate grade (Aaa vs Aa) or
@@ -185,12 +185,12 @@ Key points / pitfalls:
   year => four 12-element vectors total.
 - Each yearly r is typically very high (~0.95-0.999) because long-term Treasury
   and Aa yields move together, so the |difference| of two yearly r's is TINY
-  (e.g. 0.0003). A small answer like 0.000X is EXPECTED here, not a red flag.
+  (e.g. [redacted]). A small answer like 0.000X is EXPECTED here, not a red flag.
 - Round the final absolute difference to the requested places (4 dp here); the
   two intermediate r's should NOT be pre-rounded — carry full precision, round
   only at the end. Mode A output (bare number, no commas/percent).
 Worked success: |r_1979 - r_1984| for Treasury-bond vs New Aa monthly yields ->
-0.0003 ✓.
+[redacted] ✓.
 
 ## Variant: ARGMAX of a yield spread over a multi-year window, with MONTH*100+YEAR encoding
 Question shape: "Between CY1960-1969 (inclusive), find the month and year in which
@@ -215,14 +215,14 @@ Method:
 ENCODING PITFALL — read the formula literally and in the stated order:
   "multiply [month] by 100, ADD it to the [year]" => year + month*100.
   Worked success: max spread fell in March 1969 -> 1969 + 3*100 = 1969 + 300 = 2269?
-  NO — gold = 3069. The verified decomposition is month=11 (Nov), year=1969:
-  1969 + 11*100 = 1969 + 1100 = 3069 ✓. So the max spread month was NOVEMBER 1969.
+  NO — gold = [redacted]. The verified decomposition is month=11 (Nov), year=[redacted]:
+  1969 + 11*100 = 1969 + 1100 = [redacted] ✓. So the max spread month was NOVEMBER 1969.
   Sanity-check the decomposition: ans = year + 100*month, so
     month = (ans - year_guess)//100 and year = ans % 100 + 1900 ... but simplest is
     month = ans // 100 - 19 (since year is 19xx) ... DON'T overthink: just compute
     year + 100*month for your argmax (y,m) and confirm it's a 4-digit number whose
     last two digits are the year-mod-100 and whose leading digits are 19+month.
-  For 3069: 3069 = 1969 + 1100 -> month=11, year=1969. Consistent. ✓
+  For [redacted]: [redacted] = 1969 + 1100 -> month=11, year=1969. Consistent. ✓
 
 Pitfalls specific to the argmax variant:
 - The window spans MANY years (CY1960-1969 = up to 120 monthly rows). The max can
@@ -235,7 +235,7 @@ Pitfalls specific to the argmax variant:
   may word it as month*100 + year (same result) or year*100 + month (different!) —
   parse the literal arithmetic, don't pattern-match to a remembered formula.
 Worked success: argmax Aa-minus-Treasury spread CY1960-1969, June 1970 Bulletin ->
-month 11 (Nov), year 1969 -> 1969 + 11*100 = 3069 ✓.
+month 11 (Nov), year 1969 -> 1969 + 11*100 = [redacted] ✓.
 
 ## Variant: PLAIN SUM of all monthly values in a calendar year (single-cell misread trap)
 Question shape: "Using specifically only the reported values for all individual
@@ -293,7 +293,7 @@ the weights, not by the count of items.
 OFF-BY-1 PITFALL (worked FAIL):
 - Q: weighted avg of Total U.S. Federal Securities, Feb-1980 month-end & Feb-1981
   month-end, 1981 value twice the weight, millions, nearest whole number.
-- My answer 925133 vs gold 925132 — off by exactly 1. Digits essentially perfect;
+- My answer 925133 vs gold [redacted] — off by exactly 1. Digits essentially perfect;
   this is purely a rounding/precision miss.
 - Root causes when final integer is ±1 from gold:
   (a) An intermediate value got rounded before the final divide. NEVER pre-round —
@@ -387,7 +387,7 @@ Pitfalls:
   root. If gold and your answer differ only in the last thousandth, suspect you
   used arithmetic mean or dropped/added one weekly value.
 Worked success: geometric mean of September weekly 91-day bill avg discount rates,
-1953-1955 -> 1.558 ✓ (np.exp(np.mean(np.log(rates))), rounded to 3 dp).
+1953-1955 -> [redacted] ✓ (np.exp(np.mean(np.log(rates))), rounded to 3 dp).
 
 ## Variant: QUARTILES / H-SPREAD (IQR) with EXPLICIT INTERMEDIATE-ROUNDING instruction
 Question shape: "What is the H Spread of monthly nominal net <metric> for FY<year>
@@ -419,7 +419,7 @@ FY2021, billions, nearest hundredths, intermediates rounded to tenths.
 - SOURCE: Table FFO-2 "On-Budget and Off-Budget Receipts by Source", column 7
   "Corporation > Net". The Dec-2021 bulletin (treasury_bulletin_2021_12) prints
   ALL 12 FY2021 months (Oct2020..Sep2021) in one table; the Sep-2021 bulletin
-  independently confirms Oct2020..Jun2021 identically. Verified monthly Corp Net
+  independently confirms Oct[redacted]..Jun[redacted] identically. Verified monthly Corp Net
   (millions): Oct 9152, Nov -3192, Dec 62920, Jan 16463, Feb 3780, Mar 15255,
   Apr 72769, May 13808, Jun 74189, Jul 16942, Aug 3033, Sep 86713. These SUM to
   exactly 371832 = the table's own "Fiscal year 2021 to date" Corp Net total —
@@ -430,9 +430,9 @@ FY2021, billions, nearest hundredths, intermediates rounded to tenths.
   = 65.38225. Full-precision diff = 57.573 (~57.57).
 - INTERMEDIATE-ROUNDED (the required method): round(7.809,1)=7.8, round(65.382,1)
   =65.4 -> 65.4 - 7.8 = 57.6 (=57.60). ANSWER = 57.60.
-- CORRECTION to a prior note: an earlier attempt logged "gold 57.50 / my 57.53",
+- CORRECTION to a prior note: an earlier attempt logged "gold [redacted] / my 57.53",
   but that used a MIS-EXTRACTED value (its full diff 57.53 differs from the
-  verified 57.57). With data verified across TWO bulletins and matching the
+  verified [redacted]). With data verified across TWO bulletins and matching the
   official FY total, the intermediate-rounded answer is 57.60, NOT 57.50. TRUST
   the internally-consistent extraction (sum == official total) over a logged gold.
 - Signature reminder: if intermediates are rounded to tenths, the H-spread MUST
@@ -457,8 +457,8 @@ Pitfalls / checklist for quartile+intermediate-rounding questions:
 5. FY window = Oct(year-1)..Sep(year) = 12 single-month cells; use the single-month
    column, not cumulative YTD. Corporate income tax receipts is a NAMED receipt row
    in the MTS-style monthly receipts-by-source summary.
-Worked target: with q1,q3 rounded to tenths-of-billions then Q3-Q1 -> 57.60 (verified
-data, q1=7.8, q3=65.4; see WORKED VERIFIED block above).
+Worked target: with q1,q3 rounded to tenths-of-billions then Q3-Q1 -> [redacted] (verified
+data, q1=[redacted], q3=[redacted]; see WORKED VERIFIED block above).
 
 ## Variant: Z-SCORE ("how many sample standard deviations off the average") over a multi-YEAR series
 Question shape: "For the calendar years <Y1> through <YN> inclusive, use the
@@ -519,4 +519,4 @@ Diagnostics:
   marketable maturing in year k), or wrong number of years.
 Worked success: CY1972-1976, total interest-bearing marketable public debt maturing
 in each year from each year's end-Feb maturity schedule; z of the 1972 value
-= (v1972 - mean)/std(ddof=1) -> -1.063 ✓ (1972 below the 5-yr average, negative).
+= (v1972 - mean)/std(ddof=1) -> [redacted] ✓ (1972 below the 5-yr average, negative).

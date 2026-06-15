@@ -47,7 +47,7 @@ shares is CPI-invariant, because each period's share is self-canceling (one
 common factor per period). Confirm the final asked quantity is a share, not a
 level — if share, ignore the CPI clause entirely.
 
-## Method (worked, PASSED = 0.953)
+## Method (worked, PASSED = [redacted])
 Question: "average share of the ESF's total assets coming from its
 foreign-exchange holdings AND securities, end-of-June CY2000-2002 vs
 end-of-September CY2000-2002, CPI-adjusted to March 2003; absolute difference in

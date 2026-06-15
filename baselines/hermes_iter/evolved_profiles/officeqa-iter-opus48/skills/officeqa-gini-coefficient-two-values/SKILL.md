@@ -64,5 +64,5 @@ Gini is already a ratio; keep full precision through the division.
 2. Are you using the "excluding investments" variant if the question says so?
 3. Did you emit the SAMPLE Gini (= (b-a)/(a+b) for two values), NOT population?
 4. Sanity: for two values the sample Gini = |R-E|/(R+E); a small relative gap
-   gives a small Gini (e.g. R,E within ~1% -> Gini ~0.005-0.01).
+   gives a small Gini (e.g. R,E within ~1% -> Gini ~[redacted]-0.01).
 5. surplus iff receipts > expenditures.

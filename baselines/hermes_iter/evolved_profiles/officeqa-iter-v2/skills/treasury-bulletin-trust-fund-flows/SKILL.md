@@ -103,7 +103,7 @@ answer = round(gini, 3)
    - Keep the table units, commonly millions of U.S. dollars. If the prompt asks for the answer in millions of a foreign currency, the numeric value remains in millions after applying the exchange rate.
    - If a single exchange-rate month is specified, e.g. `using the monthly average exchange rate of USD-CAD in December 1959`, use that rate for the whole result; do not use November's exchange rate for November and December's for December unless explicitly instructed.
    - Treat `USD-CAD` as CAD per 1 USD. Convert USD millions to CAD millions by multiplying by the monthly average USD-CAD exchange rate after computing the requested USD difference.
-   - Do **not** round the monthly-average FX rate to `1.05` before multiplying. These questions can hinge on the fourth-to-sixth decimal place: for the November/December 1959 aggregate receipts case, using `1.05` gives about `504.03`, while the benchmark expects about `504.12` from the full-precision December 1959 USD-CAD monthly average. Carry the full source precision through the multiplication and round only the final CAD-million answer.
+   - Do **not** round the monthly-average FX rate to `1.05` before multiplying. These questions can hinge on the fourth-to-sixth decimal place: for the November/December 1959 aggregate receipts case, using `1.05` gives about `504.03`, while the benchmark expects about `[redacted]` from the full-precision December 1959 USD-CAD monthly average. Carry the full source precision through the multiplication and round only the final CAD-million answer.
    - For an absolute difference:
 
 ```python
@@ -131,7 +131,7 @@ cagr_percent = ((end_value / start_value) ** (1 / (end_fy - start_fy)) - 1) * 10
 answer = round(cagr_percent, 2)
 ```
 
-   - If the prompt says `reported in percent per year`, format the final answer as a percent (e.g. `108.01%`) rather than a bare decimal fraction or unlabelled number, unless the benchmark interface explicitly requires numeric-only output.
+   - If the prompt says `reported in percent per year`, format the final answer as a percent (e.g. `[redacted]`) rather than a bare decimal fraction or unlabelled number, unless the benchmark interface explicitly requires numeric-only output.
 
 ## Common Pitfalls
 
@@ -168,4 +168,4 @@ answer = round(cagr_percent, 2)
 - [ ] For aggregate monthly total trust-account receipts, the all-trust-account `Total receipts` values were used for the requested calendar months, not a named fund or fiscal-year-to-date total.
 - [ ] For USD-CAD conversion, the USD-million difference was multiplied by the specified month's CAD-per-USD average rate, preserving `millions` units.
 - [ ] The signed subtraction order matches the prompt, e.g. `(1947 - 1946)` = adjusted 1947 minus adjusted 1946.
-- [ ] Final output matches the prompt format, e.g. `[0.012, surplus]` or a single numeric value in millions rounded to one decimal place.
+- [ ] Final output matches the prompt format, e.g. `[redacted]` or a single numeric value in millions rounded to one decimal place.

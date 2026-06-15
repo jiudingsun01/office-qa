@@ -18,7 +18,7 @@ WEEK, with each week labeled by its ending date (often Wednesday-ending).
   US vs net OUTFLOW is given by the sign of the cumulative/period figure. Report
   the MAGNITUDE the table gives for the requested span; the word "inflow OR
   outflow" means just report the signed/absolute net the cells yield — gold is a
-  bare positive integer in thousands (e.g. 1461).
+  bare positive integer in thousands (e.g. [redacted]).
 
 ## Resolving the weekday-anchored dates (the main gotcha)
 "Third Thursday" and "fourth Wednesday" are CALENDAR computations, not table
@@ -45,7 +45,7 @@ week). Net flow "between" the two dates = the value in the week-ending column(s)
 that cover that interval, OR the difference of two cumulative columns if the
 table is cumulative. Verify whether the table is PER-WEEK (read the single
 matching column) or CUMULATIVE-to-date (subtract the start-date column from the
-end-date column). For Jan 1939 Latin America the matching weekly net = 1461
+end-date column). For Jan 1939 Latin America the matching weekly net = [redacted]
 (thousands), reported as a bare integer.
 
 ## Unit / format

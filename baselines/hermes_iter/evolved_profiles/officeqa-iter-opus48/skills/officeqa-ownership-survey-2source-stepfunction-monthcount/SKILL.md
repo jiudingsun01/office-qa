@@ -39,7 +39,7 @@ Then:
    it contributes 0.
 4. Sum across blocks.
 
-So with 2 surveys the answer is almost always one of {0, 12, 24}. Gold = 12 ⇒ exactly one of the
+So with 2 surveys the answer is almost always one of {0, [redacted] 24}. Gold = 12 ⇒ exactly one of the
 two survey values exceeded $20,000M.
 
 ## Why a naive answer (e.g. 7) is wrong

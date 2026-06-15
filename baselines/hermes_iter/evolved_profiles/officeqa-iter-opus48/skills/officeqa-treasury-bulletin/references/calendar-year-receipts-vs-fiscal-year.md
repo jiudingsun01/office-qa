@@ -13,7 +13,7 @@ The Treasury Bulletin headline summary tables ("Summary of Fiscal Operations",
 by default. If you grab the row labeled "1942" from a fiscal-year table you get
 FY1942 = Jul-1941..Jun-1942, which is NOT calendar 1942. Mixing fiscal-year
 figures into a "calendar year" question produces a systematically wrong ratio.
-A worked fail: answer 0.4802 vs gold 0.6841 (ratio of mine/gold = 0.70), i.e.
+A worked fail: answer 0.4802 vs gold [redacted] (ratio of mine/gold = 0.70), i.e.
 wrong year-aggregation, digits not random — the hallmark of fiscal-vs-calendar
 or wrong-12-months aggregation.
 
@@ -48,5 +48,5 @@ depending on year — for 1941-1943 the WWII buildup means this line balloons).
 ## Sanity check
 Receipts/defense in wartime 1941-43 should fall ~0.5-1.0 and DECLINE as defense
 spending explodes faster than receipts (1941 highest, 1943 lowest). Gold mean
-0.6841 is consistent. If your mean lands near ~0.48 you likely used fiscal-year
+[redacted] is consistent. If your mean lands near ~0.48 you likely used fiscal-year
 rows or summed the wrong 12 months.

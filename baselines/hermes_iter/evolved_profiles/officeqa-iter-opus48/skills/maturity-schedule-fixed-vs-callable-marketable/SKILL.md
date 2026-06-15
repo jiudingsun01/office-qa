@@ -27,7 +27,7 @@ maturity type." You want only the FIXED-MATURITY subtotal.
 
 ## THE FAILURE (this is why this ref exists)
 Q: fixed-maturity marketable amount (billions) on last day of Jan 1948,1949,
-1950,1951; OLS-project end-Jan-1952. Gold = **39.5**. I answered **57.0** —
+1950,1951; OLS-project end-Jan-1952. Gold = **[redacted]**. I answered **57.0** —
 a strongly RISING projection. Root cause: wrong rows. The fixed-maturity
 subtotal in this era is FLAT-TO-DECLINING (~$40-45B falling to ~$39B), because
 the postwar debt was concentrated in long callable issues + bills/notes, and
@@ -35,7 +35,7 @@ fixed-maturity bonds were being refunded/retired. A rising 57.0 means I either
 (a) summed fixed+callable, (b) grabbed the grand total slope, or (c) picked a
 different growing aggregate (total marketable, or "issued during period").
 
-## CONFIRMED READING THAT REPRODUCES GOLD 39.5 (1948-1951 Jan, fixed, OLS->1952)
+## CONFIRMED READING THAT REPRODUCES GOLD [redacted] (1948-1951 Jan, fixed, OLS->1952)
 The "fixed-maturity value" per schedule = the **Total of the "Fixed maturity
 issues" column for that schedule's OWN calendar-year group** (the first/nearest
 year-group at top-left, which lumps that year's bills+certs+fixed bonds). Do NOT
@@ -44,7 +44,7 @@ sum the Fixed column across ALL maturity-year groups (that gives ~48-57B RISING
 Confirmed reads ($ millions, Jan 31 schedule, current-year group Total):
 - 1948: 46,615   1949: 36,068   1950: 44,467   1951: 40,537
 -> /1000 = 46.615, 36.068, 44.467, 40.537
-np.polyfit([1948..1951], values, 1) -> proj 1952 = 39.46 -> **39.5** (matches gold).
+np.polyfit([1948..1951], values, 1) -> proj 1952 = 39.46 -> **[redacted]** (matches gold).
 Pages: 1948 p19, 1949 p19, 1950 p21, 1951 p22 (cover-month bulletin, March issue).
 Render at -r 250 and read with vision; pdftotext scrambles these grids.
 
@@ -54,7 +54,7 @@ Render at -r 250 and read with vision; pdftotext scrambles these grids.
    are all >$50B or RISING, you almost certainly used callable+fixed or the
    grand total. Re-pull only the FIXED-maturity-type subtotal.
 2. A linear projection of a flat/declining series must land NEAR the last
-   observed value, not far above it. 39.5 ≈ continuation of a gentle decline.
+   observed value, not far above it. [redacted] ≈ continuation of a gentle decline.
    If your projection is well above every input year, the slope sign is wrong
    for the series the Q named — recheck the rows.
 3. Callable issues are identifiable by a DATE RANGE in the maturity column
@@ -64,7 +64,7 @@ Render at -r 250 and read with vision; pdftotext scrambles these grids.
 
 ## Units
 Amounts print in **millions of dollars**; the Q wants **billions** -> divide by
-1000 before regression (e.g. 39,500 -> 39.5). Round per the Q (here tenths).
+1000 before regression (e.g. 39,500 -> [redacted]). Round per the Q (here tenths).
 
 ## Reading method
 1940s-50s maturity-schedule pages are dense multi-column grids; pdftotext often
@@ -101,7 +101,7 @@ average was year T's value":
   is explicit — numpy default ddof=0 is WRONG; use `np.std(arr, ddof=1)` or
   statistics.stdev().
 - The result is SIGNED. If year T is below the mean, answer is NEGATIVE. Don't
-  drop the sign. (1972 total below the 5-yr mean -> -1.063, CORRECT.)
+  drop the sign. (1972 total below the 5-yr mean -> [redacted], CORRECT.)
 - Round to the requested decimals at the very end only.
 
 ## Regression mechanics

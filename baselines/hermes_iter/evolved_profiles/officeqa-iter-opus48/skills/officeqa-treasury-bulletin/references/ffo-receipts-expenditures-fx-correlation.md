@@ -33,16 +33,16 @@ GBP = USD / rate(year). Because EACH year is divided by its own rate and the rat
 changed once, the conversion slightly changes r vs raw USD — but every plausible
 peg assumption rounds the same:
   - raw USD:                 r = 0.9709 -> 0.97
-  - FY48/49=4.03, else 2.80: r = 0.9806 -> 0.98  (recommended)
-  - FY48/49=4.0345,else 2.80:r = 0.9806 -> 0.98
-  - FY1950 blended:          r = 0.9810 -> 0.98
-Answer = **0.98** (FX-converted, which the Q requires).
+  - FY48/49=4.03, else 2.80: r = 0.9806 -> [redacted]  (recommended)
+  - FY48/49=4.0345,else 2.80:r = 0.9806 -> [redacted]
+  - FY1950 blended:          r = 0.9810 -> [redacted]
+Answer = **[redacted]** (FX-converted, which the Q requires).
 
 ## Pitfalls
 - Don't grab Surplus/deficit; use Net receipts + Expenditures columns.
 - Pull FY1948/49 from the OLDER bulletin (newer one starts at FY1950); take all
   overlapping years from the NEWER bulletin.
-- r is computed on the GBP series, but the answer rounds to 0.98 regardless of
+- r is computed on the GBP series, but the answer rounds to [redacted] regardless of
   exact peg used for the two pre-1950 years — don't overthink the rate.
 - np.corrcoef; sample vs population divisor cancels in r.
-- Single decimal scalar => MODE A delimiter (bare, here just 0.98).
+- Single decimal scalar => MODE A delimiter (bare, here just [redacted]).

@@ -50,7 +50,7 @@ questions live in late-1990s/2000s bulletins, not the 1940s-60s ones.
 
 ## Verified example
 - Series I share of total redemptions, Mar 2000 → Mar 2005:
-  answer = **[7.1, 82]** (matched gold exactly).
+  answer = **[redacted]** (matched gold exactly).
 
 ## Pitfalls
 - Denominator is **total redemptions ALL SERIES**, not amount outstanding, not

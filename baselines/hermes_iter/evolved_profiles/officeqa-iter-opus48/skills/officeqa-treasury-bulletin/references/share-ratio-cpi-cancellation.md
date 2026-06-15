@@ -22,7 +22,7 @@ from DIFFERENT dates (e.g. "real component in June / real total in
 September") — different dates have different deflators. Same-date shares,
 averages of same-date shares, and differences of those averages are all
 CPI-invariant. The June 2000–2002 ESF question above averaged same-date
-shares for each period set, so CPI cancelled completely; answer 0.953 pp.
+shares for each period set, so CPI cancelled completely; answer [redacted] pp.
 
 ## Procedure for "average share ... absolute difference between two period sets"
 1. For each date in set A (e.g. June 2000, 2001, 2002): read component

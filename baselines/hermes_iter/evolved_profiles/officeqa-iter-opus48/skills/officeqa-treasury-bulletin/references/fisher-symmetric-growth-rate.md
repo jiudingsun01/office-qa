@@ -17,9 +17,9 @@ ratio/fraction. DO NOT scale to percent.
 - A = the EARLIER / "from" value (Aug 1981)
 - Round to whatever dp the question asks (here: 3 dp).
 
-## #1 FAILURE MODE — 100x TOO BIG (gave -11.335 vs gold -0.113)
+## #1 FAILURE MODE — 100x TOO BIG (gave -11.335 vs gold [redacted])
 This is the recurring, DOMINANT failure. The digits were 100% correct
-(-0.11335 -> -0.113) but I used 200*(B-A)/(B+A) = -11.335 instead of
+(-0.11335 -> [redacted]) but I used 200*(B-A)/(B+A) = -11.335 instead of
 2*(B-A)/(B+A) = -0.113. The tell: if your answer is ~±10-12 and the gold-style
 answer should be a small fraction near zero, you multiplied by an extra 100.
 
@@ -28,7 +28,7 @@ answer should be a small fraction near zero, you multiplied by an extra 100.
 
 Worked example (Aug 1982 vs Aug 1981 long-term Treasury bond yields):
     A (Aug 1981) and B (Aug 1982) both ~13-15%, nearly equal.
-    2*(B-A)/(B+A) = -0.11335 -> -0.113  ✓ (gold)
+    2*(B-A)/(B+A) = -0.11335 -> [redacted]  ✓ (gold)
     200*(B-A)/(B+A) = -11.335  ✗ (my wrong answer — extra factor of 100)
 
 ## #2 FAILURE MODE — transcribed a cell
@@ -51,4 +51,4 @@ column that reports through that fiscal-year-end. Read the calendar-month rows
 (Aug 1982, Aug 1981) from that reported vintage.
 
 ## Delimiter (MODE A)
-Answer has a decimal point -> bare value, no commas. e.g. -0.113
+Answer has a decimal point -> bare value, no commas. e.g. [redacted]

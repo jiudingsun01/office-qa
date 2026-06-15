@@ -28,12 +28,12 @@ so the word "Hazen" is operative — do not use np.percentile defaults.
 ## Worked example (CORRECT, verdict matched)
 DoD total nominal on-budget+off-budget outlays FY2011..FY2020, 85th Hazen pct.
 n=10 -> i* = 0.85*10 + 0.5 = 9.0  -> exactly the 9th sorted value (frac=0).
-Answer = 678077.00 (millions). Rounded to hundredths.
+Answer = [redacted] (millions). Rounded to hundredths.
 
 ## ⚠ HARD GATE (this Q failed in a real run by returning the MAX)
 For N=10, Hazen 85th = the 9th-smallest = SECOND-LARGEST value, NOT the max.
 - WRONG answer emitted by a prior run: 732852.00  (= rank 10 = the MAXIMUM = FY2020).
-- GOLD: 678077.00  (= rank 9 = second-largest DoD outlay year in the window).
+- GOLD: [redacted]  (= rank 9 = second-largest DoD outlay year in the window).
 If your candidate equals the largest value in the set, you used q=0.95/np.percentile
 default or grabbed the max — STOP and take rank 9 instead. The two largest
 DoD on+off-budget total outlay years (FY2011-2020) are 732852 (FY2020, the max,

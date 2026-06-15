@@ -1,11 +1,11 @@
-# Receipts / Defense-Expenditure Ratios — CY1941-1943 (SOLVED, gold=0.6841)
+# Receipts / Defense-Expenditure Ratios — CY1941-1943 (SOLVED, gold=[redacted])
 
 ## Trigger
 Q: "mean of the ratios of total net budget receipts to total national defense
 budget expenditures for each of the calendar years 1941-1943, in millions,
 4 dp." Given the Oct-1941, Oct-1942, Oct-1943 bulletins.
 
-## ✅ CORRECT ANSWER = 0.6841. DO NOT sum monthly cells. USE FISCAL-YEAR ROWS.
+## ✅ CORRECT ANSWER = [redacted]. DO NOT sum monthly cells. USE FISCAL-YEAR ROWS.
 Despite the word "calendar," the gold is reproduced EXACTLY by reading each
 bulletin's OWN-YEAR headline FISCAL-YEAR figures from the "Budget Receipts and
 Expenditures / Summary by Major Classifications" table:
@@ -16,7 +16,7 @@ Expenditures / Summary by Major Classifications" table:
   1943 | 22282        | Total war activities = 72109 | 1943_10 Table 1 (p.27 row "1943")
 
   ratios: 7607/6080=1.251151, 12799/26011=0.492061, 22282/72109=0.309004
-  mean = 2.052216/3 = 0.6840723 -> 0.6841  ✓ EXACT
+  mean = 2.052216/3 = 0.6840723 -> [redacted]  ✓ EXACT
 
 KEY POINTS:
 - The DEFENSE denominator is whatever that bulletin LABELS the defense/war line
@@ -49,5 +49,5 @@ fiscal-year summary rows, one per bulletin.
   around PDF p.22-28, not the front matter.)
 
 ## Verification gate
-Compute the three ratios. Expect ~1.25, ~0.49, ~0.31 -> mean 0.6841. If you get
+Compute the three ratios. Expect ~[redacted], ~0.49, ~0.31 -> mean 0.6841. If you get
 ~0.48 you summed monthly cells — STOP and use the fiscal-year rows instead.

@@ -28,8 +28,8 @@ statutory rate (using statutory would just give back the stock = identity).
 USGS/Bureau of Mines (Handy & Harman NY) annual-average market silver prices:
   1938 ≈ $0.432/oz, 1948 = $0.740/oz, 1958 ≈ $0.891/oz
   nominal_value = physical_oz_millions * market_price
-CORRECTED 1948 PRICE: gold answer back-solves to price_1948 = 0.74000 EXACTLY
-(2051.51 / (3584.4/1.2929) = 2051.51/2772.37 = 0.73998). A PRIOR RUN USED 0.742
+CORRECTED [redacted] PRICE: gold answer back-solves to price_[redacted] = [redacted] EXACTLY
+([redacted] / (3584.4/1.2929) = [redacted]/2772.37 = 0.73998). A PRIOR RUN USED 0.742
 AND GOT 2057.10 (WRONG, ~0.27% high). The gold key uses $0.740, not 0.742 or
 0.7405. For this median, ONLY the 1948 (middle-year) price matters — get it exactly.
 
@@ -44,11 +44,11 @@ its own market price, **no CPI base ambiguity affects the median.**
 
 ## Worked answer (Sept 1938/1948/1958)
   1938: (3163.0/1.2929)*0.432 = 1056.86
-  1948: (3584.4/1.2929)*0.740 = 2051.56  <- MEDIAN (gold key = 2051.51)
+  1948: (3584.4/1.2929)*0.740 = 2051.56  <- MEDIAN (gold key = [redacted])
   1958: (4314.9/1.2929)*0.891 = 2973.61
-  MEDIAN = 2051.51  (use price_1948 = 0.740, NOT 0.742)
+  MEDIAN = [redacted]  (use price_1948 = 0.740, NOT 0.742)
 
 ## Format
-Single decimal value -> MODE A delimiter (n/a, one number). Round to hundredths: 2051.51
+Single decimal value -> MODE A delimiter (n/a, one number). Round to hundredths: [redacted]
 The median depends ONLY on the 1948 middle-year market silver price = $0.740/oz.
 DO NOT use 0.742 (gives 2057.10, WRONG). If web available, confirm 1948 H&H avg ≈ $0.74.

@@ -49,7 +49,7 @@ second multiplier. Confusing the two is the #1 error.
   three results are the "computed values" you take the median of.
 - If your answer is HIGH by a CPI-deflator-sized factor (~1.5–1.8×), you most
   likely used the NOMINAL market price instead of the REAL (deflated) price.
-  FAILED case: emitted 3584.40 (≈1.747× too high) vs GOLD 2051.51 — consistent
+  FAILED case: emitted 3584.40 (≈1.747× too high) vs GOLD [redacted] — consistent
   with skipping the inflation deflation step (or deflating to the wrong base).
 - Decide the CPI base year from the question wording; if it says "in constant
   <YEAR> dollars" use that CPI as the base. If unspecified, the deflation is

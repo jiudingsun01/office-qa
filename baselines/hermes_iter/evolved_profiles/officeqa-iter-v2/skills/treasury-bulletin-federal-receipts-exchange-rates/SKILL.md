@@ -44,7 +44,7 @@ Use this skill for OfficeQA questions that mention:
 
 5. Round and format the answer.
    - Round the converted value to the requested decimal places, commonly nearest hundredths.
-   - If the benchmark accepts comma formatting, `57,615.04` and `57615.04` are numerically equivalent, but final responses should follow the prompt's requested style if specified.
+   - If the benchmark accepts comma formatting, `[redacted]` and `57615.04` are numerically equivalent, but final responses should follow the prompt's requested style if specified.
 
 ## Worked Pattern
 

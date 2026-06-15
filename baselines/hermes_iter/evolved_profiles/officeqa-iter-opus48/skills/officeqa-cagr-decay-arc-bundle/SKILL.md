@@ -59,7 +59,7 @@ power formula:
 This is the natural-log/exponential-growth rate. It is SMALLER in magnitude
 than the discrete CAGR (V1/V0)^(1/n)-1 for positive growth. Report as decimal.
   PASSED: Seigniorage on coins (silver+minor), end CY1945 -> 1955, n=10,
-  continuously compounded = ln(V1955/V1945)/10 = 0.063 (nearest thousandths).
+  continuously compounded = ln(V1955/V1945)/10 = [redacted] (nearest thousandths).
 "Continuously compounded" / "continuous growth rate" / "instantaneous rate"
 => log formula. "Compound" / "CAGR" alone => power formula above.
 Same n = END - START convention for both.
