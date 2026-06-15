@@ -6,21 +6,35 @@ so they're directly comparable.
 
 ## Headline
 
-| approach | what is optimized | test-28 | clean? | cost |
+| approach | what is optimized | data (train/val) | test-28 | clean? |
 |---|---|---|---|---|
-| no scaffold (hand-written seed prompt) | — | 17/28 = 0.607 | ✅ | — |
-| **Skill curation** (Claude Code loop, memorized 26 skills) | a skill library | 17/28 = **0.607** | ❌ answer-key memorized | ~hundreds of agent rollouts (+ a $1,230 Opus meta-opt earlier) |
-| Skill curation, **scrubbed** 26 skills | skill library (answers removed) | 17/28 = 0.607 | ✅ | — |
-| **GEPA** (reflective Pareto prompt evolution) | the answering **instructions** | 18/28 = **0.643** | ✅ no memorization | **60 metric calls**, ~1.5 h |
+| hand-written seed prompt | — | — | **0.607–0.643** (same prompt, two runs) | ✅ |
+| **Skill curation** (Claude Code loop, memorized 26 skills) | a skill library | 80 / 25 | 0.607 | ❌ answer-key memorized |
+| Skill curation, **scrubbed** 26 skills | skill library (answers removed) | 80 / 25 | 0.607 | ✅ |
+| GEPA, small run | the answering **instructions** | 15 / 10 | seed 0.607 → best **0.643** | ✅ |
+| **GEPA, data-matched** | the answering **instructions** | 80 / 25 | seed 0.643 → best **0.607** | ✅ |
 
-**Takeaways**
-1. **GEPA ≥ curation, and cleaner.** GEPA lifted its own seed 0.607 → 0.643 and beat the
-   curation loop (0.607), evolving *generalizable instructions* (no embedded answers).
-2. **Curation's "learning" was memorization.** Removing the memorized answers from the 26
-   curated skills changed held-out accuracy by **zero** (0.607 → 0.607) — the apparent
-   train gains (0.738 → 0.800) did not generalize. See `runs/{memorized26,scrubbed26}_opus_test/`.
-3. **Sample efficiency.** GEPA reached a better, leak-free result with ~60 rollouts vs the
-   curation loop's hundreds (and the earlier $1,230 Opus self-evolution meta-opt).
+**Takeaways (revised after the data-matched GEPA run)**
+1. **It's within noise — no method reliably beats the seed.** The *identical seed prompt*
+   scored **0.607** in one run and **0.643** in another (the agent, `claude -p`, is
+   stochastic). So the small GEPA run's "win" (0.607→0.643) and the data-matched run's
+   "loss" (0.643→0.607) are **both noise**. On 28 questions, ±1 question = ±3.6 pp, and the
+   agent alone swings the same prompt by a question. Curation (0.607), both GEPA runs, and
+   the bare seed all sit in a **~0.60–0.64 band inside the eval's noise floor**. No
+   meta-optimization method here moves held-out accuracy beyond that.
+2. **The qualitative difference is real, though.** Curation *memorizes* — 111 "Verified"
+   answer markers and 732 specific values across the 26 skills (60% of the 180 KB library is
+   embedded answers), and scrubbing them changed held-out accuracy by **zero** (0.607→0.607).
+   GEPA *doesn't* — ≈0 memorized values across all candidates (8 KB of pure method). So GEPA
+   is structurally cleaner and ~10–20× cheaper, even though neither lifts accuracy.
+3. **What IS beyond noise:** the *model* gap (Fable-5 parsed-md no-oracle 0.821 vs Opus ~0.64,
+   a 5-question gap) and the *oracle* gap (gpt-5.5 + raw-PDF + oracle 0.857). Method/scaffold
+   changes within Opus are noise; model and retrieval-setting changes are not.
+
+> Methodological note: a 28-question held-out set is too small to resolve the ±1–2-question
+> deltas these meta-opt methods produce. A real signal would need a much larger held-out set
+> (or repeated runs with variance estimation). The 0.607↔0.643 seed swing above is the
+> direct evidence of that noise floor.
 
 ## What GEPA evolved (the generalizable method the curation loop failed to distill)
 From `runs/gepa_opus_nooracle/best_instructions.txt` — all method, no memorized values:
